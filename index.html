@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What to Draw</title>
+
+    <link rel="stylesheet" href="./resource/css/global.css">
+</head>
+
+<body>
+
+    <div id="mainContainer">
+  
+        <h1>What to draw</h1>
+        <div id="random-name"></div>
+        <button class="btn btn-primary" id="generate">Generate Another</button>
+
+        <form action="">
+
+            <fieldset id="allThemesField">
+
+                <div class="inputField">
+
+                    <label for="themeSelector">Selecione um tema:</label>
+
+                    <select name="themeSelector" id="themeSelector">
+                        <option selected value="allThemes">Todos</option>
+                        <option value="ben10">Ben10</option>
+                        <option value="minecraft">Minecraft</option>
+                    </select>
+
+                </div>
+
+                <div class="inputField">
+
+                    <label for="qtd">Digite o número de combinações:</label>
+                    <input type="number" id="qtd" name="qtd" placeholder="Digite aqui (apenas números)">
+
+                </div>
+
+            </fieldset>
+
+            <fieldset id="ben10Field">
+
+                <legend>Ben 10</legend>
+
+                <div class="inputField">
+
+                    <select name="ben10version" id="ben10version">
+                        <option selected value="ben10Tennyson">Ben Tennyson</option>
+                        <option value="allChars">Todos os personagens</option>
+                        <option value="gwenTennyson">Gwen</option>
+                        <option value="grandpaMax">Vô Max</option>
+                        <option value="kevinLevin">Kevin</option>
+                        <option value="vilgax">Vilgax</option>
+                    </select>
+
+                </div>
+
+                <div class="inputField">
+
+                    <select name="ben10version" id="ben10version">
+                        <option selected value="ben10AllVersions">Todos os Bens</option>
+                        <option value="ben10Prime">Ben Prime</option>
+                        <option value="ben1010k">Ben 10k</option>
+                        <option value="ben1023">Ben 23</option>
+                        <option value="ben10Mad">Mad Ben</option>
+                        <option value="ben10Benzarro">Benzarro</option>
+                        <option value="ben10Nega">Nega Ben</option>
+                    </select>
+
+                </div>
+
+                <div class="inputField">
+
+                    <select name="ben10Season" id="ben10Season">
+                        <option selected value="ben10AllSeason">Todas as temporadas</option>
+                        <option value="ben10PrimeOs">Clássica</option>
+                        <option value="ben10PrimeAf">Força Alienígena</option>
+                        <option value="ben10PrimeUa">Supremacia Alienígena</option>
+                        <option value="ben10PrimeOv">Omniverse</option>
+                        <option value="ben10Rb">Reboot</option>
+                    </select>
+
+                </div>
+
+                <div class="inputField">
+
+                    <input type="checkbox" id="ultimateAliens" name="ultimateAliens" value="ultimateAliens">
+                    <label for="ultimateAliens">Aliens Supremos</label>
+                    
+                </div>
+
+                <div class="inputField">
+
+                    <input type="checkbox" id="omniEnhanced" name="omniEnhanced" value="omniEnhanced">
+                    <lable for="omniEnhanced">Omnitunado</lable>
+
+                </div>
+
+                <div class="inputField">
+
+                    <input type="checkbox" id="omniKix" name="omniKix" value="omniKix">
+                    <lable for="omniKix">Omnikix</lable>
+
+                </div>
+
+                <div class="inputField">
+                    
+                    <input type="checkbox" id="omniNauta" name="omniNauta" value="omniNauta">
+                    <lable for="omniNauta">Omninauta</lable>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset id="minecraftField">
+
+                <legend>Minecraft</legend>
+
+                <div class="inputField">
+
+                    <select name="minecraftDimension" id="minecraftDimension">
+                        <option selected value="allDimensions">Todas as dimensões</option>
+                        <option value="overworld">Overworld</option>
+                        <option value="nether">Nether</option>
+                        <option value="aether">Aether</option>
+                        <option value="theEnd">The End</option>
+                    </select>
+
+                </div>
+
+                <div class="inputField">
+
+                    <select name="minecraftBiome" id="minecraftBiome">
+                        <option selected value="allBiomes">Todas os biomas</option>
+                    </select>
+
+                </div>
+
+                <div class="inputField">
+
+                    <select name="minecraftMobs" id="minecraftMobs">
+                        <option selected value="allMineMobs">Todas os Mobs</option>
+                        <option value="mineMobsPassive">Passivos</option>
+                        <option value="mineMobsHostile">Agressivos</option>
+                        <option value="mineMobsNeutral">Neutros</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+            <button>Gerar</button>
+
+        </form>
+          
+    </div>
+
+    <script src="./resource/js/ben10.js"></script>
+
+</body>
+
+</html>

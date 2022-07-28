@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+body {
+    background-color: var(--grey2);
+}
+
+/* body::-webkit-scrollbar {
+    width: 5px;
+}
+  
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+}
+   
+
+body::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #a4a4a4; 
+} */
+
+
+
+/* =============================================== */
+
+
+
+#mainContainer {
+    max-width: 960px;
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0;
+}
+
+#allThemesField {
+    justify-content: center;
+}
+
+#ben10Field {
+    justify-content: space-around;
+    border: 1px solid green;
+}
+
+#minecraftField {
+    justify-content: space-around;
+    border: 1px solid brown;
+}
+
+.inputField {
+    margin: 5px 0
+}
+
+button {
+    margin: 12px auto;
+    font-size: 20px;
+    padding: 6px;
+}
+
+#random-name {
+    color: black;
+}
