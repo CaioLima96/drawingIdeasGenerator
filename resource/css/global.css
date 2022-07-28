@@ -30,6 +30,16 @@ body::-webkit-scrollbar-thumb:hover {
 } */
 
 
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.break-column {
+    flex-basis: 100%;
+    width: 0;
+}
+
 
 /* =============================================== */
 
@@ -39,6 +49,7 @@ body::-webkit-scrollbar-thumb:hover {
     max-width: 960px;
     width: 90%;
     margin: 10px auto;
+    padding: 10px;
     border: 1px solid black;
 }
 
@@ -46,6 +57,10 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     margin: 16px 0;
+}
+
+#allThemesField {
+    display: flex;
 }
 
 #allThemesField {
@@ -72,6 +87,22 @@ button {
     padding: 6px;
 }
 
+.btnHide {
+    display: none;
+}
+
+
 #random-name {
     color: black;
+}
+
+#ben10BenInputsList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#ben10GwenInputsList {
+    display: none;
 }

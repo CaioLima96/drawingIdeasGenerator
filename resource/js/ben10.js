@@ -2,7 +2,7 @@ const ben10PrimeOsAliens = ["4 Braços", "Áquatico", "Bala de Canhão"];
 
 const ben10PrimeAfAliens = ["Alien X", "Arraia Jato", "Bebê Necrofriggiano"];
 
-const ben10AllAliens = [ ...ben10PrimeOsAliens, ...ben10PrimeAfAliens ]
+const ben10AllAliens = [...ben10PrimeOsAliens, ...ben10PrimeAfAliens]
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
@@ -11,14 +11,13 @@ const getRandomNumber = (max) => Math.floor(Math.random() * max);
 const getRandomName = () => `${ben10AllAliens[getRandomNumber(ben10AllAliens.length)]}`;
 
 const setRandomName = () => {
-  document.getElementById('random-name').innerText = getRandomName();
+	document.getElementById('random-name').innerText = getRandomName();
 }
 
 document.getElementById('generate')
-  .addEventListener('click', setRandomName);
+	.addEventListener('click', setRandomName);
 
 setRandomName();
-
 
 
 // const arrBenPrimeClassicAliens = [
