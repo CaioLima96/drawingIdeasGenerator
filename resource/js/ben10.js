@@ -6,13 +6,15 @@ const ben10AllAliens = [...ben10PrimeOsAliens, ...ben10PrimeAfAliens]
 
 const ben10PrimeClassicAliens = [
 
-    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", img: '.assets\ben10\aliens\benPrime\classico\4-bracos-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
+    // {namePtbr: '', nameEnglish: "", img:'./assets/ben10/aliens/benPrime/classico/', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
 
-    {nomePtbr: 'Aquático', nomeIngles: "Ripjaws", img:'.assets\ben10\aliens\benPrime\classico\aquatico-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
+    {namePtbr: '4 Braços', nameEnglish: "Four Arms", img: './assets/img/ben10/aliens/benPrime/classico/4-bracos-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
 
-    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", img:'.assets\ben10\aliens\benPrime\classico\bala-de-canhao-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
+    {namePtbr: 'Aquático', nameEnglish: "Ripjaws", img:'./assets/img/ben10/aliens/benPrime/classico/aquatico-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
 
-    // {nomePtbr: 'Ben Múmia', nomeIngles: "Snare-oh", seasonName: 'primeBenOsSnareOh', wikiUrl: 'https://ben10.fandom.com/wiki/Snare-oh', imgOs: ['./assets/img/aliens/ben-prime/classico/ben-mumia-(classico)-1.png', './assets/img/aliens/ben-prime/classico/ben-mumia-(classico)-2.jpg', './assets/img/aliens/ben-prime/classico/ben-mumia-(classico)-3.jpg']},
+    // {namePtbr: 'Bala de Canhão', nameEnglish: "Cannonbolt", img:'./assets/img/ben10/aliens/benPrime/classico/bala-de-canhao-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic', teste:"teste"},
+
+    // {namePtbr: 'Ben Múmia', nameEnglish: "Snare-oh", img:'./assets/img/ben10/aliens/benPrime/classico/ben-mumia-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
 
     // {nomePtbr: 'Besta', nomeIngles: "Wildmutt", seasonName: 'primeBenOsWildMutt', wikiUrl: 'https://ben10.fandom.com/wiki/Wildmutt', imgOs: ['./assets/img/aliens/ben-prime/classico/besta-(classico)-2.png', './assets/img/aliens/ben-prime/classico/besta-(classico)-3.png', './assets/img/aliens/ben-prime/classico/besta-(classico)-4.png', './assets/img/aliens/ben-prime/classico/besta-(classico)-5.png', './assets/img/aliens/ben-prime/classico/besta-(classico)-6.png']},
 
@@ -53,6 +55,20 @@ const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
 const getRandomName = () => `${ben10PrimeClassicAliens[getRandomNumber(ben10PrimeClassicAliens.length)]} ${ben10PrimeClassicAliens[getRandomNumber(ben10PrimeClassicAliens.length)]}`;
 
+// const getRandomName = (item) => `
+
+//     <li dataTheme='${item.dataTheme}'>
+//                 <img src='${item.img}'>
+//                 <p>${item.nameEnglish}</p>
+//     </li>
+
+//     <li dataTheme='${item.dataTheme}'>
+//                 <img src='${item.img}'>
+//                 <p>${item.nameEnglish}</p>
+//     </li>
+
+
+// `;
 
 const setRandomName = () => {
 	// document.getElementById('random-name').innerText = getRandomName();
@@ -61,15 +77,15 @@ const setRandomName = () => {
 		
 	// });
 
-    let teste = getRandomName()
-    console.log(teste)
+    // let teste = getRandomName()
+    // console.log('obj: ' + teste)
 		
 	let abc = (item) => {
 		
         return `
             <li dataTheme='${item.dataTheme}'>
-                <p>${item.nomePtbr}</p>
-                <img src='${item.img}' >
+                <img src='${item.img}'>
+                <p>${item.nameEnglish}</p>
             </li>
         `
 	}
@@ -81,22 +97,3 @@ document.getElementById('generate')
 	.addEventListener('click', setRandomName);
 
 setRandomName();
-
-{/* <ul id="demo"></ul>
-
-<script>
-const persons = [
-  {firstname : "Malcom", lastname: "Reynolds", id:'8'},
-  {firstname : "Kaylee", lastname: "Frye"},
-  {firstname : "Jayne", lastname: "Cobb"}
-];
-
-document.getElementById("demo").innerHTML = persons.map(getFullName);
-
-function getFullName(item) {
-	
-    return `<li>${item.firstname} ${item.lastname} ${item.id}</li>`
-
-  
-}
-</script> */}

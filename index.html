@@ -9,17 +9,39 @@
     <title>What to Draw</title>
 
     <link rel="stylesheet" href="./resource/css/global.css">
+    <link rel="stylesheet" href="./resource/css/forms.css">
 </head>
 
 <body>
+
+    <header>
+
+        <nav>
+
+            <div>
+                <a href="./index.html">
+                    <div class='imgContainer'><img src='./assets/img/icons/dig1.png' alt="mascote"></div>
+                    <p>What To Draw</p>
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
 
     <div id="mainContainer">
   
         <h1>What to draw</h1>
         <ul id="random-name"></ul>
-        <button class="btn btn-primary" id="generate">Generate Another</button>
+        <button class="generateBtn" id="generate">Generate Another</button>
 
-        <form action="">
+        <form action=""> 
 
             <fieldset id="allThemesField">
 
@@ -165,11 +187,31 @@
 
             </fieldset>
 
-            <button>Gerar</button>
+            <button class="generateBtn" >Gerar</button>
 
         </form>
           
     </div>
+
+    <footer>
+
+        <ul>
+            <li id="about">
+                <p>About</p>
+                <p>This website was made to help those who are in doubt about what to draw.</p>
+            </li>
+
+            <li id="contactUs">
+                <p>Contact Us</p>
+                <a href="https://www.linkedin.com/in/caiovieiralima/" target="_blank">Linkedin</a>
+                <a href="https://www.instagram.com/caiolimaart/" target="_blank">Instagram</a>
+                <a href="https://www.deviantart.com/caiolimaart" target="_blank">DeviantArt</a>
+            </li>
+        </ul>
+
+        <p>Developed by: <a href="https://www.linkedin.com/in/caiovieiralima/" target="_blank">Caio Vieira Lima</a></p>
+
+    </footer>
 
     <script src="./resource/js/showOptions.js"></script>
     <script src="./resource/js/ben10.js"></script>

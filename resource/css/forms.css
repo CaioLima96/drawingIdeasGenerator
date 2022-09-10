@@ -1,0 +1,38 @@
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0;
+}
+
+#allThemesField {
+    display: flex;
+}
+
+#allThemesField {
+    justify-content: center;
+}
+
+#ben10Field {
+    justify-content: space-around;
+    border: 1px solid green;
+}
+
+#minecraftField {
+    justify-content: space-around;
+    border: 1px solid brown;
+}
+
+.inputField {
+    margin: 5px 0
+}
+
+#ben10BenInputsList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#ben10GwenInputsList {
+    display: none;
+}
