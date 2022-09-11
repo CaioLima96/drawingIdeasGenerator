@@ -114,18 +114,9 @@ form {
     font-size: 18px;
 }
 
-#minecraftField {
-    justify-content: space-around;
-    /* border: 1px solid brown; */
-}
-
 #ben10BenInputsList {
     /* display: flex;
     justify-content: space-around;
     flex-wrap: wrap; */
     width: 100%;
-}
-
-#ben10GwenInputsList {
-    display: none;
 }

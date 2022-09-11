@@ -5,8 +5,7 @@ themeSelector.addEventListener('change', () => {
 
 	if (themeSelector.value == 'allThemes') {
 
-		document.getElementById('ben10Field').style.display = 'none'
-		// document.getElementById('minecraftField').style.display = 'none'
+		document.getElementById('ben10FieldSet').style.display = 'none'
 
 		for (let i = 1; i < themedFieldSet.length; i++) {
 
@@ -17,17 +16,23 @@ themeSelector.addEventListener('change', () => {
 	} 
 	else if (themeSelector.value == 'ben10') {
 
-		document.getElementById('ben10Field').style.display = 'block'
-		document.getElementById('minecraftField').style.display = 'none'
+		document.getElementById('ben10FieldSet').style.display = 'block'
+		document.getElementById('minecraftFieldSet').style.display = 'none'
 
 		console.log('testando ben')
 	}
     else if (themeSelector.value == 'minecraft') {
 
-		document.getElementById('ben10Field').style.display = 'none'
-		document.getElementById('minecraftField').style.display = 'block'
+		document.getElementById('ben10FieldSet').style.display = 'none'
+		document.getElementById('minecraftFieldSet').style.display = 'block'
 
 		console.log('testando mine')
+	}
+    else if (themeSelector.value == 'fortnite') {
+
+		document.getElementById('fortniteFieldSet').style.display = 'block'
+
+		console.log('testando fortnite')
 	}
 	
 })
@@ -35,10 +40,9 @@ themeSelector.addEventListener('change', () => {
 console.log(themeSelector)
 
 
-
 /* ===================== BEN 10 ===================== */
 
-let ben10FieldSet = document.getElementById('ben10Field') //pega o fieldset do desenho ben10
+let ben10FieldSet = document.getElementById('ben10FieldSet') //pega o fieldset do desenho ben10
 
 let ben10BenInputs = ben10FieldSet.getElementsByClassName('ben10InputBen') //pega inputs do char BEN10
 
@@ -52,18 +56,8 @@ ben10Theme.addEventListener('change', () => {
         // ben10BenInputs.style.display = "flex";
 
         ben10FieldSet.querySelector('#'+'ben10BenInputsList').style.display = "flex";
-        ben10FieldSet.querySelector('#'+'ben10GwenInputsList').style.display = "none";
 
-        // for (let i = 0; i < ben10BenInputs.length; i += 1 ) {
-
-        //     ben10BenInputs[i].style.display = "block";
-        // }
-	} 
-	else if (ben10Theme.value == 'gwenTennyson') {
-
-        ben10FieldSet.querySelector('#'+'ben10GwenInputsList').style.display = "flex";
-        ben10FieldSet.querySelector('#'+'ben10BenInputsList').style.display = "none";
-    }
+	}
 	
 })
 
