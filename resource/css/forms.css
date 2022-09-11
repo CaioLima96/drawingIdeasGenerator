@@ -1,19 +1,65 @@
-fieldset {
+form {
+    max-width: 100%;
+    width: 394px;
+    /* border: 1px solid red; */
+}
+
+#allThemesField {
+    border: none;
+}
+
+#allThemesField label {
+    font-size: 22px;
+}
+
+
+
+/* ========================= GENERAL INPUTS ========================= */
+
+.inputField {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    margin: 16px 0;
+    margin-bottom: 5px;
 }
 
-#allThemesField {
-    display: flex;
+.inputField select {
+    max-width: 52%;
+    width: 204px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--grey2);
+    color: var(--blue2);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5rem;
 }
 
-#allThemesField {
-    justify-content: center;
+
+
+/* ========================= FIELDSETS ========================= */
+
+fieldset {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 1rem 0;
+}
+
+.themedFieldSet {
+    max-width: 100%;
+    width: 354px;
+    margin: 0 auto 1rem;
+    padding: 1.75rem 1.188rem;
+    /* border: none !important; */
+}
+
+.themedFieldSet label {
+    font-size: 1.25rem;
 }
 
 #ben10Field {
-    justify-content: space-around;
+    /* justify-content: space-around; */
     border: 1px solid green;
 }
 
@@ -22,14 +68,10 @@ fieldset {
     border: 1px solid brown;
 }
 
-.inputField {
-    margin: 5px 0
-}
-
 #ben10BenInputsList {
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     width: 100%;
 }
 

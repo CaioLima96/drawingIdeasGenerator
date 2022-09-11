@@ -36,10 +36,6 @@
     </header>
 
     <div id="mainContainer">
-  
-        <h1>What to draw</h1>
-        <ul id="random-name"></ul>
-        <button class="generateBtn" id="generate">Generate Another</button>
 
         <form action=""> 
 
@@ -47,58 +43,68 @@
 
                 <div class="inputField">
 
-                    <label for="themeSelector">Selecione um tema:</label>
+                    <label for="themeSelector">Choose a theme:</label>
 
                     <select name="themeSelector" id="themeSelector">
-                        <option selected value="allThemes">Todos</option>
-                        <option value="ben10">Ben10</option>
+                        <option selected value="allThemes">All</option>
+                        <option value="ben10">Ben 10</option>
                         <option value="minecraft">Minecraft</option>
+                        <option value="fortnite">Fortnite</option>
+                        <option value="pokemon">Pokémon</option>
+                        <option value="objetos">Objetos</option>
+                        <option value="othergames">Other Games</option>
                     </select>
-
-                </div>
-
-                <div class="inputField">
-
-                    <label for="qtd">Digite o número de combinações:</label>
-                    <input type="number" id="qtd" name="qtd" placeholder="Digite aqui (apenas números)">
 
                 </div>
 
             </fieldset>
 
-            <fieldset id="ben10Field" >
+            <fieldset class='themedFieldSet' id="ben10Field" >
 
-                <legend>Ben 10</legend>
-
-                <div class="inputField">
-
-                    <select name="ben10chars" id="ben10chars">
-                        <option selected value="ben10Tennyson">Ben Tennyson</option>
-                        <option value="allChars">Todos os personagens</option>
-                        <option value="gwenTennyson">Gwen</option>
-                        <option value="grandpaMax">Vô Max</option>
-                        <option value="kevinLevin">Kevin</option>
-                        <option value="vilgax">Vilgax</option>
-                    </select>
-
-                </div>
+                <!-- <legend>Ben 10</legend> -->
 
                 <div class="inputField">
+
+                    <label for="ben10Season">Season:</label>
 
                     <select name="ben10Season" id="ben10Season">
-                        <option selected value="ben10AllSeason">Todas as temporadas</option>
-                        <option value="ben10PrimeOs">Clássica</option>
-                        <option value="ben10PrimeAf">Força Alienígena</option>
-                        <option value="ben10PrimeUa">Supremacia Alienígena</option>
-                        <option value="ben10PrimeOv">Omniverse</option>
+                        <option value="ben10AllSeason">All</option>
+                        <option selected value="ben10Os">Classic</option>
+                        <option value="ben10Af">Alien Force</option>
+                        <option value="ben10Ua">Ultimate Alien</option>
+                        <option value="ben10Ov">Omniverse</option>
                         <option value="ben10Rb">Reboot</option>
                     </select>
 
                 </div>
 
+                <div class="inputField">
+
+                    <label for='ben10chars'>Character:</label>
+
+                    <select name="ben10chars" id="ben10chars">
+                        <option value="allChars">All</option>
+                        <option selected value="ben10OsAliens">Ben 10 (Aliens)</option>
+                        <option value="ben10kOsAliens">Ben 10k (Aliens)</option>
+                        <option value="ben10OsHeroes">Heroes</option>
+                        <option value="ben10OsVilains">Vilains</option>
+                        <option value="ben10OsOthers">Others</option>
+                    </select>
+
+                    <!-- <select name="ben10chars" id="ben10chars">
+                        <option value="allChars">All</option>
+                        <option selected value="ben10Tennyson">Ben Tennyson</option>
+                        <option value="gwenTennyson">Gwen</option>
+                        <option value="grandpaMax">Vô Max</option>
+                        <option value="kevinLevin">Kevin</option>
+                        <option value="vilgax">Vilgax</option>
+                    </select> -->
+
+                </div>
+
                 <span class="break"></span>
 
-                <div id="ben10BenInputsList">
+                <!-- <div id="ben10BenInputsList">
 
                     <div class="inputField ben10InputBen">
 
@@ -142,17 +148,17 @@
                         <lable for="omniNauta">Omninauta</lable>
 
                     </div>
-               </div>
+                </div> -->
 
-               <div id="ben10GwenInputsList">
-                    <p>Olá mundo</p>
-               </div>
+                <div id="ben10GwenInputsList">
+                        <p>Olá mundo</p>
+                </div>
 
             </fieldset>
 
-            <fieldset id="minecraftField">
+            <fieldset class='themedFieldSet' id="minecraftField">
 
-                <legend>Minecraft</legend>
+                <!-- <legend>Minecraft</legend> -->
 
                 <div class="inputField">
 
@@ -187,10 +193,21 @@
 
             </fieldset>
 
-            <button class="generateBtn" >Gerar</button>
+            <!-- <button class="generateBtn" >Gerar</button> -->            
+
+            <div class="inputField">
+
+                <label for="qtd">Number of combinations:</label>
+                <input type="number" id="qtd" name="qtd" placeholder="number of combinations">
+
+            </div>
+          
+            <button class="generateBtn" id="generate">Generate Another</button>
 
         </form>
-          
+
+        <ul id="random-name"></ul>
+
     </div>
 
     <footer>

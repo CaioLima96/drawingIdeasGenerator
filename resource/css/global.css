@@ -11,8 +11,10 @@
 
 :root {
     --grey1: #F2F2F2;
+    --grey2: #D9D9D9;
     --black1: #1B1A1A;
     --blue1: #5391ED;
+    --blue2: #0066FF;
 }
 
 html, body {
@@ -124,11 +126,14 @@ header nav ul li {
 /* ========================= MAIN CONTAINER ========================= */
 
 #mainContainer {
-    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1185px;
     width: 90%;
     margin: 5rem auto;
-    padding: 10px;
-    border: 1px solid black;
+    /* padding: 10px; */
+    /* border: 1px solid black; */
 }
 
 .generateBtn {
