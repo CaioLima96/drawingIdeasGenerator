@@ -21,7 +21,15 @@ themeSelector.addEventListener('change', () => {
 		case 'ben10':
 
 			document.getElementById('ben10FieldSet').style.display = 'block'
-			document.getElementById('minecraftFieldSet').style.display = 'none'
+
+			for (let i = 1; i < themedFieldSet.length; i++) {
+
+				if (themedFieldSet[i] != themedFieldSet[0]) {
+
+					themedFieldSet[i].style.display = 'none'
+				}
+
+			}
 
 			console.log('testando ben')
 
@@ -29,8 +37,17 @@ themeSelector.addEventListener('change', () => {
 
 		case 'minecraft':
 
-			document.getElementById('ben10FieldSet').style.display = 'none'
 			document.getElementById('minecraftFieldSet').style.display = 'block'
+			document.getElementById('ben10FieldSet').style.display = 'none'
+
+			for (let i = 1; i < themedFieldSet.length; i++) {
+
+				if (themedFieldSet[i] != themedFieldSet[1]) {
+
+					themedFieldSet[i].style.display = 'none'
+				}
+
+			}
 
 			console.log('testando mine')
 
@@ -39,8 +56,16 @@ themeSelector.addEventListener('change', () => {
 		case 'fortnite':
 			
 			document.getElementById('fortniteFieldSet').style.display = 'block'
+			document.getElementById('ben10FieldSet').style.display = 'none'
 
-			console.log('testando fortnite')
+			for (let i = 1; i < themedFieldSet.length; i++) {
+
+				if (themedFieldSet[i] != themedFieldSet[2]) {
+
+					themedFieldSet[i].style.display = 'none'
+				}
+
+			}
 
 			break;
 	}
@@ -48,40 +73,41 @@ themeSelector.addEventListener('change', () => {
 })
 
 console.log(themeSelector)
+console.log(themedFieldSet)
 
 
 
 /* ===================== BEN 10 ===================== */
 
-let ben10FieldSet = document.getElementById('ben10FieldSet') //pega o fieldset do desenho ben10
+// let ben10FieldSet = document.getElementById('ben10FieldSet') //pega o fieldset do desenho ben10
 
-let ben10BenInputs = ben10FieldSet.getElementsByClassName('ben10InputBen') //pega inputs do char BEN10
+// let ben10BenInputs = ben10FieldSet.getElementsByClassName('ben10InputBen') //pega inputs do char BEN10
 
 
-//Select dos personagens de ben 10
-let ben10Theme = document.getElementById('ben10chars')
-ben10Theme.addEventListener('change', () => {
+// //Select dos personagens de ben 10
+// let ben10Theme = document.getElementById('ben10chars')
+// ben10Theme.addEventListener('change', () => {
 
-	if (ben10Theme.value == 'ben10Tennyson') {
+// 	if (ben10Theme.value == 'ben10Tennyson') {
 
-        // ben10BenInputs.style.display = "flex";
+//         // ben10BenInputs.style.display = "flex";
 
-        ben10FieldSet.querySelector('#'+'ben10BenInputsList').style.display = "flex";
+//         ben10FieldSet.querySelector('#'+'ben10BenInputsList').style.display = "flex";
 
-	}
+// 	}
 	
-})
+// })
 
 
-//Seleciona só o Ben 10 e suas versões
-let ben10Season = document.getElementById('ben10Season')
-ben10chars.addEventListener('change', () => {
+// //Seleciona só o Ben 10 e suas versões
+// let ben10Season = document.getElementById('ben10Season')
+// ben10chars.addEventListener('change', () => {
     
-    if (ben10Season.value == 'ben10AllSeason') {
+//     if (ben10Season.value == 'ben10AllSeason') {
 
-        for (let i = 0; i < ben10BenInputs.length; i += 1 ) {
+//         for (let i = 0; i < ben10BenInputs.length; i += 1 ) {
 
-            ben10BenInputs[i].style.display = "block";
-        }
-    }
-})
+//             ben10BenInputs[i].style.display = "block";
+//         }
+//     }
+// })
