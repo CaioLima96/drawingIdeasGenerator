@@ -6,10 +6,60 @@ form {
 
 #allThemesField {
     border: none;
+    margin-bottom: 3.75rem;
 }
 
 #allThemesField label {
     font-size: 22px;
+}
+
+.themedBorder {
+    width: 100%;
+    height: 100%;
+}
+
+.themedBorder > div:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 76px;
+    border-left: 2px solid black;
+}
+
+.themedBorder > div:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 76px;
+    border-top: 2px solid black;
+}
+
+.themedBorder > div:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 76px;
+    border-right: 2px solid black;
+}
+
+.themedBorder > div:nth-child(4) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 76px;
+    border-bottom: 2px solid black;
+}
+
+.themedBorder .imgContainer:nth-child(5) {
+    position: absolute;
+    top: -18px;
+    left: -18px;
+}
+
+.themedBorder .imgContainer:nth-child(6) {
+    position: absolute;
+    bottom: -18px;
+    right: -18px;
 }
 
 
@@ -21,11 +71,10 @@ form {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 5px;
 }
 
 .inputField select {
-    max-width: 52%;
+    max-width: 70%;
     width: 204px;
     border-radius: 3px;
     border: none;
@@ -40,33 +89,34 @@ form {
 
 /* ========================= FIELDSETS ========================= */
 
-fieldset {
-    /* display: flex;
-    flex-wrap: wrap; */
-    margin: 1rem 0;
-}
+/* fieldset {
+} */
 
 .themedFieldSet {
     display: none;
     max-width: 100%;
     width: 354px;
-    margin: 0 auto 1rem;
-    padding: 1.75rem 1.188rem;
-    /* border: none !important; */
+    position: relative;
+    margin: 1rem auto;
+    padding: 1.75rem 1.188rem 2.5rem;
+    border: none !important;
+}
+
+.themedFieldSet .inputField:not(.themedFieldSet .inputField:first-child) {
+    margin-top: 1.875rem;
 }
 
 .themedFieldSet label {
     font-size: 1.25rem;
 }
 
-#ben10Field {
-    /* justify-content: space-around; */
-    border: 1px solid green;
+.themedFieldSet select {
+    font-size: 18px;
 }
 
 #minecraftField {
     justify-content: space-around;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 }
 
 #ben10BenInputsList {

@@ -102,8 +102,6 @@
 
                 </div>
 
-                <span class="break"></span>
-
                 <!-- <div id="ben10BenInputsList">
 
                     <div class="inputField ben10InputBen">
@@ -150,8 +148,13 @@
                     </div>
                 </div> -->
 
-                <div id="ben10GwenInputsList">
-                        <p>Olá mundo</p>
+                <div class="themedBorder">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/omnitrixIcon.png' alt="omnitrix"></div>
+                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/omnitrixIcon.png' alt="omnitrix"></div>
                 </div>
 
             </fieldset>
@@ -162,8 +165,10 @@
 
                 <div class="inputField">
 
+                    <label for='minecraftDimension'>Dimension:</label>
+
                     <select name="minecraftDimension" id="minecraftDimension">
-                        <option selected value="allDimensions">Todas as dimensões</option>
+                        <option selected value="allDimensions">All</option>
                         <option value="overworld">Overworld</option>
                         <option value="nether">Nether</option>
                         <option value="aether">Aether</option>
@@ -182,20 +187,31 @@
 
                 <div class="inputField">
 
+                    <label for="minecraftMobs">Mobs:</label>
+
                     <select name="minecraftMobs" id="minecraftMobs">
-                        <option selected value="allMineMobs">Todos os Mobs</option>
-                        <option value="mineMobsPassive">Passivos</option>
-                        <option value="mineMobsHostile">Agressivos</option>
-                        <option value="mineMobsNeutral">Neutros</option>
+                        <option selected value="allMineMobs">All</option>
+                        <option value="mineMobsHostile">Hostile</option>
+                        <option value="mineMobsNeutral">Neutral</option>
+                        <option value="mineMobsPassive">Passive</option>
                     </select>
 
+                </div>
+
+                <div class="themedBorder">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/eyeOfEnder.png' alt="eye of ender"></div>
+                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/eyeOfEnder.png' alt="eye of ender"></div>
                 </div>
 
             </fieldset>
 
             <!-- <button class="generateBtn" >Gerar</button> -->            
 
-            <div class="inputField">
+            <div class="inputField" style="margin-top: 60px">
 
                 <label for="qtd">Number of combinations:</label>
                 <input type="number" id="qtd" name="qtd" placeholder="1">
