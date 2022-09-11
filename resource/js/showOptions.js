@@ -1,17 +1,23 @@
-
 let themeSelector = document.getElementById('themeSelector')
+let themedFieldSet = document.querySelectorAll('.themedFieldSet')
+
 themeSelector.addEventListener('change', () => {
 
 	if (themeSelector.value == 'allThemes') {
 
-		document.getElementById('ben10Field').style.display = 'flex'
-		document.getElementById('minecraftField').style.display = 'flex'
+		document.getElementById('ben10Field').style.display = 'none'
+		// document.getElementById('minecraftField').style.display = 'none'
+
+		for (let i = 1; i < themedFieldSet.length; i++) {
+
+			themedFieldSet[i].style.display = 'none'
+		}
 
 		console.log('testando todos')
 	} 
 	else if (themeSelector.value == 'ben10') {
 
-		document.getElementById('ben10Field').style.display = 'flex'
+		document.getElementById('ben10Field').style.display = 'block'
 		document.getElementById('minecraftField').style.display = 'none'
 
 		console.log('testando ben')
@@ -19,7 +25,7 @@ themeSelector.addEventListener('change', () => {
     else if (themeSelector.value == 'minecraft') {
 
 		document.getElementById('ben10Field').style.display = 'none'
-		document.getElementById('minecraftField').style.display = 'flex'
+		document.getElementById('minecraftField').style.display = 'block'
 
 		console.log('testando mine')
 	}

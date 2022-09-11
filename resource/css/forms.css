@@ -47,6 +47,7 @@ fieldset {
 }
 
 .themedFieldSet {
+    display: none;
     max-width: 100%;
     width: 354px;
     margin: 0 auto 1rem;

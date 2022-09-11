@@ -15,6 +15,11 @@
     --black1: #1B1A1A;
     --blue1: #5391ED;
     --blue2: #0066FF;
+
+    --DarkModeGreen1:#24ff24;
+    --DarkModeGrey1:#191919;
+    --DarkModeBlack1: black;
+    --DarkModeWhite1: white;
 }
 
 html, body {
