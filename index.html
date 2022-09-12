@@ -4,7 +4,7 @@
 
 <head>
     <title>Drawing Ideas Generator - DIG</title>
-    <link rel="icon" href="./assets/img/icons/dig3.png" type="image/icon type">
+    <link rel="icon" href="./assets/img/icons/dig4.png" type="image/icon type">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="./resource/css/global.css">
     <link rel="stylesheet" href="./resource/css/forms.css">
+    <link rel="stylesheet" href="./resource/css/darkMode.css">
 </head>
 
 <body>
@@ -155,8 +156,8 @@
                     <div></div>
                     <div></div>
                     <div></div>
-                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/omnitrixIcon.png' alt="omnitrix"></div>
-                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/omnitrixIcon.png' alt="omnitrix"></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/omnitrixIcon.png' alt="omnitrix"></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/omnitrixIcon.png' alt="omnitrix"></div>
                 </div>
 
             </fieldset>
@@ -205,8 +206,8 @@
                     <div></div>
                     <div></div>
                     <div></div>
-                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/eyeOfEnder.png' alt="eye of ender"></div>
-                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/eyeOfEnder.png' alt="eye of ender"></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/eyeOfEnder.png' alt="eye of ender"></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/eyeOfEnder.png' alt="eye of ender"></div>
                 </div>
 
             </fieldset>
@@ -228,8 +229,8 @@
                     <div></div>
                     <div></div>
                     <div></div>
-                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/vBuck1.png' alt="V Buck"></div>
-                    <div class='imgContainer' style="width: 38px;"><img src='./assets/img/icons/vBuck1.png' alt="V Buck"></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/vBuck1.png' alt="V Buck"></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/vBuck1.png' alt="V Buck"></div>
                 </div>
 
             </fieldset>
@@ -247,10 +248,12 @@
 
         </form>
 
+        <span class="division"></span>
+
         <ul id="random-name"></ul>
 
     </div>
-
+    <button style="width: 120px" onclick="darkModeFunc()">Toggle dark mode</button>
     <footer>
 
         <ul>
@@ -270,6 +273,13 @@
         <p>Developed by: <a href="https://www.linkedin.com/in/caiovieiralima/" target="_blank">Caio Vieira Lima</a></p>
 
     </footer>
+
+    <script>
+        function darkModeFunc() {
+           let element = document.body;
+           element.classList.toggle("darkMode");
+        }
+    </script>
 
     <script src="./resource/js/showOptions.js"></script>
     <script src="./resource/js/ben10.js"></script>

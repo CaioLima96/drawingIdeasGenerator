@@ -75,6 +75,12 @@ body::-webkit-scrollbar-thumb:hover {
     object-fit: cover;
 }
 
+.division {
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+
 
 
 /* ========================= HEADER ========================= */
@@ -166,16 +172,22 @@ header nav ul li {
 
 
 
-/* ========================= LIST ========================= */
+/* ============ LIST ============ */
 
 #random-name {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    color: black;
+    width: 608px;
+    max-width: 100%;
+    /* color: black; */
+    /* border: 1px solid red; */
 }
 
 #random-name li {
     text-align: center;
+    
+    font-size: 1.25rem;
 }
 
 

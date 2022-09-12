@@ -63,6 +63,10 @@ form {
     right: -18px;
 }
 
+.themedBorder img {
+    width: 38px;
+}
+
 
 
 /* ========================= GENERAL INPUTS ========================= */

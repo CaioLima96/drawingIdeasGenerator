@@ -84,8 +84,8 @@ const setRandomName = () => {
 		
         return `
             <li dataTheme='${item.dataTheme}'>
+                <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
                 <img src='${item.img}'>
-                <p>${item.nameEnglish}</p>
             </li>
         `
 	}

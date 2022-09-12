@@ -1,0 +1,23 @@
+.darkMode {
+    background-color: var(--DarkModeGrey1);
+}
+
+.darkMode header, .darkMode footer, .darkMode header a, .darkMode footer a{
+    background-color: var(--DarkModeBlack1);
+    color: var(--DarkModeGreen1);
+}
+
+.darkMode form, .darkMode .random-name li  {
+    color: var(--DarkModeWhite1);
+}
+
+.darkMode .generateBtn {
+    background-color: var(--DarkModeBlack1);
+    color: var(--DarkModeGreen1);
+}
+
+.darkMode .generateBtn:hover {
+    background-color: var(--DarkModeGreen1);
+    color: var(--DarkModeBlack1);
+    font-weight: bold;
+}
