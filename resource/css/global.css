@@ -15,6 +15,7 @@
     --black1: #1B1A1A;
     --blue1: #5391ED;
     --blue2: #0066FF;
+    --blue3: #5390ED66;
 
     --DarkModeGreen1:#24ff24;
     --DarkModeGrey1:#191919;
@@ -142,9 +143,21 @@ header nav ul li {
 }
 
 .generateBtn {
-    margin: 12px auto;
+    margin: 0.75rem auto;
     font-size: 20px;
-    padding: 6px;
+    padding: 0.688rem 1.813rem;
+    background-color: var(--blue3);
+    color: var(--black1);
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: .5s ease;
+    /* transition: background-color 2s ease-out 100ms */
+}
+
+.generateBtn:hover {
+    background-color: #5391ed;
+    color: white;
 }
 
 .btnHide {
