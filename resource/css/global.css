@@ -79,6 +79,7 @@ body::-webkit-scrollbar-thumb:hover {
     height: 100%;
     width: 1px;
     background-color: black;
+    margin: 0.313rem;
 }
 
 
@@ -137,7 +138,7 @@ header nav ul li {
 
 /* ========================= MAIN CONTAINER ========================= */
 
-#mainContainer {
+main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -247,4 +248,22 @@ footer ul li:not(p:first-child) {
 
 footer > p:last-child {
     font-size: 0.813rem;
+}
+
+
+
+
+/* ========================= @MEDIA ========================= */
+
+@media (max-width: 1125px) {
+    
+    .division {
+        height: 1px;
+        width: 100%;
+        margin: 1rem;
+    }
+
+    #random-name {
+        margin: auto;
+    }
 }

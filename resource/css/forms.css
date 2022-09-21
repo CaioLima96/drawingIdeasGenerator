@@ -78,6 +78,10 @@ form {
     flex-wrap: wrap;
 }
 
+.inputField label {
+    margin-right: 0.625rem;
+}
+
 .inputField select {
     max-width: 70%;
     width: 204px;
@@ -124,4 +128,40 @@ form {
     justify-content: space-around;
     flex-wrap: wrap; */
     width: 100%;
+}
+
+
+
+
+/* ========================= @MEDIA ========================= */
+
+@media (max-width: 400px) {
+
+    .themedFieldSet{
+        width: 300px;
+    }
+
+    .themedFieldSet .inputField {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .themedFieldSet .inputField select {
+        max-width: initial;
+        width: 80%
+    }
+}
+
+@media (max-width: 420px) {
+
+    #allThemesField .inputField{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1125px) {
+
+    form {
+        margin: auto;
+    }
 }
