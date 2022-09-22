@@ -34,13 +34,32 @@
                 <li><a href="#contactUs">Contact Us</a></li>
             </ul>
 
+            <!-- <div id="darkModeBtn">
+
+                <input type="checkbox" id="dmCheckbox">
+
+                <label for="dmCheckbox" class="dmLabel">
+                    <div id='dmMoon' class="imgContainer"><img src='./assets/img/icons/moon1.png' alt='moon'></div>
+                    <div id='dmSun' class="imgContainer"><img src='./assets/img/icons/sun1.png' alt='sun'></div>
+                    <div class='dmBall'>
+                </label>
+
+            </div> -->
+
         </nav>
+
+        <!-- <div id="darkModeBtn">
+
+            <div id='dmSun' class="imgContainer"><img src='./assets/img/icons/sun1.png' alt='sun'></div>
+            <div id='dmMoon' class="imgContainer"><img src='./assets/img/icons/moon1.png' alt='moon'></div>
+
+        </div> -->
 
     </header>
 
     <main id="mainContainer">
 
-        <form action=""> 
+        <form action="">
 
             <fieldset id="allThemesField">
 
@@ -62,7 +81,7 @@
 
             </fieldset>
 
-            <fieldset class='themedFieldSet' id="ben10FieldSet" >
+            <fieldset class='themedFieldSet' id="ben10FieldSet">
 
                 <!-- <legend>Ben 10</legend> -->
 
@@ -235,7 +254,7 @@
 
             </fieldset>
 
-            <!-- <button class="generateBtn" >Gerar</button> -->            
+            <!-- <button class="generateBtn" >Gerar</button> -->
 
             <div class="inputField" style="margin-top: 60px">
 
@@ -243,8 +262,8 @@
                 <input type="number" id="qtd" name="qtd" placeholder="1">
 
             </div>
-          
-            <button class="generateBtn" id="generate">Generate Idea</button>
+
+            <div class="generateBtn" id="generate">Generate Idea</div>
 
         </form>
 
@@ -253,7 +272,9 @@
         <ul id="random-name"></ul>
 
     </main>
+
     <button style="width: 120px" onclick="darkModeFunc()">Toggle dark mode</button>
+
     <footer>
 
         <ul>
@@ -276,14 +297,20 @@
 
     <script>
         function darkModeFunc() {
-           let element = document.body;
-           element.classList.toggle("darkMode");
+            let element = document.body;
+            element.classList.toggle("darkMode");
         }
+        // const checkbox = document.getElementById('dmCheckbox');
+
+        // checkbox.addEventListener('change', () => {
+        //     document.body.classList.toggle('darkMode');
+        // })
     </script>
 
     <script src="./resource/js/showOptions.js"></script>
     <script src="./resource/js/ben10.js"></script>
     <script src="./resource/js/minecraft.js"></script>
+    <script src="./resource/js/generateIdea.js"></script>
 </body>
 
 </html>

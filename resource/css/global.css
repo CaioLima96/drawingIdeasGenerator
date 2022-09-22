@@ -19,6 +19,7 @@
 
     --DarkModeGreen1:#24ff24;
     --DarkModeGrey1:#191919;
+    --DarkModeGrey2: #292c35;
     --DarkModeBlack1: black;
     --DarkModeWhite1: white;
 }
@@ -136,6 +137,7 @@ header nav ul li {
 }
 
 
+
 /* ========================= MAIN CONTAINER ========================= */
 
 main {
@@ -186,9 +188,18 @@ main {
 }
 
 #random-name li {
+    width: 250px;
     text-align: center;
-    
     font-size: 1.25rem;
+}
+
+#random-name li .imgContainer {
+    height: 296px;
+    border: 1px solid red;
+}
+
+#random-name li .imgContainer img {
+    object-fit: contain;
 }
 
 

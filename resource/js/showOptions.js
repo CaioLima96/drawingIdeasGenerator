@@ -4,15 +4,18 @@ let themedFieldSet = document.querySelectorAll('.themedFieldSet')
 themeSelector.addEventListener('change', () => {
 
 	switch(themeSelector.value) {
+		
 
 		case 'allThemes':
-
+		
 			document.getElementById('ben10FieldSet').style.display = 'none'
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
 
 				themedFieldSet[i].style.display = 'none'
 			}
+
+			setRandomData(themeSelector.value)
 
 			console.log('testando todos')
 
@@ -30,6 +33,8 @@ themeSelector.addEventListener('change', () => {
 				}
 
 			}
+			
+			setRandomData(themeSelector.value)
 
 			console.log('testando ben')
 
