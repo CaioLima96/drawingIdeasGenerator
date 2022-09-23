@@ -1,34 +1,34 @@
 const mineOverworldMobs = [
 
-    {nome: 'Creeper', img: './assets/minecraft/overworld/creeper.png', mineDimension: 'overworld'},
+    {nameEnglish: 'Creeper', img: './assets/img/minecraft/overworld/creeper.png', dataTheme:'minecraft', mineDimension: 'overworld'},
 
-    {nome: 'Skeleton', img: './assets/minecraft/overworld/skeleton.png', mineDimension: 'overworld'},
+    {nameEnglish: 'Skeleton', img: './assets/img/minecraft/overworld/skeleton.png', dataTheme:'minecraft', mineDimension: 'overworld'},
 
-    {nome: 'Spider', img: './assets/minecraft/overworld/spider.png', mineDimension: 'overworld'},
+    {nameEnglish: 'Spider', img: './assets/img/minecraft/overworld/spider.png', dataTheme:'minecraft', mineDimension: 'overworld'},
 
-    {nome: 'Zombie', img: './assets/minecraft/overworld/zombie.png', mineDimension: 'overworld'},
+    {nameEnglish: 'Zombie', img: './assets/img/minecraft/overworld/zombie.png', dataTheme:'minecraft', mineDimension: 'overworld'},
 
-    // {nome: '', img: './assets/minecraft/overworld/', mineDimension: 'overworld'},
+    // {nameEnglish: '', img: './assets/img/minecraft/overworld/', dataTheme:'minecraft', mineDimension: 'overworld'},
 ]
 
 const mineTheEnd = [
 
-    {nome: 'Ender Dragon', img: './assets/minecraft/theEnd/enderDragon.png', mineDimension: 'theEnd'},
+    {nameEnglish: 'Ender Dragon', img: './assets/img/minecraft/theEnd/enderDragon.png', dataTheme:'minecraft', mineDimension: 'theEnd'},
 
-    {nome: 'Shulker', img: './assets/minecraft/theEnd/shulker.png', mineDimension: 'theEnd'},
+    {nameEnglish: 'Shulker', img: './assets/img/minecraft/theEnd/shulker.png', dataTheme:'minecraft', mineDimension: 'theEnd'},
 
-    // {nome: '', img: './assets/minecraft/theEnd/', mineDimension: 'theEnd'},
+    // {nameEnglish: '', img: './assets/img/minecraft/theEnd/', dataTheme:'minecraft', mineDimension: 'theEnd'},
 ]
 
 const mineNether = [
 
-    {nome: 'Piglin', img: './assets/minecraft/nether/piglin.png', mineDimension: 'nether'},
+    {nameEnglish: 'Piglin', img: './assets/img/minecraft/nether/piglin.png', dataTheme:'minecraft', mineDimension: 'nether'},
 
-    {nome: 'Zombie Piglin', img: './assets/minecraft/nether/zombiePiglin.png', mineDimension: 'nether'},
+    {nameEnglish: 'Zombie Piglin', img: './assets/img/minecraft/nether/zombiePiglin.png', dataTheme:'minecraft', mineDimension: 'nether'},
 
-    {nome: 'Whiter Boss', img: './assets/minecraft/nether/whiterBoss.png', mineDimension: 'nether'},
+    {nameEnglish: 'Whiter Boss', img: './assets/img/minecraft/nether/whiterBoss.png', dataTheme:'minecraft', mineDimension: 'nether'},
 
-    // {nome: '', img: './assets/minecraft/nether/', mineDimension: 'nether'},
+    // {nameEnglish: '', img: './assets/img/minecraft/nether/', dataTheme:'minecraft', mineDimension: 'nether'},
 ]
 
-const allDimensions = [...mineOverworldMobs, ...mineNether, ...mineNether]
+const mineAllDimensions = [...mineOverworldMobs, ...mineNether, ...mineNether]

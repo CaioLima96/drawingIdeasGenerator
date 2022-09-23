@@ -1,4 +1,4 @@
-const allThemes = [...ben10AllThemes]
+const allThemes = [...ben10AllThemes, ...mineAllDimensions]
 
 function getMultipleRandom(arr, num) {
     const shuffled = [...arr].sort(() => 0.5 - Math.random());
@@ -25,24 +25,14 @@ function setRandomData(valorTeste) {
 
     // `
 
-    
-    // return document.getElementById('random-name').innerHTML = getMultipleRandom(allThemes, 2).forEach((item) => {
-    //     return `
-    //         <li dataTheme='${item.dataTheme}'>
-    //             <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
-    //              <div class='imgContainer'><img src='${item.img}'></div>
-    //         </li>
-    //     `
-    // });
-
     document.getElementById('random-name').innerHTML = ' '
-    
+
     randomData().forEach(item => {
         document.getElementById('random-name').innerHTML += `
             
-                <li dataTheme='${item.nameEnglish}'>
-                    <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
-                    <div class='imgContainer'><img src='${item.img}'></div>
+                <li dataTheme='${item.dataTheme}'>
+                    <p style='margin-bottom: 16px'>${item.nameEnglish} (${item.dataTheme})</p>
+                    <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
                 </li>
             `
     })
