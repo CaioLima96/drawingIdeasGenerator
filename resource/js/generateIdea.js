@@ -2,36 +2,64 @@ const allThemes = [...ben10AllThemes]
 
 function getMultipleRandom(arr, num) {
     const shuffled = [...arr].sort(() => 0.5 - Math.random());
-  
+
     return shuffled.slice(0, num);
 }
 
-const randomData = getMultipleRandom(allThemes, 2)
+let randomData = () => getMultipleRandom(allThemes, 2)
+
+
 
 function setRandomData(valorTeste) {
 
-    console.log(valorTeste)
-    return document.getElementById('random-name').innerHTML = `
+    // return document.getElementById('random-name').innerHTML = `
 
-        ${getMultipleRandom(allThemes, 2).map(item => {
-            
-            return `<li dataTheme='${item.dataTheme}'>
-                <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
-                <div class='imgContainer'><img src='${item.img}'></div>
-                </li>
-            `
-        })}
+    //     ${randomData().map(item => {
 
-    `
+    //         return `<li dataTheme='${item.dataTheme}'>
+    //             <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
+    //             <div class='imgContainer'><img src='${item.img}'></div>
+    //             </li>
+    //         `
+    //     })}
 
-    // return document.getElementById('random-name').innerHTML = getMultipleRandom(allThemes, 2).forEach(item => {
-    //     `
+    // `
+
+    
+    // return document.getElementById('random-name').innerHTML = getMultipleRandom(allThemes, 2).forEach((item) => {
+    //     return `
     //         <li dataTheme='${item.dataTheme}'>
     //             <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
-    //             <img src='${item.img}'>
+    //              <div class='imgContainer'><img src='${item.img}'></div>
     //         </li>
     //     `
     // });
+
+    document.getElementById('random-name').innerHTML = ' '
+    
+    randomData().forEach(item => {
+        document.getElementById('random-name').innerHTML += `
+            
+                <li dataTheme='${item.nameEnglish}'>
+                    <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
+                    <div class='imgContainer'><img src='${item.img}'></div>
+                </li>
+            `
+    })
+
+
+    // document.getElementById('random-name').innerHTML = ' '
+
+    // for (let i = 0; i < randomData().length; i++) {
+
+    //     document.getElementById('random-name').innerHTML += `
+            
+    //             <li dataTheme='${randomData()[i].nameEnglish}'>
+    //                 <p style='margin-bottom: 16px'>${randomData()[i].nameEnglish}</p>
+    //                 <div class='imgContainer'><img src='${randomData()[i].img}'></div>
+    //             </li>
+    //         `
+    // }
 }
 
 document.getElementById('generate').addEventListener('click', setRandomData);
