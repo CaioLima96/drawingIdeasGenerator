@@ -49,6 +49,8 @@ const ben10PrimeClassicAliens = [
 
 const ben10AllThemes = [...ben10PrimeClassicAliens]
 
+console.log(ben10AllThemes)
+
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
 // const getRandomName = () => `${ben10AllAliens[getRandomNumber(ben10AllAliens.length)]} ${ben10AllAliens[getRandomNumber(ben10AllAliens.length)]}`;

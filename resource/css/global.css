@@ -196,7 +196,8 @@ main {
 }
 
 #random-name li .imgContainer {
-    height: 296px;
+    /* height: 296px; */
+    height: 400px;
     /* border: 1px solid red; */
 }
 
