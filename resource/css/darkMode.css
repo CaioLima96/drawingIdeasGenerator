@@ -1,10 +1,15 @@
 .darkMode {
-    background-color: var(--DarkModeGrey1);
+    background-color: var(--DarkModeGrey3);
 }
 
 .darkMode header, .darkMode footer, .darkMode header a, .darkMode footer a{
-    background-color: var(--DarkModeBlack1);
-    color: var(--DarkModeGreen1);
+    background-color: var(--DarkModeGrey2);
+    /* color: rgb(230, 230, 230); */
+    color: white;
+}
+
+.darkMode footer, .darkMode footer a {
+    color: var(--DarkModeGrey4) !important;
 }
 
 .darkMode form, .darkMode #random-name li  {

@@ -19,7 +19,9 @@
 
     --DarkModeGreen1:#24ff24;
     --DarkModeGrey1:#191919;
-    --DarkModeGrey2: #292c35;
+    --DarkModeGrey2: #121212;
+    --DarkModeGrey3: #202020;
+    --DarkModeGrey4: #BDBDBD;
     --DarkModeBlack1: black;
     --DarkModeWhite1: white;
 }
@@ -195,7 +197,7 @@ main {
 
 #random-name li .imgContainer {
     height: 296px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #random-name li .imgContainer img {
