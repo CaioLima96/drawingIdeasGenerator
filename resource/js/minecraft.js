@@ -62,7 +62,7 @@ const mineNether = [
 
     {nameEnglish: 'Hoglin', img: './assets/img/minecraft/nether/hoglin.png', dataTheme:'minecraft', mineDimension: 'theEnd'},
 
-    {nameEnglish: 'Magma Cube', img: './assets/img/minecraft/nether/magmaCube.png', dataTheme:'minecraft', mineDimension: 'theEnd'},
+    {nameEnglish: 'Magma Cube', img: './assets/img/minecraft/nether/magmaCube2.gif', dataTheme:'minecraft', mineDimension: 'theEnd'},
 
     {nameEnglish: 'Piglin', img: './assets/img/minecraft/nether/piglin.png', dataTheme:'minecraft', mineDimension: 'nether'},
 
@@ -79,6 +79,10 @@ const mineNether = [
     // {nameEnglish: '', img: './assets/img/minecraft/nether/', dataTheme:'minecraft', mineDimension: 'nether'},
 ]
 
-const mineAllDimensions = [...mineOverworldMobs, ...mineNether, ...mineNether]
+const mineAllDimensions = [
+    ...mineOverworldMobs, 
+    ...mineTheEnd, 
+    ...mineNether
+]
 
 console.log(mineAllDimensions)
