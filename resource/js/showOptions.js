@@ -1,5 +1,6 @@
 let themeSelector = document.getElementById('themeSelector')
 let themedFieldSet = document.querySelectorAll('.themedFieldSet')
+console.log(themedFieldSet)
 
 themeSelector.addEventListener('change', () => {
 
@@ -8,22 +9,23 @@ themeSelector.addEventListener('change', () => {
 
 		case 'allThemes':
 		
-			document.getElementById('ben10FieldSet').style.display = 'none'
+			document.getElementById('animesFieldSet').style.display = 'none'
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
 
 				themedFieldSet[i].style.display = 'none'
 			}
 
-			setRandomData(themeSelector.value)
+			// setRandomData(themeSelector.value)
 
 			console.log('testando todos')
 
 			break;
 
-		case 'ben10':
+		case 'animes':
 
-			document.getElementById('ben10FieldSet').style.display = 'block'
+			document.getElementById('animesFieldSet').style.display = 'block'
+			// document.getElementById('ben10FieldSet').style.display = 'none'
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
 
@@ -33,8 +35,24 @@ themeSelector.addEventListener('change', () => {
 				}
 
 			}
-			
-			setRandomData(themeSelector.value)
+
+			console.log('testando animes')
+
+			break;
+
+		case 'ben10':
+
+			document.getElementById('ben10FieldSet').style.display = 'block'
+			document.getElementById('animesFieldSet').style.display = 'none'
+
+			for (let i = 1; i < themedFieldSet.length; i++) {
+
+				if (themedFieldSet[i] != themedFieldSet[1]) {
+
+					themedFieldSet[i].style.display = 'none'
+				}
+
+			}
 
 			console.log('testando ben')
 
@@ -43,11 +61,11 @@ themeSelector.addEventListener('change', () => {
 		case 'minecraft':
 
 			document.getElementById('minecraftFieldSet').style.display = 'block'
-			document.getElementById('ben10FieldSet').style.display = 'none'
+			document.getElementById('animesFieldSet').style.display = 'none'
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
 
-				if (themedFieldSet[i] != themedFieldSet[1]) {
+				if (themedFieldSet[i] != themedFieldSet[2]) {
 
 					themedFieldSet[i].style.display = 'none'
 				}
@@ -61,11 +79,11 @@ themeSelector.addEventListener('change', () => {
 		case 'fortnite':
 			
 			document.getElementById('fortniteFieldSet').style.display = 'block'
-			document.getElementById('ben10FieldSet').style.display = 'none'
+			document.getElementById('animesFieldSet').style.display = 'none'
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
 
-				if (themedFieldSet[i] != themedFieldSet[2]) {
+				if (themedFieldSet[i] != themedFieldSet[3]) {
 
 					themedFieldSet[i].style.display = 'none'
 				}

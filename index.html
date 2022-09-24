@@ -69,6 +69,7 @@
 
                     <select name="themeSelector" id="themeSelector">
                         <option selected value="allThemes">All</option>
+                        <option value="animes">Animes</option>
                         <option value="ben10">Ben 10</option>
                         <option value="minecraft">Minecraft</option>
                         <option value="fortnite">Fortnite</option>
@@ -77,6 +78,37 @@
                         <option value="othergames">Other Games</option>
                     </select>
 
+                </div>
+
+            </fieldset>
+
+            <fieldset class='themedFieldSet' id="animesFieldSet">
+
+                <!-- <legend>Minecraft</legend> -->
+
+                <div class="inputField">
+
+                    <label for='animes'>Animes:</label>
+
+                    <select name="animes" id="animes">
+                        <option selected value="allAnimes">All</option>
+                        <option value="bleach">Bleach</option>
+                        <option value="bnha">Boku No Hero Academia</option>
+                        <option value="dragonBall">Dragon Ball</option>
+                        <option value="onePiece">One Piece</option>
+                        <option value="onePunchMan">One Punch Man</option>
+                        <option value="saintSeiya">Saint Seiya</option>
+                    </select>
+
+                </div>
+
+                <div class="themedBorder">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/4StartDragonBall.png' alt="4 Start Dragon Ball"></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/pokeball.png' alt="PokéBall"></div>
                 </div>
 
             </fieldset>
@@ -308,9 +340,10 @@
     </script>
 
     <script src="./resource/js/showOptions.js"></script>
-    <script src="./resource/js/ben10.js"></script>
-    <script src="./resource/js/minecraft.js"></script>
-    <script src="./resource/js/fortnite.js"></script>
+    <script src="./resource/js/themes/animes.js"></script>
+    <script src="./resource/js/themes/ben10.js"></script>
+    <script src="./resource/js/themes/minecraft.js"></script>
+    <script src="./resource/js/themes/fortnite.js"></script>
     <script src="./resource/js/generateIdea.js"></script>
 </body>
 

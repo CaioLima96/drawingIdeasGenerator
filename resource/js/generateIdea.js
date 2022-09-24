@@ -1,8 +1,10 @@
 const allThemes = [
+    ...allAnimes,
     ...ben10AllThemes, 
     ...mineAllDimensions,
     ...fortniteAllSkins,
 ]
+console.log(allThemes)
 
 function getMultipleRandom(arr, num) {
     const shuffled = [...arr].sort(() => 0.5 - Math.random());
