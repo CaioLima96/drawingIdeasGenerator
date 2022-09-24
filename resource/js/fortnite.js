@@ -29,8 +29,8 @@ const fortniteSkinsOriginals = [
     // {nameEnglish: '', img: './assets/img/fortnite/', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 ]
 
-const fortnieAllSkins = [
+const fortniteAllSkins = [
     ...fortniteSkinsOriginals
 ]
 
-console.log(fortnieAllSkins)
+console.log(fortniteAllSkins)

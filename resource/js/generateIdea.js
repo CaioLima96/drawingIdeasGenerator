@@ -1,7 +1,7 @@
 const allThemes = [
     ...ben10AllThemes, 
     ...mineAllDimensions,
-    ...fortnieAllSkins,
+    ...fortniteAllSkins,
 ]
 
 function getMultipleRandom(arr, num) {
