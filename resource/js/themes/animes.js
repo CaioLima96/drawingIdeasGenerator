@@ -69,6 +69,50 @@ const saintSeiya = [
 
     {nameEnglish: 'Aiolia', img: './assets/img/animes/saintSeiya/aiolia.png', dataTheme:'saintSeiya'},
 
+    {nameEnglish: 'Aiolos', img: './assets/img/animes/saintSeiya/aiolos.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Aldebaran', img: './assets/img/animes/saintSeiya/aldebaran.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Daichi', img: './assets/img/animes/saintSeiya/daichi.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Death Mask', img: './assets/img/animes/saintSeiya/deathMask.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Dohko', img: './assets/img/animes/saintSeiya/dohko.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Hyoga', img: './assets/img/animes/saintSeiya/hyoga.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Ikki', img: './assets/img/animes/saintSeiya/ikki.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Jabu', img: './assets/img/animes/saintSeiya/jabu.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Marin', img: './assets/img/animes/saintSeiya/marin.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Milo', img: './assets/img/animes/saintSeiya/milo.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Misty', img: './assets/img/animes/saintSeiya/misty.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Mu', img: './assets/img/animes/saintSeiya/mu.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Seiya', img: './assets/img/animes/saintSeiya/seiya.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Shaina', img: './assets/img/animes/saintSeiya/shaina.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Shaka', img: './assets/img/animes/saintSeiya/shaka.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Shaka', img: './assets/img/animes/saintSeiya/shaka.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Shion', img: './assets/img/animes/saintSeiya/shion.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Shiryu', img: './assets/img/animes/saintSeiya/shiryu.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Sho', img: './assets/img/animes/saintSeiya/sho.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Shun', img: './assets/img/animes/saintSeiya/shun.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Shura', img: './assets/img/animes/saintSeiya/shura.png', dataTheme:'saintSeiya'},
+
+    {nameEnglish: 'Ushio', img: './assets/img/animes/saintSeiya/ushio.png', dataTheme:'saintSeiya'},
+
     // {nameEnglish: '', img: './assets/img/animes/saintSeiya/', dataTheme:'saintSeiya'},
 ]
 
