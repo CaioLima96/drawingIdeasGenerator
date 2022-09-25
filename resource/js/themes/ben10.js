@@ -1,9 +1,3 @@
-const ben10PrimeOsAliens = ["4 Braços", "Áquatico", "Bala de Canhão"];
-
-const ben10PrimeAfAliens = ["Alien X", "Arraia Jato", "Bebê Necrofriggiano"];
-
-const ben10AllAliens = [...ben10PrimeOsAliens, ...ben10PrimeAfAliens]
-
 const ben10PrimeClassicAliens = [
 
     // {namePtbr: '', nameEnglish: "", img:'./assets/ben10/aliens/benPrime/classico/', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
@@ -47,55 +41,16 @@ const ben10PrimeClassicAliens = [
     {namePtbr: 'XLR8', nameEnglish: "XLR8", img: './assets/img/ben10/aliens/benPrime/classico/xlr8-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
 ]
 
+const ben10PrimeOsAliens = [
+    
+]
+
+const ben10PrimeAfAliens = [
+    
+]
+
+
+
 const ben10AllThemes = [...ben10PrimeClassicAliens]
 
 console.log(ben10AllThemes)
-
-const getRandomNumber = (max) => Math.floor(Math.random() * max);
-
-// const getRandomName = () => `${ben10AllAliens[getRandomNumber(ben10AllAliens.length)]} ${ben10AllAliens[getRandomNumber(ben10AllAliens.length)]}`;
-
-const getRandomName = () => `${ben10PrimeClassicAliens[getRandomNumber(ben10PrimeClassicAliens.length)]} ${ben10PrimeClassicAliens[getRandomNumber(ben10PrimeClassicAliens.length)]}`;
-
-// const getRandomName = (item) => `
-
-//     <li dataTheme='${item.dataTheme}'>
-//                 <img src='${item.img}'>
-//                 <p>${item.nameEnglish}</p>
-//     </li>
-
-//     <li dataTheme='${item.dataTheme}'>
-//                 <img src='${item.img}'>
-//                 <p>${item.nameEnglish}</p>
-//     </li>
-
-
-// `;
-
-const setRandomName = () => {
-	// document.getElementById('random-name').innerText = getRandomName();
-
-	// getRandomName().array.forEach(element => {
-		
-	// });
-
-    // let teste = getRandomName()
-    // console.log('obj: ' + teste)
-		
-	let abc = (item) => {
-		
-        return `
-            <li dataTheme='${item.dataTheme}'>
-                <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
-                <img src='${item.img}'>
-            </li>
-        `
-	}
-
-    return document.getElementById('random-name').innerHTML = ben10PrimeClassicAliens.map(abc)
-}
-
-// document.getElementById('generate')
-// 	.addEventListener('click', setRandomName);
-
-// setRandomName();
