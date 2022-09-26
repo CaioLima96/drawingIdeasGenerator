@@ -34,6 +34,14 @@ const bnha = [
     // {nameEnglish: '', img: './assets/img/animes/bnha/', dataTheme:'bnha'},
 ]
 
+const dragonBall = [
+
+]
+
+const onePiece = [
+
+]
+
 const onePunchMan = [
 
     {nameEnglish: 'Bang', img: './assets/img/animes/onePunchMan/bang1.png', dataTheme:'opm'},
@@ -123,4 +131,18 @@ const allAnimes = [
     ...saintSeiya,
 ]
 
-console.log(allAnimes)
+// console.log('Bleach: ' + bleach.length)
+// console.log('Dragon Ball: ' + dragonBall.length)
+// console.log('One Piece: ' + onePiece.length)
+// console.log('One Punch Man: ' + onePunchMan.length)
+// console.log('CDZ: ' + saintSeiya.length)
+// console.log('Animes: ' + allAnimes.length)
+
+console.log([
+    'Bleach: ' + bleach.length,
+    'Dragon Ball: ' + dragonBall.length,
+    'One Piece: ' + onePiece.length,
+    'One Punch Man: ' + onePunchMan.length,
+    'CDZ: ' + saintSeiya.length,
+    'All Animes: ' + allAnimes.length,
+])

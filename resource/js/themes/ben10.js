@@ -53,4 +53,4 @@ const ben10PrimeAfAliens = [
 
 const ben10AllThemes = [...ben10PrimeClassicAliens]
 
-console.log(ben10AllThemes)
+console.log('Ben 10: ' + ben10AllThemes.length)
