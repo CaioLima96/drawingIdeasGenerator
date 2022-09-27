@@ -36,10 +36,98 @@ const bnha = [
 
 const dragonBall = [
 
+    {nameEnglish: 'Android 16', img: './assets/img/animes/dragonBall/android16.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Android 17', img: './assets/img/animes/dragonBall/android17.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Android 18', img: './assets/img/animes/dragonBall/android18.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Bardock', img: './assets/img/animes/dragonBall/bardock.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Bardock SSJ', img: './assets/img/animes/dragonBall/bardockSSJ.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Bills', img: './assets/img/animes/dragonBall/bills.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Bulma', img: './assets/img/animes/dragonBall/bulma.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Cell - Perfect Form', img: './assets/img/animes/dragonBall/cell(perfectForm).png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Champa', img: './assets/img/animes/dragonBall/champa.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Chaos', img: './assets/img/animes/dragonBall/chaos.png', dataTheme:'dragonBall'},
+
+    // {nameEnglish: '', img: './assets/img/animes/dragonBall/', dataTheme:'dragonBall'},
 ]
 
 const onePiece = [
 
+    {nameEnglish: 'Ace', img: './assets/img/animes/onePiece/ace.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Akainu', img: './assets/img/animes/onePiece/akainu.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Alvida - Fat', img: './assets/img/animes/onePiece/alvida(fat).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Alvida - Thin', img: './assets/img/animes/onePiece/alvida(thin).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Aokiji - Pre-TimeSkip', img: './assets/img/animes/onePiece/aokiji(preTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Arlong', img: './assets/img/animes/onePiece/arlong.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Big Mom', img: './assets/img/animes/onePiece/bigMom.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Big Mom - Hungry/Berserker', img: './assets/img/animes/onePiece/bigMom2.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Brook - Post-TimeSkip', img: './assets/img/animes/onePiece/brook(postTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Chopper - Pre-Timeskip', img: './assets/img/animes/onePiece/chopper(preTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Chopper - Post-Timeskip', img: './assets/img/animes/onePiece/chopper(postTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Enel', img: './assets/img/animes/onePiece/enel.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Franky - Pre-Timeskip', img: './assets/img/animes/onePiece/franky(preTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Franky - Post-Timeskip', img: './assets/img/animes/onePiece/franky(postTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Garp', img: './assets/img/animes/onePiece/garp.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'General Franky', img: './assets/img/animes/onePiece/generalFranky.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Going Merry', img: './assets/img/animes/onePiece/goingMerry.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Jinbei', img: './assets/img/animes/onePiece/jinbei.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Kaidou', img: './assets/img/animes/onePiece/kaidou.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Kaidou - Dragon', img: './assets/img/animes/onePiece/kaidou(dragon).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Kaidou - Hybrid', img: './assets/img/animes/onePiece/kaidou(hybrid).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Luffy - Post-Timeskip', img: './assets/img/animes/onePiece/luffy(postTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Nami - Pre-Timeskip.', img: './assets/img/animes/onePiece/nami(preTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Nico Robin - Pre-Timeskip', img: './assets/img/animes/onePiece/nicoRobin(preTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Nico Robin - Post-Timeskip', img: './assets/img/animes/onePiece/nicoRobin(postTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Sabo', img: './assets/img/animes/onePiece/sabo.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Sanji', img: './assets/img/animes/onePiece/sanji.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Shanks', img: './assets/img/animes/onePiece/shanks.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Shirohige', img: './assets/img/animes/onePiece/shirohige.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Thousand Sunny', img: './assets/img/animes/onePiece/thousandSunny.png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Ussop - Post-Timeskip', img: './assets/img/animes/onePiece/ussop(postTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Ussop - Pre-Timeskip', img: './assets/img/animes/onePiece/ussop(preTimeSkip).png', dataTheme:'onePiece'},
+
+    {nameEnglish: 'Zoro - Pre-Timeskip', img: './assets/img/animes/onePiece/zoro(postTimeSkip).png', dataTheme:'onePiece'},
+
+    // {nameEnglish: '', img: './assets/img/animes/onePiece/', dataTheme:'onePiece'},
 ]
 
 const onePunchMan = [
@@ -127,6 +215,8 @@ const saintSeiya = [
 const allAnimes = [
     ...bleach,
     ...bnha,
+    ...dragonBall,
+    ...onePiece,
     ...onePunchMan,
     ...saintSeiya,
 ]
@@ -140,6 +230,7 @@ const allAnimes = [
 
 console.log([
     'Bleach: ' + bleach.length,
+    'Boku No Hero: ' + bnha.length,
     'Dragon Ball: ' + dragonBall.length,
     'One Piece: ' + onePiece.length,
     'One Punch Man: ' + onePunchMan.length,
