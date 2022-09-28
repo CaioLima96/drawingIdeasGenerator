@@ -57,10 +57,10 @@ themeSelector.addEventListener('change', () => {
 			console.log('testando ben')
 
 			break;
-
-		case 'minecraft':
-
-			document.getElementById('minecraftFieldSet').style.display = 'block'
+		
+		case 'games':
+			
+			document.getElementById('gamesFieldSet').style.display = 'block'
 			document.getElementById('animesFieldSet').style.display = 'none'
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
@@ -72,25 +72,41 @@ themeSelector.addEventListener('change', () => {
 
 			}
 
-			console.log('testando mine')
-
 			break;
+
+		// case 'minecraft':
+
+		// 	document.getElementById('minecraftFieldSet').style.display = 'block'
+		// 	document.getElementById('animesFieldSet').style.display = 'none'
+
+		// 	for (let i = 1; i < themedFieldSet.length; i++) {
+
+		// 		if (themedFieldSet[i] != themedFieldSet[3]) {
+
+		// 			themedFieldSet[i].style.display = 'none'
+		// 		}
+
+		// 	}
+
+		// 	console.log('testando mine')
+
+		// 	break;
 		
-		case 'fortnite':
+		// case 'fortnite':
 			
-			document.getElementById('fortniteFieldSet').style.display = 'block'
-			document.getElementById('animesFieldSet').style.display = 'none'
+		// 	document.getElementById('fortniteFieldSet').style.display = 'block'
+		// 	document.getElementById('animesFieldSet').style.display = 'none'
 
-			for (let i = 1; i < themedFieldSet.length; i++) {
+		// 	for (let i = 1; i < themedFieldSet.length; i++) {
 
-				if (themedFieldSet[i] != themedFieldSet[3]) {
+		// 		if (themedFieldSet[i] != themedFieldSet[4]) {
 
-					themedFieldSet[i].style.display = 'none'
-				}
+		// 			themedFieldSet[i].style.display = 'none'
+		// 		}
 
-			}
+		// 	}
 
-			break;
+		// 	break;
 	}
 	
 })
