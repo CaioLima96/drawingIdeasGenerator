@@ -12,7 +12,9 @@ function getMultipleRandom(arr, num) {
     return shuffled.slice(0, num);
 }
 
-let randomData = () => getMultipleRandom(allThemes, 2)
+const combNumber = document.getElementById('combNumber')
+
+let randomData = () => getMultipleRandom(allThemes, combNumber.value)
 
 
 

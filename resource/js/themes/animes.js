@@ -102,7 +102,7 @@ const dragonBall = [
 
     {nameEnglish: 'Kid Kuririn', img: './assets/img/animes/dragonBall/kidKuririn.png', dataTheme:'dragonBall'},
 
-    {nameEnglish: 'Kid Trunk SSJ', img: './assets/img/animes/dragonBall/kidTrunkSSJ.png', dataTheme:'dragonBall'},
+    {nameEnglish: 'Kid Trunks SSJ', img: './assets/img/animes/dragonBall/kidTrunksSSJ.png', dataTheme:'dragonBall'},
 
     {nameEnglish: 'King Kai', img: './assets/img/animes/dragonBall/kingKai.png', dataTheme:'dragonBall'},
 
