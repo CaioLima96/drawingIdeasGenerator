@@ -56,6 +56,122 @@ const dragonBall = [
 
     {nameEnglish: 'Chaos', img: './assets/img/animes/dragonBall/chaos.png', dataTheme:'dragonBall'},
 
+    {nameEnglish: 'Chi Chi', img: './assets/img/animes/dragonBall/chiChi.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Dr.Gero', img: './assets/img/animes/dragonBall/drGero.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Evil Buu', img: './assets/img/animes/dragonBall/evilBuu.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Flying Nimbus', img: './assets/img/animes/dragonBall/flyingNimbus.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Frost', img: './assets/img/animes/dragonBall/frost.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Gogeta SSJ4', img: './assets/img/animes/dragonBall/gogetaSSJ4.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Goku', img: './assets/img/animes/dragonBall/goku.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Goku Black', img: './assets/img/animes/dragonBall/gokuBlack.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Goku Black SSJ Rosé', img: './assets/img/animes/dragonBall/gokuBlackSSJrose.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Goku SSG.png', img: './assets/img/animes/dragonBall/gokuSSG.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Goku SSG2', img: './assets/img/animes/dragonBall/gokuSSG2.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Goku SSG2 Kaioken', img: './assets/img/animes/dragonBall/gokuSSG2kaioken.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Goku SSJ3', img: './assets/img/animes/dragonBall/gokuSSJ3.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Golden Freeza', img: './assets/img/animes/dragonBall/goldenFreeza.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Gotenks SSJ3', img: './assets/img/animes/dragonBall/gotenksSSJ3.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Goten SSJ', img: './assets/img/animes/dragonBall/gotenSSJ.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Great Saiyaman', img: './assets/img/animes/dragonBall/greatSaiyaman.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Hit', img: './assets/img/animes/dragonBall/hit.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Jaco', img: './assets/img/animes/dragonBall/jaco.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Kid Buu', img: './assets/img/animes/dragonBall/kidBuu.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Kid Gohan', img: './assets/img/animes/dragonBall/kidGohan1.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Kid Gohan', img: './assets/img/animes/dragonBall/kidGohan2.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Kid Kuririn', img: './assets/img/animes/dragonBall/kidKuririn.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Kid Trunk SSJ', img: './assets/img/animes/dragonBall/kidTrunkSSJ.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'King Kai', img: './assets/img/animes/dragonBall/kingKai.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Kuririn', img: './assets/img/animes/dragonBall/kuririn.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Kuririn - Battle Armor', img: './assets/img/animes/dragonBall/kuririn(battleArmor).png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Majin Buu - Fat', img: './assets/img/animes/dragonBall/majinBuu(fat).png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Majin Vegeta', img: './assets/img/animes/dragonBall/majinVegeta.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Martin Man Piccolo', img: './assets/img/animes/dragonBall/martinManPiccolo.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Mestre Kame', img: './assets/img/animes/dragonBall/mestreKame.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Mestre Kame - Full Power', img: './assets/img/animes/dragonBall/mestreKameFullPower.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Mestre Karin', img: './assets/img/animes/dragonBall/mestrKarin.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Mirai Trunks', img: './assets/img/animes/dragonBall/miraiTrunks.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Mirai Trunks SSJ', img: './assets/img/animes/dragonBall/miraiTrunksSSJ.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Mr.Popo', img: './assets/img/animes/dragonBall/mrPopo.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Mr.Satan', img: './assets/img/animes/dragonBall/mrSatan.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Mr.Satan SSJ', img: './assets/img/animes/dragonBall/mrSatanSSJ.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Omega Shenron', img: './assets/img/animes/dragonBall/omegaShenron.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Paikuhan', img: './assets/img/animes/dragonBall/paikuhan.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Piccolo', img: './assets/img/animes/dragonBall/piccolo.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Porunga', img: './assets/img/animes/dragonBall/porunga.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Shenlong', img: './assets/img/animes/dragonBall/shenlong.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Shin', img: './assets/img/animes/dragonBall/shin.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Super Buu', img: './assets/img/animes/dragonBall/superBuu.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Teen Gohan SSJ2', img: './assets/img/animes/dragonBall/teenGohanSSJ2.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Tenshinhan', img: './assets/img/animes/dragonBall/tenShinHan.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Vegeta', img: './assets/img/animes/dragonBall/vegeta.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Vegeta SSG2', img: './assets/img/animes/dragonBall/vegetaSSG2.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Vegeto SSG2', img: './assets/img/animes/dragonBall/vegetoSSG2.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Vermouth', img: './assets/img/animes/dragonBall/vermouth.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Whis', img: './assets/img/animes/dragonBall/whis.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Yajirobe', img: './assets/img/animes/dragonBall/yajirobe.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Yamcha', img: './assets/img/animes/dragonBall/yamcha.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Yamcha', img: './assets/img/animes/dragonBall/yamcha2.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Zamasu', img: './assets/img/animes/dragonBall/zamasu.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Zen-Oh', img: './assets/img/animes/dragonBall/zenOh.png', dataTheme:'dragonBall'},
+
+    {nameEnglish: 'Alt Zen-Oh', img: './assets/img/animes/dragonBall/zenOh(alt).png', dataTheme:'dragonBall'},
+
     // {nameEnglish: '', img: './assets/img/animes/dragonBall/', dataTheme:'dragonBall'},
 ]
 
