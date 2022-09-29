@@ -1,5 +1,6 @@
 const allThemes = [
     ...allAnimes,
+    ...allObjects,
     ...ben10AllThemes, 
     ...mineAllDimensions,
     ...fortniteAllSkins,
