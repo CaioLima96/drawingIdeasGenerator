@@ -179,7 +179,7 @@ main {
 
 /* ============ LIST ============ */
 
-#random-name {
+#ideasList {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -189,19 +189,19 @@ main {
     /* border: 1px solid red; */
 }
 
-#random-name li {
+#ideasList li {
     width: 250px;
     text-align: center;
     font-size: 1.25rem;
 }
 
-#random-name li .imgContainer {
+#ideasList li .imgContainer {
     /* height: 296px; */
     height: 400px;
     /* border: 1px solid red; */
 }
 
-#random-name li .imgContainer img {
+#ideasList li .imgContainer img {
     object-fit: contain;
 }
 
@@ -277,7 +277,7 @@ footer > p:last-child {
         margin: 1rem;
     }
 
-    #random-name {
+    #ideasList {
         margin: auto;
     }
 }

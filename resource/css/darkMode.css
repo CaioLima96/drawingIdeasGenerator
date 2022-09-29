@@ -12,7 +12,7 @@
     color: var(--DarkModeGrey4) !important;
 }
 
-.darkMode form, .darkMode #random-name li  {
+.darkMode form, .darkMode #ideasList li  {
     color: var(--DarkModeWhite1);
 }
 

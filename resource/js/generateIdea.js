@@ -20,7 +20,7 @@ let randomData = () => getMultipleRandom(allThemes, combNumber.value)
 
 function setRandomData(valorTeste) {
 
-    // return document.getElementById('random-name').innerHTML = `
+    // return document.getElementById('ideasList').innerHTML = `
 
     //     ${randomData().map(item => {
 
@@ -33,11 +33,11 @@ function setRandomData(valorTeste) {
 
     // `
 
-    document.getElementById('random-name').innerHTML = ' '
+    document.getElementById('ideasList').innerHTML = ' '
 
     randomData().forEach(item => {
        
-        document.getElementById('random-name').innerHTML += `
+        document.getElementById('ideasList').innerHTML += `
 
                 <li dataTheme='${item.dataTheme}'>
                     <p style='margin-bottom: 16px'>${item.nameEnglish} ${item.dataTheme=='object' ? '' : `(${item.dataTheme})`}</p>
@@ -46,11 +46,11 @@ function setRandomData(valorTeste) {
             `
     })
 
-    // document.getElementById('random-name').innerHTML = ' '
+    // document.getElementById('ideasList').innerHTML = ' '
 
     // for (let i = 0; i < randomData().length; i++) {
 
-    //     document.getElementById('random-name').innerHTML += `
+    //     document.getElementById('ideasList').innerHTML += `
             
     //             <li dataTheme='${randomData()[i].nameEnglish}'>
     //                 <p style='margin-bottom: 16px'>${randomData()[i].nameEnglish}</p>

@@ -5,7 +5,6 @@ function openModal() {
 
 	modal.style.display = "block";
 	document.body.style.overflow = 'hidden'
-
 	console.log('open')
 }
 
@@ -38,8 +37,7 @@ window.onclick = function (event) {
 
 // ==============================================================
 
-
-let ideasList = document.getElementById('random-name')
+let ideasList = document.getElementById('ideasList').innerHTML
 let modalContent = document.getElementsByClassName('modalContent')[0]
 
 

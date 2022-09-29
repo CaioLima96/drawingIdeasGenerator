@@ -221,7 +221,7 @@ const onePiece = [
 
     {nameEnglish: 'Luffy - Post-Timeskip', img: './assets/img/animes/onePiece/luffy(postTimeSkip).png', dataTheme:'onePiece'},
 
-    {nameEnglish: 'Nami - Pre-Timeskip.', img: './assets/img/animes/onePiece/nami(preTimeSkip).png', dataTheme:'onePiece'},
+    {nameEnglish: 'Nami - Pre-Timeskip', img: './assets/img/animes/onePiece/nami(preTimeSkip).png', dataTheme:'onePiece'},
 
     {nameEnglish: 'Nico Robin - Pre-Timeskip', img: './assets/img/animes/onePiece/nicoRobin(preTimeSkip).png', dataTheme:'onePiece'},
 
