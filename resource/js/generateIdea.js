@@ -1,9 +1,8 @@
 const allThemes = [
     ...allAnimes,
     ...allObjects,
-    ...ben10AllThemes, 
-    ...mineAllDimensions,
-    ...fortniteAllSkins,
+    ...allGames,
+    ...ben10AllThemes,
 ]
 console.log('All themes: ' + allThemes.length)
 
