@@ -130,5 +130,5 @@ const allGames = [
 console.log([
     'Fortnite: ' + fortniteSkinsOriginals.length,
     'Minecraft: ' + allMineDimensions.length,
-    'All Games: ' + allGames.length
+    'All Games: ' + allGames.length,
 ])
