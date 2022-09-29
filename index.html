@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="./resource/css/global.css">
     <link rel="stylesheet" href="./resource/css/forms.css">
+    <link rel="stylesheet" href="./resource/css/modal.css">
     <link rel="stylesheet" href="./resource/css/darkMode.css">
 </head>
 
@@ -321,6 +322,7 @@
     </main>
 
     <button style="width: 120px" onclick="darkModeFunc()">Toggle dark mode</button>
+    <button style="width: 120px" onclick="openModal()">Expandir</button>
 
     <footer>
 
@@ -342,6 +344,31 @@
 
     </footer>
 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal body -->
+        <div class="modalBody">
+
+            <div class="modalHeader">
+                <span class="close">&times;</span>
+                <h2></h2>
+            </div>
+            
+            <div class="modalContent">
+      
+                <p>Olá mundo</p>
+
+            </div>
+
+            <div class="modalFooter">
+
+            </div>
+
+        </div>
+    
+    </div>
+
     <script>
         function darkModeFunc() {
             let element = document.body;
@@ -360,6 +387,7 @@
     <script src="./resource/js/themes/games.js"></script>
     <script src="./resource/js/themes/objects.js"></script>
     <script src="./resource/js/generateIdea.js"></script>
+    <script src="./resource/js/modal.js"></script>
 </body>
 
 </html>
