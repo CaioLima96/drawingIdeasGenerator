@@ -29,7 +29,7 @@ themeSelector.addEventListener('change', () => {
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
 
-				if (themedFieldSet[i] != themedFieldSet[0]) {
+				if (themedFieldSet[i] = themedFieldSet[0]) {
 
 					themedFieldSet[i].style.display = 'none'
 				}

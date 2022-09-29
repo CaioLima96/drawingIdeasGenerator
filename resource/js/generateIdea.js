@@ -36,15 +36,15 @@ function setRandomData(valorTeste) {
     document.getElementById('random-name').innerHTML = ' '
 
     randomData().forEach(item => {
+       
         document.getElementById('random-name').innerHTML += `
-            
+
                 <li dataTheme='${item.dataTheme}'>
-                    <p style='margin-bottom: 16px'>${item.nameEnglish} (${item.dataTheme})</p>
+                    <p style='margin-bottom: 16px'>${item.nameEnglish} ${item.dataTheme=='object' ? '' : `(${item.dataTheme})`}</p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
                 </li>
             `
     })
-
 
     // document.getElementById('random-name').innerHTML = ' '
 
