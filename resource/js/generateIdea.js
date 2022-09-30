@@ -6,6 +6,8 @@ const allThemes = [
 ]
 console.log('All themes: ' + allThemes.length)
 
+
+
 function getMultipleRandom(arr, num) {
     const shuffled = [...arr].sort(() => 0.5 - Math.random());
 
@@ -45,6 +47,8 @@ function setRandomData(valorTeste) {
                 </li>
             `
     })
+
+    clonedElement()
 
     // document.getElementById('ideasList').innerHTML = ' '
 

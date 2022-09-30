@@ -78,3 +78,17 @@
     background-color: #5cb85c;
     color: white;
 }
+
+.modalContent #ideasList {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.modalContent #ideasList li {
+    width: auto;
+    color: black !important;
+}
+
+.modalContent #ideasList li .imgContainer {
+    height: auto;
+}
