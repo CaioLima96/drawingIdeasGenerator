@@ -307,7 +307,7 @@
             <div class="inputField" style="margin-top: 60px" id="combNumberContainer">
 
                 <label for="combNumber">Number of combinations:</label>
-                <input type="number" id="combNumber" name="combNumber" value="2">
+                <input type="number" id="combNumber" name="combNumber" value="5">
 
             </div>
 
@@ -317,7 +317,18 @@
 
         <span class="division"></span>
 
-        <ul id="ideasList"></ul>
+        <div id="containerList">
+
+            <div id="gridSelector">
+
+                <div onclick="gridView()">Grid</div>
+                <div onclick="listView()">List</div>
+                <div onclick="openModal()">Expandir</div>
+
+            </div>
+
+            <ul id="ideasList"></ul>
+        </div>
 
     </main>
 
@@ -369,18 +380,7 @@
     
     </div>
 
-    <script>
-        function darkModeFunc() {
-            let element = document.body;
-            element.classList.toggle("darkMode");
-        }
-        // const checkbox = document.getElementById('dmCheckbox');
-
-        // checkbox.addEventListener('change', () => {
-        //     document.body.classList.toggle('darkMode');
-        // })
-    </script>
-
+    <script src="./resource/js/global.js"></script>
     <script src="./resource/js/showOptions.js"></script>
     <script src="./resource/js/themes/animes.js"></script>
     <script src="./resource/js/themes/ben10.js"></script>

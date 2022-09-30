@@ -41,7 +41,7 @@ function setRandomData(valorTeste) {
        
         document.getElementById('ideasList').innerHTML += `
 
-                <li dataTheme='${item.dataTheme}'>
+                <li class='generatedIdea' dataTheme='${item.dataTheme}'>
                     <p style='margin-bottom: 16px'>${item.nameEnglish} ${item.dataTheme=='object' ? '' : `(${item.dataTheme})`}</p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
                 </li>
