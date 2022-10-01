@@ -24,7 +24,7 @@ console.log(listItens)
 function listView() {
     for (let i = 0; i < listItens.length; i++) {
         listItens[i].style.width = "100%"
-        listItens[i].style.maxWidth = "500px%"
+        listItens[i].style.maxWidth = "500px"
     }
 }
 
@@ -40,7 +40,7 @@ function gridView() {
 //=========== NAV TAB ACTIVE
 
 // Get the container element
-let btnContainer = document.getElementById('listMenu');
+let btnContainer = document.getElementById('gridViewBtn');
 
 // Get all buttons with class="listMenuBtn" inside the container
 let btns = btnContainer.getElementsByClassName("listMenuBtn");
@@ -54,5 +54,6 @@ for (let i = 0; i < btns.length; i++) {
 		
 		currentBtn[0].className = currentBtn[0].className.replace(" activeMenuBtn", "");
 		this.className += " activeMenuBtn";
+
 	});
 }

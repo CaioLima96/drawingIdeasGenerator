@@ -318,12 +318,22 @@
         <span class="division"></span>
 
         <div id="containerList">
-
             <nav id="listMenu">
 
-                <button onclick="gridView()" class="listMenuBtn activeMenuBtn"><div class='imgContainer'><img src='./assets/img/icons/gridIcon1.png' alt="grid icon"></div>Grid</button>
-                <button onclick="listView()" class="listMenuBtn"><div class='imgContainer'><img src='./assets/img/icons/menuIcon2.png' alt="menu icon"></div>List</button>
-                <button onclick="openModal()" class="listMenuBtn"><div class='imgContainer'><img src='./assets/img/icons/expandIcon1.png' alt="expand icon"></div>Expand</button>
+                <div id="gridViewBtn">
+                    <button onclick="gridView()" class="listMenuBtn activeMenuBtn">
+                        <div class='imgContainer'><img src='./assets/img/icons/gridIcon1.png' alt="grid icon"></div>
+                        <p>Grid</p>
+                    </button>
+                    <button onclick="listView()" class="listMenuBtn">
+                        <div class='imgContainer'><img src='./assets/img/icons/menuIcon3.png' alt="menu icon"></div>
+                        <p>List</p>
+                    </button>
+                </div>
+                <button onclick="openModal()" class="listMenuBtn">
+                    <div class='imgContainer'><img src='./assets/img/icons/expandIcon1.png' alt="expand icon"></div>
+                    <p>Expand</p>
+                </button>
 
             </nav>
 

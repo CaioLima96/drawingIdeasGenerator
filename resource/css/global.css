@@ -184,25 +184,29 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-#listMenu div:not(div:last-child) {
-    margin-right: 10px;
+    margin-bottom: 1rem;
 }
 
 .listMenuBtn {
     display: flex;
     align-items: center;
     font-size: 0.875rem;
-    margin-bottom: 1rem;
-    padding: 0.625rem 1rem 0.5rem;
+    /* padding: 0.625rem 1rem 0.5rem; */
+    padding: 0.625rem 1rem;
     border: none;
     outline: none;
     background-color: #dcdcdc;
     border-radius: 3px;
 }
+.listMenuBtn p {
+    line-height: 13px;
+}
 
-.listMenuBtn:not(.listMenuBtn:last-child){
+#gridViewBtn {
+    display: flex;
+}
+
+#gridViewBtn .listMenuBtn{
     margin-right: 0.313rem;
 }
 
@@ -217,7 +221,7 @@ main {
     cursor: pointer;
 }
 
-.activeMenuBtn {
+.activeMenuBtn:not(.listMenuBtn:nth-child(3)) {
     background-color: rgb(116 116 116);
     color: white;
 }
@@ -244,7 +248,7 @@ main {
 
 #ideasList li {
     /* width: 250px; */
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
     font-size: 1.25rem;
     border: 1px solid blueviolet;

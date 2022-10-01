@@ -48,6 +48,9 @@ function setRandomData(valorTeste) {
             `
     })
 
+    btns[0].classList.add('activeMenuBtn')
+    btns[1].classList.remove('activeMenuBtn')
+    gridView()
     clonedElement()
 
     // document.getElementById('ideasList').innerHTML = ' '
@@ -67,6 +70,3 @@ function setRandomData(valorTeste) {
 document.getElementById('generate').addEventListener('click', setRandomData);
 
 // setRandomData()
-
-// console.log(randomData)
-// console.log(getMultipleRandom(allThemes, 2));
