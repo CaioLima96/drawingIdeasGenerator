@@ -180,7 +180,7 @@ main {
 /* ============ LIST/GRID VIEW ============ */
 
 #listMenu {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;

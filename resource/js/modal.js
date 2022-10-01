@@ -3,7 +3,7 @@ let modal = document.getElementById("myModal");
 
 function openModal() {
 
-	modal.style.display = "block";
+	modal.style.display = "block"
 	document.body.style.overflow = 'hidden'
 	console.log('open')
 }

@@ -35,6 +35,8 @@ function setRandomData(valorTeste) {
 
     // `
 
+    document.getElementById('listMenu').style.display = 'flex'
+
     document.getElementById('ideasList').innerHTML = ' '
 
     randomData().forEach(item => {
