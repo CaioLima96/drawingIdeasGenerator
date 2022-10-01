@@ -319,13 +319,13 @@
 
         <div id="containerList">
 
-            <div id="gridSelector">
+            <nav id="listMenu">
 
-                <div onclick="gridView()">Grid</div>
-                <div onclick="listView()">List</div>
-                <div onclick="openModal()">Expandir</div>
+                <button onclick="gridView()" class="listMenuBtn activeMenuBtn"><div class='imgContainer'><img src='./assets/img/icons/gridIcon1.png' alt="grid icon"></div>Grid</button>
+                <button onclick="listView()" class="listMenuBtn"><div class='imgContainer'><img src='./assets/img/icons/menuIcon2.png' alt="menu icon"></div>List</button>
+                <button onclick="openModal()" class="listMenuBtn"><div class='imgContainer'><img src='./assets/img/icons/expandIcon1.png' alt="expand icon"></div>Expand</button>
 
-            </div>
+            </nav>
 
             <ul id="ideasList"></ul>
         </div>
@@ -333,7 +333,6 @@
     </main>
 
     <button style="width: 120px" onclick="darkModeFunc()">Toggle dark mode</button>
-    <button style="width: 120px" onclick="openModal()">Expandir</button>
 
     <footer>
 

@@ -177,6 +177,53 @@ main {
 
 
 
+/* ============ LIST/GRID VIEW ============ */
+
+#listMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#listMenu div:not(div:last-child) {
+    margin-right: 10px;
+}
+
+.listMenuBtn {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    padding: 0.625rem 1rem 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+}
+
+.listMenuBtn:not(.listMenuBtn:last-child){
+    margin-right: 0.313rem;
+}
+
+.listMenuBtn .imgContainer {
+    width: 12px;
+    margin-right: 0.313rem;
+}
+
+.listMenuBtn:hover:not(.activeMenuBtn) {
+    background-color: #c8c8c8;
+    color: black;
+    cursor: pointer;
+}
+
+.activeMenuBtn {
+    background-color: rgb(116 116 116);
+    color: white;
+}
+
+
+
 /* ============ LIST ============ */
 
 #containerList {
@@ -219,16 +266,6 @@ main {
     object-fit: contain;
 }
 
-#gridSelector {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#gridSelector div:not(div:last-child) {
-    margin-right: 10px;
-}
 
 
 /* ========================= FOOTER ========================= */
