@@ -79,9 +79,18 @@
     color: white;
 }
 
+.modalContent #containerList {
+    width: 100%;
+}
+
+.modalContent #listMenu > button:last-child {
+    display: none;
+}
+
 .modalContent #ideasList {
     margin: 0 auto;
-    width: 700px;
+    width: 608px;
+    max-width: 100%;
 }
 
 .modalContent #ideasList li {
@@ -89,6 +98,13 @@
     color: black !important;
 }
 
-/* .modalContent #ideasList li .imgContainer {
-    height: 500px;
-} */
+
+
+/* ========================= @MEDIA ========================= */
+
+@media (max-width: 699px) {
+
+    .modalContent #ideasList li {
+        width: 100% !important;
+    }
+}

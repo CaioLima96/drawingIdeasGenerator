@@ -90,7 +90,7 @@ body::-webkit-scrollbar-thumb:hover {
 /* ========================= HEADER ========================= */
 
 header {
-    padding: 0.375rem 1.5rem 0.375rem 0.625rem;
+    /* padding: 0.375rem 1.5rem 0.375rem 0.625rem; */
     background-color: var(--blue1);
 }
 
@@ -99,6 +99,14 @@ header nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+header nav > div {
+    padding-left: 0.625rem;
+}
+
+header nav .imgContainer:nth-child(2), header .break{
+   display: none;
 }
 
 header a {
@@ -110,11 +118,12 @@ header a:hover {
     color: black;
 }
 
-header nav > div:first-child {
+#headerLogo {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 1.563rem;
+    /* padding-left: 0.625rem; */
 }
 
 header nav > div:first-child a {
@@ -131,11 +140,13 @@ header nav > div:first-child a div {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 header nav ul li {
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
+    padding: 1rem;
 }
 
 
@@ -338,6 +349,50 @@ footer > p:last-child {
     #ideasList li {
         width: 100%;
         height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hideShowHeaderNavMenu {
+        display: block !important;
+    }
+
+    header .break{
+        display: block;
+    }
+
+    header nav > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0.625rem;
+    }
+
+    #headerLogo {
+        font-size: 1.25rem;
+    }
+
+    #headerLogo .imgContainer {
+        width: 18px;
+    }
+
+    header nav > div .imgContainer:nth-child(2){
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    #headerNavMenu {
+        display: none;
+        width: 100%;
+        padding: 0.625rem 0;
+        background-color: #333333 !important;
+    }
+
+    #headerNavMenu a {
+        color: white;
     }
 }
 

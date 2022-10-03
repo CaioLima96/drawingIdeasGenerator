@@ -16,6 +16,15 @@ function darkModeFunc() {
 
 //================ LIST/GRID VIEW
 
+function myNavBar() {
+	let lista = document.getElementById("headerNavMenu")
+	lista.classList.toggle('hideShowHeaderNavMenu')
+}
+
+
+
+//================ LIST/GRID VIEW
+
 let lista = document.getElementById('ideasList')
 let listItens = document.getElementsByClassName("generatedIdea")
 console.log(listItens)
