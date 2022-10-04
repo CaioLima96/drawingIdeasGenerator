@@ -36,7 +36,7 @@ window.onclick = function (event) {
 function clonedElement(){
 	let ideasList = document.getElementById('ideasList')
 	let containerList = document.getElementById('containerList')
-	let clone = containerList.cloneNode(true)
+	let clone = ideasList.cloneNode(true)
 	document.getElementsByClassName('modalContent')[0].innerHTML = ''
 	document.getElementsByClassName('modalContent')[0].appendChild(clone)
 }

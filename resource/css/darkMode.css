@@ -27,6 +27,14 @@
     font-weight: bold;
 }
 
+.darkMode .modalBody {
+    background-color: var(--DarkModeGrey5);
+}
+
+.darkMode .modalBody #ideasList li p {
+    color: white;
+}
+
 
 
 /* ============ DARK MODE BTN ============ */

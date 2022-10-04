@@ -79,7 +79,7 @@
     color: white;
 }
 
-.modalContent #containerList {
+.modalContent #containerList, .modalContent #ideasList {
     margin: 0 auto;
 }
 
@@ -89,6 +89,10 @@
 
 .modalContent #ideasList li {
     color: black !important;
+}
+
+.modalContent .gridView li .imgContainer {
+    height: 400px;
 }
 
 .modalHeader #listMenu {
