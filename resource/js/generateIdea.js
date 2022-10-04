@@ -53,7 +53,7 @@ function setRandomData(valorTeste) {
     btns[0].classList.add('activeMenuBtn')
     btns[1].classList.remove('activeMenuBtn')
     gridView()
-    clonedElement()
+    // clonedElement()
 
     // document.getElementById('ideasList').innerHTML = ' '
 

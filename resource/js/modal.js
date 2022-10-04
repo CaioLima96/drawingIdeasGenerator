@@ -5,6 +5,7 @@ function openModal() {
 
 	modal.style.display = "block"
 	document.body.style.overflow = 'hidden'
+	clonedElement()
 	console.log('open')
 }
 
@@ -33,6 +34,7 @@ window.onclick = function (event) {
 
 
 function clonedElement(){
+	let ideasList = document.getElementById('ideasList')
 	let containerList = document.getElementById('containerList')
 	let clone = containerList.cloneNode(true)
 	document.getElementsByClassName('modalContent')[0].innerHTML = ''

@@ -4,7 +4,7 @@ const mineOverworldMobs = [
 
     {nameEnglish: 'Baby Drowned', img: './assets/img/minecraft/overworld/babyDrownedTrident.png', dataTheme:'minecraft', mineDimension: 'overworld'},
 
-    {nameEnglish: 'chicken Jockey - Zombie', img: './assets/img/minecraft/overworld/chickenJockey(Zombie).png', dataTheme:'minecraft', mineDimension: 'overworld'},
+    {nameEnglish: 'Chicken Jockey - Zombie', img: './assets/img/minecraft/overworld/chickenJockey(Zombie).png', dataTheme:'minecraft', mineDimension: 'overworld'},
 
     {nameEnglish: 'Creeper', img: './assets/img/minecraft/overworld/creeper.png', dataTheme:'minecraft', mineDimension: 'overworld'},
     

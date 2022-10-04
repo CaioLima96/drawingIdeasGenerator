@@ -14,7 +14,7 @@ function darkModeFunc() {
 
 
 
-//================ LIST/GRID VIEW
+//================ RESPONSIVE MENU
 
 function myNavBar() {
 	let lista = document.getElementById("headerNavMenu")
@@ -31,17 +31,23 @@ console.log(listItens)
 
 // List View
 function listView() {
-    for (let i = 0; i < listItens.length; i++) {
-        listItens[i].style.width = "100%"
-        listItens[i].style.maxWidth = "500px"
-    }
+    // for (let i = 0; i < listItens.length; i++) {
+    //     listItens[i].style.width = "100%"
+    //     listItens[i].style.maxWidth = "500px"
+    // }
+    lista.classList.remove('gridView')
+    lista.classList.add('listView')
+    console.log('lista')
 }
 
 // Grid View
 function gridView() {
-    for (let i = 0; i < listItens.length; i++) {
-        listItens[i].style.width = "50%";
-    }
+    // for (let i = 0; i < listItens.length; i++) {
+    //     listItens[i].style.width = "50%";
+    // }
+    lista.classList.remove('listView')
+    lista.classList.add('gridView')
+    console.log('grid')
 }
 
 

@@ -57,7 +57,6 @@
 /* The Close Button */
 .close {
     /* color: white; */
-    float: right;
     font-size: 28px;
     font-weight: bold;
 }
@@ -71,6 +70,7 @@
 .modalHeader {
     padding: 1rem;
     border-bottom: 1px solid var(--grey3);
+    text-align: right;
 }
 
 .modalFooter {
@@ -80,25 +80,20 @@
 }
 
 .modalContent #containerList {
-    width: 100%;
+    margin: 0 auto;
 }
 
 .modalContent #listMenu > button:last-child {
     display: none;
 }
 
-.modalContent #ideasList {
-    margin: 0 auto;
-    width: 608px;
-    max-width: 100%;
-}
-
 .modalContent #ideasList li {
-    width: auto;
     color: black !important;
 }
 
-
+.modalHeader #listMenu {
+    display: flex;
+}
 
 /* ========================= @MEDIA ========================= */
 

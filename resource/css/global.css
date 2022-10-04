@@ -126,13 +126,13 @@ header a:hover {
     /* padding-left: 0.625rem; */
 }
 
-header nav > div:first-child a {
+#headerLogo a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
-header nav > div:first-child a div {
+#headerLogo a div {
     width: 20px;
     margin-right: 0.438rem;
 }
@@ -242,17 +242,16 @@ main {
 /* ============ LIST ============ */
 
 #containerList {
-    width: 608px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 608px;
 }
 
 #ideasList {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     flex-wrap: wrap;
-    /* width: 608px;
-    max-width: 100%; */
     width: 100%;
+    max-width: 608px;
     /* color: black; */
     border: 1px solid red;
 }
@@ -272,15 +271,39 @@ main {
 #ideasList li .imgContainer {
     /* height: 296px; */
     /* height: 400px; */
-    height: 100%;
-    max-height: 500px;
-    /* border: 1px solid red; */
+    /* height: 100%;
+    max-height: 500px; */
+    border: 1px solid red;
 }
 
 #ideasList li .imgContainer img {
     object-fit: contain;
 }
 
+.gridView {
+    justify-content: space-evenly;
+}
+
+.gridView li {
+    width: 300px;
+}
+
+.gridView li .imgContainer {
+    height: 350px;
+}
+
+.listView {
+    flex-direction: column;
+    align-items: center;
+}
+
+.listView li {
+    width: auto;
+}
+
+.listView li .imgContainer {
+    height: 400px;
+}
 
 
 /* ========================= FOOTER ========================= */
@@ -345,10 +368,9 @@ footer > p:last-child {
 
 /* ========================= @MEDIA ========================= */
 
-@media (max-width: 555px) {
-    #ideasList li {
-        width: 100%;
-        height: auto;
+@media (max-width: 668px) {
+    .gridView li  {
+        width: 50%;
     }
 }
 
