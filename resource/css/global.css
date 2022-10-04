@@ -102,11 +102,11 @@ header nav {
     flex-wrap: wrap;
 }
 
-header nav > div {
+header nav > div:first-child {
     padding-left: 0.625rem;
 }
 
-header nav .imgContainer:nth-child(2), header .break{
+header nav .imgContainer:nth-child(2), header .break, header nav > div:last-child{
    display: none;
 }
 
@@ -114,10 +114,10 @@ header a {
     color: var(--black1);
 }
 
-header a:hover {
+/* header a:hover {
     font-weight: bold;
     color: black;
-}
+} */
 
 #headerLogo {
     display: flex;
@@ -138,18 +138,30 @@ header a:hover {
     margin-right: 0.438rem;
 }
 
-header nav ul {
+#headerLogo p:hover {
+    font-style: italic;
+}
+
+#headerNavMenu {
     display: flex;
     flex-wrap: wrap;
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-header nav ul li {
+#headerNavMenu li {
     /* margin-left: 1.5rem; */
     padding: 1rem;
+    font-weight: bold;
 }
 
+#headerNavMenu li:hover {
+    background-color: black;
+}
+
+#headerNavMenu li:hover a {
+    color: #5391ED;
+}
 
 
 /* ========================= MAIN CONTAINER ========================= */
@@ -160,8 +172,8 @@ main {
     flex-wrap: wrap;
     max-width: 1185px;
     width: 90%;
-    margin: 5rem auto;
-    /* padding: 10px; */
+    margin: 0 auto;
+    padding: 5rem 0;
     /* border: 1px solid black; */
 }
 
@@ -366,7 +378,6 @@ footer > p:last-child {
 
 
 
-
 /* ========================= @MEDIA ========================= */
 
 @media (max-width: 668px) {
@@ -380,12 +391,16 @@ footer > p:last-child {
     .hideShowHeaderNavMenu {
         display: block !important;
     }
-
-    header .break{
+    
+    header .break, header nav > div:last-child{
         display: block;
     }
 
-    header nav > div {
+    header nav {
+        position: relative;
+    }
+
+    header nav > div:first-child {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -412,6 +427,9 @@ footer > p:last-child {
         width: 100%;
         padding: 0.625rem 0;
         background-color: #333333 !important;
+        position: absolute;
+        top: 98%;
+        z-index: 3;
     }
 
     #headerNavMenu a {

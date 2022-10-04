@@ -16,9 +16,14 @@ function darkModeFunc() {
 
 //================ RESPONSIVE MENU
 
+let headerNavMenu = document.getElementById("headerNavMenu")
+
 function myNavBar() {
-	let lista = document.getElementById("headerNavMenu")
-	lista.classList.toggle('hideShowHeaderNavMenu')
+	headerNavMenu.classList.toggle('hideShowHeaderNavMenu')
+}
+
+function closeNavBar() {
+    headerNavMenu.classList.remove('hideShowHeaderNavMenu')
 }
 
 
