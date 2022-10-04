@@ -2,9 +2,13 @@
     background-color: var(--DarkModeGrey3);
 }
 
-.darkMode header, .darkMode footer, .darkMode header a, .darkMode footer a{
+.darkMode header, .darkMode footer, .darkMode header, .darkMode footer{
     background-color: var(--DarkModeGrey2);
     /* color: rgb(230, 230, 230); */
+    color: white;
+}
+
+.darkMode header a {
     color: white;
 }
 
