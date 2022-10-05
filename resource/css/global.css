@@ -155,11 +155,26 @@ header a {
     font-weight: bold;
 }
 
+#headerNavMenu li:last-child {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#headerNavMenu li:last-child p {
+    margin-right: 5px;
+    pointer-events: none;
+}
+
+#headerNavMenu li:last-child > div {
+    pointer-events: none;
+}
+
 #headerNavMenu li:hover {
     background-color: black;
 }
 
-#headerNavMenu li:hover a {
+#headerNavMenu li:hover a, #headerNavMenu li:hover p{
     color: #5391ED;
 }
 

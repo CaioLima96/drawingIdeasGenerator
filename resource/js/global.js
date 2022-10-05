@@ -3,6 +3,11 @@
 function darkModeFunc() {
     let element = document.body;
     element.classList.toggle("darkMode");
+    document.getElementById('darkModeBtn').classList.toggle('toggleSunMoon')
+}
+
+function snmn (){
+    document.getElementById('darkModeBtn').classList.toggle('toggleSunMoon')
 }
 
 
