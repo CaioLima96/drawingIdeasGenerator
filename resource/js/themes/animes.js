@@ -329,12 +329,12 @@ const saintSeiya = [
 ]
 
 const allAnimes = [
-    // ...bleach,
-    // ...bnha,
-    // ...dragonBall,
+    ...bleach,
+    ...bnha,
+    ...dragonBall,
     ...onePiece,
-    // ...onePunchMan,
-    // ...saintSeiya,
+    ...onePunchMan,
+    ...saintSeiya,
 ]
 
 // console.log('Bleach: ' + bleach.length)
