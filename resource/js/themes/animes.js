@@ -120,7 +120,7 @@ const dragonBall = [
 
     {nameEnglish: 'Mestre Kame - Full Power', img: './assets/img/animes/dragonBall/mestreKameFullPower.png', dataTheme:'dragonBall'},
 
-    {nameEnglish: 'Mestre Karin', img: './assets/img/animes/dragonBall/mestrKarin.png', dataTheme:'dragonBall'},
+    {nameEnglish: 'Mestre Karin', img: './assets/img/animes/dragonBall/mestreKarin.png', dataTheme:'dragonBall'},
 
     {nameEnglish: 'Mirai Trunks', img: './assets/img/animes/dragonBall/miraiTrunks.png', dataTheme:'dragonBall'},
 
@@ -329,12 +329,12 @@ const saintSeiya = [
 ]
 
 const allAnimes = [
-    ...bleach,
-    ...bnha,
-    ...dragonBall,
+    // ...bleach,
+    // ...bnha,
+    // ...dragonBall,
     ...onePiece,
-    ...onePunchMan,
-    ...saintSeiya,
+    // ...onePunchMan,
+    // ...saintSeiya,
 ]
 
 // console.log('Bleach: ' + bleach.length)
