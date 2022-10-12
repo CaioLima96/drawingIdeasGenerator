@@ -1,6 +1,6 @@
 let themeSelector = document.getElementById('themeSelector')
 let themedFieldSet = document.querySelectorAll('.themedFieldSet')
-console.log(themedFieldSet)
+// console.log(themedFieldSet)
 
 themeSelector.addEventListener('change', () => {
 
@@ -16,7 +16,7 @@ themeSelector.addEventListener('change', () => {
 				themedFieldSet[i].style.display = 'none'
 			}
 
-			// setRandomData(themeSelector.value)
+			getThemeValue(themeSelector.value)
 
 			console.log('testando todos')
 
@@ -36,6 +36,8 @@ themeSelector.addEventListener('change', () => {
 
 			}
 
+			getThemeValue(themeSelector.value)
+
 			console.log('testando animes')
 
 			break;
@@ -54,6 +56,7 @@ themeSelector.addEventListener('change', () => {
 
 			}
 
+			getThemeValue(themeSelector.value)
 			console.log('testando ben')
 
 			break;
@@ -71,6 +74,8 @@ themeSelector.addEventListener('change', () => {
 				}
 
 			}
+
+			getThemeValue(themeSelector.value)
 
 			break;
 
@@ -111,8 +116,8 @@ themeSelector.addEventListener('change', () => {
 	
 })
 
-console.log(themeSelector)
-console.log(themedFieldSet)
+// console.log(themeSelector)
+// console.log(themedFieldSet)
 
 
 

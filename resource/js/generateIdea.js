@@ -1,26 +1,81 @@
+const combNumber = document.getElementById('combNumber')
+
 const allThemes = [
     ...allAnimes,
-    ...allObjects,
+    // ...allObjects,
     ...allGames,
     ...ben10AllThemes,
 ]
 console.log('All themes: ' + allThemes.length)
 
+function getThemeValue (theme) {
+    console.log('getThemeValue: ' + theme)
+
+    switch(theme) {
+
+        case 'allThemes':
+
+            allThemes
+            // [...allThemes]
+            // getMultipleRandom(allThemes, combNumber.value)
+            // randomData(allThemes)
+            // setRandomData(allThemes)
+            // console.log(allThemes)
+            break;
+
+        case 'animes':
+
+            allAnimes
+            // [...allAnimes]
+            // getMultipleRandom(allAnimes, combNumber.value)
+            // randomData(allAnimes)
+            // setRandomData(allAnimes)
+            // console.log(allAnimes)
+            break
+
+        case 'ben10':
+
+            ben10AllThemes
+            // [...ben10AllThemes]
+            // getMultipleRandom(ben10AllThemes, combNumber.value)
+            // randomData(ben10AllThemes)
+            // setRandomData(ben10AllThemes)
+            // console.log(ben10AllThemes)
+            break
+        
+        case 'games':
+
+            allGames
+            // [...allGames]
+            // getMultipleRandom(allGames, combNumber.value)
+            // randomData(allGames)
+            // setRandomData(allGames)
+            // console.log(allGames)
+            break
+    }
+}
 
 
 function getMultipleRandom(arr, num) {
+    console.log(arr)
+    console.log('comb num: ' + num)
     const shuffled = [...arr].sort(() => 0.5 - Math.random());
+    console.log(shuffled.slice(0, num))
 
     return shuffled.slice(0, num);
 }
 
-const combNumber = document.getElementById('combNumber')
+// let randomData = () => getMultipleRandom(getThemeValue(), combNumber.value)
+// let randomData = () => getMultipleRandom()
+let randomData = (themeArr) => getMultipleRandom(getThemeValue() ? getThemeValue() : allThemes, combNumber.value)
+// let randomData = (themeArr) => {
+//     console.log(themeArr)
+// }
 
-let randomData = () => getMultipleRandom(allThemes, combNumber.value)
 
 
-
-function setRandomData(valorTeste) {
+function setRandomData(valor) {
+    // console.log(valor)
 
     // return document.getElementById('ideasList').innerHTML = `
 

@@ -37,7 +37,7 @@ function closeNavBar() {
 
 let lista = document.getElementById('ideasList')
 let listItens = document.getElementsByClassName("generatedIdea")
-console.log(listItens)
+// console.log(listItens)
 
 // List View
 function listView() {
@@ -47,7 +47,7 @@ function listView() {
     // }
     lista.classList.remove('gridView')
     lista.classList.add('listView')
-    console.log('lista')
+    // console.log('lista')
 }
 
 // Grid View
@@ -57,7 +57,7 @@ function gridView() {
     // }
     lista.classList.remove('listView')
     lista.classList.add('gridView')
-    console.log('grid')
+    // console.log('grid')
 }
 
 
