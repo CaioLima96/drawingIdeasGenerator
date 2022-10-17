@@ -79,6 +79,24 @@ themeSelector.addEventListener('change', () => {
 
 			break;
 
+		case 'objects':
+			
+			document.getElementById('objectsFieldSet').style.display = 'block'
+			document.getElementById('animesFieldSet').style.display = 'none'
+
+			for (let i = 1; i < themedFieldSet.length; i++) {
+
+				if (themedFieldSet[i] != themedFieldSet[3]) {
+
+					themedFieldSet[i].style.display = 'none'
+				}
+
+			}
+
+			getThemeValue(themeSelector.value)
+
+			break;
+		
 		// case 'minecraft':
 
 		// 	document.getElementById('minecraftFieldSet').style.display = 'block'
