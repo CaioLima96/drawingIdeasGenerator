@@ -25,11 +25,41 @@ const bleach = [
 
 const bnha = [
 
+    {nameEnglish: 'All For One', img: './assets/img/animes/bnha/allForOne.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'All Might', img: './assets/img/animes/bnha/allMight.png', dataTheme:'bnha'},
+
     {nameEnglish: 'Asui', img: './assets/img/animes/bnha/asui.png', dataTheme:'bnha'},
 
     {nameEnglish: 'Bakugou', img: './assets/img/animes/bnha/bakugou.png', dataTheme:'bnha'},
 
+    {nameEnglish: 'Dabi', img: './assets/img/animes/bnha/dabi.png', dataTheme:'bnha'},
+    
+    {nameEnglish: 'Deku', img: './assets/img/animes/bnha/deku.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Endeavor', img: './assets/img/animes/bnha/endeavor.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Eraser Head', img: './assets/img/animes/bnha/eraserHead.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Hawks', img: './assets/img/animes/bnha/hawks.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Kamui Woods', img: './assets/img/animes/bnha/kamuiWoods.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Kirishima', img: './assets/img/animes/bnha/kirishima.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Mirko', img: './assets/img/animes/bnha/mirko.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Momo Yaoyorozu', img: './assets/img/animes/bnha/momoYaoyorozu.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Mount Lady', img: './assets/img/animes/bnha/mountLady.png', dataTheme:'bnha'},
+
     {nameEnglish: 'Shigaraki', img: './assets/img/animes/bnha/shigaraki.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Stain', img: './assets/img/animes/bnha/stain.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Todoroki', img: './assets/img/animes/bnha/todoroki2.png', dataTheme:'bnha'},
+
+    {nameEnglish: 'Uraraka', img: './assets/img/animes/bnha/uraraka.png', dataTheme:'bnha'},
 
     // {nameEnglish: '', img: './assets/img/animes/bnha/', dataTheme:'bnha'},
 ]
@@ -329,12 +359,12 @@ const saintSeiya = [
 ]
 
 const allAnimes = [
-    ...bleach,
+    // ...bleach,
     ...bnha,
-    ...dragonBall,
-    ...onePiece,
-    ...onePunchMan,
-    ...saintSeiya,
+    // ...dragonBall,
+    // ...onePiece,
+    // ...onePunchMan,
+    // ...saintSeiya,
 ]
 
 // console.log('Bleach: ' + bleach.length)

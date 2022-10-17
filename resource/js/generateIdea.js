@@ -3,8 +3,8 @@ const combNumber = document.getElementById('combNumber')
 const allThemes = [
     ...allAnimes,
     // ...allObjects,
-    ...allGames,
-    ...ben10AllThemes,
+    // ...allGames,
+    // ...ben10AllThemes,
 ]
 console.log('All themes: ' + allThemes.length)
 
@@ -55,10 +55,35 @@ function getThemeValue (theme) {
     }
 }
 
+// function getThemeValue (theme) {
+//     console.log('getThemeValue: ' + theme)
+
+//     if (theme == 'allThemes') {
+
+//         return allThemes
+
+//     } else if (theme == 'animes') {
+
+//         return allAnimes
+
+//     }
+//     else if (theme == 'ben10') {
+
+//         return ben10AllThemes
+
+//     }
+//     else if (theme == 'games') {
+       
+//         return allGames
+
+//     }
+// }
 
 function getMultipleRandom(arr, num) {
     console.log(arr)
     console.log('comb num: ' + num)
+    // let arrr = [...arr]
+    // console.log(arrr)
     const shuffled = [...arr].sort(() => 0.5 - Math.random());
     console.log(shuffled.slice(0, num))
 
