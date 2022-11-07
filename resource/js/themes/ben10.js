@@ -8,6 +8,8 @@ const ben10BenPrimeOsAliens = [
 
     {namePtbr: 'Aquático', nameEnglish: "Ripjaws", img:'./assets/img/ben10/aliens/benPrime/classico/aquatico-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
 
+    {namePtbr: 'Aquático', nameEnglish: "Ripjaws", img:'./assets/img/ben10/aliens/benPrime/classico/aquatico-(classico)-2.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
+
     {namePtbr: 'Bala de Canhão', nameEnglish: "Cannonbolt", img:'./assets/img/ben10/aliens/benPrime/classico/bala-de-canhao-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
 
     {namePtbr: 'Ben Múmia', nameEnglish: "Snare-oh", img:'./assets/img/ben10/aliens/benPrime/classico/ben-mumia-(classico)-1.png', dataTheme: 'ben10', dataSeason: 'ben10Classic'},
@@ -68,9 +70,9 @@ const ben10BenPrimeAfAliens = [
 
     {namePtbr: 'Serena', nameEnglish: "Serena", img:'./assets/img/ben10/aliens/benPrime/af/bellicus-e-serena-(af)-2.png', dataTheme: 'ben10', dataSeason: 'ben10af'},
 
-    {namePtbr: 'Calafrio (Manto)', nameEnglish: "Big Chill (Cloaked)", img:'./assets/img/ben10/aliens/benPrime/af/calafrio-(af)-1.png', dataTheme: 'ben10', dataSeason: 'ben10af'},
+    {namePtbr: 'Calafrio', nameEnglish: "Big Chill (Cloaked)", img:'./assets/img/ben10/aliens/benPrime/af/calafrio-(af)-1.png', dataTheme: 'ben10', dataSeason: 'ben10af'},
 
-    {namePtbr: 'Calafrio (Asas)', nameEnglish: "Big Chill (Wings)", img:'./assets/img/ben10/aliens/benPrime/af/calafrio-(af)-2.png', dataTheme: 'ben10', dataSeason: 'ben10af'},
+    {namePtbr: 'Calafrio', nameEnglish: "Big Chill (Wings)", img:'./assets/img/ben10/aliens/benPrime/af/calafrio-(af)-2.png', dataTheme: 'ben10', dataSeason: 'ben10af'},
 
     {namePtbr: 'Cromáaaaatico', nameEnglish: "Chromastone", img:'./assets/img/ben10/aliens/benPrime/af/cromatico-(af)-1.png', dataTheme: 'ben10', dataSeason: 'ben10af'},
 
@@ -103,13 +105,83 @@ const ben10BenPrimeAfAliens = [
 
 
 
+// ULTIMATE ALIEN
+
+const ben10BenPrimeUaUltiAliens = [
+
+    {namePtbr: 'Bala de Canhão Supremo', nameEnglish: "Ultimate Cannonbolt", img:'./assets/img/ben10/aliens/benPrime/ua/bala-de-canhao-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: '', nameEnglish: "Ultimate Wildmutt", img:'./assets/img/ben10/aliens/benPrime/ua/besta-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Calafrio Supremo', nameEnglish: "Ultimate Big Chill", img:'./assets/img/ben10/aliens/benPrime/ua/calafrio-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Eco Eco Supremo', nameEnglish: "Ultimate Echo Echo", img:'./assets/img/ben10/aliens/benPrime/ua/eco-eco-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Enormossauro Supremo', nameEnglish: "Ultimate Humungousaur", img:'./assets/img/ben10/aliens/benPrime/ua/enormossauro-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Fogo Fátuo Supremo', nameEnglish: "Ultimate Swampfire", img:'./assets/img/ben10/aliens/benPrime/ua/fogo-selvagem-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Macaco Aranha Supremo', nameEnglish: "Ultimate Spidermonkey", img:'./assets/img/ben10/aliens/benPrime/ua/macaco-aranha-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Way Big Supremo', nameEnglish: "Ultimate Way Big", img:'./assets/img/ben10/aliens/benPrime/ua/waybig-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    // {namePtbr: '', nameEnglish: "", img:'./assets/img/ben10/aliens/benPrime/ua/', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+]
+
+const ben10BenPrimeUaAliens = [
+
+    {namePtbr: '4 Braços', nameEnglish: "4 Arms", img:'./assets/img/ben10/aliens/benPrime/ua/4-bracos-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Acelerado', nameEnglish: "Fasttrack", img:'./assets/img/ben10/aliens/benPrime/ua/acelerado-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Ameaça Aquática', nameEnglish: "Water Hazard", img:'./assets/img/ben10/aliens/benPrime/ua/ameaca-aquatica-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Anfíbio', nameEnglish: "Ampfibian", img:'./assets/img/ben10/aliens/benPrime/ua/anfibio-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Áquatico', nameEnglish: "Ripjaws", img:'./assets/img/ben10/aliens/benPrime/ua/aquatico-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Armatu', nameEnglish: "Armodrillo", img:'./assets/img/ben10/aliens/benPrime/ua/armatu-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Ben/Rex - Heróis Unidos', nameEnglish: "Ben/Rex - Heroes United", img:'./assets/img/ben10/aliens/benPrime/ua/ben-rex-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Besouro', nameEnglish: "Eatle", img:'./assets/img/ben10/aliens/benPrime/ua/besouro-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Chama', nameEnglish: "Heatblast", img:'./assets/img/ben10/aliens/benPrime/ua/chama-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'ChamAlien', nameEnglish: "ChamAlien", img:'./assets/img/ben10/aliens/benPrime/ua/chamalien-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Contra Tempo', nameEnglish: "Clockwork", img:'./assets/img/ben10/aliens/benPrime/ua/contra-tempo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Diabrete', nameEnglish: "Juryrigg", img:'./assets/img/ben10/aliens/benPrime/ua/diabrete-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Fantasmatico', nameEnglish: "Ghostfreak", img:'./assets/img/ben10/aliens/benPrime/ua/fantasmatico-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Nrg (Armadura)', nameEnglish: "Nrg (Armor)", img:'./assets/img/ben10/aliens/benPrime/ua/nrg-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Nrg (Forma Real)', nameEnglish: "Nrg (True Form)", img:'./assets/img/ben10/aliens/benPrime/ua/nrg-(ua)-2.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Shocksquatch', nameEnglish: "Shocksquatch", img:'./assets/img/ben10/aliens/benPrime/ua/shocksquatch-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Tartagira', nameEnglish: "Terraspin", img:'./assets/img/ben10/aliens/benPrime/ua/tartagira-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    {namePtbr: 'Ultra T', nameEnglish: "Upgrade", img:'./assets/img/ben10/aliens/benPrime/ua/ultra-t-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+
+    ...ben10BenPrimeUaUltiAliens,
+
+    // {namePtbr: '', nameEnglish: "", img:'./assets/img/ben10/aliens/benPrime/ua/', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+]
+
+
+
 const ben10AllThemes = [
     ...ben10BenPrimeOsAliens, 
     ...ben10BenPrimeAfAliens,
+    ...ben10BenPrimeUaAliens,
 ]
 
 console.log([
     'Ben 10 Ben Prime Os Aliens: ' + ben10BenPrimeOsAliens.length,
-    'Ben 10 Ben Prime Af Aliens:' + ben10BenPrimeAfAliens.length,
+    'Ben 10 Ben Prime Af Aliens: ' + ben10BenPrimeAfAliens.length,
+    'Ben 10 Ben Prime Ua Aliens: ' + ben10BenPrimeUaAliens.length,
     'All Ben 10: ' + ben10AllThemes.length,
 ])

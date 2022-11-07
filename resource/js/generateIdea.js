@@ -1,9 +1,9 @@
 const combNumber = document.getElementById('combNumber')
 
 const allThemes = [
-    ...allAnimes,
-    ...allObjects,
-    ...allGames,
+    // ...allAnimes,
+    // ...allObjects,
+    // ...allGames,
     ...ben10AllThemes,
 ]
 console.log('All themes: ' + allThemes.length)
