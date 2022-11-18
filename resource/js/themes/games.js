@@ -136,11 +136,72 @@ const allMineDimensions = [
 
 
 
+
+// ================== PLAYSTATION
+
+const playStationExclusive = [
+
+    {nameEnglish: 'Abigail Walker (Infamous: Second Son)', img: './assets/img/games/playstation/abigailWalker.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Al (Ratchet & Clank: Up Your Arsenal)', img: './assets/img/games/playstation/alRCUYA.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Atreus (God of War - 2018)', img: './assets/img/games/playstation/atreus.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Captain Qwark (Ratchet & Clank: Going Commando)', img: './assets/img/games/playstation/captainQwark.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Clank (Ratchet & Clank - 2002)', img: './assets/img/games/playstation/clankRC2002.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Clank (Ratchet & Clank: Rift Apart)', img: './assets/img/games/playstation/clankRCriftApart.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Cole Macgrath - Evil Karma (Infamous 2)', img: './assets/img/games/playstation/coleMacgrathEvil(infamous2).png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Cole Macgrath - Good Karma (Infamous 2)', img: './assets/img/games/playstation/coleMacgrathGood(infamous2).png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Cynder (The Legend of Spyro: Dawn Of The Dragon)', img: './assets/img/games/playstation/cynderDOTD.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Delsin Rowe (Infamous: Second Son)', img: './assets/img/games/playstation/delsinRoweInfamous3.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Ellie (The Last of Us)', img: './assets/img/games/playstation/ellieTLOU.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Joel (The Last of Us)', img: './assets/img/games/playstation/joelTLOU.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Kratos - God of War Armor (God of War 2)', img: './assets/img/games/playstation/kratosGodArmor(gow).png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Kratos (God of War 3)', img: './assets/img/games/playstation/kratosGow3.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Kratos (God of War - 2018)', img: './assets/img/games/playstation/kratosNordic.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Mimir (God of War - 2018)', img: './assets/img/games/playstation/mimirGOW.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Ratchet (Ratchet & Clank Future: A Crack In Time)', img: './assets/img/games/playstation/ratchetACIT.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Ratchet - Carbonox Armor (Ratchet & Clank: Going Commando)', img: './assets/img/games/playstation/ratchetCarbonoxArmor(goingCommando).png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Ratchet - Infernox Amor (Ratchet & Clank: Up Your Arsenal)', img: './assets/img/games/playstation/ratchetInfernoxArmor(rcUPYA).png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Ratchet (Ratchet & Clank: Rift Apart)', img: './assets/img/games/playstation/ratchetRF.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Secret Agent Clank (Ratchet & Clank: Up Your Arsenal)', img: './assets/img/games/playstation/secretAgentClank(upya).png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Skrunch (Ratchet & Clank: Up Your Arsenal)', img: './assets/img/games/playstation/skrunch(rcUPYA).png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Spyro', img: './assets/img/games/playstation/spyro.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Spyro (The Legend of Spyro: Dawn Of The Dragon)', img: './assets/img/games/playstation/spyroDOTD.png', dataTheme:'playstation'},
+
+    {nameEnglish: 'Zeus (God of War)', img: './assets/img/games/playstation/zeusGOW.png', dataTheme:'playstation'},
+
+    // {nameEnglish: '', img: './assets/img/games/playstation/', dataTheme:'playstation'},
+]
+
+
+
 // ================== ALL GAMES
 
 const allGames = [
     ...fortniteSkinsOriginals,
     ...allMineDimensions,
+    ...playStationExclusive,
 ]
 
 console.log([
