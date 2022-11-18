@@ -1,32 +1,48 @@
+// ================== FORTNITE
+
 const fortniteSkinsOriginals = [
 
-    {nameEnglish: 'Agent Jones', img: './assets/img/fortnite/agentJones.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Agent Jones', img: './assets/img/games/fortnite/agentJones.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'Fallen Love Ranger', img: './assets/img/fortnite/fallenLoveRanger.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Fallen Love Ranger', img: './assets/img/games/fortnite/fallenLoveRanger.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'Fishstick', img: './assets/img/fortnite/fishstick.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Fishstick', img: './assets/img/games/fortnite/fishstick.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'Mancake', img: './assets/img/fortnite/mancake.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Grriz', img: './assets/img/games/fortnite/grriz.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'Molten Ragnarok', img: './assets/img/fortnite/moltenRagnarok.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Grriz - Wild Beary', img: './assets/img/games/fortnite/grriz(wildBeary).png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'Tectonic Komplexa', img: './assets/img/fortnite/tectonicKomplexa1.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Mancake', img: './assets/img/games/fortnite/mancake.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'The Cake With No Name', img: './assets/img/fortnite/theCakeWithNoName.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Meow Skulls', img: './assets/img/games/fortnite/meowSkulls.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'The Origin - Armored', img: './assets/img/fortnite/theOriginArmored.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Molten Ragnarok', img: './assets/img/games/fortnite/moltenRagnarok.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'The Origin - Granite Grey', img: './assets/img/fortnite/theOriginGraniteGrey.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Peely', img: './assets/img/games/fortnite/peely.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'Toon Meowscles', img: './assets/img/fortnite/toonMeowscles.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Snaps', img: './assets/img/games/fortnite/snaps01.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'Trespasser Elite', img: './assets/img/fortnite/trespasserElite.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Tectonic Komplexa', img: './assets/img/games/fortnite/tectonicKomplexa1.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    {nameEnglish: 'Trespasser Elite - Cubed', img: './assets/img/fortnite/trespasserElite(Cubed).png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'The Cake With No Name', img: './assets/img/games/fortnite/theCakeWithNoName.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+
+    {nameEnglish: 'The Origin - Armored', img: './assets/img/games/fortnite/theOriginArmored.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+
+    {nameEnglish: 'The Origin - Granite Grey', img: './assets/img/games/fortnite/theOriginGraniteGrey.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+
+    {nameEnglish: 'Toon Meowscles', img: './assets/img/games/fortnite/toonMeowscles.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+
+    {nameEnglish: 'Trespasser Elite', img: './assets/img/games/fortnite/trespasserElite.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+
+    {nameEnglish: 'Trespasser Elite - Cubed', img: './assets/img/games/fortnite/trespasserElite(Cubed).png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
     
-    {nameEnglish: 'Tsuki 2.0', img: './assets/img/fortnite/tsuki2.0.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'Tsuki 2.0', img: './assets/img/games/fortnite/tsuki2.0.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 
-    // {nameEnglish: '', img: './assets/img/fortnite/', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+    {nameEnglish: 'The Herald', img: './assets/img/games/fortnite/theHerald.png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+
+    {nameEnglish: 'The Herald - Burning Ember', img: './assets/img/games/fortnite/theHerald(BurningEmber).png', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
+
+    // {nameEnglish: '', img: './assets/img/games/fortnite/', dataTheme:'fortnite', fortSkinType: 'fortSkinOriginals'},
 ]
 
 // ================== MINECRAFT

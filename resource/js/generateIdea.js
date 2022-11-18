@@ -11,73 +11,92 @@ console.log('All themes: ' + allThemes.length)
 function getThemeValue (theme) {
     console.log('getThemeValue: ' + theme)
 
-    switch(theme) {
+    if (theme = 'allThemes') {
 
-        case 'allThemes':
-
-            allThemes
-            // [...allThemes]
-            // getMultipleRandom(allThemes, combNumber.value)
-            // randomData(allThemes)
-            // setRandomData(allThemes)
-            // console.log(allThemes)
-            break;
-
-        case 'animes':
-
-            allAnimes
-            // [...allAnimes]
-            // getMultipleRandom(allAnimes, combNumber.value)
-            // randomData(allAnimes)
-            // setRandomData(allAnimes)
-            // console.log(allAnimes)
-            break
-
-        case 'ben10':
-
-            ben10AllThemes
-            // [...ben10AllThemes]
-            // getMultipleRandom(ben10AllThemes, combNumber.value)
-            // randomData(ben10AllThemes)
-            // setRandomData(ben10AllThemes)
-            // console.log(ben10AllThemes)
-            break
+        console.log('allthemes')
+        console.log('tema tipo: ' + typeof theme)
         
-        case 'games':
+        return allThemes
 
-            allGames
-            // [...allGames]
-            // getMultipleRandom(allGames, combNumber.value)
-            // randomData(allGames)
-            // setRandomData(allGames)
-            // console.log(allGames)
-            break
+    } else if (theme = 'animes') {
+
+        console.log('allAnimes')
+        console.log('tema tipo: ' + typeof theme)
+
+        return allAnimes
+
+    } else if (theme = 'ben10') {
+
+        console.log('ben10AllThemes')
+        console.log('tema tipo: ' + typeof theme)
+
+        return ben10AllThemes
+
+    } else if (theme = 'games') {
+
+        console.log('allGames')
+        console.log('tema tipo: ' + typeof theme)
+
+        return allGames
+
+    } else if (theme = 'objects') {
+
+        console.log('allGames')
+        console.log('tema tipo: ' + typeof theme)
+
+        return allObjects
+
     }
+
+    // switch(theme) {
+
+    //     case 'allThemes':
+
+    //         allThemes
+    //         // [...allThemes]
+    //         // getMultipleRandom(allThemes, combNumber.value)
+    //         // randomData(allThemes)
+    //         // setRandomData(allThemes)
+    //         // console.log(allThemes)
+    //         break;
+
+    //     case 'animes':
+
+    //         allAnimes
+    //         // [...allAnimes]
+    //         // getMultipleRandom(allAnimes, combNumber.value)
+    //         // randomData(allAnimes)
+    //         // setRandomData(allAnimes)
+    //         console.log(allAnimes)
+    //         break
+
+    //     case 'ben10':
+
+    //         ben10AllThemes
+    //         // [...ben10AllThemes]
+    //         // getMultipleRandom(ben10AllThemes, combNumber.value)
+    //         // randomData(ben10AllThemes)
+    //         // setRandomData(ben10AllThemes)
+    //         // console.log(ben10AllThemes)
+    //         break
+        
+    //     case 'games':
+
+    //         allGames
+    //         // [...allGames]
+    //         // getMultipleRandom(allGames, combNumber.value)
+    //         // randomData(allGames)
+    //         // setRandomData(allGames)
+    //         // console.log(allGames)
+    //         break
+    // }
 }
 
-// function getThemeValue (theme) {
-//     console.log('getThemeValue: ' + theme)
+function teste () {
+    return allThemes
+}
 
-//     if (theme == 'allThemes') {
-
-//         return allThemes
-
-//     } else if (theme == 'animes') {
-
-//         return allAnimes
-
-//     }
-//     else if (theme == 'ben10') {
-
-//         return ben10AllThemes
-
-//     }
-//     else if (theme == 'games') {
-       
-//         return allGames
-
-//     }
-// }
+// console.log(teste())
 
 function getMultipleRandom(arr, num) {
     console.log(arr)
@@ -90,9 +109,9 @@ function getMultipleRandom(arr, num) {
     return shuffled.slice(0, num);
 }
 
-// let randomData = () => getMultipleRandom(getThemeValue(), combNumber.value)
+let randomData = () => getMultipleRandom(getThemeValue(), combNumber.value)
 // let randomData = () => getMultipleRandom()
-let randomData = (themeArr) => getMultipleRandom(getThemeValue() ? getThemeValue() : allThemes, combNumber.value)
+// let randomData = (themeArr) => getMultipleRandom(getThemeValue() ? getThemeValue() : allThemes, combNumber.value)
 // let randomData = (themeArr) => {
 //     console.log(themeArr)
 // }

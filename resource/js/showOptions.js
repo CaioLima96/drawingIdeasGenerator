@@ -15,6 +15,9 @@ themeSelector.addEventListener('change', () => {
 
 				themedFieldSet[i].style.display = 'none'
 			}
+			console.log('select valor: ' + themeSelector.value)
+
+			console.log('tipo: ' + typeof themeSelector.value)
 
 			getThemeValue(themeSelector.value)
 
@@ -36,6 +39,10 @@ themeSelector.addEventListener('change', () => {
 
 			}
 
+			console.log('select valor: ' + themeSelector.value)
+
+			console.log('tipo: ' + typeof themeSelector.value)
+
 			getThemeValue(themeSelector.value)
 
 			console.log('testando animes')
@@ -56,7 +63,12 @@ themeSelector.addEventListener('change', () => {
 
 			}
 
+			console.log('select valor: ' + themeSelector.value)
+
+			console.log('tipo: ' + typeof themeSelector.value)
+
 			getThemeValue(themeSelector.value)
+
 			console.log('testando ben')
 
 			break;
@@ -74,6 +86,10 @@ themeSelector.addEventListener('change', () => {
 				}
 
 			}
+
+			console.log('select valor: ' + themeSelector.value)
+
+			console.log('selector tipo: ' + typeof themeSelector.value)
 
 			getThemeValue(themeSelector.value)
 
