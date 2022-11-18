@@ -139,16 +139,17 @@ function setRandomData(valor) {
     document.getElementById('ideasList').innerHTML = ' '
 
     randomData().forEach(item => {
-       
+        // ${item.dataTheme=='object' ? '' : `(${item.dataTheme})`}
+        // ${dataThemeChecker() ? '' : `(${item.dataTheme})`}
         document.getElementById('ideasList').innerHTML += `
 
                 <li class='generatedIdea' dataTheme='${item.dataTheme}'>
-                    <p style='margin-bottom: 16px'>${item.nameEnglish} ${item.dataTheme=='object' ? '' : `(${item.dataTheme})`}</p>
+                    <p style='margin-bottom: 16px'>${item.nameEnglish} ${item.dataTheme=='object' || item.dataTheme=='playstation' ? '' : `(${item.dataTheme})`}</p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
                 </li>
             `
     })
-
+ 
     btns[0].classList.add('activeMenuBtn')
     btns[1].classList.remove('activeMenuBtn')
     gridView()
