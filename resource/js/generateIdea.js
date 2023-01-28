@@ -6,95 +6,154 @@ const allThemes = [
     ...allGames,
     ...ben10AllThemes,
 ]
-console.log('All themes: ' + allThemes.length)
 
-function getThemeValue (theme) {
-    console.log('getThemeValue: ' + theme)
+// function getThemeValue (theme) {
+//     console.log('getThemeValue: ' + theme)
+    
 
-    if (theme = 'allThemes') {
+//     if (theme = 'allThemes') {
 
-        console.log('allthemes')
-        console.log('tema tipo: ' + typeof theme)
+//         console.log('allthemes')
+//         console.log('tema tipo: ' + typeof theme)
         
-        return allThemes
+//         return allThemes
 
-    } else if (theme = 'animes') {
+//     } else if (theme = 'animes') {
 
-        console.log('allAnimes')
-        console.log('tema tipo: ' + typeof theme)
+//         console.log('allAnimes')
+//         console.log('tema tipo: ' + typeof theme)
 
-        return allAnimes
+//         return allAnimes
 
-    } else if (theme = 'ben10') {
+//     } else if (theme = 'ben10') {
 
-        console.log('ben10AllThemes')
-        console.log('tema tipo: ' + typeof theme)
+//         console.log('ben10AllThemes')
+//         console.log('tema tipo: ' + typeof theme)
 
-        return ben10AllThemes
+//         return ben10AllThemes
 
-    } else if (theme = 'games') {
+//     } else if (theme = 'games') {
 
-        console.log('allGames')
-        console.log('tema tipo: ' + typeof theme)
+//         console.log('allGames')
+//         console.log('tema tipo: ' + typeof theme)
 
-        return allGames
+//         return allGames
 
-    } else if (theme = 'objects') {
+//     } else if (theme = 'objects') {
 
-        console.log('allGames')
-        console.log('tema tipo: ' + typeof theme)
+//         console.log('allGames')
+//         console.log('tema tipo: ' + typeof theme)
 
-        return allObjects
+//         return allObjects
 
-    }
+//     }
+     
+    
+//     // let day;
+//     // switch(theme) {
 
-    // switch(theme) {
+//     //     case 'allThemes':
 
-    //     case 'allThemes':
+//     //     day = allThemes
+//     //         // [...allThemes]
+//     //         // getMultipleRandom(allThemes, combNumber.value)
+//     //         // randomData(allThemes)
+//     //         // setRandomData(allThemes)
+//     //         // console.log(allThemes)
+//     //         break;
 
-    //         allThemes
-    //         // [...allThemes]
-    //         // getMultipleRandom(allThemes, combNumber.value)
-    //         // randomData(allThemes)
-    //         // setRandomData(allThemes)
-    //         // console.log(allThemes)
-    //         break;
+//     //     case 'animes':
 
-    //     case 'animes':
+//     //         day = allAnimes;
+//     //         // [...allAnimes]
+//     //         // getMultipleRandom(allAnimes, combNumber.value)
+//     //         // randomData(allAnimes)
+//     //         // setRandomData(allAnimes)
+//     //         // console.log(allAnimes)
+//     //         break
 
-    //         allAnimes
-    //         // [...allAnimes]
-    //         // getMultipleRandom(allAnimes, combNumber.value)
-    //         // randomData(allAnimes)
-    //         // setRandomData(allAnimes)
-    //         console.log(allAnimes)
-    //         break
+//     //     case 'ben10':
 
-    //     case 'ben10':
-
-    //         ben10AllThemes
-    //         // [...ben10AllThemes]
-    //         // getMultipleRandom(ben10AllThemes, combNumber.value)
-    //         // randomData(ben10AllThemes)
-    //         // setRandomData(ben10AllThemes)
-    //         // console.log(ben10AllThemes)
-    //         break
+//     //     day = ben10AllThemes
+//     //         // [...ben10AllThemes]
+//     //         // getMultipleRandom(ben10AllThemes, combNumber.value)
+//     //         // randomData(ben10AllThemes)
+//     //         // setRandomData(ben10AllThemes)
+//     //         // console.log(ben10AllThemes)
+//     //         break
         
-    //     case 'games':
+//     //     case 'games':
 
-    //         allGames
-    //         // [...allGames]
-    //         // getMultipleRandom(allGames, combNumber.value)
-    //         // randomData(allGames)
-    //         // setRandomData(allGames)
-    //         // console.log(allGames)
-    //         break
-    // }
+//     //     day = allGames
+//     //         // [...allGames]
+//     //         // getMultipleRandom(allGames, combNumber.value)
+//     //         // randomData(allGames)
+//     //         // setRandomData(allGames)
+//     //         // console.log(allGames)
+//     //         break
+//     // }
+
+//     // return day
+
+// }
+
+
+function getThemeValue(theme) {
+    console.log(theme)
+    let tema = theme
+    console.log(tema)
+    return tema
 }
 
-function teste () {
-    return allThemes
+console.log(getThemeValue)
+
+let day;
+switch('allThemes') {
+
+    case 'allThemes':
+
+        day = allThemes
+        // [...allThemes]
+        // getMultipleRandom(allThemes, combNumber.value)
+        // randomData(allThemes)
+        // setRandomData(allThemes)
+        // console.log(allThemes)
+        break;
+
+    case 'animes':
+
+        day = allAnimes;
+        // [...allAnimes]
+        // getMultipleRandom(allAnimes, combNumber.value)
+        // randomData(allAnimes)
+        // setRandomData(allAnimes)
+        // console.log(allAnimes)
+        break
+
+    case 'ben10':
+
+    day = ben10AllThemes
+        // [...ben10AllThemes]
+        // getMultipleRandom(ben10AllThemes, combNumber.value)
+        // randomData(ben10AllThemes)
+        // setRandomData(ben10AllThemes)
+        // console.log(ben10AllThemes)
+        break
+    
+    case 'games':
+
+    day = allGames
+        // [...allGames]
+        // getMultipleRandom(allGames, combNumber.value)
+        // randomData(allGames)
+        // setRandomData(allGames)
+        // console.log(allGames)
+        break
 }
+
+// function teste () {
+//     return allThemes
+// }
 
 // console.log(teste())
 
@@ -103,19 +162,24 @@ function getMultipleRandom(arr, num) {
     console.log('comb num: ' + num)
     // let arrr = [...arr]
     // console.log(arrr)
-    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+    let shuffled = [...arr].sort(() => 0.5 - Math.random());
+
+    // let arrr = [...arr]
+    // let shuffledd = arrr[Math.floor(Math.random() * arrr.length)];
+
     console.log(shuffled.slice(0, num))
 
     return shuffled.slice(0, num);
 }
 
-let randomData = () => getMultipleRandom(getThemeValue(), combNumber.value)
+
+// let randomData = () => getMultipleRandom(getThemeValue(), combNumber.value)
 // let randomData = () => getMultipleRandom()
+let randomData = () => getMultipleRandom(day, combNumber.value)
 // let randomData = (themeArr) => getMultipleRandom(getThemeValue() ? getThemeValue() : allThemes, combNumber.value)
 // let randomData = (themeArr) => {
 //     console.log(themeArr)
 // }
-
 
 
 function setRandomData(valor) {
@@ -172,3 +236,4 @@ function setRandomData(valor) {
 document.getElementById('generate').addEventListener('click', setRandomData);
 
 // setRandomData()
+
