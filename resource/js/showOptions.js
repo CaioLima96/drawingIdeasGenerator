@@ -1,12 +1,9 @@
 let themeSelector = document.getElementById('themeSelector')
 let themedFieldSet = document.querySelectorAll('.themedFieldSet')
-// console.log(themedFieldSet)
 
-// console.log(allThemes)
 
 themeSelector.addEventListener('change', () => {
 
-	// let getThemeValue;
 	switch(themeSelector.value) {
 		
 
@@ -18,24 +15,12 @@ themeSelector.addEventListener('change', () => {
 
 				themedFieldSet[i].style.display = 'none'
 			}
-			console.log('select valor: ' + themeSelector.value)
-
-			console.log('tipo: ' + typeof themeSelector.value)
-
-			// getThemeValue(themeSelector.value)
-			// getThemeValue(allThemes)
-			// getThemeValue = themeSelector.value
-
-			console.log('abc= '+ getThemeValue)
-
-			console.log('testando todos')
-
+			
 			break;
 
 		case 'animes':
 
 			document.getElementById('animesFieldSet').style.display = 'block'
-			// document.getElementById('ben10FieldSet').style.display = 'none'
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
 
@@ -45,15 +30,6 @@ themeSelector.addEventListener('change', () => {
 				}
 
 			}
-
-			console.log('select valor: ' + themeSelector.value)
-
-			console.log('tipo: ' + typeof themeSelector.value)
-
-			// getThemeValue('animes')
-			// getThemeValue(allAnimes)
-
-			console.log('testando animes')
 
 			break;
 
@@ -71,15 +47,6 @@ themeSelector.addEventListener('change', () => {
 
 			}
 
-			console.log('select valor: ' + themeSelector.value)
-
-			console.log('tipo: ' + typeof themeSelector.value)
-
-			// getThemeValue(themeSelector.value)
-			// getThemeValue(ben10AllThemes)
-
-			console.log('testando ben')
-
 			break;
 		
 		case 'games':
@@ -95,13 +62,6 @@ themeSelector.addEventListener('change', () => {
 				}
 
 			}
-
-			console.log('select valor: ' + themeSelector.value)
-
-			console.log('selector tipo: ' + typeof themeSelector.value)
-
-			// getThemeValue(themeSelector.value)
-			// getThemeValue(allGames)
 
 			break;
 
@@ -119,50 +79,10 @@ themeSelector.addEventListener('change', () => {
 
 			}
 
-			// getThemeValue(themeSelector.value)
-			// getThemeValue(allObjects)
-
 			break;
-		
-		// case 'minecraft':
-
-		// 	document.getElementById('minecraftFieldSet').style.display = 'block'
-		// 	document.getElementById('animesFieldSet').style.display = 'none'
-
-		// 	for (let i = 1; i < themedFieldSet.length; i++) {
-
-		// 		if (themedFieldSet[i] != themedFieldSet[3]) {
-
-		// 			themedFieldSet[i].style.display = 'none'
-		// 		}
-
-		// 	}
-
-		// 	console.log('testando mine')
-
-		// 	break;
-		
-		// case 'fortnite':
-			
-		// 	document.getElementById('fortniteFieldSet').style.display = 'block'
-		// 	document.getElementById('animesFieldSet').style.display = 'none'
-
-		// 	for (let i = 1; i < themedFieldSet.length; i++) {
-
-		// 		if (themedFieldSet[i] != themedFieldSet[4]) {
-
-		// 			themedFieldSet[i].style.display = 'none'
-		// 		}
-
-		// 	}
-
-		// 	break;
 	}
 	
 })
-
-// console.log(themeSelector)
-// console.log(themedFieldSet)
 
 
 
