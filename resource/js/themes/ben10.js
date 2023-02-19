@@ -179,9 +179,9 @@ const ben10AllThemes = [
     ...ben10BenPrimeUaAliens,
 ]
 
-console.log([
-    'Ben 10 Ben Prime Os Aliens: ' + ben10BenPrimeOsAliens.length,
-    'Ben 10 Ben Prime Af Aliens: ' + ben10BenPrimeAfAliens.length,
-    'Ben 10 Ben Prime Ua Aliens: ' + ben10BenPrimeUaAliens.length,
-    'All Ben 10: ' + ben10AllThemes.length,
-])
+// console.log([
+//     'Ben 10 Ben Prime Os Aliens: ' + ben10BenPrimeOsAliens.length,
+//     'Ben 10 Ben Prime Af Aliens: ' + ben10BenPrimeAfAliens.length,
+//     'Ben 10 Ben Prime Ua Aliens: ' + ben10BenPrimeUaAliens.length,
+//     'All Ben 10: ' + ben10AllThemes.length,
+// ])

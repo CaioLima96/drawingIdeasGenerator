@@ -1,161 +1,216 @@
 const combNumber = document.getElementById('combNumber')
 
-const allThemes = [
+const allThemess = [
     ...allAnimes,
     ...allObjects,
     ...allGames,
     ...ben10AllThemes,
 ]
 
-// function getThemeValue (theme) {
-//     console.log('getThemeValue: ' + theme)
+// let Animes = [
+//     ...allAnimes
+// ]
+
+// let Ben10 = [...ben10AllThemes]
+
+function getThemeValue (theme) {
+    console.log('getThemeValue: ' + theme)
+
+    // // if (theme = 'allThemes') {
+
+    // //     console.log('allthemes')
+    // //     console.log('tema tipo: ' + typeof theme)
+        
+    // //     return allThemes
+
+    // // } else 
+    // if (theme == 'animes') {
+
+    //     console.log('allAnimes')
+    //     console.log('tema tipo: ' + typeof theme)
+
+    //     return Animes
+
+    // } else if (theme == 'ben10') {
+
+    //     console.log('ben10AllThemes')
+    //     console.log('tema tipo: ' + typeof theme)
+
+    //     return Ben10
     
 
-//     if (theme = 'allThemes') {
+    // // } else if (theme = 'games') {
 
-//         console.log('allthemes')
-//         console.log('tema tipo: ' + typeof theme)
-        
-//         return allThemes
+    // //     console.log('allGames')
+    // //     console.log('tema tipo: ' + typeof theme)
 
-//     } else if (theme = 'animes') {
+    // //     return allGames
 
-//         console.log('allAnimes')
-//         console.log('tema tipo: ' + typeof theme)
+    // // } else if (theme = 'objects') {
 
-//         return allAnimes
+    // //     console.log('allGames')
+    // //     console.log('tema tipo: ' + typeof theme)
 
-//     } else if (theme = 'ben10') {
+    // //     return allObjects
 
-//         console.log('ben10AllThemes')
-//         console.log('tema tipo: ' + typeof theme)
-
-//         return ben10AllThemes
-
-//     } else if (theme = 'games') {
-
-//         console.log('allGames')
-//         console.log('tema tipo: ' + typeof theme)
-
-//         return allGames
-
-//     } else if (theme = 'objects') {
-
-//         console.log('allGames')
-//         console.log('tema tipo: ' + typeof theme)
-
-//         return allObjects
-
-//     }
-     
+    // }
     
-//     // let day;
-//     // switch(theme) {
+    let testTema;
+    switch(theme) {
 
-//     //     case 'allThemes':
+        case 'allThemes':
 
-//     //     day = allThemes
-//     //         // [...allThemes]
-//     //         // getMultipleRandom(allThemes, combNumber.value)
-//     //         // randomData(allThemes)
-//     //         // setRandomData(allThemes)
-//     //         // console.log(allThemes)
-//     //         break;
+        testTema = allThemess
+            // [...allThemes]
+            // getMultipleRandom(allThemes, combNumber.value)
+            // randomData(allThemes)
+            // setRandomData(allThemes)
+            // console.log(allThemes)
+            break;
 
-//     //     case 'animes':
+        case 'animes':
 
-//     //         day = allAnimes;
-//     //         // [...allAnimes]
-//     //         // getMultipleRandom(allAnimes, combNumber.value)
-//     //         // randomData(allAnimes)
-//     //         // setRandomData(allAnimes)
-//     //         // console.log(allAnimes)
-//     //         break
+        testTema = allAnimes;
+            // [...allAnimes]
+            // getMultipleRandom(allAnimes, combNumber.value)
+            // randomData(allAnimes)
+            // setRandomData(allAnimes)
+            // console.log(allAnimes)
+            break
 
-//     //     case 'ben10':
+        case 'ben10':
 
-//     //     day = ben10AllThemes
-//     //         // [...ben10AllThemes]
-//     //         // getMultipleRandom(ben10AllThemes, combNumber.value)
-//     //         // randomData(ben10AllThemes)
-//     //         // setRandomData(ben10AllThemes)
-//     //         // console.log(ben10AllThemes)
-//     //         break
+        testTema = ben10AllThemes
+            // [...ben10AllThemes]
+            // getMultipleRandom(ben10AllThemes, combNumber.value)
+            // randomData(ben10AllThemes)
+            // setRandomData(ben10AllThemes)
+            // console.log(ben10AllThemes)
+            break
         
-//     //     case 'games':
+        case 'games':
 
-//     //     day = allGames
-//     //         // [...allGames]
-//     //         // getMultipleRandom(allGames, combNumber.value)
-//     //         // randomData(allGames)
-//     //         // setRandomData(allGames)
-//     //         // console.log(allGames)
-//     //         break
-//     // }
+        testTema = allGames
+            // [...allGames]
+            // getMultipleRandom(allGames, combNumber.value)
+            // randomData(allGames)
+            // setRandomData(allGames)
+            // console.log(allGames)
+            break
+            
+        case 'objects':
 
-//     // return day
+        testTema = allObjects
+            // [...allGames]
+            // getMultipleRandom(allGames, combNumber.value)
+            // randomData(allGames)
+            // setRandomData(allGames)
+            // console.log(allGames)
+            break
+    }
 
+    return testTema
+}
+
+// function getThemeValue(theme) {
+//     console.log(theme)
+//     // let tema = theme
+//     // console.log(tema)
+//     return theme
 // }
 
+// console.log(getThemeValue)
 
-function getThemeValue(theme) {
-    console.log(theme)
-    let tema = theme
-    console.log(tema)
-    return tema
-}
+// let testTema;
+// switch('allThemes') {
 
-console.log(getThemeValue)
+//     case 'allThemes':
 
-let day;
-switch('allThemes') {
+//         testTema = allThemes
+//         // [...allThemes]
+//         // getMultipleRandom(allThemes, combNumber.value)
+//         // randomData(allThemes)
+//         // setRandomData(allThemes)
+//         // console.log(allThemes)
+//         break;
 
-    case 'allThemes':
+//     case 'animes':
 
-        day = allThemes
-        // [...allThemes]
-        // getMultipleRandom(allThemes, combNumber.value)
-        // randomData(allThemes)
-        // setRandomData(allThemes)
-        // console.log(allThemes)
-        break;
+//         testTema = allAnimes;
+//         // [...allAnimes]
+//         // getMultipleRandom(allAnimes, combNumber.value)
+//         // randomData(allAnimes)
+//         // setRandomData(allAnimes)
+//         // console.log(allAnimes)
+//         break
 
-    case 'animes':
+//     case 'ben10':
 
-        day = allAnimes;
-        // [...allAnimes]
-        // getMultipleRandom(allAnimes, combNumber.value)
-        // randomData(allAnimes)
-        // setRandomData(allAnimes)
-        // console.log(allAnimes)
-        break
-
-    case 'ben10':
-
-    day = ben10AllThemes
-        // [...ben10AllThemes]
-        // getMultipleRandom(ben10AllThemes, combNumber.value)
-        // randomData(ben10AllThemes)
-        // setRandomData(ben10AllThemes)
-        // console.log(ben10AllThemes)
-        break
+//     testTema = ben10AllThemes
+//         // [...ben10AllThemes]
+//         // getMultipleRandom(ben10AllThemes, combNumber.value)
+//         // randomData(ben10AllThemes)
+//         // setRandomData(ben10AllThemes)
+//         // console.log(ben10AllThemes)
+//         break
     
-    case 'games':
+//     case 'games':
 
-    day = allGames
-        // [...allGames]
-        // getMultipleRandom(allGames, combNumber.value)
-        // randomData(allGames)
-        // setRandomData(allGames)
-        // console.log(allGames)
-        break
-}
+//     testTema = allGames
+//         // [...allGames]
+//         // getMultipleRandom(allGames, combNumber.value)
+//         // randomData(allGames)
+//         // setRandomData(allGames)
+//         // console.log(allGames)
+//         break
+// }
 
 // function teste () {
 //     return allThemes
 // }
 
 // console.log(teste())
+
+
+// themeSelector.addEventListener('change', () => {
+
+// 	// let getThemeValue;
+// 	switch(themeSelector.value) {
+		
+
+// 		case 'allThemes':
+
+// 			getThemeValue(themeSelector.value)
+
+// 			break;
+
+// 		case 'animes':
+
+// 			getThemeValue('animes')
+
+// 			break;
+
+// 		case 'ben10':
+
+// 			getThemeValue(themeSelector.value)
+
+// 			break;
+		
+// 		case 'games':
+
+// 			getThemeValue(themeSelector.value)
+
+// 			break;
+
+// 		case 'objects':
+
+// 			getThemeValue(themeSelector.value)
+
+// 			break;
+// 	}
+	
+// })
+
 
 function getMultipleRandom(arr, num) {
     console.log(arr)
@@ -175,7 +230,7 @@ function getMultipleRandom(arr, num) {
 
 // let randomData = () => getMultipleRandom(getThemeValue(), combNumber.value)
 // let randomData = () => getMultipleRandom()
-let randomData = () => getMultipleRandom(day, combNumber.value)
+let randomData = () => getMultipleRandom(getThemeValue(themeSelector.value), combNumber.value)
 // let randomData = (themeArr) => getMultipleRandom(getThemeValue() ? getThemeValue() : allThemes, combNumber.value)
 // let randomData = (themeArr) => {
 //     console.log(themeArr)
@@ -185,18 +240,20 @@ let randomData = () => getMultipleRandom(day, combNumber.value)
 function setRandomData(valor) {
     // console.log(valor)
 
-    // return document.getElementById('ideasList').innerHTML = `
+    // let cccc = () => {
+    //     // return document.getElementById('ideasList').innerHTML = `
 
-    //     ${randomData().map(item => {
+    // //     ${randomData().map(item => {
 
-    //         return `<li dataTheme='${item.dataTheme}'>
-    //             <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
-    //             <div class='imgContainer'><img src='${item.img}'></div>
-    //             </li>
-    //         `
-    //     })}
+    // //         return `<li dataTheme='${item.dataTheme}'>
+    // //             <p style='margin-bottom: 16px'>${item.nameEnglish}</p>
+    // //             <div class='imgContainer'><img src='${item.img}'></div>
+    // //             </li>
+    // //         `
+    // //     })}
 
-    // `
+    // // `
+    // }
 
     document.getElementById('listMenu').style.display = 'flex'
 
@@ -205,6 +262,7 @@ function setRandomData(valor) {
     randomData().forEach(item => {
         // ${item.dataTheme=='object' ? '' : `(${item.dataTheme})`}
         // ${dataThemeChecker() ? '' : `(${item.dataTheme})`}
+        console.log(item['dataTheme'])
         document.getElementById('ideasList').innerHTML += `
 
                 <li class='generatedIdea' dataTheme='${item.dataTheme}'>
@@ -237,3 +295,41 @@ document.getElementById('generate').addEventListener('click', setRandomData);
 
 // setRandomData()
 
+// let ccccc = () => {
+//       // if (theme = 'allThemes') {
+
+//     //     console.log('allthemes')
+//     //     console.log('tema tipo: ' + typeof theme)
+        
+//     //     return allThemes
+
+//     // } else if (theme = 'animes') {
+
+//     //     console.log('allAnimes')
+//     //     console.log('tema tipo: ' + typeof theme)
+
+//     //     return allAnimes
+
+//     // } else if (theme = 'ben10') {
+
+//     //     console.log('ben10AllThemes')
+//     //     console.log('tema tipo: ' + typeof theme)
+
+//     //     return ben10AllThemes
+
+//     // } else if (theme = 'games') {
+
+//     //     console.log('allGames')
+//     //     console.log('tema tipo: ' + typeof theme)
+
+//     //     return allGames
+
+//     // } else if (theme = 'objects') {
+
+//     //     console.log('allGames')
+//     //     console.log('tema tipo: ' + typeof theme)
+
+//     //     return allObjects
+
+//     // }
+// }

@@ -85,4 +85,4 @@ const mineAllDimensions = [
     ...mineNether
 ]
 
-console.log('Minecraft: ' + mineAllDimensions.length)
+// console.log('Minecraft: ' + mineAllDimensions.length)

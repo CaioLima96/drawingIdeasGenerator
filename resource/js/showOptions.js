@@ -6,6 +6,7 @@ let themedFieldSet = document.querySelectorAll('.themedFieldSet')
 
 themeSelector.addEventListener('change', () => {
 
+	// let getThemeValue;
 	switch(themeSelector.value) {
 		
 
@@ -21,9 +22,11 @@ themeSelector.addEventListener('change', () => {
 
 			console.log('tipo: ' + typeof themeSelector.value)
 
-			getThemeValue(themeSelector.value)
+			// getThemeValue(themeSelector.value)
 			// getThemeValue(allThemes)
+			// getThemeValue = themeSelector.value
 
+			console.log('abc= '+ getThemeValue)
 
 			console.log('testando todos')
 
@@ -47,7 +50,7 @@ themeSelector.addEventListener('change', () => {
 
 			console.log('tipo: ' + typeof themeSelector.value)
 
-			getThemeValue('animes')
+			// getThemeValue('animes')
 			// getThemeValue(allAnimes)
 
 			console.log('testando animes')
@@ -72,7 +75,7 @@ themeSelector.addEventListener('change', () => {
 
 			console.log('tipo: ' + typeof themeSelector.value)
 
-			getThemeValue(themeSelector.value)
+			// getThemeValue(themeSelector.value)
 			// getThemeValue(ben10AllThemes)
 
 			console.log('testando ben')
@@ -97,7 +100,7 @@ themeSelector.addEventListener('change', () => {
 
 			console.log('selector tipo: ' + typeof themeSelector.value)
 
-			getThemeValue(themeSelector.value)
+			// getThemeValue(themeSelector.value)
 			// getThemeValue(allGames)
 
 			break;
@@ -116,7 +119,7 @@ themeSelector.addEventListener('change', () => {
 
 			}
 
-			getThemeValue(themeSelector.value)
+			// getThemeValue(themeSelector.value)
 			// getThemeValue(allObjects)
 
 			break;

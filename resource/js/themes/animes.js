@@ -497,12 +497,12 @@ const allAnimes = [
 // console.log('CDZ: ' + saintSeiya.length)
 // console.log('Animes: ' + allAnimes.length)
 
-console.log([
-    'Bleach: ' + bleach.length,
-    'Boku No Hero: ' + bnha.length,
-    'Dragon Ball: ' + dragonBall.length,
-    'One Piece: ' + onePiece.length,
-    'One Punch Man: ' + onePunchMan.length,
-    'CDZ: ' + saintSeiya.length,
-    'All Animes: ' + allAnimes.length,
-])
+// console.log([
+//     'Bleach: ' + bleach.length,
+//     'Boku No Hero: ' + bnha.length,
+//     'Dragon Ball: ' + dragonBall.length,
+//     'One Piece: ' + onePiece.length,
+//     'One Punch Man: ' + onePunchMan.length,
+//     'CDZ: ' + saintSeiya.length,
+//     'All Animes: ' + allAnimes.length,
+// ])

@@ -33,4 +33,4 @@ const fortniteAllSkins = [
     ...fortniteSkinsOriginals
 ]
 
-console.log('Fortnite: ' + fortniteAllSkins.length)
+// console.log('Fortnite: ' + fortniteAllSkins.length)
