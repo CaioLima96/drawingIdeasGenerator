@@ -1,0 +1,10 @@
+<ul>
+    {{#each dados}}
+    <li class='generatedIdea' dataTheme={{dataTheme}}>
+        <p style='margin-bottom: 16px'></p>{{nameEnglish}}</p>
+        <div class='imgContainer'><img src={{img}} alt={{nameEnglish}} style="width: 300px"></div>
+    </li>
+    {{/each}}
+
+    {{!-- {{dataTheme}}=='object' || {{dataTheme}}=='playstation' ? '' : {{dataTheme}} --}}
+</ul>

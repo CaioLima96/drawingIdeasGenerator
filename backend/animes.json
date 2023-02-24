@@ -1,0 +1,24 @@
+{
+    "animes": [
+        { "nameEnglish": "Aizen", "img": "img/animes/bleach/aizen1.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Ichigo", "img": "img/animes/bleach/ichigo1.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Ichigo - Bankai", "img": "img/animes/bleach/ichigoBankai1.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Orihime", "img": "img/animes/bleach/orihime.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Rukia", "img": "img/animes/bleach/rukia.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Sado", "img": "img/animes/bleach/sado1.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Yamamoto", "img": "img/animes/bleach/yamamoto.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Yamamoto - Bankai", "img": "img/animes/bleach/yamamotoBankai.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Yammy - Resurreccion", "img": "img/animes/bleach/yammyResurreccion.png", "dataTheme": "bleach"
+        },
+        { "nameEnglish": "Zaraki", "img": "img/animes/bleach/zaraki1.png", "dataTheme": "bleach"
+        }
+    ]
+}
