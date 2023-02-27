@@ -36,6 +36,5 @@ app.get('/', (req, res) => {
     res.render('index')
 });
 
-
 //Server
 app.listen(3000);

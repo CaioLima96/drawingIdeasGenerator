@@ -91,6 +91,10 @@ async function setRandomTema() {
     //         `
     // })
 
+    document.getElementById('listMenu').style.display = 'flex'
+
+    document.getElementById('ideasList').innerHTML = ' '
+
     let random = await randomData()
     console.log(random)
 
