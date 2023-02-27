@@ -2,20 +2,17 @@
 
 // const url = 'http://localhost:3000/animes'
 
-let dados;
 
-async function fetchAsync (tema) {
-    const url = `https://testeproj-27b0c-default-rtdb.firebaseio.com/${tema}.json`
-    let response = await fetch(url);
-    let data = await response.json();
-    console.log(data)
-    return data
-}
+// async function fetchAsync () {
+//     const url = `http://localhost:3000/all`
+//     let response = await fetch(url);
+//     let data = await response.json();
+//     console.log(data[0])
+//     return data[0]
+// }
 
-// fetchAsync('animes')
-
-// async function teste(tema){
-//     dados = await fetchAsync(tema)
+// async function teste(){
+//     dados = await fetchAsync()
 //     dados.forEach(item => {
 //         document.getElementById('ideasList').innerHTML += `
     
@@ -25,61 +22,88 @@ async function fetchAsync (tema) {
 //             `
 //     })
 // }
+// teste()
 
 let todosTemas = []
 
-// async function teste(tema){
-//     dados = await fetchAsync(tema)
-//     console.log(dados)
-//     // dados.push(dados)
-//     return dados
-// }
+
+async function fetchAsync (tema) {
+    let response = await fetch(`https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`);
+    let data = await response.json();
+    console.log(data[tema])
+    return data[tema]
+}
+
 
 function getThemeValue (theme) {
 
-    // console.log('getThemeValue: ' + theme)
-    
-    // let temaArr;
-    switch(theme) {
+    let temaArr;
+    switch(themeSelector.value) {
 
         case 'animes':
 
-        fetchAsync('animes')
-            
+            // temaArr = teste(0)
+            console.log('tema: ' + themeSelector.value)
+            temaArr = 0
             break
 
         case 'ben10':
 
-        fetchAsync('ben10')
-            
+            console.log('tema: ' + themeSelector.value)
+            // temaArr = teste(1)
+            temaArr = 1
             break
     }
 
-    // return temaArr
+    return temaArr
 }
 
-function getMultipleRandom(arr, num) {
-    // console.log(arr)
-    // console.log('comb num: ' + num)
+// async function teste(tema){
+//     dados = await fetchAsync()
+//     console.log(dados[tema])
+//     return dados[tema]
+// }
+
+async function getMultipleRandom(arr, num) {
+
+    console.log(arr)
+    // let arrr = await arr
+    // console.log(arrr)
     let shuffled = [...arr].sort(() => 0.5 - Math.random());
 
-    // console.log(shuffled.slice(0, num))
+    console.log(shuffled.slice(0, num))
 
     return shuffled.slice(0, num);
 }
 
-let randomData = () => getMultipleRandom(getThemeValue(themeSelector.value), combNumber.value)
+async function randomData() {
+    return getMultipleRandom(await fetchAsync(getThemeValue()), combNumber.value)
+}
 
-function setRandomTema() {
+async function setRandomTema() {
 
-    randomData().forEach(item => {
+    //  randomData().forEach(item => {
+    //     document.getElementById('ideasList').innerHTML += `
+    
+    //             <li class='generatedIdea' dataTheme='${item.nameEnglish}'>
+    //                 <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
+    //             </li>
+    //         `
+    // })
+
+    let random = await randomData()
+    console.log(random)
+
+    for (let i = 0; i < random.length; i++){
+        
         document.getElementById('ideasList').innerHTML += `
     
-                <li class='generatedIdea' dataTheme='${item.nameEnglish}'>
-                    <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
+                <li class='generatedIdea' dataTheme='${random.nameEnglish}'>
+                    <div class='imgContainer'><img src='${random.img}' alt=${random.nameEnglish}'></div>
                 </li>
             `
-    })
+    
+    }
 }
 
 // document.getElementById('generate').addEventListener('click', teste());
