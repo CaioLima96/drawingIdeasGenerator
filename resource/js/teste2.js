@@ -3,26 +3,28 @@
 // const url = 'http://localhost:3000/animes'
 
 
-// async function fetchAsync () {
-//     const url = `http://localhost:3000/all`
-//     let response = await fetch(url);
-//     let data = await response.json();
-//     console.log(data[0])
-//     return data[0]
-// }
+async function fetchAsyncc () {
+    const url = `https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`
+    let response = await fetch(url);
+    let data = await response.json();
+    // console.log(data[0])
+    return data[0]
+}
 
-// async function teste(){
-//     dados = await fetchAsync()
-//     dados.forEach(item => {
-//         document.getElementById('ideasList').innerHTML += `
+async function testee(){
+    dados = await fetchAsyncc()
+    dados.forEach(item => {
+        document.getElementById('ideasList').innerHTML += `
     
-//                 <li class='generatedIdea' dataTheme='${item.nameEnglish}'>
-//                     <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
-//                 </li>
-//             `
-//     })
-// }
-// teste()
+                <li class='generatedIdea' dataTheme='${item.nameEnglish}'>
+                       <p style='margin-bottom: 16px'>${item.nameEnglish} </p>
+
+                    <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
+                </li>
+            `
+    })
+}
+testee()
 
 let todosTemas = []
 
@@ -82,15 +84,6 @@ async function randomData() {
 
 async function setRandomTema() {
 
-    //  randomData().forEach(item => {
-    //     document.getElementById('ideasList').innerHTML += `
-    
-    //             <li class='generatedIdea' dataTheme='${item.nameEnglish}'>
-    //                 <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
-    //             </li>
-    //         `
-    // })
-
     document.getElementById('listMenu').style.display = 'flex'
 
     document.getElementById('ideasList').innerHTML = ' '
@@ -98,17 +91,28 @@ async function setRandomTema() {
     let random = await randomData()
     console.log(random)
 
-    for (let i = 0; i < random.length; i++){
+    // for (let i = 0; i < random.length; i++){
         
+    //     document.getElementById('ideasList').innerHTML += `
+    
+    //             <li class='generatedIdea' dataTheme='${random[i].nameEnglish}'>
+    //                 <p style='margin-bottom: 16px'>${random[i].nameEnglish} </p>
+    //                 <div class='imgContainer'><img src='${random[i].img}' alt=${random[i].nameEnglish}'></div>
+    //             </li>
+    //         `
+    
+    // }
+
+    for(let item of random) {
         document.getElementById('ideasList').innerHTML += `
     
-                <li class='generatedIdea' dataTheme='${random.nameEnglish}'>
-                    <p style='margin-bottom: 16px'>${random.nameEnglish} </p>
-                    <div class='imgContainer'><img src='${random.img}' alt=${random.nameEnglish}'></div>
+                <li class='generatedIdea' dataTheme='${item.nameEnglish}'>
+                    <p style='margin-bottom: 16px'>${item.nameEnglish} </p>
+                    <div class='imgContainer'><img src='${item.img}' alt=${item.nameEnglish}'></div>
                 </li>
             `
     
     }
 }
 
-// document.getElementById('generate').addEventListener('click', teste());
+document.getElementById('generate').addEventListener('click', setRandomTema);
