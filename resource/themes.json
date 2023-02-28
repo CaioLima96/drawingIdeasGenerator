@@ -1,0 +1,980 @@
+{
+    "all": [
+        [
+            {
+                "name": "Aizen",
+                "img": "./assets/img/animes/bleach/aizen1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "Animes"
+            },
+            {
+                "name": "Ichigo",
+                "img": "./assets/img/animes/bleach/ichigo1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "Animes"
+            },
+            {
+                "name": "Ichigo - Bankai",
+                "img": "./assets/img/animes/bleach/ichigoBankai1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Orihime",
+                "img": "./assets/img/animes/bleach/orihime.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Rukia",
+                "img": "./assets/img/animes/bleach/rukia.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sado",
+                "img": "./assets/img/animes/bleach/sado1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yamamoto",
+                "img": "./assets/img/animes/bleach/yamamoto.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yamamoto - Bankai",
+                "img": "./assets/img/animes/bleach/yamamotoBankai.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yammy - Resurreccion",
+                "img": "./assets/img/animes/bleach/yammyResurreccion.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Zaraki",
+                "img": "./assets/img/animes/bleach/zaraki1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "All For One",
+                "img": "./assets/img/animes/bnha/allForOne.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "All Might",
+                "img": "./assets/img/animes/bnha/allMight.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Asui",
+                "img": "./assets/img/animes/bnha/asui.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bakugou",
+                "img": "./assets/img/animes/bnha/bakugou.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Best Jeanist",
+                "img": "./assets/img/animes/bnha/bestJeanist.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Cementoss",
+                "img": "./assets/img/animes/bnha/cementoss.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Dabi",
+                "img": "./assets/img/animes/bnha/dabi.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Deku",
+                "img": "./assets/img/animes/bnha/deku.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Edgeshot",
+                "img": "./assets/img/animes/bnha/edgeshot.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Endeavor",
+                "img": "./assets/img/animes/bnha/endeavor.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Eraser Head",
+                "img": "./assets/img/animes/bnha/eraserHead.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Fat Gum",
+                "img": "./assets/img/animes/bnha/fatGum.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gran Torino",
+                "img": "./assets/img/animes/bnha/granTorino.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hawks",
+                "img": "./assets/img/animes/bnha/hawks.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Himiko",
+                "img": "./assets/img/animes/bnha/himiko.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kamui Woods",
+                "img": "./assets/img/animes/bnha/kamuiWoods.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kirishima",
+                "img": "./assets/img/animes/bnha/kirishima.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kurogiri",
+                "img": "./assets/img/animes/bnha/kurogiri.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Midnight",
+                "img": "./assets/img/animes/bnha/midnight.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mirio",
+                "img": "./assets/img/animes/bnha/mirio.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mirko",
+                "img": "./assets/img/animes/bnha/mirko.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Momo Yaoyorozu",
+                "img": "./assets/img/animes/bnha/momoYaoyorozu.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mount Lady",
+                "img": "./assets/img/animes/bnha/mountLady.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mr.Compress",
+                "img": "./assets/img/animes/bnha/mrCompress.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Noumu",
+                "img": "./assets/img/animes/bnha/noumu.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shigaraki",
+                "img": "./assets/img/animes/bnha/shigaraki.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sir Nighteye",
+                "img": "./assets/img/animes/bnha/sirNighteye.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Spinner",
+                "img": "./assets/img/animes/bnha/spinner.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Stain",
+                "img": "./assets/img/animes/bnha/stain.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Todoroki",
+                "img": "./assets/img/animes/bnha/todoroki2.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Twice",
+                "img": "./assets/img/animes/bnha/twice.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Uraraka",
+                "img": "./assets/img/animes/bnha/uraraka.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Wash",
+                "img": "./assets/img/animes/bnha/wash.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Android 16",
+                "img": "./assets/img/animes/dragonBall/android16.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Android 17",
+                "img": "./assets/img/animes/dragonBall/android17.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Android 18",
+                "img": "./assets/img/animes/dragonBall/android18.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bardock",
+                "img": "./assets/img/animes/dragonBall/bardock.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bardock SSJ",
+                "img": "./assets/img/animes/dragonBall/bardockSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bills",
+                "img": "./assets/img/animes/dragonBall/bills.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bulma",
+                "img": "./assets/img/animes/dragonBall/bulma.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Cell - Perfect Form",
+                "img": "./assets/img/animes/dragonBall/cell(perfectForm).png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Champa",
+                "img": "./assets/img/animes/dragonBall/champa.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Chaos",
+                "img": "./assets/img/animes/dragonBall/chaos.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Chi Chi",
+                "img": "./assets/img/animes/dragonBall/chiChi.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Dr.Gero",
+                "img": "./assets/img/animes/dragonBall/drGero.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Evil Buu",
+                "img": "./assets/img/animes/dragonBall/evilBuu.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Flying Nimbus",
+                "img": "./assets/img/animes/dragonBall/flyingNimbus.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Frost",
+                "img": "./assets/img/animes/dragonBall/frost.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gogeta SSJ4",
+                "img": "./assets/img/animes/dragonBall/gogetaSSJ4.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku",
+                "img": "./assets/img/animes/dragonBall/goku.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku Black",
+                "img": "./assets/img/animes/dragonBall/gokuBlack.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku Black SSJ Rosé",
+                "img": "./assets/img/animes/dragonBall/gokuBlackSSJrose.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku SSG.png",
+                "img": "./assets/img/animes/dragonBall/gokuSSG.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku SSG2",
+                "img": "./assets/img/animes/dragonBall/gokuSSG2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku SSG2 Kaioken",
+                "img": "./assets/img/animes/dragonBall/gokuSSG2kaioken.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku SSJ3",
+                "img": "./assets/img/animes/dragonBall/gokuSSJ3.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Golden Freeza",
+                "img": "./assets/img/animes/dragonBall/goldenFreeza.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gotenks SSJ3",
+                "img": "./assets/img/animes/dragonBall/gotenksSSJ3.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goten SSJ",
+                "img": "./assets/img/animes/dragonBall/gotenSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Great Saiyaman",
+                "img": "./assets/img/animes/dragonBall/greatSaiyaman.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hit",
+                "img": "./assets/img/animes/dragonBall/hit.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jaco",
+                "img": "./assets/img/animes/dragonBall/jaco.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Buu",
+                "img": "./assets/img/animes/dragonBall/kidBuu.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Gohan",
+                "img": "./assets/img/animes/dragonBall/kidGohan1.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Gohan",
+                "img": "./assets/img/animes/dragonBall/kidGohan2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Kuririn",
+                "img": "./assets/img/animes/dragonBall/kidKuririn.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Trunks SSJ",
+                "img": "./assets/img/animes/dragonBall/kidTrunksSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "King Kai",
+                "img": "./assets/img/animes/dragonBall/kingKai.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kuririn",
+                "img": "./assets/img/animes/dragonBall/kuririn.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kuririn - Battle Armor",
+                "img": "./assets/img/animes/dragonBall/kuririn(battleArmor).png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Majin Buu - Fat",
+                "img": "./assets/img/animes/dragonBall/majinBuu(fat).png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Majin Vegeta",
+                "img": "./assets/img/animes/dragonBall/majinVegeta.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Martin Man Piccolo",
+                "img": "./assets/img/animes/dragonBall/martinManPiccolo.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mestre Kame",
+                "img": "./assets/img/animes/dragonBall/mestreKame.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mestre Kame - Full Power",
+                "img": "./assets/img/animes/dragonBall/mestreKameFullPower.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mestre Karin",
+                "img": "./assets/img/animes/dragonBall/mestreKarin.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mirai Trunks",
+                "img": "./assets/img/animes/dragonBall/miraiTrunks.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mirai Trunks SSJ",
+                "img": "./assets/img/animes/dragonBall/miraiTrunksSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mr.Popo",
+                "img": "./assets/img/animes/dragonBall/mrPopo.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mr.Satan",
+                "img": "./assets/img/animes/dragonBall/mrSatan.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mr.Satan SSJ",
+                "img": "./assets/img/animes/dragonBall/mrSatanSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Omega Shenron",
+                "img": "./assets/img/animes/dragonBall/omegaShenron.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Paikuhan",
+                "img": "./assets/img/animes/dragonBall/paikuhan.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Piccolo",
+                "img": "./assets/img/animes/dragonBall/piccolo.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Porunga",
+                "img": "./assets/img/animes/dragonBall/porunga.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shenlong",
+                "img": "./assets/img/animes/dragonBall/shenlong.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shin",
+                "img": "./assets/img/animes/dragonBall/shin.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Super Buu",
+                "img": "./assets/img/animes/dragonBall/superBuu.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Teen Gohan SSJ2",
+                "img": "./assets/img/animes/dragonBall/teenGohanSSJ2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Tenshinhan",
+                "img": "./assets/img/animes/dragonBall/tenShinHan.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Vegeta",
+                "img": "./assets/img/animes/dragonBall/vegeta.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Vegeta SSG2",
+                "img": "./assets/img/animes/dragonBall/vegetaSSG2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Vegeto SSG2",
+                "img": "./assets/img/animes/dragonBall/vegetoSSG2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Vermouth",
+                "img": "./assets/img/animes/dragonBall/vermouth.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Whis",
+                "img": "./assets/img/animes/dragonBall/whis.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yajirobe",
+                "img": "./assets/img/animes/dragonBall/yajirobe.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yamcha",
+                "img": "./assets/img/animes/dragonBall/yamcha.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yamcha",
+                "img": "./assets/img/animes/dragonBall/yamcha2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Zamasu",
+                "img": "./assets/img/animes/dragonBall/zamasu.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Zen-Oh",
+                "img": "./assets/img/animes/dragonBall/zenOh.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Alt Zen-Oh",
+                "img": "./assets/img/animes/dragonBall/zenOh(alt).png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Ace",
+                "img": "./assets/img/animes/onePiece/ace.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Akainu",
+                "img": "./assets/img/animes/onePiece/akainu.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Alvida - Fat",
+                "img": "./assets/img/animes/onePiece/alvida(fat).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Alvida - Thin",
+                "img": "./assets/img/animes/onePiece/alvida(thin).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Aokiji - Pre-TimeSkip",
+                "img": "./assets/img/animes/onePiece/aokiji(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Arlong",
+                "img": "./assets/img/animes/onePiece/arlong.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Big Mom",
+                "img": "./assets/img/animes/onePiece/bigMom.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Big Mom - Hungry/Berserker",
+                "img": "./assets/img/animes/onePiece/bigMom2.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Brook - Post-TimeSkip",
+                "img": "./assets/img/animes/onePiece/brook(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Chopper - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/chopper(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Chopper - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/chopper(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Enel",
+                "img": "./assets/img/animes/onePiece/enel.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Franky - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/franky(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Franky - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/franky(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Garp",
+                "img": "./assets/img/animes/onePiece/garp.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "General Franky",
+                "img": "./assets/img/animes/onePiece/generalFranky.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Going Merry",
+                "img": "./assets/img/animes/onePiece/goingMerry.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jinbei",
+                "img": "./assets/img/animes/onePiece/jinbei.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kaidou",
+                "img": "./assets/img/animes/onePiece/kaidou.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kaidou - Dragon",
+                "img": "./assets/img/animes/onePiece/kaidou(dragon).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kaidou - Hybrid",
+                "img": "./assets/img/animes/onePiece/kaidou(hybrid).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Luffy - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/luffy(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Nami - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/nami(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Nico Robin - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/nicoRobin(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Nico Robin - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/nicoRobin(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sabo",
+                "img": "./assets/img/animes/onePiece/sabo.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sanji",
+                "img": "./assets/img/animes/onePiece/sanji.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shanks",
+                "img": "./assets/img/animes/onePiece/shanks.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shirohige",
+                "img": "./assets/img/animes/onePiece/shirohige.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Thousand Sunny",
+                "img": "./assets/img/animes/onePiece/thousandSunny.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Ussop - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/ussop(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Ussop - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/ussop(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Zoro - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/zoro(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bang",
+                "img": "./assets/img/animes/onePunchMan/bang1.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Boros Armor",
+                "img": "./assets/img/animes/onePunchMan/borosArmor.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Boros - 2nd Form",
+                "img": "./assets/img/animes/onePunchMan/boros2ndForm.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Boros Final Form",
+                "img": "./assets/img/animes/onePunchMan/borosFinalForm.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Deep Sea King",
+                "img": "./assets/img/animes/onePunchMan/deepSeaKing.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Deep Sea King - True Form",
+                "img": "./assets/img/animes/onePunchMan/deepSeaKing(trueForm).png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Genos",
+                "img": "./assets/img/animes/onePunchMan/genos.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Saitama",
+                "img": "./assets/img/animes/onePunchMan/kidSaitama.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "King",
+                "img": "./assets/img/animes/onePunchMan/king.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mumen Rider",
+                "img": "./assets/img/animes/onePunchMan/mumenRider.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Saitama",
+                "img": "./assets/img/animes/onePunchMan/saitama.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Tatsumaki",
+                "img": "./assets/img/animes/onePunchMan/tatsumaki.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            }
+        ],
+        [
+            {
+                "name": "Four Arms",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/4-bracos-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ripjaws",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/aquatico-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ripjaws",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/aquatico-(classico)-2.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/bala-de-canhao-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Snare-oh",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/ben-mumia-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Wildmutt",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/besta-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            }
+        ]
+    ]
+}
