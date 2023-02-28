@@ -140,7 +140,7 @@ async function setRandomTema() {
     for (let item of random) {
         document.getElementById('ideasList').innerHTML += `
     
-                <li class='generatedIdea' dataTheme='${item.dataSubTheme}'>
+                <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
                     <p style='margin-bottom: 16px'>${item.name} </p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>

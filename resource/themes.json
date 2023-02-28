@@ -1870,6 +1870,113 @@
                 "dataSubTheme": "playstation",
                 "dataTheme": "game"
             }
+        ],
+        [
+            {
+                "name": "Abajour",
+                "img": "./assets/img/objects/others/abajour1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Chair",
+                "img": "./assets/img/objects/others/chair1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Flashlight",
+                "img": "./assets/img/objects/others/flashlight1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Fork",
+                "img": "./assets/img/objects/others/fork1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Glass Bottle",
+                "img": "./assets/img/objects/others/glassBottle1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Head Phone",
+                "img": "./assets/img/objects/others/headPhone1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Head Phone",
+                "img": "./assets/img/objects/others/headPhone2.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Lamp",
+                "img": "./assets/img/objects/others/lamp1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Lego Dinosaur",
+                "img": "./assets/img/objects/others/legoDinosaur.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Luminaria",
+                "img": "./assets/img/objects/others/luminaria1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Luminaria",
+                "img": "./assets/img/objects/others/luminaria2.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Plastic Bottle",
+                "img": "./assets/img/objects/others/plasticBottle1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Ps4 Controller - Black",
+                "img": "./assets/img/objects/others/ps4ControllerBlack1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Scissor",
+                "img": "./assets/img/objects/others/scissors1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Smart Phone",
+                "img": "./assets/img/objects/others/smartPhone1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Spoon",
+                "img": "./assets/img/objects/others/spoon1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Table",
+                "img": "./assets/img/objects/others/table1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Table",
+                "img": "./assets/img/objects/others/table2.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Table",
+                "img": "./assets/img/objects/others/table3.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Xbox One Controller - Black",
+                "img": "./assets/img/objects/others/xboxOneControllerBlack1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Xicara",
+                "img": "./assets/img/objects/others/xicara1.png",
+                "dataTheme": "object"
+            }
         ]
     ]
 }
