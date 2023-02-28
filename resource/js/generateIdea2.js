@@ -30,6 +30,7 @@ async function themesJsonFetch(theme) {
 }
 
 
+//returns the chosen theme
 function getThemeValue() {
 
     let temaArr;

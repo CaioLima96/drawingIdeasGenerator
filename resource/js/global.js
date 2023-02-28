@@ -1,4 +1,4 @@
-//================ DARK MODE BTN
+//====================== DARK MODE BTN
 
 function darkModeFunc() {
     let element = document.body;
@@ -11,15 +11,8 @@ function snmn (){
 }
 
 
-// const checkbox = document.getElementById('dmCheckbox');
 
-// checkbox.addEventListener('change', () => {
-//     document.body.classList.toggle('darkMode');
-// })
-
-
-
-//================ RESPONSIVE MENU
+//====================== RESPONSIVE MENU
 
 let headerNavMenu = document.getElementById("headerNavMenu")
 
@@ -33,7 +26,7 @@ function closeNavBar() {
 
 
 
-//================ LIST/GRID VIEW
+//====================== LIST/GRID VIEW
 
 let lista = document.getElementById('ideasList')
 let listItens = document.getElementsByClassName("generatedIdea")
@@ -62,7 +55,7 @@ function gridView() {
 
 
 
-//=========== NAV TAB ACTIVE
+//====================== NAV TAB ACTIVE
 
 // Get the container element
 let btnContainer = document.getElementById('gridViewBtn');
@@ -81,4 +74,44 @@ for (let i = 0; i < btns.length; i++) {
 		this.className += " activeMenuBtn";
 
 	});
+}
+
+
+
+//====================== MODAL
+
+let modal = document.getElementById("myModal");
+
+function openModal() {
+
+	modal.style.display = "block"
+	document.body.style.overflow = 'hidden'
+	clonedElement()
+	console.log('open')
+}
+
+function closeModal () {
+
+	modal.style.display = "none";
+	document.body.style.overflow = ''
+
+	console.log('close')
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+
+	if (event.target == modal) {
+
+		closeModal()
+	}
+}
+
+//clones the list's item and renders in the modal
+function clonedElement(){
+	let ideasList = document.getElementById('ideasList')
+	let containerList = document.getElementById('containerList')
+	let clone = ideasList.cloneNode(true)
+	document.getElementsByClassName('modalContent')[0].innerHTML = ''
+	document.getElementsByClassName('modalContent')[0].appendChild(clone)
 }
