@@ -1,0 +1,1982 @@
+{
+    "all": [
+        [
+            {
+                "name": "Aizen",
+                "img": "./assets/img/animes/bleach/aizen1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "Animes"
+            },
+            {
+                "name": "Ichigo",
+                "img": "./assets/img/animes/bleach/ichigo1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "Animes"
+            },
+            {
+                "name": "Ichigo - Bankai",
+                "img": "./assets/img/animes/bleach/ichigoBankai1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Orihime",
+                "img": "./assets/img/animes/bleach/orihime.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Rukia",
+                "img": "./assets/img/animes/bleach/rukia.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sado",
+                "img": "./assets/img/animes/bleach/sado1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yamamoto",
+                "img": "./assets/img/animes/bleach/yamamoto.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yamamoto - Bankai",
+                "img": "./assets/img/animes/bleach/yamamotoBankai.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yammy - Resurreccion",
+                "img": "./assets/img/animes/bleach/yammyResurreccion.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Zaraki",
+                "img": "./assets/img/animes/bleach/zaraki1.png",
+                "dataSubTheme": "bleach",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "All For One",
+                "img": "./assets/img/animes/bnha/allForOne.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "All Might",
+                "img": "./assets/img/animes/bnha/allMight.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Asui",
+                "img": "./assets/img/animes/bnha/asui.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bakugou",
+                "img": "./assets/img/animes/bnha/bakugou.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Best Jeanist",
+                "img": "./assets/img/animes/bnha/bestJeanist.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Cementoss",
+                "img": "./assets/img/animes/bnha/cementoss.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Dabi",
+                "img": "./assets/img/animes/bnha/dabi.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Deku",
+                "img": "./assets/img/animes/bnha/deku.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Edgeshot",
+                "img": "./assets/img/animes/bnha/edgeshot.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Endeavor",
+                "img": "./assets/img/animes/bnha/endeavor.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Eraser Head",
+                "img": "./assets/img/animes/bnha/eraserHead.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Fat Gum",
+                "img": "./assets/img/animes/bnha/fatGum.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gran Torino",
+                "img": "./assets/img/animes/bnha/granTorino.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hawks",
+                "img": "./assets/img/animes/bnha/hawks.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Himiko",
+                "img": "./assets/img/animes/bnha/himiko.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kamui Woods",
+                "img": "./assets/img/animes/bnha/kamuiWoods.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kirishima",
+                "img": "./assets/img/animes/bnha/kirishima.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kurogiri",
+                "img": "./assets/img/animes/bnha/kurogiri.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Midnight",
+                "img": "./assets/img/animes/bnha/midnight.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mirio",
+                "img": "./assets/img/animes/bnha/mirio.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mirko",
+                "img": "./assets/img/animes/bnha/mirko.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Momo Yaoyorozu",
+                "img": "./assets/img/animes/bnha/momoYaoyorozu.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mount Lady",
+                "img": "./assets/img/animes/bnha/mountLady.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mr.Compress",
+                "img": "./assets/img/animes/bnha/mrCompress.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Noumu",
+                "img": "./assets/img/animes/bnha/noumu.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shigaraki",
+                "img": "./assets/img/animes/bnha/shigaraki.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sir Nighteye",
+                "img": "./assets/img/animes/bnha/sirNighteye.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Spinner",
+                "img": "./assets/img/animes/bnha/spinner.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Stain",
+                "img": "./assets/img/animes/bnha/stain.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Todoroki",
+                "img": "./assets/img/animes/bnha/todoroki2.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Twice",
+                "img": "./assets/img/animes/bnha/twice.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Uraraka",
+                "img": "./assets/img/animes/bnha/uraraka.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Wash",
+                "img": "./assets/img/animes/bnha/wash.png",
+                "dataSubTheme": "bnha",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Android 16",
+                "img": "./assets/img/animes/dragonBall/android16.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Android 17",
+                "img": "./assets/img/animes/dragonBall/android17.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Android 18",
+                "img": "./assets/img/animes/dragonBall/android18.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bardock",
+                "img": "./assets/img/animes/dragonBall/bardock.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bardock SSJ",
+                "img": "./assets/img/animes/dragonBall/bardockSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bills",
+                "img": "./assets/img/animes/dragonBall/bills.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bulma",
+                "img": "./assets/img/animes/dragonBall/bulma.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Cell - Perfect Form",
+                "img": "./assets/img/animes/dragonBall/cell(perfectForm).png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Champa",
+                "img": "./assets/img/animes/dragonBall/champa.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Chaos",
+                "img": "./assets/img/animes/dragonBall/chaos.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Chi Chi",
+                "img": "./assets/img/animes/dragonBall/chiChi.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Dr.Gero",
+                "img": "./assets/img/animes/dragonBall/drGero.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Evil Buu",
+                "img": "./assets/img/animes/dragonBall/evilBuu.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Flying Nimbus",
+                "img": "./assets/img/animes/dragonBall/flyingNimbus.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Frost",
+                "img": "./assets/img/animes/dragonBall/frost.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gogeta SSJ4",
+                "img": "./assets/img/animes/dragonBall/gogetaSSJ4.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku",
+                "img": "./assets/img/animes/dragonBall/goku.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku Black",
+                "img": "./assets/img/animes/dragonBall/gokuBlack.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku Black SSJ Rosé",
+                "img": "./assets/img/animes/dragonBall/gokuBlackSSJrose.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku SSG.png",
+                "img": "./assets/img/animes/dragonBall/gokuSSG.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku SSG2",
+                "img": "./assets/img/animes/dragonBall/gokuSSG2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku SSG2 Kaioken",
+                "img": "./assets/img/animes/dragonBall/gokuSSG2kaioken.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goku SSJ3",
+                "img": "./assets/img/animes/dragonBall/gokuSSJ3.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Golden Freeza",
+                "img": "./assets/img/animes/dragonBall/goldenFreeza.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gotenks SSJ3",
+                "img": "./assets/img/animes/dragonBall/gotenksSSJ3.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Goten SSJ",
+                "img": "./assets/img/animes/dragonBall/gotenSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Great Saiyaman",
+                "img": "./assets/img/animes/dragonBall/greatSaiyaman.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hit",
+                "img": "./assets/img/animes/dragonBall/hit.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jaco",
+                "img": "./assets/img/animes/dragonBall/jaco.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Buu",
+                "img": "./assets/img/animes/dragonBall/kidBuu.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Gohan",
+                "img": "./assets/img/animes/dragonBall/kidGohan1.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Gohan",
+                "img": "./assets/img/animes/dragonBall/kidGohan2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Kuririn",
+                "img": "./assets/img/animes/dragonBall/kidKuririn.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Trunks SSJ",
+                "img": "./assets/img/animes/dragonBall/kidTrunksSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "King Kai",
+                "img": "./assets/img/animes/dragonBall/kingKai.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kuririn",
+                "img": "./assets/img/animes/dragonBall/kuririn.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kuririn - Battle Armor",
+                "img": "./assets/img/animes/dragonBall/kuririn(battleArmor).png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Majin Buu - Fat",
+                "img": "./assets/img/animes/dragonBall/majinBuu(fat).png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Majin Vegeta",
+                "img": "./assets/img/animes/dragonBall/majinVegeta.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Martin Man Piccolo",
+                "img": "./assets/img/animes/dragonBall/martinManPiccolo.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mestre Kame",
+                "img": "./assets/img/animes/dragonBall/mestreKame.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mestre Kame - Full Power",
+                "img": "./assets/img/animes/dragonBall/mestreKameFullPower.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mestre Karin",
+                "img": "./assets/img/animes/dragonBall/mestreKarin.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mirai Trunks",
+                "img": "./assets/img/animes/dragonBall/miraiTrunks.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mirai Trunks SSJ",
+                "img": "./assets/img/animes/dragonBall/miraiTrunksSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mr.Popo",
+                "img": "./assets/img/animes/dragonBall/mrPopo.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mr.Satan",
+                "img": "./assets/img/animes/dragonBall/mrSatan.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mr.Satan SSJ",
+                "img": "./assets/img/animes/dragonBall/mrSatanSSJ.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Omega Shenron",
+                "img": "./assets/img/animes/dragonBall/omegaShenron.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Paikuhan",
+                "img": "./assets/img/animes/dragonBall/paikuhan.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Piccolo",
+                "img": "./assets/img/animes/dragonBall/piccolo.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Porunga",
+                "img": "./assets/img/animes/dragonBall/porunga.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shenlong",
+                "img": "./assets/img/animes/dragonBall/shenlong.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shin",
+                "img": "./assets/img/animes/dragonBall/shin.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Super Buu",
+                "img": "./assets/img/animes/dragonBall/superBuu.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Teen Gohan SSJ2",
+                "img": "./assets/img/animes/dragonBall/teenGohanSSJ2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Tenshinhan",
+                "img": "./assets/img/animes/dragonBall/tenShinHan.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Vegeta",
+                "img": "./assets/img/animes/dragonBall/vegeta.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Vegeta SSG2",
+                "img": "./assets/img/animes/dragonBall/vegetaSSG2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Vegeto SSG2",
+                "img": "./assets/img/animes/dragonBall/vegetoSSG2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Vermouth",
+                "img": "./assets/img/animes/dragonBall/vermouth.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Whis",
+                "img": "./assets/img/animes/dragonBall/whis.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yajirobe",
+                "img": "./assets/img/animes/dragonBall/yajirobe.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yamcha",
+                "img": "./assets/img/animes/dragonBall/yamcha.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Yamcha",
+                "img": "./assets/img/animes/dragonBall/yamcha2.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Zamasu",
+                "img": "./assets/img/animes/dragonBall/zamasu.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Zen-Oh",
+                "img": "./assets/img/animes/dragonBall/zenOh.png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Alt Zen-Oh",
+                "img": "./assets/img/animes/dragonBall/zenOh(alt).png",
+                "dataSubTheme": "dragonBall",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Ace",
+                "img": "./assets/img/animes/onePiece/ace.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Akainu",
+                "img": "./assets/img/animes/onePiece/akainu.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Alvida - Fat",
+                "img": "./assets/img/animes/onePiece/alvida(fat).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Alvida - Thin",
+                "img": "./assets/img/animes/onePiece/alvida(thin).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Aokiji - Pre-TimeSkip",
+                "img": "./assets/img/animes/onePiece/aokiji(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Arlong",
+                "img": "./assets/img/animes/onePiece/arlong.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Big Mom",
+                "img": "./assets/img/animes/onePiece/bigMom.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Big Mom - Hungry/Berserker",
+                "img": "./assets/img/animes/onePiece/bigMom2.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Brook - Post-TimeSkip",
+                "img": "./assets/img/animes/onePiece/brook(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Chopper - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/chopper(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Chopper - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/chopper(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Enel",
+                "img": "./assets/img/animes/onePiece/enel.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Franky - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/franky(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Franky - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/franky(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Garp",
+                "img": "./assets/img/animes/onePiece/garp.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "General Franky",
+                "img": "./assets/img/animes/onePiece/generalFranky.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Going Merry",
+                "img": "./assets/img/animes/onePiece/goingMerry.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jinbei",
+                "img": "./assets/img/animes/onePiece/jinbei.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kaidou",
+                "img": "./assets/img/animes/onePiece/kaidou.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kaidou - Dragon",
+                "img": "./assets/img/animes/onePiece/kaidou(dragon).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kaidou - Hybrid",
+                "img": "./assets/img/animes/onePiece/kaidou(hybrid).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Luffy - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/luffy(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Nami - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/nami(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Nico Robin - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/nicoRobin(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Nico Robin - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/nicoRobin(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sabo",
+                "img": "./assets/img/animes/onePiece/sabo.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sanji",
+                "img": "./assets/img/animes/onePiece/sanji.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shanks",
+                "img": "./assets/img/animes/onePiece/shanks.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shirohige",
+                "img": "./assets/img/animes/onePiece/shirohige.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Thousand Sunny",
+                "img": "./assets/img/animes/onePiece/thousandSunny.png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Ussop - Post-Timeskip",
+                "img": "./assets/img/animes/onePiece/ussop(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Ussop - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/ussop(preTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Zoro - Pre-Timeskip",
+                "img": "./assets/img/animes/onePiece/zoro(postTimeSkip).png",
+                "dataSubTheme": "onePiece",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Bang",
+                "img": "./assets/img/animes/onePunchMan/bang1.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Boros Armor",
+                "img": "./assets/img/animes/onePunchMan/borosArmor.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Boros - 2nd Form",
+                "img": "./assets/img/animes/onePunchMan/boros2ndForm.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Boros Final Form",
+                "img": "./assets/img/animes/onePunchMan/borosFinalForm.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Deep Sea King",
+                "img": "./assets/img/animes/onePunchMan/deepSeaKing.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Deep Sea King - True Form",
+                "img": "./assets/img/animes/onePunchMan/deepSeaKing(trueForm).png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Genos",
+                "img": "./assets/img/animes/onePunchMan/genos.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kid Saitama",
+                "img": "./assets/img/animes/onePunchMan/kidSaitama.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "King",
+                "img": "./assets/img/animes/onePunchMan/king.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mumen Rider",
+                "img": "./assets/img/animes/onePunchMan/mumenRider.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Saitama",
+                "img": "./assets/img/animes/onePunchMan/saitama.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Tatsumaki",
+                "img": "./assets/img/animes/onePunchMan/tatsumaki.png",
+                "dataSubTheme": "onePunchMan",
+                "dataTheme": "animes"
+            }
+        ],
+        [
+            {
+                "name": "Four Arms",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/4-bracos-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ripjaws",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/aquatico-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ripjaws",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/aquatico-(classico)-2.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/bala-de-canhao-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Snare-oh",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/ben-mumia-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Wildmutt",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/besta-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Heatblast",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/chama-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Wildvine",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/cipo-selvagem-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Diamondhead",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/diamante-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ditto",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/ditto-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ghostfreak",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/fantasmatico-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Frankenstrike",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/frankenstrike-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upchuck (Perk)",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/glutao-P-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Stinkfly",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/insectoide-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Blitzwolfer",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/lobisben-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Grey Matter",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/massa-cinzenta-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Eye Guy",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/mega-olhos-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upgrade",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/ultra-t-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Way Big",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/waybig-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "XLR8",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/xlr8-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Alien X",
+                "img": "./assets/img/ben10/aliens/benPrime/af/alien-x-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Jetray",
+                "img": "./assets/img/ben10/aliens/benPrime/af/arraia-jato-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Brainstorm",
+                "img": "./assets/img/ben10/aliens/benPrime/af/artropode-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benPrime/af/bala-de-canhao-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Big Chill's Offspring",
+                "img": "./assets/img/ben10/aliens/benPrime/af/bebe-necrofrigiano-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Bellicus",
+                "img": "./assets/img/ben10/aliens/benPrime/af/bellicus-e-serena-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Serena",
+                "img": "./assets/img/ben10/aliens/benPrime/af/bellicus-e-serena-(af)-2.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Big Chill (Cloaked)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/calafrio-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Big Chill (Wings)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/calafrio-(af)-2.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Chromastone",
+                "img": "./assets/img/ben10/aliens/benPrime/af/cromatico-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Diamondhead",
+                "img": "./assets/img/ben10/aliens/benPrime/af/diamante-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Echo Echo",
+                "img": "./assets/img/ben10/aliens/benPrime/af/eco-eco-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Humungousaur (normal size)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/enormossauro-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Humungousaur (full size)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/enormossauro-(af)-2.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Lodestar",
+                "img": "./assets/img/ben10/aliens/benPrime/af/estrela-polar-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Swampfire",
+                "img": "./assets/img/ben10/aliens/benPrime/af/fogo-selvagem-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upchuck (Murk)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/glutao-m-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Goop",
+                "img": "./assets/img/ben10/aliens/benPrime/af/gosma-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Spidermonkey",
+                "img": "./assets/img/ben10/aliens/benPrime/af/macaco-aranha-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Nanomech",
+                "img": "./assets/img/ben10/aliens/benPrime/af/nanomech-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Rath",
+                "img": "./assets/img/ben10/aliens/benPrime/af/rath-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Way Big",
+                "img": "./assets/img/ben10/aliens/benPrime/af/waybig-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/bala-de-canhao-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Wildmutt",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/besta-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Big Chill",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/calafrio-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Echo Echo",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/eco-eco-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Humungousaur",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/enormossauro-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Swampfire",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/fogo-selvagem-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Spidermonkey",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/macaco-aranha-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Way Big",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/waybig-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "4 Arms",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/4-bracos-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Fasttrack",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/acelerado-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Water Hazard",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/ameaca-aquatica-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ampfibian",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/anfibio-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ripjaws",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/aquatico-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Armodrillo",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/armatu-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ben/Rex - Heroes United",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/ben-rex-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Eatle",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/besouro-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Heatblast",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/chama-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "ChamAlien",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/chamalien-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Clockwork",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/contra-tempo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Juryrigg",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/diabrete-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ghostfreak",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/fantasmatico-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Nrg (Armor)",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/nrg-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Nrg (True Form)",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/nrg-(ua)-2.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Shocksquatch",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/shocksquatch-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Terraspin",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/tartagira-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upgrade",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/ultra-t-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            }
+        ],
+        [
+            {
+                "name": "Agent Jones",
+                "img": "./assets/img/games/fortnite/agentJones.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Fallen Love Ranger",
+                "img": "./assets/img/games/fortnite/fallenLoveRanger.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Fishstick",
+                "img": "./assets/img/games/fortnite/fishstick.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Grriz",
+                "img": "./assets/img/games/fortnite/grriz.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Grriz - Wild Beary",
+                "img": "./assets/img/games/fortnite/grriz(wildBeary).png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Mancake",
+                "img": "./assets/img/games/fortnite/mancake.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Meow Skulls",
+                "img": "./assets/img/games/fortnite/meowSkulls.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Molten Ragnarok",
+                "img": "./assets/img/games/fortnite/moltenRagnarok.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Peely",
+                "img": "./assets/img/games/fortnite/peely.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Snaps",
+                "img": "./assets/img/games/fortnite/snaps01.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Tectonic Komplexa",
+                "img": "./assets/img/games/fortnite/tectonicKomplexa1.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "The Cake With No Name",
+                "img": "./assets/img/games/fortnite/theCakeWithNoName.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "The Origin - Armored",
+                "img": "./assets/img/games/fortnite/theOriginArmored.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "The Origin - Granite Grey",
+                "img": "./assets/img/games/fortnite/theOriginGraniteGrey.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Toon Meowscles",
+                "img": "./assets/img/games/fortnite/toonMeowscles.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Trespasser Elite",
+                "img": "./assets/img/games/fortnite/trespasserElite.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Trespasser Elite - Cubed",
+                "img": "./assets/img/games/fortnite/trespasserElite(Cubed).png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Tsuki 2.0",
+                "img": "./assets/img/games/fortnite/tsuki2.0.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "The Herald",
+                "img": "./assets/img/games/fortnite/theHerald.png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "The Herald - Burning Ember",
+                "img": "./assets/img/games/fortnite/theHerald(BurningEmber).png",
+                "dataFortSkinType": "fortSkinOriginals",
+                "dataSubTheme": "fortnite",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Allay",
+                "img": "./assets/img/minecraft/overworld/allay2.gif",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Baby Drowned",
+                "img": "./assets/img/minecraft/overworld/babyDrownedTrident.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "chicken Jockey - Zombie",
+                "img": "./assets/img/minecraft/overworld/chickenJockey(Zombie).png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Creeper",
+                "img": "./assets/img/minecraft/overworld/creeper.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Drowned",
+                "img": "./assets/img/minecraft/overworld/drownedTrident.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Elder Guardian",
+                "img": "./assets/img/minecraft/overworld/elderGuardian.gif",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Evoker",
+                "img": "./assets/img/minecraft/overworld/evoker.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Husk",
+                "img": "./assets/img/minecraft/overworld/husk.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Iron Golem",
+                "img": "./assets/img/minecraft/overworld/ironGolem.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Pillager",
+                "img": "./assets/img/minecraft/overworld/pillager.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Phantom",
+                "img": "./assets/img/minecraft/overworld/phantom.gif",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ravager",
+                "img": "./assets/img/minecraft/overworld/ravager.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Sheared Snow Golem",
+                "img": "./assets/img/minecraft/overworld/shearedSnowGolem.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Silverfish",
+                "img": "./assets/img/minecraft/overworld/silverfish.gif",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Skeleton",
+                "img": "./assets/img/minecraft/overworld/skeleton.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Snow Golem",
+                "img": "./assets/img/minecraft/overworld/snowGolem.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Spider",
+                "img": "./assets/img/minecraft/overworld/spider.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Zombie",
+                "img": "./assets/img/minecraft/overworld/zombie.png",
+                "dataMineDimension": "overworld",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ender Dragon",
+                "img": "./assets/img/minecraft/theEnd/enderDragon.png",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Shulker",
+                "img": "./assets/img/minecraft/theEnd/shulker.png",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Enderman",
+                "img": "./assets/img/minecraft/theEnd/enderman.png",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Baby Hoglin",
+                "img": "./assets/img/minecraft/nether/babyHoglin.png",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Blaze",
+                "img": "./assets/img/minecraft/nether/blaze1.gif",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Chicken Jockey - Zombie Pigman",
+                "img": "./assets/img/minecraft/nether/chickenJockey(ZombiePigman).png",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ghast",
+                "img": "./assets/img/minecraft/nether/ghast.gif",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Hoglin",
+                "img": "./assets/img/minecraft/nether/hoglin.png",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Magma Cube",
+                "img": "./assets/img/minecraft/nether/magmaCube2.gif",
+                "dataMineDimension": "theEnd",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Piglin",
+                "img": "./assets/img/minecraft/nether/piglin.png",
+                "dataMineDimension": "nether",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Piglin Brute",
+                "img": "./assets/img/minecraft/nether/piglinBrute.png",
+                "dataMineDimension": "nether",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Strider",
+                "img": "./assets/img/minecraft/nether/strider.gif",
+                "dataMineDimension": "nether",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Whiter Boss",
+                "img": "./assets/img/minecraft/nether/whiterBoss.png",
+                "dataMineDimension": "nether",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Wither Skeleton",
+                "img": "./assets/img/minecraft/nether/witherSkeleton.png",
+                "dataMineDimension": "nether",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Zombie Piglin",
+                "img": "./assets/img/minecraft/nether/zombiePiglin.png",
+                "dataMineDimension": "nether",
+                "dataSubTheme": "minecraft",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Abigail Walker (Infamous: Second Son)",
+                "img": "./assets/img/games/playstation/abigailWalker.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Al (Ratchet & Clank: Up Your Arsenal)",
+                "img": "./assets/img/games/playstation/alRCUYA.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Atreus (God of War - 2018)",
+                "img": "./assets/img/games/playstation/atreus.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Captain Qwark (Ratchet & Clank: Going Commando)",
+                "img": "./assets/img/games/playstation/captainQwark.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Clank (Ratchet & Clank - 2002)",
+                "img": "./assets/img/games/playstation/clankRC2002.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Clank (Ratchet & Clank: Rift Apart)",
+                "img": "./assets/img/games/playstation/clankRCriftApart.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Cole Macgrath - Evil Karma (Infamous 2)",
+                "img": "./assets/img/games/playstation/coleMacgrathEvil(infamous2).png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Cole Macgrath - Good Karma (Infamous 2)",
+                "img": "./assets/img/games/playstation/coleMacgrathGood(infamous2).png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Cynder (The Legend of Spyro: Dawn Of The Dragon)",
+                "img": "./assets/img/games/playstation/cynderDOTD.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Delsin Rowe (Infamous: Second Son)",
+                "img": "./assets/img/games/playstation/delsinRoweInfamous3.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ellie (The Last of Us)",
+                "img": "./assets/img/games/playstation/ellieTLOU.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Joel (The Last of Us)",
+                "img": "./assets/img/games/playstation/joelTLOU.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Kratos - God of War Armor (God of War 2)",
+                "img": "./assets/img/games/playstation/kratosGodArmor(gow).png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Kratos (God of War 3)",
+                "img": "./assets/img/games/playstation/kratosGow3.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Kratos (God of War - 2018)",
+                "img": "./assets/img/games/playstation/kratosNordic.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Mimir (God of War - 2018)",
+                "img": "./assets/img/games/playstation/mimirGOW.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ratchet (Ratchet & Clank Future: A Crack In Time)",
+                "img": "./assets/img/games/playstation/ratchetACIT.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ratchet - Carbonox Armor (Ratchet & Clank: Going Commando)",
+                "img": "./assets/img/games/playstation/ratchetCarbonoxArmor(goingCommando).png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ratchet - Infernox Amor (Ratchet & Clank: Up Your Arsenal)",
+                "img": "./assets/img/games/playstation/ratchetInfernoxArmor(rcUPYA).png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ratchet (Ratchet & Clank: Rift Apart)",
+                "img": "./assets/img/games/playstation/ratchetRF.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Secret Agent Clank (Ratchet & Clank: Up Your Arsenal)",
+                "img": "./assets/img/games/playstation/secretAgentClank(upya).png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Skrunch (Ratchet & Clank: Up Your Arsenal)",
+                "img": "./assets/img/games/playstation/skrunch(rcUPYA).png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Spyro",
+                "img": "./assets/img/games/playstation/spyro.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Spyro (The Legend of Spyro: Dawn Of The Dragon)",
+                "img": "./assets/img/games/playstation/spyroDOTD.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Zeus (God of War)",
+                "img": "./assets/img/games/playstation/zeusGOW.png",
+                "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            }
+        ],
+        [
+            {
+                "name": "Abajour",
+                "img": "./assets/img/objects/others/abajour1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Chair",
+                "img": "./assets/img/objects/others/chair1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Flashlight",
+                "img": "./assets/img/objects/others/flashlight1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Fork",
+                "img": "./assets/img/objects/others/fork1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Glass Bottle",
+                "img": "./assets/img/objects/others/glassBottle1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Head Phone",
+                "img": "./assets/img/objects/others/headPhone1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Head Phone",
+                "img": "./assets/img/objects/others/headPhone2.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Lamp",
+                "img": "./assets/img/objects/others/lamp1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Lego Dinosaur",
+                "img": "./assets/img/objects/others/legoDinosaur.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Luminaria",
+                "img": "./assets/img/objects/others/luminaria1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Luminaria",
+                "img": "./assets/img/objects/others/luminaria2.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Plastic Bottle",
+                "img": "./assets/img/objects/others/plasticBottle1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Ps4 Controller - Black",
+                "img": "./assets/img/objects/others/ps4ControllerBlack1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Scissor",
+                "img": "./assets/img/objects/others/scissors1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Smart Phone",
+                "img": "./assets/img/objects/others/smartPhone1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Spoon",
+                "img": "./assets/img/objects/others/spoon1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Table",
+                "img": "./assets/img/objects/others/table1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Table",
+                "img": "./assets/img/objects/others/table2.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Table",
+                "img": "./assets/img/objects/others/table3.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Xbox One Controller - Black",
+                "img": "./assets/img/objects/others/xboxOneControllerBlack1.png",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Xicara",
+                "img": "./assets/img/objects/others/xicara1.png",
+                "dataTheme": "object"
+            }
+        ]
+    ]
+}
