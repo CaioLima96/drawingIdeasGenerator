@@ -36,14 +36,20 @@ async function fetchAsync(tema) {
         ...data[1]
     ]
 
-    if (tema = 'all') {
+    console.log("allThemes qtd: " + allThemes.length)
+    console.log("Animes qtd: " + data[0].length)
+    console.log("Ben 10 qtd: " + data[1].length)
 
-        console.log(allThemes)
+    console.log("tema: " + tema)
+
+    if (tema === 'all') {
+
+        // console.log("all: " + tema)
         return allThemes
 
     } else {
 
-        console.log(data[tema])
+        // console.log("dataTema: " + tema)
         return data[tema]
 
     }
@@ -75,13 +81,13 @@ function getThemeValue(theme) {
 
         case 'games':
 
-            temaArr = allGames
+            temaArr = 2
 
             break
 
         case 'objects':
 
-            temaArr = allObjects
+            temaArr = 3
 
             break
     }
@@ -98,10 +104,10 @@ function getThemeValue(theme) {
 //tirar ou nao o async?
 async function getMultipleRandom(arr, num) {
 
-    console.log(arr)
+    // console.log(arr)
     let shuffled = [...arr].sort(() => 0.5 - Math.random());
 
-    console.log(shuffled.slice(0, num))
+    // console.log(shuffled.slice(0, num))
 
     return shuffled.slice(0, num);
 }

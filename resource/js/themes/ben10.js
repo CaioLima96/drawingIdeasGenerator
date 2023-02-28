@@ -111,7 +111,7 @@ const ben10BenPrimeUaUltiAliens = [
 
     {namePtbr: 'Bala de Canhão Supremo', nameEnglish: "Ultimate Cannonbolt", img:'./assets/img/ben10/aliens/benPrime/ua/bala-de-canhao-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
 
-    {namePtbr: '', nameEnglish: "Ultimate Wildmutt", img:'./assets/img/ben10/aliens/benPrime/ua/besta-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
+    {namePtbr: 'Besta Supremo', nameEnglish: "Ultimate Wildmutt", img:'./assets/img/ben10/aliens/benPrime/ua/besta-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
 
     {namePtbr: 'Calafrio Supremo', nameEnglish: "Ultimate Big Chill", img:'./assets/img/ben10/aliens/benPrime/ua/calafrio-supremo-(ua)-1.png', dataTheme: 'ben10', dataSeason: 'ben10ua'},
 

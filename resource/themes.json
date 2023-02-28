@@ -974,6 +974,378 @@
                 "img": "./assets/img/ben10/aliens/benPrime/classico/besta-(classico)-1.png",
                 "dataSubTheme": "ben10Classic",
                 "dataTheme": "ben10"
+            },
+            {
+                "name": "Heatblast",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/chama-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Wildvine",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/cipo-selvagem-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Diamondhead",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/diamante-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ditto",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/ditto-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ghostfreak",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/fantasmatico-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Frankenstrike",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/frankenstrike-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upchuck (Perk)",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/glutao-P-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Stinkfly",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/insectoide-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Blitzwolfer",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/lobisben-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Grey Matter",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/massa-cinzenta-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Eye Guy",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/mega-olhos-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upgrade",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/ultra-t-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Way Big",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/waybig-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "XLR8",
+                "img": "./assets/img/ben10/aliens/benPrime/classico/xlr8-(classico)-1.png",
+                "dataSubTheme": "ben10Classic",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Alien X",
+                "img": "./assets/img/ben10/aliens/benPrime/af/alien-x-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Jetray",
+                "img": "./assets/img/ben10/aliens/benPrime/af/arraia-jato-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Brainstorm",
+                "img": "./assets/img/ben10/aliens/benPrime/af/artropode-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benPrime/af/bala-de-canhao-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Big Chill's Offspring",
+                "img": "./assets/img/ben10/aliens/benPrime/af/bebe-necrofrigiano-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Bellicus",
+                "img": "./assets/img/ben10/aliens/benPrime/af/bellicus-e-serena-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Serena",
+                "img": "./assets/img/ben10/aliens/benPrime/af/bellicus-e-serena-(af)-2.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Big Chill (Cloaked)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/calafrio-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Big Chill (Wings)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/calafrio-(af)-2.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Chromastone",
+                "img": "./assets/img/ben10/aliens/benPrime/af/cromatico-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Diamondhead",
+                "img": "./assets/img/ben10/aliens/benPrime/af/diamante-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Echo Echo",
+                "img": "./assets/img/ben10/aliens/benPrime/af/eco-eco-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Humungousaur (normal size)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/enormossauro-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Humungousaur (full size)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/enormossauro-(af)-2.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Lodestar",
+                "img": "./assets/img/ben10/aliens/benPrime/af/estrela-polar-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Swampfire",
+                "img": "./assets/img/ben10/aliens/benPrime/af/fogo-selvagem-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upchuck (Murk)",
+                "img": "./assets/img/ben10/aliens/benPrime/af/glutao-m-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Goop",
+                "img": "./assets/img/ben10/aliens/benPrime/af/gosma-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Spidermonkey",
+                "img": "./assets/img/ben10/aliens/benPrime/af/macaco-aranha-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Nanomech",
+                "img": "./assets/img/ben10/aliens/benPrime/af/nanomech-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Rath",
+                "img": "./assets/img/ben10/aliens/benPrime/af/rath-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Way Big",
+                "img": "./assets/img/ben10/aliens/benPrime/af/waybig-(af)-1.png",
+                "dataSubTheme": "ben10af",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/bala-de-canhao-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Wildmutt",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/besta-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Big Chill",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/calafrio-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Echo Echo",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/eco-eco-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Humungousaur",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/enormossauro-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Swampfire",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/fogo-selvagem-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Spidermonkey",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/macaco-aranha-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ultimate Way Big",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/waybig-supremo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "4 Arms",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/4-bracos-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Fasttrack",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/acelerado-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Water Hazard",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/ameaca-aquatica-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ampfibian",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/anfibio-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ripjaws",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/aquatico-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Armodrillo",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/armatu-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ben/Rex - Heroes United",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/ben-rex-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Eatle",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/besouro-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Heatblast",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/chama-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "ChamAlien",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/chamalien-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Clockwork",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/contra-tempo-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Juryrigg",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/diabrete-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ghostfreak",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/fantasmatico-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Nrg (Armor)",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/nrg-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Nrg (True Form)",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/nrg-(ua)-2.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Shocksquatch",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/shocksquatch-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Terraspin",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/tartagira-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upgrade",
+                "img": "./assets/img/ben10/aliens/benPrime/ua/ultra-t-(ua)-1.png",
+                "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
             }
         ]
     ]
