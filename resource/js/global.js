@@ -87,7 +87,7 @@ function openModal() {
 	modal.style.display = "block"
 	document.body.style.overflow = 'hidden'
 	clonedElement()
-	console.log('open')
+	// console.log('open')
 }
 
 function closeModal () {
@@ -95,7 +95,7 @@ function closeModal () {
 	modal.style.display = "none";
 	document.body.style.overflow = ''
 
-	console.log('close')
+	// console.log('close')
 }
 
 // When the user clicks anywhere outside of the modal, close it
