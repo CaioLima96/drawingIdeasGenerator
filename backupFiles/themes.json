@@ -5,13 +5,13 @@
                 "name": "Aizen",
                 "img": "./assets/img/animes/bleach/aizen1.png",
                 "dataSubTheme": "bleach",
-                "dataTheme": "Animes"
+                "dataTheme": "animes"
             },
             {
                 "name": "Ichigo",
                 "img": "./assets/img/animes/bleach/ichigo1.png",
                 "dataSubTheme": "bleach",
-                "dataTheme": "Animes"
+                "dataTheme": "animes"
             },
             {
                 "name": "Ichigo - Bankai",

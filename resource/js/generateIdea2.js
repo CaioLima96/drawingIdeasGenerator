@@ -16,8 +16,6 @@ async function themesJsonFetch(theme) {
     // console.log("Games qtd: " + data[2].length)
     // console.log("Objetos qtd: " + data[3].length)
 
-    // console.log("tema: " + theme)
-
     if (theme === 'all') {
 
         return allThemes
@@ -102,13 +100,14 @@ async function setRandomTema() {
         document.getElementById('ideasList').innerHTML += `
     
                 <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
-                    <p style='margin-bottom: 16px'>${item.name} ${item.dataTheme=='object' || item.dataSubTheme=='playstation' || item.dataTheme=='game' ? '' : `(${item.dataTheme})`} ${item.dataSubTheme=='minecraft' || item.dataSubTheme=='fortnite' ? `(${item.dataSubTheme})` : ''}</p>
+                    <p style='margin-bottom: 16px'>
+                        ${item.name} 
+                        ${item.dataTheme=='object' || item.dataTheme=='animes' || item.dataSubTheme=='playstation' || item.dataTheme=='game' ? '' : `(${item.dataTheme})`} 
+                        ${item.dataSubTheme=='minecraft' || item.dataSubTheme=='fortnite' || item.dataTheme=='animes' ? `(${item.dataSubTheme})` : ''}
+                    </p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>
             `
-
-            // ${item.dataTheme=='object' || item.dataSubTheme=='playstation' || item.dataTheme=='game' ? '' : `(${item.dataTheme})`} 
-            // ${item.dataSubTheme=='minecraft' || item.dataSubTheme=='fortnite' ? `(${item.dataSubTheme})` : ''}
     }
 
     btns[0].classList.add('activeMenuBtn')
