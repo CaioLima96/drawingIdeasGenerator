@@ -33,14 +33,18 @@ async function fetchAsync(tema) {
 
     let allThemes = [
         ...data[0],
-        ...data[1]
+        ...data[1],
+        ...data[2],
+        ...data[3],
     ]
 
     console.log("allThemes qtd: " + allThemes.length)
     console.log("Animes qtd: " + data[0].length)
     console.log("Ben 10 qtd: " + data[1].length)
+    console.log("Games qtd: " + data[2].length)
+    console.log("Objetos qtd: " + data[3].length)
 
-    console.log("tema: " + tema)
+    // console.log("tema: " + tema)
 
     if (tema === 'all') {
 
@@ -141,7 +145,7 @@ async function setRandomTema() {
         document.getElementById('ideasList').innerHTML += `
     
                 <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
-                    <p style='margin-bottom: 16px'>${item.name} </p>
+                    <p style='margin-bottom: 16px'>${item.name} ${item.dataTheme=='object' || item.dataSubTheme=='playstation' || item.dataTheme=='game' ? '' : `(${item.dataTheme})`} ${item.dataSubTheme=='minecraft' || item.dataSubTheme=='fortnite' ? `(${item.dataSubTheme})` : ''}</p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>
             `
