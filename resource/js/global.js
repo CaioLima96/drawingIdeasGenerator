@@ -80,14 +80,14 @@ for (let i = 0; i < btns.length; i++) {
 
 //====================== MODAL
 
-let modal = document.getElementById("myModal");
+let modal = document.querySelector(".modal");
 
 function openModal() {
 
 	modal.style.display = "block"
 	document.body.style.overflow = 'hidden'
 	clonedElement()
-	// console.log('open')
+
 }
 
 function closeModal () {
@@ -95,7 +95,6 @@ function closeModal () {
 	modal.style.display = "none";
 	document.body.style.overflow = ''
 
-	// console.log('close')
 }
 
 // When the user clicks anywhere outside of the modal, close it
