@@ -1399,7 +1399,7 @@
             },
             {
                 "name": "Humungousaur",
-                "img": "./assets/img/ben10/aliens/benReboot/enormossauro-(reboot)-1.png",
+                "img": "./assets/img/ben10/aliens/benReboot/enormossauro-(reboot)-2.png",
                 "dataSubTheme": "ben10Reboot",
                 "dataTheme": "ben10"
             },
@@ -1571,7 +1571,10 @@
             },
             {
                 "name": "Omni-Kix Rath",
-                "img": "./assets/img/ben10/aliens/benReboot/rath-omnikix(reboot)-1.png"
+                "img": "./assets/img/ben10/aliens/benReboot/rath-omnikix(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
             },
             {
                 "name": "Omni-Kix Slapback",
@@ -1582,7 +1585,7 @@
             },
             {
                 "name": "Omni-Kix XLR8",
-                "img": "'./assets/img/ben10/aliens/benReboot/xlr8-omnikix-(reboot)-1.png",
+                "img": "'./assets/img/ben10/aliens/benReboot/xlr8-omnikix-(reboot)-2.png",
                 "dataBen10Form": "omnikix",
                 "dataSubTheme": "ben10Reboot",
                 "dataTheme": "ben10"

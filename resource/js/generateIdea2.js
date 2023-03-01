@@ -94,7 +94,7 @@ async function setRandomTema() {
     document.getElementById('ideasList').innerHTML = ' '
 
     let random = await randomData()
-    console.log(random)
+    // console.log(random)
 
     for (let item of random) {
         document.getElementById('ideasList').innerHTML += `
@@ -110,8 +110,8 @@ async function setRandomTema() {
             `
     }
 
-    btns[0].classList.add('activeMenuBtn')
-    btns[1].classList.remove('activeMenuBtn')
+    navTabBtns[0].classList.add('activeMenuBtn')
+    navTabBtns[1].classList.remove('activeMenuBtn')
     gridView()
 }
 

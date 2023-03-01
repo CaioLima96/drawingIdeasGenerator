@@ -61,12 +61,12 @@ function gridView() {
 let btnContainer = document.getElementById('gridViewBtn');
 
 // Get all buttons with class="listMenuBtn" inside the container
-let btns = btnContainer.getElementsByClassName("listMenuBtn");
+let navTabBtns = btnContainer.getElementsByClassName("listMenuBtn");
 
 // Loop through the buttons and add the active class to the current/clicked button
-for (let i = 0; i < btns.length; i++) {
+for (let i = 0; i < navTabBtns.length; i++) {
 
-	btns[i].addEventListener("click", function() {
+	navTabBtns[i].addEventListener("click", function() {
 
 		let currentBtn = document.getElementsByClassName("activeMenuBtn");
 		
