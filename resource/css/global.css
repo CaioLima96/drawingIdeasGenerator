@@ -91,7 +91,6 @@ body::-webkit-scrollbar-thumb:hover {
 /* ========================= HEADER ========================= */
 
 header {
-    /* padding: 0.375rem 1.5rem 0.375rem 0.625rem; */
     background-color: var(--blue1);
 }
 
@@ -114,17 +113,11 @@ header a {
     color: var(--black1);
 }
 
-/* header a:hover {
-    font-weight: bold;
-    color: black;
-} */
-
 #headerLogo {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 1.563rem;
-    /* padding-left: 0.625rem; */
 }
 
 #headerLogo a {
@@ -150,27 +143,12 @@ header a {
 }
 
 #headerNavMenu li {
-    /* margin-left: 1.5rem; */
     padding: 1rem;
     font-weight: bold;
 }
 
-#headerNavMenu li:last-child {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-#headerNavMenu li:last-child p {
-    margin-right: 5px;
-    pointer-events: none;
-}
-
-#headerNavMenu li:last-child > div {
-    pointer-events: none;
-}
-
 #headerNavMenu li:hover {
+    cursor: pointer;
     background-color: black;
 }
 
@@ -208,6 +186,7 @@ main {
 .generateBtn:hover {
     background-color: #5391ed;
     color: white;
+    cursor: pointer;
 }
 
 .btnHide {
