@@ -1,3 +1,33 @@
+/* ========================= GENERAL INPUTS ========================= */
+
+.inputField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inputField label {
+    margin-right: 0.625rem;
+}
+
+.inputField select {
+    max-width: 70%;
+    width: 204px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--grey2);
+    color: var(--blue2);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5rem;
+    outline: none;
+}
+
+
+
+/* ========================= FORM ========================= */
+
 form {
     max-width: 100%;
     width: 394px;
@@ -12,6 +42,36 @@ form {
 
 #allThemesField label {
     font-size: 22px;
+}
+
+#themeSelector {
+    /* border: 1px solid red; */
+}
+
+#themeSelector option {
+    /* font-size: 16px; */
+}
+
+.themedFieldSet {
+    display: none;
+    max-width: 100%;
+    width: 354px;
+    position: relative;
+    margin: 1rem auto;
+    padding: 1.75rem 1.188rem 2.5rem;
+    border: none !important;
+}
+
+.themedFieldSet .inputField:not(.themedFieldSet .inputField:first-child) {
+    margin-top: 1.875rem;
+}
+
+.themedFieldSet label {
+    font-size: 1.25rem;
+}
+
+.themedFieldSet select {
+    font-size: 18px;
 }
 
 .themedBorder {
@@ -67,77 +127,27 @@ form {
     width: 38px;
 }
 
-
-
-/* ========================= GENERAL INPUTS ========================= */
-
-.inputField {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+#combNumberContainer label{
+    font-size: 1.125rem;
 }
 
-.inputField label {
-    margin-right: 0.625rem;
-}
-
-.inputField select {
-    max-width: 70%;
-    width: 204px;
-    border-radius: 3px;
-    border: none;
-    background-color: var(--grey2);
-    color: var(--blue2);
-    font-size: 20px;
-    font-weight: bold;
-    padding: 0.5rem;
-    outline: none;
-}
-
-.inputField select * {
-}
-
-
-
-/* ========================= FIELDSETS ========================= */
-
-/* fieldset {
-} */
-
-.themedFieldSet {
-    display: none;
-    max-width: 100%;
-    width: 354px;
-    position: relative;
-    margin: 1rem auto;
-    padding: 1.75rem 1.188rem 2.5rem;
-    border: none !important;
-}
-
-.themedFieldSet .inputField:not(.themedFieldSet .inputField:first-child) {
-    margin-top: 1.875rem;
-}
-
-.themedFieldSet label {
-    font-size: 1.25rem;
-}
-
-.themedFieldSet select {
-    font-size: 18px;
-}
-
-#ben10BenInputsList {
-    /* display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; */
+#combNumber {
     width: 100%;
+    max-width: 177px;
+    font-size: 1rem;
+    padding: 0.375rem 0.375rem 0.375rem 0.625rem;
 }
-
 
 
 
 /* ========================= @MEDIA ========================= */
+
+@media (max-width: 349px) {
+
+    #combNumber {
+        max-width: initial !important;
+    }
+}
 
 @media (max-width: 400px) {
 
@@ -160,6 +170,13 @@ form {
 
     #allThemesField .inputField{
         justify-content: center;
+    }
+}
+
+@media (max-width: 433px) {
+
+    #combNumber {
+        max-width: 100px;
     }
 }
 
