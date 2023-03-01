@@ -102,8 +102,8 @@ async function setRandomTema() {
                 <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
                     <p style='margin-bottom: 16px'>
                         ${item.name} 
-                        ${item.dataTheme=='object' || item.dataTheme=='animes' || item.dataSubTheme=='playstation' || item.dataTheme=='game' ? '' : `(${item.dataTheme})`} 
-                        ${item.dataSubTheme=='minecraft' || item.dataSubTheme=='fortnite' || item.dataTheme=='animes' ? `(${item.dataSubTheme})` : ''}
+                        ${item.dataTheme=='object' || item.dataTheme=='animes' || item.dataSubTheme=='playstation' || item.dataTheme=='game' || item.dataTheme=="ben10" ? '' : `(${item.dataTheme})`} 
+                        ${item.dataSubTheme=='minecraft' || item.dataSubTheme=='fortnite' || item.dataTheme=='animes' || item.dataTheme=="ben10" ? `(${item.dataSubTheme})` : ''}
                     </p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>

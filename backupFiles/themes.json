@@ -1194,48 +1194,56 @@
             {
                 "name": "Ultimate Cannonbolt",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/bala-de-canhao-supremo-(ua)-1.png",
+                "dataBen10Form": "ultimate",
                 "dataSubTheme": "ben10ua",
                 "dataTheme": "ben10"
             },
             {
                 "name": "Ultimate Wildmutt",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/besta-supremo-(ua)-1.png",
+                "dataBen10Form": "ultimate",
                 "dataSubTheme": "ben10ua",
                 "dataTheme": "ben10"
             },
             {
                 "name": "Ultimate Big Chill",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/calafrio-supremo-(ua)-1.png",
+                "dataBen10Form": "ultimate",
                 "dataSubTheme": "ben10ua",
                 "dataTheme": "ben10"
             },
             {
                 "name": "Ultimate Echo Echo",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/eco-eco-supremo-(ua)-1.png",
+                "dataBen10Form": "ultimate",
                 "dataSubTheme": "ben10ua",
                 "dataTheme": "ben10"
             },
             {
                 "name": "Ultimate Humungousaur",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/enormossauro-supremo-(ua)-1.png",
+                "dataBen10Form": "ultimate",
                 "dataSubTheme": "ben10ua",
                 "dataTheme": "ben10"
             },
             {
                 "name": "Ultimate Swampfire",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/fogo-selvagem-supremo-(ua)-1.png",
+                "dataBen10Form": "ultimate",
                 "dataSubTheme": "ben10ua",
                 "dataTheme": "ben10"
             },
             {
                 "name": "Ultimate Spidermonkey",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/macaco-aranha-supremo-(ua)-1.png",
+                "dataBen10Form": "ultimate",
                 "dataSubTheme": "ben10ua",
                 "dataTheme": "ben10"
             },
             {
                 "name": "Ultimate Way Big",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/waybig-supremo-(ua)-1.png",
+                "dataBen10Form": "ultimate",
                 "dataSubTheme": "ben10ua",
                 "dataTheme": "ben10"
             },
@@ -1345,6 +1353,266 @@
                 "name": "Upgrade",
                 "img": "./assets/img/ben10/aliens/benPrime/ua/ultra-t-(ua)-1.png",
                 "dataSubTheme": "ben10ua",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Four Arms",
+                "img": "./assets/img/ben10/aliens/benReboot/4-bracos-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Jetray",
+                "img": "./assets/img/ben10/aliens/benReboot/arraia-jato-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benReboot/bala-de-canhao-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Heatblast",
+                "img": "./assets/img/ben10/aliens/benReboot/chama-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Shock Rock",
+                "img": "./assets/img/ben10/aliens/benReboot/choque-rochoso-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Wildvine",
+                "img": "./assets/img/ben10/aliens/benReboot/cipo-selvagem-(reboot)-2.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Diamondhead",
+                "img": "./assets/img/ben10/aliens/benReboot/diamante-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Humungousaur",
+                "img": "./assets/img/ben10/aliens/benReboot/enormossauro-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Overflow",
+                "img": "./assets/img/ben10/aliens/benReboot/enxurrada-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Gax",
+                "img": "./assets/img/ben10/aliens/benReboot/gax-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Goop",
+                "img": "./assets/img/ben10/aliens/benReboot/gosma-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Grey Matter",
+                "img": "./assets/img/ben10/aliens/benReboot/massa-cinzenta-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Rath",
+                "img": "./assets/img/ben10/aliens/benReboot/rath-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Slapback",
+                "img": "./assets/img/ben10/aliens/benReboot/tapinha-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upgrade",
+                "img": "./assets/img/ben10/aliens/benReboot/ultra-t-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Way Big",
+                "img": "./assets/img/ben10/aliens/benReboot/way-big-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "XLR8",
+                "img": "./assets/img/ben10/aliens/benReboot/XLR8-(reboot)-1.png",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced Four Arms",
+                "img": "./assets/img/ben10/aliens/benReboot/4-bracos-omnitunado-(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced  Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benReboot/bala-de-canhao-OmniTunado(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced  Heatblast",
+                "img": "./assets/img/ben10/aliens/benReboot/chama-omnitunado-(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced  Wildvine",
+                "img": "./assets/img/ben10/aliens/benReboot/cipo-selvagem-omnitunado-(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced  Diamondhead",
+                "img": "./assets/img/ben10/aliens/benReboot/diamante-omnitunado-(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced  Overflow",
+                "img": "./assets/img/ben10/aliens/benReboot/enxurrada-omnitunado-(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced  Stinkfly",
+                "img": "./assets/img/ben10/aliens/benReboot/insectoide-omnitunado-(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced  Grey Matter",
+                "img": "./assets/img/ben10/aliens/benReboot/massa-cinzenta-omnitunado-(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Enhanced  XLR8",
+                "img": "./assets/img/ben10/aliens/benReboot/xlr8-omnitunado-(reboot)-1.png",
+                "dataBen10Form": "omniEnhanced",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix Four Arms",
+                "img": "./assets/img/ben10/aliens/benReboot/4-bracos-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix Jetray",
+                "img": "./assets/img/ben10/aliens/benReboot/arraia-jato-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benReboot/bala-de-canhao-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix Heatblast",
+                "img": "./assets/img/ben10/aliens/benReboot/chama-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix Shock Rock",
+                "img": "./assets/img/ben10/aliens/benReboot/choque-rochoso-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix Diamondhead",
+                "img": "./assets/img/ben10/aliens/benReboot/diamante-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix Humungousaur",
+                "img": "./assets/img/ben10/aliens/benReboot/enormossauro-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix Rath",
+                "img": "./assets/img/ben10/aliens/benReboot/rath-omnikix(reboot)-1.png"
+            },
+            {
+                "name": "Omni-Kix Slapback",
+                "img": "./assets/img/ben10/aliens/benReboot/tapinha-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Kix XLR8",
+                "img": "'./assets/img/ben10/aliens/benReboot/xlr8-omnikix-(reboot)-1.png",
+                "dataBen10Form": "omnikix",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Naut Jetray",
+                "img": "./assets/img/ben10/aliens/benReboot/arraia-jato-omninauta-(reboot)-1.png",
+                "dataBen10Form": "omninaut",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Naut Heatblast",
+                "img": "./assets/img/ben10/aliens/benReboot/chama-omninauta-(reboot)-1.png",
+                "dataBen10Form": "omninaut",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Naut Shock Rock",
+                "img": "./assets/img/ben10/aliens/benReboot/choque-rochoso-omninauta-(reboot)-1.png",
+                "dataBen10Form": "omninaut",
+                "dataSubTheme": "ben10Reboot",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Omni-Naut Humungousaur",
+                "img": "./assets/img/ben10/aliens/benReboot/enormossauro-omninauta-(reboot)-1.png",
+                "dataBen10Form": "omninaut",
+                "dataSubTheme": "ben10Reboot",
                 "dataTheme": "ben10"
             }
         ],
