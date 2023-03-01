@@ -110,6 +110,7 @@ async function setRandomTema() {
             `
     }
 
+
     navTabBtns[0].classList.add('activeMenuBtn')
     navTabBtns[1].classList.remove('activeMenuBtn')
     gridView()

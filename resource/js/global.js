@@ -6,10 +6,6 @@ function darkModeFunc() {
     document.getElementById('darkModeBtn').getElementsByTagName('div')[0].classList.toggle('toggleSunMoon')
 }
 
-// function snmn (){
-//     document.getElementById('darkModeBtn').classList.toggle('toggleSunMoon')
-// }
-
 
 
 //====================== RESPONSIVE MENU
@@ -28,29 +24,34 @@ function closeNavBar() {
 
 //====================== LIST/GRID VIEW
 
-let lista = document.getElementById('ideasList')
-let listItens = document.getElementsByClassName("generatedIdea")
-// console.log(listItens)
+let ideasList = document.getElementById('ideasList')
+let ideasListImg = ideasList.getElementsByClassName('imgContainer')
 
-// List View
+
+//==== List View
 function listView() {
-    // for (let i = 0; i < listItens.length; i++) {
-    //     listItens[i].style.width = "100%"
-    //     listItens[i].style.maxWidth = "500px"
-    // }
-    lista.classList.remove('gridView')
-    lista.classList.add('listView')
-    // console.log('lista')
+
+    ideasList.classList.remove('gridView')
+    ideasList.classList.add('listView')
+    
+	for (let i = 0; i < ideasListImg.length; i++) {
+
+		console.log('height: ' + ideasListImg[i].clientHeight)
+		console.log('height: ' + ideasListImg[i].clientWidth)
+
+        if (ideasListImg[i].clientHeight > 500) {
+
+            ideasListImg[i].setAttribute("style","height:500px")
+
+        }
+    }
 }
 
-// Grid View
+//==== Grid View
 function gridView() {
-    // for (let i = 0; i < listItens.length; i++) {
-    //     listItens[i].style.width = "50%";
-    // }
-    lista.classList.remove('listView')
-    lista.classList.add('gridView')
-    // console.log('grid')
+   
+    ideasList.classList.remove('listView')
+    ideasList.classList.add('gridView')
 }
 
 

@@ -32,7 +32,6 @@ form {
     max-width: 100%;
     width: 394px;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 #allThemesField {
@@ -42,14 +41,6 @@ form {
 
 #allThemesField label {
     font-size: 22px;
-}
-
-#themeSelector {
-    /* border: 1px solid red; */
-}
-
-#themeSelector option {
-    /* font-size: 16px; */
 }
 
 .themedFieldSet {

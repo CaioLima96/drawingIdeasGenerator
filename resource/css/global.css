@@ -167,7 +167,6 @@ main {
     width: 90%;
     margin: 0 auto;
     padding: 5rem 0;
-    /* border: 1px solid black; */
 }
 
 .generateBtn {
@@ -209,13 +208,13 @@ main {
     display: flex;
     align-items: center;
     font-size: 0.875rem;
-    /* padding: 0.625rem 1rem 0.5rem; */
     padding: 0.625rem 1rem;
     border: none;
     outline: none;
     background-color: #dcdcdc;
     border-radius: 3px;
 }
+
 .listMenuBtn p {
     line-height: 13px;
 }
@@ -255,33 +254,19 @@ main {
 
 #ideasList {
     display: flex;
-    /* justify-content: space-evenly; */
     flex-wrap: wrap;
     width: 100%;
     max-width: 608px;
-    /* color: black; */
-    /* border: 1px solid red; */
 }
 
 #ideasList li {
-    /* width: 250px; */
-    /* width: 50%; */
     text-align: center;
     font-size: 1.25rem;
-    /* border: 1px solid blueviolet; */
 }
 
 #ideasList li{
     margin-bottom: 2.25rem;
 }
-
-/* #ideasList li .imgContainer {
-    height: 296px;
-    height: 400px;
-    height: 100%;
-    max-height: 500px;
-    border: 1px solid red;
-} */
 
 #ideasList li .imgContainer img {
     object-fit: contain;
@@ -296,7 +281,7 @@ main {
 }
 
 .gridView li .imgContainer {
-    height: 350px;
+    height: 350px !important;
 }
 
 .listView {
@@ -309,9 +294,6 @@ main {
     max-width: 500px;
 }
 
-.listView li .imgContainer {
-    height: 400px;
-}
 
 
 /* ========================= FOOTER ========================= */
