@@ -19,8 +19,8 @@
 }
 
 #darkModeBtn .imgContainer {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
 }
 
 #dmMoon, #dmSun {
@@ -30,11 +30,11 @@
     pointer-events: none;
 }
 
-#dmSun {
+#dmMoon {
     display: inline-block;
 }
 
-#dmMoon {
+#dmSun {
     display: inline-block;
     transform: rotateY(-180deg);
     -webkit-backface-visibility: hidden; 

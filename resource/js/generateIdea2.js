@@ -8,8 +8,14 @@ async function themesJsonFetch(theme) {
         ...data[1],
         ...data[2],
         ...data[3],
+        {
+            "name": "Dig",
+            "img": "./assets/img/digFullBody.png",
+            "dataSubTheme": " ",
+            "dataTheme": " "
+        }
     ]
-
+    // console.log(allThemes)
     // console.log("allThemes qtd: " + allThemes.length)
     // console.log("Animes qtd: " + data[0].length)
     // console.log("Ben 10 qtd: " + data[1].length)

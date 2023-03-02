@@ -37,6 +37,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--grey1);
+    /* background-color: #feeed5; */
 }
 
 body::-webkit-scrollbar {
@@ -92,6 +93,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 header {
     background-color: var(--blue1);
+    /* background-color: #FFC76C; */
 }
 
 header nav { 
@@ -154,6 +156,7 @@ header a {
 
 #headerNavMenu li:hover a, #headerNavMenu li:hover p{
     color: #5391ED;
+    /* color: #FFC76C; */
 }
 
 
@@ -301,6 +304,7 @@ main {
 footer {
     padding: 1.313rem 0 0.5rem;
     background-color: var(--blue1);
+    /* background-color: #FFC76C; */
     text-align: center;
     color: var(--black1);
 }

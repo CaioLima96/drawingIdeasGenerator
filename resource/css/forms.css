@@ -127,6 +127,10 @@ form {
     max-width: 177px;
     font-size: 1rem;
     padding: 0.375rem 0.375rem 0.375rem 0.625rem;
+    background-color: var(--grey2);
+    color: var(--blue2);
+    border: none;
+    border-radius: 4px;
 }
 
 

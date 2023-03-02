@@ -1,12 +1,28 @@
 //====================== DARK MODE BTN
 
+let darkModeBtn = document.getElementById('darkModeBtn')
+let dmBtnText = darkModeBtn.getElementsByTagName('p')[0]
+
 function darkModeFunc() {
+	
     let element = document.body;
     element.classList.toggle("darkMode");
-    document.getElementById('darkModeBtn').getElementsByTagName('div')[0].classList.toggle('toggleSunMoon')
+    darkModeBtn.getElementsByTagName('div')[0].classList.toggle('toggleSunMoon')
+
+
+	console.log(dmBtnText.textContent)
+	if (dmBtnText.textContent == 'Dark Mode') {
+
+		return dmBtnText.textContent = 'Light Mode'
+
+	} else  {
+
+		return dmBtnText.textContent = 'Dark Mode'
+
+	}
 }
 
-
+darkModeBtn.addEventListener('click', darkModeFunc)
 
 //====================== RESPONSIVE MENU
 
@@ -36,8 +52,8 @@ function listView() {
     
 	for (let i = 0; i < ideasListImg.length; i++) {
 
-		console.log('height: ' + ideasListImg[i].clientHeight)
-		console.log('height: ' + ideasListImg[i].clientWidth)
+		// console.log('height: ' + ideasListImg[i].clientHeight)
+		// console.log('height: ' + ideasListImg[i].clientWidth)
 
         if (ideasListImg[i].clientHeight > 500) {
 
