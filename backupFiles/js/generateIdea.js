@@ -1,4 +1,3 @@
-const combNumber = document.getElementById('combNumber')
 
 const allThemess = [
     ...allAnimes,
@@ -59,7 +58,7 @@ function getMultipleRandom(arr, num) {
 }
 
 
-let randomData = () => getMultipleRandom(getThemeValue(themeSelector.value), combNumber.value)
+let randomData = () => getMultipleRandom(getThemeValue(themeSelector.value), conbNumber.value)
 
 function setRandomData(valor) {
 

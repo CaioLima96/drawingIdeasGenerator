@@ -15,8 +15,11 @@ async function themesJsonFetch(theme) {
             "dataTheme": " "
         }
     ]
+
+    // mask(allThemes.length)
+
     // console.log(allThemes)
-    // console.log("allThemes qtd: " + allThemes.length)
+    console.log("allThemes qtd: " + allThemes.length)
     // console.log("Animes qtd: " + data[0].length)
     // console.log("Ben 10 qtd: " + data[1].length)
     // console.log("Games qtd: " + data[2].length)
@@ -87,6 +90,45 @@ function getMultipleRandom(arr, num) {
 }
 
 
+//input mask
+let combNumber = document.getElementById('combNumber')
+
+
+function setInputFilter(textbox, inputFilter, errMsg) {
+    ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop", "focusout"].forEach(function (event) {
+        textbox.addEventListener(event, function (e) {
+            if (inputFilter(this.value)) {
+                // Accepted value
+                if (["keydown", "mousedown", "focusout"].indexOf(e.type) >= 0) {
+                    this.classList.remove("input-error");
+                    this.setCustomValidity("");
+                }
+                this.oldValue = this.value;
+                this.oldSelectionStart = this.selectionStart;
+                this.oldSelectionEnd = this.selectionEnd;
+            } else if (this.hasOwnProperty("oldValue")) {
+                // Rejected value - restore the previous one
+                this.classList.add("input-error");
+                // this.setCustomValidity(errMsg);
+                this.reportValidity();
+                this.value = this.oldValue;
+                // this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+            } else {
+
+                // Rejected value - nothing to restore
+                this.value = "";
+            }
+        });
+    });
+}
+
+setInputFilter(document.getElementById("combNumber"), 
+function (value) {
+    return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 500);
+})
+// ,"Must be between 0 and 364"
+
+
 //stores the random data
 async function randomData() {
     return getMultipleRandom(await themesJsonFetch(getThemeValue()), combNumber.value)
@@ -108,14 +150,15 @@ async function setRandomTema() {
                 <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
                     <p style='margin-bottom: 16px'>
                         ${item.name} 
-                        ${item.dataTheme=='object' || item.dataTheme=='animes' || item.dataSubTheme=='playstation' || item.dataTheme=='game' || item.dataTheme=="ben10" ? '' : `(${item.dataTheme})`} 
-                        ${item.dataSubTheme=='minecraft' || item.dataSubTheme=='fortnite' || item.dataTheme=='animes' || item.dataTheme=="ben10" ? `(${item.dataSubTheme})` : ''}
+                        ${item.dataTheme == 'object' || item.dataTheme == 'animes' || item.dataSubTheme == 'playstation' || item.dataTheme == 'game' || item.dataTheme == "ben10" ? '' : `(${item.dataTheme})`} 
+                        ${item.dataSubTheme == 'minecraft' || item.dataSubTheme == 'fortnite' || item.dataTheme == 'animes' || item.dataTheme == "ben10" ? `(${item.dataSubTheme})` : ''}
                     </p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>
             `
     }
 
+    // console.log(`${combNumber.value > 364 ? 'maior' : 'menor'}`)
 
     navTabBtns[0].classList.add('activeMenuBtn')
     navTabBtns[1].classList.remove('activeMenuBtn')
