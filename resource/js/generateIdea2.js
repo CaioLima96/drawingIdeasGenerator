@@ -16,10 +16,7 @@ async function themesJsonFetch(theme) {
         }
     ]
 
-    // mask(allThemes.length)
-
-    // console.log(allThemes)
-    console.log("allThemes qtd: " + allThemes.length)
+    // console.log("allThemes qtd: " + allThemes.length)
     // console.log("Animes qtd: " + data[0].length)
     // console.log("Ben 10 qtd: " + data[1].length)
     // console.log("Games qtd: " + data[2].length)
@@ -84,16 +81,11 @@ function getMultipleRandom(arr, num) {
     // console.log(arr)
     let shuffled = [...arr].sort(() => 0.5 - Math.random());
 
-    // console.log(shuffled.slice(0, num))
-
     return shuffled.slice(0, num);
 }
 
 
 //input mask
-let combNumber = document.getElementById('combNumber')
-
-
 function setInputFilter(textbox, inputFilter, errMsg) {
     ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop", "focusout"].forEach(function (event) {
         textbox.addEventListener(event, function (e) {
@@ -109,7 +101,7 @@ function setInputFilter(textbox, inputFilter, errMsg) {
             } else if (this.hasOwnProperty("oldValue")) {
                 // Rejected value - restore the previous one
                 this.classList.add("input-error");
-                // this.setCustomValidity(errMsg);
+                this.setCustomValidity(errMsg);
                 this.reportValidity();
                 this.value = this.oldValue;
                 // this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
@@ -125,8 +117,7 @@ function setInputFilter(textbox, inputFilter, errMsg) {
 setInputFilter(document.getElementById("combNumber"), 
 function (value) {
     return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 500);
-})
-// ,"Must be between 0 and 364"
+},"Must be between 1 and 500")
 
 
 //stores the random data
