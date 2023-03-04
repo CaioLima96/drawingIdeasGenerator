@@ -17,7 +17,7 @@ async function themesJsonFetch(theme) {
     ]
 
     // console.log("allThemes qtd: " + allThemes.length)
-    // console.log("Animes qtd: " + data[0].length)
+    console.log("Animes qtd: " + data[0].length)
     // console.log("Ben 10 qtd: " + data[1].length)
     // console.log("Games qtd: " + data[2].length)
     // console.log("Objetos qtd: " + data[3].length)

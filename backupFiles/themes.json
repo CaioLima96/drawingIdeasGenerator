@@ -374,7 +374,7 @@
                 "dataTheme": "animes"
             },
             {
-                "name": "Goku SSG.png",
+                "name": "Goku | SSG -",
                 "img": "./assets/img/animes/dragonBall/gokuSSG.png",
                 "dataSubTheme": "dragonBall",
                 "dataTheme": "animes"
@@ -680,19 +680,19 @@
                 "dataTheme": "animes"
             },
             {
-                "name": "Alvida - Fat",
+                "name": "Alvida | Fat -",
                 "img": "./assets/img/animes/onePiece/alvida(fat).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Alvida - Thin",
+                "name": "Alvida | Thin -",
                 "img": "./assets/img/animes/onePiece/alvida(thin).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Aokiji - Pre-TimeSkip",
+                "name": "Aokiji | Pre-TimeSkip -",
                 "img": "./assets/img/animes/onePiece/aokiji(preTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
@@ -710,25 +710,25 @@
                 "dataTheme": "animes"
             },
             {
-                "name": "Big Mom - Hungry/Berserker",
+                "name": "Big Mom | Hungry/Berserker -",
                 "img": "./assets/img/animes/onePiece/bigMom2.png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Brook - Post-TimeSkip",
+                "name": "Brook | Post-TimeSkip -",
                 "img": "./assets/img/animes/onePiece/brook(postTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Chopper - Pre-Timeskip",
+                "name": "Chopper | Pre-Timeskip -",
                 "img": "./assets/img/animes/onePiece/chopper(preTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Chopper - Post-Timeskip",
+                "name": "Chopper | Post-Timeskip -",
                 "img": "./assets/img/animes/onePiece/chopper(postTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
@@ -740,13 +740,13 @@
                 "dataTheme": "animes"
             },
             {
-                "name": "Franky - Pre-Timeskip",
+                "name": "Franky | Pre-Timeskip -",
                 "img": "./assets/img/animes/onePiece/franky(preTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Franky - Post-Timeskip",
+                "name": "Franky | Post-Timeskip -",
                 "img": "./assets/img/animes/onePiece/franky(postTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
@@ -782,37 +782,37 @@
                 "dataTheme": "animes"
             },
             {
-                "name": "Kaidou - Dragon",
+                "name": "Kaidou | Dragon -",
                 "img": "./assets/img/animes/onePiece/kaidou(dragon).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Kaidou - Hybrid",
+                "name": "Kaidou | Hybrid -",
                 "img": "./assets/img/animes/onePiece/kaidou(hybrid).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Luffy - Post-Timeskip",
+                "name": "Luffy | Post-Timeskip -",
                 "img": "./assets/img/animes/onePiece/luffy(postTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Nami - Pre-Timeskip",
+                "name": "Nami | Pre-Timeskip -",
                 "img": "./assets/img/animes/onePiece/nami(preTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Nico Robin - Pre-Timeskip",
+                "name": "Nico Robin | Pre-Timeskip -",
                 "img": "./assets/img/animes/onePiece/nicoRobin(preTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Nico Robin - Post-Timeskip",
+                "name": "Nico Robin | Post-Timeskip -",
                 "img": "./assets/img/animes/onePiece/nicoRobin(postTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
@@ -848,19 +848,19 @@
                 "dataTheme": "animes"
             },
             {
-                "name": "Ussop - Post-Timeskip",
+                "name": "Ussop | Post-Timeskip -",
                 "img": "./assets/img/animes/onePiece/ussop(postTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Ussop - Pre-Timeskip",
+                "name": "Ussop | Pre-Timeskip -",
                 "img": "./assets/img/animes/onePiece/ussop(preTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
             },
             {
-                "name": "Zoro - Pre-Timeskip",
+                "name": "Zoro | Pre-Timeskip -",
                 "img": "./assets/img/animes/onePiece/zoro(postTimeSkip).png",
                 "dataSubTheme": "onePiece",
                 "dataTheme": "animes"
@@ -878,13 +878,13 @@
                 "dataTheme": "animes"
             },
             {
-                "name": "Boros - 2nd Form",
+                "name": "Boros | 2nd Form -",
                 "img": "./assets/img/animes/onePunchMan/boros2ndForm.png",
                 "dataSubTheme": "onePunchMan",
                 "dataTheme": "animes"
             },
             {
-                "name": "Boros Final Form",
+                "name": "Boros | Final Form -",
                 "img": "./assets/img/animes/onePunchMan/borosFinalForm.png",
                 "dataSubTheme": "onePunchMan",
                 "dataTheme": "animes"
@@ -1083,13 +1083,25 @@
             },
             {
                 "name": "Gaara",
-                "img": "./assets/img/animes/naruto/gaara.png",
+                "img": "./assets/img/animes/naruto/gaara01.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
             {
-                "name": "Gaara | Partially Transformed",
+                "name": "Gaara",
+                "img": "./assets/img/animes/naruto/gaara02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gaara | Partially Transformed 1 -",
                 "img": "./assets/img/animes/naruto/gaaraShukakuForm1.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gaara | Partially Transformed 2",
+                "img": "./assets/img/animes/naruto/gaaraShukakuForm2.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
@@ -1106,6 +1118,30 @@
                 "dataTheme": "animes"
             },
             {
+                "name": "Hashirama",
+                "img": "./assets/img/animes/naruto/hashirama02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hashirama | Sage Mode - ",
+                "img": "./assets/img/animes/naruto/hashiramaSageMode.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hinata",
+                "img": "./assets/img/animes/naruto/hinata01.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hinata",
+                "img": "./assets/img/animes/naruto/hinata02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
                 "name": "Hiruzen",
                 "img": "./assets/img/animes/naruto/hiruzen.png",
                 "dataSubTheme": "naruto",
@@ -1113,7 +1149,13 @@
             },
             {
                 "name": "Jiraiya",
-                "img": "./assets/img/animes/naruto/jiraiya.png",
+                "img": "./assets/img/animes/naruto/jiraiya02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jiraiya | Sage Mode -",
+                "img": "./assets/img/animes/naruto/jiraiyaSageMode.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
@@ -1130,14 +1172,44 @@
                 "dataTheme": "animes"
             },
             {
+                "name": "Kakashi",
+                "img": "./assets/img/animes/naruto/kakashi02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
                 "name": "Kidomaru",
                 "img": "./assets/img/animes/naruto/kidomaru.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
             {
+                "name": "Kidomaru | Cursed Seal 2º Form -",
+                "img": "./assets/img/animes/naruto/kidomaruCursedSeal2ndStage.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kimimaru",
+                "img": "./assets/img/animes/naruto/kimimaru.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kimimaru | Cursed Seal 2º Form -",
+                "img": "./assets/img/animes/naruto/kimimaruCursedSeal2ndStage.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
                 "name": "Konohamaru",
                 "img": "./assets/img/animes/naruto/konohamaru.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Madara",
+                "img": "./assets/img/animes/naruto/madara02.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
@@ -1155,6 +1227,12 @@
             },
             {
                 "name": "Naruto",
+                "img": "./assets/img/animes/naruto/naruto01.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Naruto",
                 "img": "./assets/img/animes/naruto/naruto02.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
@@ -1162,6 +1240,12 @@
             {
                 "name": "Naruto | Chakra Robe -",
                 "img": "./assets/img/animes/naruto/narutoChakraRobe.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Naruto | One Tail -",
+                "img": "./assets/img/animes/naruto/narutoOneTail.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
@@ -1196,6 +1280,24 @@
                 "dataTheme": "animes"
             },
             {
+                "name": "Neji",
+                "img": "./assets/img/animes/naruto/neji02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Rock Lee",
+                "img": "./assets/img/animes/naruto/rockLee01.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Rock Lee",
+                "img": "./assets/img/animes/naruto/rockLee02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
                 "name": "Orochimaru",
                 "img": "./assets/img/animes/naruto/orochimaru.png",
                 "dataSubTheme": "naruto",
@@ -1226,6 +1328,18 @@
                 "dataTheme": "animes"
             },
             {
+                "name": "Sakura",
+                "img": "./assets/img/animes/naruto/sakura01.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sakura",
+                "img": "./assets/img/animes/naruto/sakura02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
                 "name": "Sasuke",
                 "img": "./assets/img/animes/naruto/sasuke01.png",
                 "dataSubTheme": "naruto",
@@ -1252,6 +1366,18 @@
             {
                 "name": "Tayuya",
                 "img": "./assets/img/animes/naruto/tayuya.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Tayuya | Cursed Seal 2º Form -",
+                "img": "./assets/img/animes/naruto/tayuyaCursedSeal2ndForm.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Tsunade",
+                "img": "./assets/img/animes/naruto/tsunade02.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
