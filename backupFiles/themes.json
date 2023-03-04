@@ -2183,7 +2183,7 @@
                 "dataTheme": "game"
             },
             {
-                "name": "Trespasser Elite - Cubed",
+                "name": "Trespasser Elite | Cubed -",
                 "img": "./assets/img/games/fortnite/trespasserElite(Cubed).png",
                 "dataFortSkinType": "fortSkinOriginals",
                 "dataSubTheme": "fortnite",
@@ -2592,6 +2592,12 @@
                 "dataTheme": "game"
             },
             {
+                "name": "Basic Pig",
+                "img": "./assets/img/games/angryBirds/basicPig.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
                 "name": "Big Blue Bird",
                 "img": "./assets/img/games/angryBirds/bigBlueBird.png",
                 "dataSubTheme": "angryBirds",
@@ -2616,6 +2622,24 @@
                 "dataTheme": "game"
             },
             {
+                "name": "Corporal Pig",
+                "img": "./assets/img/games/angryBirds/corporalPigClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "El Porkador",
+                "img": "./assets/img/games/angryBirds/elPorkador.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Fat Pig",
+                "img": "./assets/img/games/angryBirds/fatPig.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
                 "name": "Green Bird",
                 "img": "./assets/img/games/angryBirds/greenBirdChrome.png",
                 "dataSubTheme": "angryBirds",
@@ -2624,6 +2648,18 @@
             {
                 "name": "Ice Cube Bird",
                 "img": "./assets/img/games/angryBirds/iceCubeBird.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "King Leonard Mudbeard",
+                "img": "./assets/img/games/angryBirds/kingLeonardMudbeardClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "King Pig Smooth Cheeks",
+                "img": "./assets/img/games/angryBirds/kingPigSmoothCheeks.png",
                 "dataSubTheme": "angryBirds",
                 "dataTheme": "game"
             },
