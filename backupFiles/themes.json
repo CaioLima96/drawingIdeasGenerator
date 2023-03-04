@@ -2035,7 +2035,7 @@
             },
             {
                 "name": "Omni-Kix XLR8",
-                "img": "'./assets/img/ben10/aliens/benReboot/xlr8-omnikix-(reboot)-2.png",
+                "img": "./assets/img/ben10/aliens/benReboot/xlr8-omnikix-(reboot)-2.png",
                 "dataBen10Form": "omnikix",
                 "dataSubTheme": "ben10Reboot",
                 "dataTheme": "ben10"
@@ -2589,6 +2589,90 @@
                 "name": "Zeus (God of War)",
                 "img": "./assets/img/games/playstation/zeusGOW.png",
                 "dataSubTheme": "playstation",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Big Blue Bird",
+                "img": "./assets/img/games/angryBirds/bigBlueBird.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Big Red Bird",
+                "img": "./assets/img/games/angryBirds/bigRedBirdClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Black Bird",
+                "img": "./assets/img/games/angryBirds/blackBirdClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Brown Bird",
+                "img": "./assets/img/games/angryBirds/brownBird.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Green Bird",
+                "img": "./assets/img/games/angryBirds/greenBirdChrome.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ice Cube Bird",
+                "img": "./assets/img/games/angryBirds/iceCubeBird.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Orange Bird",
+                "img": "./assets/img/games/angryBirds/orangeBirdClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Pink Bird",
+                "img": "./assets/img/games/angryBirds/pinkBirdClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Red Bird",
+                "img": "./assets/img/games/angryBirds/redBirdClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Silver Bird",
+                "img": "./assets/img/games/angryBirds/silverBird.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "The Blues",
+                "img": "./assets/img/games/angryBirds/theBluesClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "The Mighty Eagle",
+                "img": "./assets/img/games/angryBirds/theMightyEagleClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "White Bird",
+                "img": "./assets/img/games/angryBirds/whiteBirdClassic.png",
+                "dataSubTheme": "angryBirds",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Yellow Bird",
+                "img": "./assets/img/games/angryBirds/yellowBirdClassic.png",
+                "dataSubTheme": "angryBirds",
                 "dataTheme": "game"
             }
         ],

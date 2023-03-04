@@ -16,11 +16,11 @@ async function themesJsonFetch(theme) {
         }
     ]
 
-    // console.log("allThemes qtd: " + allThemes.length)
+    console.log("allThemes qtd: " + allThemes.length)
     console.log("Animes qtd: " + data[0].length)
-    // console.log("Ben 10 qtd: " + data[1].length)
-    // console.log("Games qtd: " + data[2].length)
-    // console.log("Objetos qtd: " + data[3].length)
+    console.log("Ben 10 qtd: " + data[1].length)
+    console.log("Games qtd: " + data[2].length)
+    console.log("Objetos qtd: " + data[3].length)
 
     if (theme === 'all') {
 
@@ -141,8 +141,8 @@ async function setRandomTema() {
                 <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
                     <p style='margin-bottom: 16px'>
                         ${item.name} 
-                        ${item.dataTheme == 'object' || item.dataTheme == 'animes' || item.dataSubTheme == 'playstation' || item.dataTheme == 'game' || item.dataTheme == "ben10" ? '' : `(${item.dataTheme})`} 
-                        ${item.dataSubTheme == 'minecraft' || item.dataSubTheme == 'fortnite' || item.dataTheme == 'animes' || item.dataTheme == "ben10" ? `(${item.dataSubTheme})` : ''}
+                        ${item.dataTheme == 'object' || item.dataTheme == 'animes' || item.dataTheme == 'game' || item.dataTheme == "ben10" || item.dataSubTheme == 'playstation' ? '' : `(${item.dataTheme})`} 
+                        ${item.dataSubTheme == 'minecraft' || item.dataSubTheme == 'fortnite' || item.dataSubTheme == 'angryBirds'  || item.dataTheme == 'animes' || item.dataTheme == "ben10" ? `(${item.dataSubTheme})` : ''}
                     </p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>
