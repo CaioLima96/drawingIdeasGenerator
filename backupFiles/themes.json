@@ -936,6 +936,210 @@
                 "img": "./assets/img/animes/onePunchMan/tatsumaki.png",
                 "dataSubTheme": "onePunchMan",
                 "dataTheme": "animes"
+            },
+            {
+                "name": "Afrodites",
+                "img": "/assets/img/animes/saintSeiya/afrodites.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Aiolia",
+                "img": "/assets/img/animes/saintSeiya/aiolia.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Aiolos",
+                "img": "/assets/img/animes/saintSeiya/aiolos.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Aldebaran",
+                "img": "/assets/img/animes/saintSeiya/aldebaran.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Daichi",
+                "img": "/assets/img/animes/saintSeiya/daichi.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Death Mask",
+                "img": "/assets/img/animes/saintSeiya/deathMask.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Dohko",
+                "img": "/assets/img/animes/saintSeiya/dohko.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hyoga",
+                "img": "/assets/img/animes/saintSeiya/hyoga.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Ikki",
+                "img": "/assets/img/animes/saintSeiya/ikki.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jabu",
+                "img": "/assets/img/animes/saintSeiya/jabu.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Marin",
+                "img": "/assets/img/animes/saintSeiya/marin.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Milo",
+                "img": "/assets/img/animes/saintSeiya/milo.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Misty",
+                "img": "/assets/img/animes/saintSeiya/misty.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Mu",
+                "img": "/assets/img/animes/saintSeiya/mu.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Seiya",
+                "img": "/assets/img/animes/saintSeiya/seiya.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shaina",
+                "img": "/assets/img/animes/saintSeiya/shaina.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shaka",
+                "img": "/assets/img/animes/saintSeiya/shaka.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shaka",
+                "img": "/assets/img/animes/saintSeiya/shaka.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shion",
+                "img": "/assets/img/animes/saintSeiya/shion.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shiryu",
+                "img": "/assets/img/animes/saintSeiya/shiryu.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sho",
+                "img": "/assets/img/animes/saintSeiya/sho.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shun",
+                "img": "/assets/img/animes/saintSeiya/shun.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Shura",
+                "img": "/assets/img/animes/saintSeiya/shura.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Ushio",
+                "img": "/assets/img/animes/saintSeiya/ushio.png",
+                "dataSubTheme": "saintSeiya",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gaara",
+                "img": "./assets/img/animes/naruto/gaara.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jirobo",
+                "img": "./assets/img/animes/naruto/jirobo.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Konohamaru",
+                "img": "./assets/img/animes/naruto/konohamaru.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Naruto | Chakra Robe -",
+                "img": "./assets/img/animes/naruto/narutoChakraRobe.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Naruto | Kurama Mode - ",
+                "img": "./assets/img/animes/naruto/narutoKuramaMode.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Naruto | Six Paths Sage Mode",
+                "img": "./assets/img/animes/naruto/narutoSixPathsSageMode.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Rock Lee | Drunken Fist - ",
+                "img": "./assets/img/animes/naruto/rockLeeDrunkenFist.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sakon Ukon | Cursed Seal 2º Form",
+                "img": "./assets/img/animes/naruto/sakonUkonCursedSeal2ndForm.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sasuke",
+                "img": "./assets/img/animes/naruto/sasuke.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sasuke | Cursed Seal 2º Form",
+                "img": "./assets/img/animes/naruto/sasukeCursedSeal2ndForm.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
             }
         ],
         [
