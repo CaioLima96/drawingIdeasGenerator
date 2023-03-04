@@ -2710,6 +2710,78 @@
                 "img": "./assets/img/games/angryBirds/yellowBirdClassic.png",
                 "dataSubTheme": "angryBirds",
                 "dataTheme": "game"
+            },
+            {
+                "name": "Abyssal Shark",
+                "img": "./assets/img/games/hungrySharkWorld/abyssalShark.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ancient Megalodon Shark",
+                "img": "./assets/img/games/hungrySharkWorld/ancientMegalodonShark.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Alpha Zombie Shark",
+                "img": "./assets/img/games/hungrySharkWorld/aphaZombieShark.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Cosmic Alan",
+                "img": "./assets/img/games/hungrySharkWorld/cosmicAlan.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Dark Magic Shark",
+                "img": "./assets/img/games/hungrySharkWorld/darkMagicShark.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Gaia",
+                "img": "./assets/img/games/hungrySharkWorld/gaia.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Great White Shark",
+                "img": "./assets/img/games/hungrySharkWorld/greatWhiteShark.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Mecha Sharkjira",
+                "img": "./assets/img/games/hungrySharkWorld/mechaSharkjira.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Megalodon",
+                "img": "./assets/img/games/hungrySharkWorld/megalodon.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Mighty Matriarch",
+                "img": "./assets/img/games/hungrySharkWorld/mightyMatriarch.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Shin Sharkjira",
+                "img": "./assets/img/games/hungrySharkWorld/shinSharkjira.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Whale Shark",
+                "img": "./assets/img/games/hungrySharkWorld/whaleShark.png",
+                "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
             }
         ],
         [

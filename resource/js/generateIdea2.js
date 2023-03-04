@@ -142,7 +142,7 @@ async function setRandomTema() {
                     <p style='margin-bottom: 16px'>
                         ${item.name} 
                         ${item.dataTheme == 'object' || item.dataTheme == 'animes' || item.dataTheme == 'game' || item.dataTheme == "ben10" || item.dataSubTheme == 'playstation' ? '' : `(${item.dataTheme})`} 
-                        ${item.dataSubTheme == 'minecraft' || item.dataSubTheme == 'fortnite' || item.dataSubTheme == 'angryBirds'  || item.dataTheme == 'animes' || item.dataTheme == "ben10" ? `(${item.dataSubTheme})` : ''}
+                        ${item.dataSubTheme == 'hungrySharkWorld' || item.dataSubTheme == 'minecraft' || item.dataSubTheme == 'fortnite' || item.dataSubTheme == 'angryBirds'  || item.dataTheme == 'animes' || item.dataTheme == "ben10" ? `(${item.dataSubTheme})` : ''}
                     </p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>
