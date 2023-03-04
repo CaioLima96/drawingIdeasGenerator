@@ -1088,8 +1088,50 @@
                 "dataTheme": "animes"
             },
             {
+                "name": "Gaara | Partially Transformed",
+                "img": "./assets/img/animes/naruto/gaaraShukakuForm1.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gai",
+                "img": "./assets/img/animes/naruto/gai.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Gai | Eight Gates -",
+                "img": "./assets/img/animes/naruto/gaiEightGates.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Hiruzen",
+                "img": "./assets/img/animes/naruto/hiruzen.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jiraiya",
+                "img": "./assets/img/animes/naruto/jiraiya.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
                 "name": "Jirobo",
                 "img": "./assets/img/animes/naruto/jirobo.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Jirobo | Cursed Seal 2º Form -",
+                "img": "./assets/img/animes/naruto/jiroboCursedSeal2ndStage.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Kidomaru",
+                "img": "./assets/img/animes/naruto/kidomaru.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
@@ -1100,44 +1142,122 @@
                 "dataTheme": "animes"
             },
             {
+                "name": "Madara | Edo Tensei -",
+                "img": "./assets/img/animes/naruto/madaraEdoTensei.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Madara | Six Paths -",
+                "img": "./assets/img/animes/naruto/madaraSixPaths.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Naruto",
+                "img": "./assets/img/animes/naruto/naruto02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
                 "name": "Naruto | Chakra Robe -",
                 "img": "./assets/img/animes/naruto/narutoChakraRobe.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
             {
-                "name": "Naruto | Kurama Mode - ",
+                "name": "Naruto | Four Tails -",
+                "img": "./assets/img/animes/naruto/narutoFourTails.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Naruto | Kurama Mode -",
                 "img": "./assets/img/animes/naruto/narutoKuramaMode.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
             {
-                "name": "Naruto | Six Paths Sage Mode",
+                "name": "Naruto | Sage Mode -",
+                "img": "./assets/img/animes/naruto/narutoSageMode.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Naruto | Six Paths Sage Mode -",
                 "img": "./assets/img/animes/naruto/narutoSixPathsSageMode.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
             {
-                "name": "Rock Lee | Drunken Fist - ",
+                "name": "Neji",
+                "img": "./assets/img/animes/naruto/neji01.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Orochimaru",
+                "img": "./assets/img/animes/naruto/orochimaru.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Rock Lee | Drunken Fist -",
                 "img": "./assets/img/animes/naruto/rockLeeDrunkenFist.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
             {
-                "name": "Sakon Ukon | Cursed Seal 2º Form",
+                "name": "Rock Lee | Six Gates -",
+                "img": "./assets/img/animes/naruto/rockLeeSixGates.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sakon Ukon",
+                "img": "./assets/img/animes/naruto/sakonUkon.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sakon Ukon | Cursed Seal 2º Form -",
                 "img": "./assets/img/animes/naruto/sakonUkonCursedSeal2ndForm.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
             {
                 "name": "Sasuke",
-                "img": "./assets/img/animes/naruto/sasuke.png",
+                "img": "./assets/img/animes/naruto/sasuke01.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             },
             {
-                "name": "Sasuke | Cursed Seal 2º Form",
-                "img": "./assets/img/animes/naruto/sasukeCursedSeal2ndForm.png",
+                "name": "Sasuke",
+                "img": "./assets/img/animes/naruto/sasuke02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sasuke | Cursed Seal 2º Form -",
+                "img": "./assets/img/animes/naruto/sasukeCursedSeal2ndForm01.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Sasuke | Cursed Seal 2º Form -",
+                "img": "./assets/img/animes/naruto/sasukeCursedSeal2ndForm02.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Tayuya",
+                "img": "./assets/img/animes/naruto/tayuya.png",
+                "dataSubTheme": "naruto",
+                "dataTheme": "animes"
+            },
+            {
+                "name": "Tsunade | Byakugou -",
+                "img": "./assets/img/animes/naruto/tsunadeByakugou.png",
                 "dataSubTheme": "naruto",
                 "dataTheme": "animes"
             }

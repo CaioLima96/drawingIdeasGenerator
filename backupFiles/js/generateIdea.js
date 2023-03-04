@@ -85,3 +85,10 @@ function setRandomData(valor) {
 document.getElementById('generate').addEventListener('click', setRandomData);
 
 // setRandomData()
+
+// {
+//     "name": "",
+//     "img": "./assets/img/animes/naruto/",
+//     "dataSubTheme": "naruto",
+//     "dataTheme": "animes"
+// },
