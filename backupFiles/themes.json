@@ -2966,6 +2966,18 @@
                 "dataTheme": "object"
             },
             {
+                "name": "Monitor",
+                "img": "./assets/img/objects/others/monitor.png",
+                "dataSubTheme": "",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Piramide",
+                "img": "./assets/img/objects/others/piramide.png",
+                "dataSubTheme": "",
+                "dataTheme": "object"
+            },
+            {
                 "name": "Plastic Bottle",
                 "img": "./assets/img/objects/others/plasticBottle1.png",
                 "dataSubTheme": "",
@@ -3010,6 +3022,12 @@
             {
                 "name": "Table",
                 "img": "./assets/img/objects/others/table3.png",
+                "dataSubTheme": "",
+                "dataTheme": "object"
+            },
+            {
+                "name": "Teclado",
+                "img": "./assets/img/objects/others/teclado.png",
                 "dataSubTheme": "",
                 "dataTheme": "object"
             },
