@@ -2830,6 +2830,72 @@
                 "img": "./assets/img/games/hungryDragons/umbraCai.png",
                 "dataSubTheme": "hungryDragons",
                 "dataTheme": "game"
+            },
+            {
+                "name": "Amaterasu",
+                "img": "./assets/img/games/okami/amaterasu.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ishaku",
+                "img": "./assets/img/games/okami/ishaku.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Issun",
+                "img": "./assets/img/games/okami/issun.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Kaguya",
+                "img": "./assets/img/games/okami/kaguya.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Mr.Bamboo",
+                "img": "./assets/img/games/okami/mrBamboo.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Okikurumi | Human Form -",
+                "img": "./assets/img/games/okami/okikurumiHuman.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Okikurumi | Wolf -",
+                "img": "./assets/img/games/okami/okikurumiWolf.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Sakuya",
+                "img": "./assets/img/games/okami/sakuya.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Shiranui",
+                "img": "./assets/img/games/okami/shiranui.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Susano",
+                "img": "./assets/img/games/okami/susano.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ushiwaka",
+                "img": "./assets/img/games/okami/ushiwaka.png",
+                "dataSubTheme": "okami",
+                "dataTheme": "game"
             }
         ],
         [
