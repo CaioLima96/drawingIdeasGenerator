@@ -139,17 +139,11 @@ async function setRandomTema() {
         document.getElementById('ideasList').innerHTML += `
     
                 <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
-                    <p style='margin-bottom: 16px'>
-                        ${item.name} 
-                        ${item.dataTheme == 'object' || item.dataTheme == 'animes' || item.dataTheme == 'game' || item.dataTheme == "ben10" || item.dataSubTheme == 'playstation' ? '' : `(${item.dataTheme})`} 
-                        ${item.dataSubTheme == 'okami' || item.dataSubTheme == 'hungryDragons' || item.dataSubTheme == 'hungrySharkWorld' || item.dataSubTheme == 'minecraft' || item.dataSubTheme == 'fortnite' || item.dataSubTheme == 'angryBirds'  || item.dataTheme == 'animes' || item.dataTheme == "ben10" ? `(${item.dataSubTheme})` : ''}
-                    </p>
+                    <p style='margin-bottom: 16px'>${item.name} ${item.dataTheme == 'object' ? '' : `(${item.dataSubTheme})`}</p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>
             `
     }
-
-    // console.log(`${combNumber.value > 364 ? 'maior' : 'menor'}`)
 
     navTabBtns[0].classList.add('activeMenuBtn')
     navTabBtns[1].classList.remove('activeMenuBtn')

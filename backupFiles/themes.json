@@ -2442,153 +2442,153 @@
                 "dataTheme": "game"
             },
             {
-                "name": "Abigail Walker (Infamous: Second Son)",
+                "name": "Abigail Walker",
                 "img": "./assets/img/games/playstation/abigailWalker.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "infamous:SecondSon",
                 "dataTheme": "game"
             },
             {
-                "name": "Al (Ratchet & Clank: Up Your Arsenal)",
+                "name": "Al",
                 "img": "./assets/img/games/playstation/alRCUYA.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&ClankUpYourArsenal",
                 "dataTheme": "game"
             },
             {
-                "name": "Atreus (God of War - 2018)",
+                "name": "Atreus",
                 "img": "./assets/img/games/playstation/atreus.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "godOfWarPs4",
                 "dataTheme": "game"
             },
             {
-                "name": "Captain Qwark (Ratchet & Clank: Going Commando)",
+                "name": "Captain Qwark",
                 "img": "./assets/img/games/playstation/captainQwark.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&Clank:GoingCommando",
                 "dataTheme": "game"
             },
             {
-                "name": "Clank (Ratchet & Clank - 2002)",
+                "name": "Clank",
                 "img": "./assets/img/games/playstation/clankRC2002.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&Clank1",
                 "dataTheme": "game"
             },
             {
                 "name": "Clank (Ratchet & Clank: Rift Apart)",
                 "img": "./assets/img/games/playstation/clankRCriftApart.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&Clank:RiftApart",
                 "dataTheme": "game"
             },
             {
-                "name": "Cole Macgrath - Evil Karma (Infamous 2)",
+                "name": "Cole Macgrath | Evil Karma",
                 "img": "./assets/img/games/playstation/coleMacgrathEvil(infamous2).png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "infamous2",
                 "dataTheme": "game"
             },
             {
-                "name": "Cole Macgrath - Good Karma (Infamous 2)",
+                "name": "Cole Macgrath | Good Karma -",
                 "img": "./assets/img/games/playstation/coleMacgrathGood(infamous2).png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "infamous2",
                 "dataTheme": "game"
             },
             {
-                "name": "Cynder (The Legend of Spyro: Dawn Of The Dragon)",
+                "name": "Cynder",
                 "img": "./assets/img/games/playstation/cynderDOTD.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "theLegendofSpyro:DawnOfTheDragon",
                 "dataTheme": "game"
             },
             {
-                "name": "Delsin Rowe (Infamous: Second Son)",
+                "name": "Delsin Rowe",
                 "img": "./assets/img/games/playstation/delsinRoweInfamous3.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "infamous:SecondSon",
                 "dataTheme": "game"
             },
             {
-                "name": "Ellie (The Last of Us)",
+                "name": "Ellie",
                 "img": "./assets/img/games/playstation/ellieTLOU.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "theLastofUs1",
                 "dataTheme": "game"
             },
             {
-                "name": "Joel (The Last of Us)",
+                "name": "Joel",
                 "img": "./assets/img/games/playstation/joelTLOU.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "theLastofUs1",
                 "dataTheme": "game"
             },
             {
-                "name": "Kratos - God of War Armor (God of War 2)",
+                "name": "Kratos | God Armor -",
                 "img": "./assets/img/games/playstation/kratosGodArmor(gow).png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "godOfWar2",
                 "dataTheme": "game"
             },
             {
-                "name": "Kratos (God of War 3)",
+                "name": "Kratos",
                 "img": "./assets/img/games/playstation/kratosGow3.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "godOfWar3",
                 "dataTheme": "game"
             },
             {
-                "name": "Kratos (God of War - 2018)",
+                "name": "Kratos",
                 "img": "./assets/img/games/playstation/kratosNordic.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "godOfWarPs4",
                 "dataTheme": "game"
             },
             {
-                "name": "Mimir (God of War - 2018)",
+                "name": "Mimir",
                 "img": "./assets/img/games/playstation/mimirGOW.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "godOfWarPs4",
                 "dataTheme": "game"
             },
             {
-                "name": "Ratchet (Ratchet & Clank Future: A Crack In Time)",
+                "name": "Ratchet",
                 "img": "./assets/img/games/playstation/ratchetACIT.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&ClankFuture:ACrackInTime",
                 "dataTheme": "game"
             },
             {
-                "name": "Ratchet - Carbonox Armor (Ratchet & Clank: Going Commando)",
+                "name": "Ratchet | Carbonox Armor -",
                 "img": "./assets/img/games/playstation/ratchetCarbonoxArmor(goingCommando).png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&Clank:GoingCommando",
                 "dataTheme": "game"
             },
             {
-                "name": "Ratchet - Infernox Amor (Ratchet & Clank: Up Your Arsenal)",
+                "name": "Ratchet | Infernox Amor",
                 "img": "./assets/img/games/playstation/ratchetInfernoxArmor(rcUPYA).png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&Clank:UpYourArsenal",
                 "dataTheme": "game"
             },
             {
-                "name": "Ratchet (Ratchet & Clank: Rift Apart)",
+                "name": "Ratchet",
                 "img": "./assets/img/games/playstation/ratchetRF.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&Clank:RiftApart",
                 "dataTheme": "game"
             },
             {
-                "name": "Secret Agent Clank (Ratchet & Clank: Up Your Arsenal)",
+                "name": "Secret Agent Clank",
                 "img": "./assets/img/games/playstation/secretAgentClank(upya).png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&Clank:UpYourArsenal",
                 "dataTheme": "game"
             },
             {
-                "name": "Skrunch (Ratchet & Clank: Up Your Arsenal)",
+                "name": "Skrunch",
                 "img": "./assets/img/games/playstation/skrunch(rcUPYA).png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "ratchet&Clank:UpYourArsenal",
                 "dataTheme": "game"
             },
             {
                 "name": "Spyro",
                 "img": "./assets/img/games/playstation/spyro.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "spyroReignitedTrilogy",
                 "dataTheme": "game"
             },
             {
-                "name": "Spyro (The Legend of Spyro: Dawn Of The Dragon)",
+                "name": "Spyro",
                 "img": "./assets/img/games/playstation/spyroDOTD.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "theLegendofSpyro:DawnOfTheDragon",
                 "dataTheme": "game"
             },
             {
                 "name": "Zeus (God of War)",
                 "img": "./assets/img/games/playstation/zeusGOW.png",
-                "dataSubTheme": "playstation",
+                "dataSubTheme": "godOfWar",
                 "dataTheme": "game"
             },
             {
@@ -2902,106 +2902,127 @@
             {
                 "name": "Abajour",
                 "img": "./assets/img/objects/others/abajour1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Chair",
                 "img": "./assets/img/objects/others/chair1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Flashlight",
                 "img": "./assets/img/objects/others/flashlight1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Fork",
                 "img": "./assets/img/objects/others/fork1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Glass Bottle",
                 "img": "./assets/img/objects/others/glassBottle1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Head Phone",
                 "img": "./assets/img/objects/others/headPhone1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Head Phone",
                 "img": "./assets/img/objects/others/headPhone2.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Lamp",
                 "img": "./assets/img/objects/others/lamp1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Lego Dinosaur",
                 "img": "./assets/img/objects/others/legoDinosaur.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Luminaria",
                 "img": "./assets/img/objects/others/luminaria1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Luminaria",
                 "img": "./assets/img/objects/others/luminaria2.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Plastic Bottle",
                 "img": "./assets/img/objects/others/plasticBottle1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Ps4 Controller - Black",
                 "img": "./assets/img/objects/others/ps4ControllerBlack1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Scissor",
                 "img": "./assets/img/objects/others/scissors1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Smart Phone",
                 "img": "./assets/img/objects/others/smartPhone1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Spoon",
                 "img": "./assets/img/objects/others/spoon1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Table",
                 "img": "./assets/img/objects/others/table1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Table",
                 "img": "./assets/img/objects/others/table2.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Table",
                 "img": "./assets/img/objects/others/table3.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Xbox One Controller - Black",
                 "img": "./assets/img/objects/others/xboxOneControllerBlack1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Xicara",
                 "img": "./assets/img/objects/others/xicara1.png",
+                "dataSubTheme": "",
                 "dataTheme": "object"
             }
         ]
