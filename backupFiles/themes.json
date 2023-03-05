@@ -506,7 +506,7 @@
                 "dataTheme": "animes"
             },
             {
-                "name": "Mestre Kame - Full Power",
+                "name": "Mestre Kame | Full Power -",
                 "img": "./assets/img/animes/dragonBall/mestreKameFullPower.png",
                 "dataSubTheme": "dragonBall",
                 "dataTheme": "animes"
@@ -2781,6 +2781,54 @@
                 "name": "Whale Shark",
                 "img": "./assets/img/games/hungrySharkWorld/whaleShark.png",
                 "dataSubTheme": "hungrySharkWorld",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Anomalyis",
+                "img": "./assets/img/games/hungryDragons/anomalyis.png",
+                "dataSubTheme": "hungryDragons",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Geogantis",
+                "img": "./assets/img/games/hungryDragons/geogantis.png",
+                "dataSubTheme": "hungryDragons",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Helion",
+                "img": "./assets/img/games/hungryDragons/helion.png",
+                "dataSubTheme": "hungryDragons",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Ice Breaker",
+                "img": "./assets/img/games/hungryDragons/iceBreaker.png",
+                "dataSubTheme": "hungryDragons",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Nibbler",
+                "img": "./assets/img/games/hungryDragons/nibbler.png",
+                "dataSubTheme": "hungryDragons",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Sparks",
+                "img": "./assets/img/games/hungryDragons/sparks.png",
+                "dataSubTheme": "hungryDragons",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Umbra",
+                "img": "./assets/img/games/hungryDragons/umbra.png",
+                "dataSubTheme": "hungryDragons",
+                "dataTheme": "game"
+            },
+            {
+                "name": "Umbra | Cai Skin",
+                "img": "./assets/img/games/hungryDragons/umbraCai.png",
+                "dataSubTheme": "hungryDragons",
                 "dataTheme": "game"
             }
         ],
