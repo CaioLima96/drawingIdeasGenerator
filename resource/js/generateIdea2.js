@@ -3,6 +3,9 @@ async function themesJsonFetch(theme) {
     let response = await fetch(`https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`);
     let data = await response.json();
 
+    let poke = await createPokemon()
+    console.log(poke)
+
     let allThemes = [
         ...data[0],
         ...data[1],
@@ -13,14 +16,19 @@ async function themesJsonFetch(theme) {
             "img": "./assets/img/digFullBody.png",
             "dataSubTheme": " ",
             "dataTheme": " "
-        }
+        },
+        ...poke
     ]
 
+
     console.log("allThemes qtd: " + allThemes.length)
-    console.log("Animes qtd: " + data[0].length)
-    console.log("Ben 10 qtd: " + data[1].length)
-    console.log("Games qtd: " + data[2].length)
-    console.log("Objetos qtd: " + data[3].length)
+    // console.log("Animes qtd: " + data[0].length)
+    // console.log("Ben 10 qtd: " + data[1].length)
+    // console.log("Games qtd: " + data[2].length)
+    // console.log("Objetos qtd: " + data[3].length)
+    console.log(allThemes)
+    console.log(allThemes[499])
+
 
     if (theme === 'all') {
 
