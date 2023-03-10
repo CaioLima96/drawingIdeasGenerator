@@ -1,35 +1,76 @@
-async function pokeApiFetch() {
-    let response = await fetch(`https://pokeapi.co/api/v2/pokemon?offset=00&limit=150`);
-    let data = await response.json();
-    console.log(data.results[0].name)
-    return data.results
-}
-// pokeApiFetch()
+async function createPokemonArray() {
 
-function getMultiple(arr, num) {
+    //generate a random numbers array
+    let randomNumArray = []
+    for (let i = 0; i < combNumber.value; i++) { randomNumArray.push(Math.floor((Math.random() * 700) + 1)) }
+    console.log('randomNumArray: ', randomNumArray)
 
-    let shuffled = [...arr].sort(() => 0.5 - Math.random());
 
-    console.log(shuffled.slice(0, num))
+    //uses randomNumArray values as pokemon's ID and do a fetch for all of them
+    let pokeArr = []
+    for (let i = 0; i < randomNumArray.length; i++) {
+        await fetch(`https://pokeapi.co/api/v2/pokemon/${randomNumArray[i]}/`)
+            .then(res => res.json())
+            .then(function (res) {
+                pokeArr.push(res)
 
-    return shuffled.slice(0, num);
-}
-
-async function random () {
-    return getMultiple(await pokeApiFetch(), combNumber.value)
-}
-
-async function pokeSET() {
-
-    let dataRandom = await random()
-
-    for (let item of dataRandom) {
-    document.getElementById('ideasList').innerHTML += `
-
-            <li class='generatedIdea'>
-                <p style='margin-bottom: 16px'>${item.name}</p>
-            </li>
-        `
+            })
     }
+    console.log('arrPokemon: ', pokeArr)
+
+
+    //loops through pokeArr and create an object for each "raw" data
+    let finalPokeArr = []
+    for (let item of pokeArr) {
+        finalPokeArr.push({
+            name: `${item.name}`,
+            dataSubTheme: "pokemon",
+            dataTheme: "game",
+            img: `${item['sprites']['other']['dream_world']['front_default']}`
+        })
+    }
+
+    return finalPokeArr
 }
-pokeSET()
+
+
+// let arrLength
+// if (themeSelector.value === 'allThemes') {
+//     arrLength = 5
+// } else {
+//     arrLength = combNumber.value
+// }
+
+// let randomNumArray = []
+// for (let i = 0; i < 150; i++) { randomNumArray.push(Math.floor((Math.random() * 700) + 1)) }
+// console.log('randomNumArray: ', randomNumArray)
+
+
+// //uses randomNumArray values as pokemon's ID and do a fetch for all of them
+// async function createPokemonArray() {
+//     let pokeArr = []
+//     for (let i = 0; i < randomNumArray.length; i++) {
+//         await fetch(`https://pokeapi.co/api/v2/pokemon/${randomNumArray[i]}/`)
+//             .then(res => res.json())
+//             .then(res => pokeArr.push(res))
+//     }
+//     console.log('pokeArr: ', pokeArr)
+//     return pokeArr
+// }
+// createPokemonArray()
+//     .then(x => {
+//         let testeA = []
+//         for (let i = 0; i < x.length; i++) {
+//             testeA.push({
+//                 "name": `${x[i].name}`,
+//                 "img": "./assets/img/digFullBody.png",
+//                 "dataSubTheme": "originalChar",
+//                 "dataTheme": " "
+//             })
+//         }
+//         console.log('testeA: ', testeA)
+//         allPokemons.push(...testeA)
+//     })
+//     .then(x => console.log('aaaa', x))
+
+

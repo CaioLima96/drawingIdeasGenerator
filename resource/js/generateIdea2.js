@@ -1,10 +1,13 @@
 //calls the json (that is hosted on firebase), and then returns the data according to the chosen theme
-async function themesJsonFetch(theme) {
-    let response = await fetch(`https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`);
-    let data = await response.json();
 
-    let poke = await createPokemon()
-    console.log(poke)
+// let allPokemons = []
+// allPokemons.push(...testeA)
+// console.log(allPokemons)
+async function themesJsonFetch(theme) {
+
+    let data = await fetch(`https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`).then(response => response.json())
+
+    // let pokemon = await createPokemonArray()
 
     let allThemes = [
         ...data[0],
@@ -14,25 +17,30 @@ async function themesJsonFetch(theme) {
         {
             "name": "Dig",
             "img": "./assets/img/digFullBody.png",
-            "dataSubTheme": " ",
+            "dataSubTheme": "originalChar",
             "dataTheme": " "
         },
-        ...poke
+        // ...pokemon,
+        // ...allPokemons
     ]
+    // console.log('allThemes: ', allThemes)
+            
 
-
-    console.log("allThemes qtd: " + allThemes.length)
+    // console.log("allThemes qtd: " + allThemes.length)
     // console.log("Animes qtd: " + data[0].length)
     // console.log("Ben 10 qtd: " + data[1].length)
     // console.log("Games qtd: " + data[2].length)
     // console.log("Objetos qtd: " + data[3].length)
-    console.log(allThemes)
-    console.log(allThemes[499])
+    // console.log("Pokemon qtd: " + pokeArray.length)
 
 
     if (theme === 'all') {
 
         return allThemes
+
+    } else if (theme === 'pokemon') { 
+
+        return pokemon
 
     } else {
 
@@ -75,6 +83,12 @@ function getThemeValue() {
         case 'objects':
 
             temaArr = 3
+
+            break
+
+        case 'pokemon':
+
+            temaArr = 'pokemon'
 
             break
     }
@@ -122,10 +136,10 @@ function setInputFilter(textbox, inputFilter, errMsg) {
     });
 }
 
-setInputFilter(document.getElementById("combNumber"), 
-function (value) {
-    return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 500);
-},"Must be between 1 and 700")
+setInputFilter(document.getElementById("combNumber"),
+    function (value) {
+        return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 2000);
+    }, "Must be between 1 and 700")
 
 
 //stores the random data
@@ -147,7 +161,10 @@ async function setRandomTema() {
         document.getElementById('ideasList').innerHTML += `
     
                 <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
-                    <p style='margin-bottom: 16px'>${item.name} ${item.dataTheme == 'object' ? '' : `(${item.dataSubTheme})`}</p>
+                    <p style='margin-bottom: 16px'>
+                        ${item.name} 
+                        ${item.dataTheme == 'object' ? '' : `(${item.dataSubTheme})`}
+                    </p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>
             `
