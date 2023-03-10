@@ -73,11 +73,15 @@
 .darkMode .generateBtn {
     background-color: var(--DarkModeBlack1);
     color: var(--DarkModeGreen1);
+    /* color: var(--blue1); */
+    /* font-weight: bold; */
 }
 
 .darkMode .generateBtn:hover {
     background-color: var(--DarkModeGreen1);
     color: var(--DarkModeBlack1);
+    /* background-color: var(--blue1);
+    color: var(--DarkModeBlack1); */
     font-weight: bold;
 }
 

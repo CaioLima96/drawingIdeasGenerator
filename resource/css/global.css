@@ -180,6 +180,7 @@ main {
     color: var(--black1);
     border: none;
     border-radius: 6px;
+    /* font-weight: 600; */
     text-transform: uppercase;
     transition: .5s ease;
     /* transition: background-color 2s ease-out 100ms */
