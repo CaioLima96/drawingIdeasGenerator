@@ -1,13 +1,9 @@
 //calls the json (that is hosted on firebase), and then returns the data according to the chosen theme
-
-// let allPokemons = []
-// allPokemons.push(...testeA)
-// console.log(allPokemons)
 async function themesJsonFetch(theme) {
 
-    let data = await fetch(`https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`).then(response => response.json())
+    let data = await fetch(`https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`).then(res => res.json())
 
-    // let pokemon = await createPokemonArray()
+    let pokemon = await createPokemonArray()
 
     let allThemes = [
         ...data[0],
@@ -20,26 +16,25 @@ async function themesJsonFetch(theme) {
             "dataSubTheme": "originalChar",
             "dataTheme": " "
         },
-        // ...pokemon,
-        // ...allPokemons
+        ...pokemon,
     ]
     // console.log('allThemes: ', allThemes)
             
 
-    // console.log("allThemes qtd: " + allThemes.length)
-    // console.log("Animes qtd: " + data[0].length)
-    // console.log("Ben 10 qtd: " + data[1].length)
-    // console.log("Games qtd: " + data[2].length)
-    // console.log("Objetos qtd: " + data[3].length)
-    // console.log("Pokemon qtd: " + pokeArray.length)
+    console.log("allThemes qtd: " + allThemes.length)
+    console.log("Animes qtd: " + data[0].length)
+    console.log("Ben 10 qtd: " + data[1].length)
+    console.log("Games qtd: " + data[2].length)
+    console.log("Objetos qtd: " + data[3].length)
+    console.log("Pokemon qtd: " + pokemon.length)
 
 
     if (theme === 'all') {
 
         return allThemes
 
-    } else if (theme === 'pokemon') { 
-
+    } else if (theme === 'pokemon') {
+        // console.log(pokemon)
         return pokemon
 
     } else {
