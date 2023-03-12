@@ -160,7 +160,7 @@ async function setRandomTema() {
                 <li class='generatedIdea' dataSubTheme='${item.dataSubTheme}'>
                     <p style='margin-bottom: 16px'>
                         ${item.name} 
-                        ${item.dataTheme == 'object' ? '' : `(${item.dataSubTheme})`}
+                        (${item.title})
                     </p>
                     <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
                 </li>

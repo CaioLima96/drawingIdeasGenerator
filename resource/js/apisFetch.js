@@ -21,9 +21,10 @@ async function createPokemonArray() {
     for (let item of pokeArr) {
         finalPokeArr.push({
             name: `${item.name}`,
-            dataSubTheme: "pokemon",
-            dataTheme: "game",
             img: `https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/${item.id.toString().length < 2 ? `${'00'+item.id}` : item.id.toString().length < 3 ? `${'0'+item.id}` : item.id}.png`,
+            title: "Pokémon",
+            dataSubTheme: "pokemon",
+            dataTheme: "game"
         })
     }
     console.log('finalPokeArr: ', finalPokeArr)
