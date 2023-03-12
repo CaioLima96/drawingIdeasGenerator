@@ -18,7 +18,7 @@ themeSelector.addEventListener('change', () => {
 			
 			break;
 
-		case 'animes':
+		case 'allAnimes':
 
 			document.getElementById('animesFieldSet').style.display = 'block'
 
@@ -35,7 +35,7 @@ themeSelector.addEventListener('change', () => {
 
 		case 'ben10':
 
-			document.getElementById('ben10FieldSet').style.display = 'block'
+			document.getElementById('cartoonsFieldSet').style.display = 'block'
 			document.getElementById('animesFieldSet').style.display = 'none'
 
 			for (let i = 1; i < themedFieldSet.length; i++) {
@@ -49,7 +49,7 @@ themeSelector.addEventListener('change', () => {
 
 			break;
 		
-		case 'games':
+		case 'allGames':
 			
 			document.getElementById('gamesFieldSet').style.display = 'block'
 			document.getElementById('animesFieldSet').style.display = 'none'
@@ -65,7 +65,7 @@ themeSelector.addEventListener('change', () => {
 
 			break;
 
-		case 'objects':
+		case 'allObjects':
 			
 			document.getElementById('objectsFieldSet').style.display = 'block'
 			document.getElementById('animesFieldSet').style.display = 'none'

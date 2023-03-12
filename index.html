@@ -78,10 +78,11 @@
 
                     <select name="themeSelector" id="themeSelector">
                         <option selected value="allThemes">All</option>
-                        <option value="animes">Animes</option>
+                        <option value="allAnimes">Animes</option>
+                        <option value="allGames">Games</option>
+                        <option value="allObjects">Objects</option>
+                        <option disabled>------------------</option>
                         <option value="ben10">Ben 10</option>
-                        <option value="games">Games</option>
-                        <option value="objects">Objects</option>
                         <option value="pokemon">Pokémon</option>
                     </select>
 
@@ -120,9 +121,9 @@
 
             </fieldset>
 
-            <fieldset class='themedFieldSet' id="ben10FieldSet">
+            <!-- <fieldset class='themedFieldSet' id="ben10FieldSet">
 
-                <!-- <legend>Ben 10</legend> -->
+                <legend>Ben 10</legend>
 
                 <div class="inputField">
 
@@ -161,6 +162,32 @@
                     <div></div>
                     <div class='imgContainer'><img src='./assets/img/icons/omnitrixIcon.png' alt="omnitrix"></div>
                     <div class='imgContainer'><img src='./assets/img/icons/omnitrixIcon.png' alt="omnitrix"></div>
+                </div>
+
+            </fieldset> -->
+            
+            <fieldset class='themedFieldSet' id="cartoonsFieldSet">
+
+                <!-- <legend>Ben 10</legend> -->
+
+                <div class="inputField">
+
+                    <label for="cartoon">Cartoons:</label>
+
+                    <select name="cartoon" id="cartoon">
+                        <option selected value="allCartoons">All</option>
+                        <option  value="ben10">Ben 10</option>
+                    </select>
+
+                </div>
+
+                <div class="themedBorder">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/omnitrixIcon.png' alt="Omnitrix"></div>
+                    <div class='imgContainer'><img src='./assets/img/icons/stevenUniverseShield.png' alt="Steven Universe Shield"></div>
                 </div>
 
             </fieldset>
@@ -211,8 +238,6 @@
                 </div>
                 
             </fieldset>
-
-            <!-- <button class="generateBtn" >Gerar</button> -->
 
             <div class="inputField" style="margin-top: 60px" id="combNumberContainer">
 
@@ -313,7 +338,7 @@
     
     <script src="./resource/js/apisFetch.js" ></script>
     <script src="./resource/js/generateIdea2.js" ></script>
-    <!-- <script src="./resource/js/showOptions.js"></script> -->
+    <script src="./resource/js/showOptions.js"></script>
 </body>
 
 </html>

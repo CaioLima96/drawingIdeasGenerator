@@ -3,8 +3,6 @@ async function themesJsonFetch(theme) {
 
     let data = await fetch(`https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`).then(res => res.json())
 
-    // let pokemon = await createPokemonArray()
-
     let allThemes = [
         ...data[0],
         ...data[1],
@@ -16,8 +14,6 @@ async function themesJsonFetch(theme) {
             "dataSubTheme": "originalChar",
             "dataTheme": " "
         },
-        // ...pokemon,
-        // ...await createPokemonArray()
     ]
 
 
@@ -57,27 +53,27 @@ function getThemeValue() {
 
             break;
 
-        case 'animes':
+        case 'allAnimes':
 
             temaArr = 0
+
+            break
+
+        case 'allGames':
+
+            temaArr = 2
+
+            break
+
+        case 'allObjects':
+
+            temaArr = 3
 
             break
 
         case 'ben10':
 
             temaArr = 1
-
-            break
-
-        case 'games':
-
-            temaArr = 2
-
-            break
-
-        case 'objects':
-
-            temaArr = 3
 
             break
 
@@ -133,7 +129,7 @@ function setInputFilter(textbox, inputFilter, errMsg) {
 setInputFilter(document.getElementById("combNumber"),
     function (value) {
         return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 2000);
-}, "Must be between 1 and 800")
+    }, "Must be between 1 and 800")
 
 
 //stores the random data
