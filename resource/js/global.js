@@ -4,10 +4,10 @@ let darkModeBtn = document.getElementById('darkModeBtn')
 let dmBtnText = darkModeBtn.getElementsByTagName('p')[0]
 
 function darkModeFunc() {
-	
-    let element = document.body;
-    element.classList.toggle("darkMode");
-    darkModeBtn.getElementsByTagName('div')[0].classList.toggle('toggleSunMoon')
+
+	let element = document.body;
+	element.classList.toggle("darkMode");
+	darkModeBtn.getElementsByTagName('div')[0].classList.toggle('toggleSunMoon')
 
 
 	console.log(dmBtnText.textContent)
@@ -15,7 +15,7 @@ function darkModeFunc() {
 
 		return dmBtnText.textContent = 'Light Mode'
 
-	} else  {
+	} else {
 
 		return dmBtnText.textContent = 'Dark Mode'
 
@@ -33,7 +33,7 @@ function myNavBar() {
 }
 
 function closeNavBar() {
-    headerNavMenu.classList.remove('hideShowHeaderNavMenu')
+	headerNavMenu.classList.remove('hideShowHeaderNavMenu')
 }
 
 
@@ -47,27 +47,27 @@ let ideasListImg = ideasList.getElementsByClassName('imgContainer')
 //==== List View
 function listView() {
 
-    ideasList.classList.remove('gridView')
-    ideasList.classList.add('listView')
-    
+	ideasList.classList.remove('gridView')
+	ideasList.classList.add('listView')
+
 	for (let i = 0; i < ideasListImg.length; i++) {
 
 		// console.log('height: ' + ideasListImg[i].clientHeight)
 		// console.log('height: ' + ideasListImg[i].clientWidth)
 
-        if (ideasListImg[i].clientHeight > 500) {
+		if (ideasListImg[i].clientHeight > 500) {
 
-            ideasListImg[i].setAttribute("style","height:500px")
+			ideasListImg[i].setAttribute("style", "height:500px")
 
-        }
-    }
+		}
+	}
 }
 
 //==== Grid View
 function gridView() {
-   
-    ideasList.classList.remove('listView')
-    ideasList.classList.add('gridView')
+
+	ideasList.classList.remove('listView')
+	ideasList.classList.add('gridView')
 }
 
 
@@ -83,10 +83,10 @@ let navTabBtns = btnContainer.getElementsByClassName("listMenuBtn");
 // Loop through the buttons and add the active class to the current/clicked button
 for (let i = 0; i < navTabBtns.length; i++) {
 
-	navTabBtns[i].addEventListener("click", function() {
+	navTabBtns[i].addEventListener("click", function () {
 
 		let currentBtn = document.getElementsByClassName("activeMenuBtn");
-		
+
 		currentBtn[0].className = currentBtn[0].className.replace(" activeMenuBtn", "");
 		this.className += " activeMenuBtn";
 
@@ -107,7 +107,7 @@ function openModal() {
 
 }
 
-function closeModal () {
+function closeModal() {
 
 	modal.style.display = "none";
 	document.body.style.overflow = ''
@@ -124,10 +124,57 @@ window.onclick = function (event) {
 }
 
 //clones the list's item and renders in the modal
-function clonedElement(){
+function clonedElement() {
 	let ideasList = document.getElementById('ideasList')
 	let containerList = document.getElementById('containerList')
 	let clone = ideasList.cloneNode(true)
 	document.getElementsByClassName('modalContent')[0].innerHTML = ''
 	document.getElementsByClassName('modalContent')[0].appendChild(clone)
+}
+
+
+
+//====================== LOADING
+
+//change loading img according to the selected theme
+function loading(theme) {
+
+	let loading = document.getElementsByClassName('loading')[0]
+
+	let loadingImgContainer = document.getElementsByClassName('loading')[0].getElementsByClassName('imgContainer')[0]
+
+	let loadingImg = document.getElementsByClassName('loading')[0].getElementsByClassName('imgContainer')[0].getElementsByTagName('img')[0]
+
+
+	switch (theme) {
+
+		case 0:
+
+			loadingImgContainer.classList.add('rotate')
+			loadingImg.src = './assets/img/icons/4StartDragonBall2.png'
+			
+			break
+
+		case 2:
+
+			loadingImgContainer.classList.add('noFilter')
+			loadingImg.src = './assets/img/gif/pacagaio.gif'
+
+			break
+
+		case 1:
+
+			loadingImgContainer.classList.add('rotate')
+			loadingImg.src = './assets/img/icons/omnitrixSymbol.png'
+
+			break
+
+		case 'pokemon':
+
+			loadingImgContainer.classList.add('noFilter')
+			loading.style.width = 'auto'
+			loadingImg.src = './assets/img/gif/redFRLG.png'
+
+			break
+	}
 }

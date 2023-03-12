@@ -110,7 +110,7 @@
     color: white;
 }
 
-.darkMode .loading img {
+.darkMode .loading .imgContainer:not(.rotate, .noFilter) {
     filter: invert(85%);
     -webkit-filter: invert(85%);
 }

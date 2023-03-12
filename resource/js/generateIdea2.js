@@ -15,14 +15,13 @@ async function themesJsonFetch(theme) {
             "dataTheme": " "
         },
     ]
-
+    
 
     // console.log("allThemes qtd: " + allThemes.length)
     // console.log("Animes qtd: " + data[0].length)
     // console.log("Ben 10 qtd: " + data[1].length)
     // console.log("Games qtd: " + data[2].length)
     // console.log("Objetos qtd: " + data[3].length)
-    // console.log("Pokemon qtd: " + pokemon.length)
 
 
     if (theme === 'all') {
@@ -144,13 +143,14 @@ async function setRandomTema() {
     document.getElementById('listMenu').style.display = 'flex'
     document.getElementById('ideasList').innerHTML = ` 
         <div class="loading">
-            <div class='imgContainer'><img src='./assets/img/icons/loading2.svg' alt="Loading Icon"></div>
+            <div class='imgContainer'><img src='./assets/img/icons/loading2.svg' alt="Loading Icon" class="loadCircle"></div>
             <p>Loading...</p>
         </div>
     `
 
+    loading(getThemeValue())
+
     let random = await randomData()
-    // console.log(random)
 
     document.getElementById('ideasList').innerHTML = ' '
 
