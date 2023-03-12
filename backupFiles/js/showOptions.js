@@ -1,10 +1,10 @@
-let themeSelector = document.getElementById('themeSelector')
+// let themeSelector = document.getElementById('themeSelector')
 let themedFieldSet = document.querySelectorAll('.themedFieldSet')
 
 
-themeSelector.addEventListener('change', () => {
+document.getElementById('themeSelector').addEventListener('change', () => {
 
-	switch(themeSelector.value) {
+	switch(document.getElementById('themeSelector').value) {
 		
 
 		case 'allThemes':
@@ -18,7 +18,7 @@ themeSelector.addEventListener('change', () => {
 			
 			break;
 
-		case 'allAnimes':
+		case 'allAnime':
 
 			document.getElementById('animesFieldSet').style.display = 'block'
 

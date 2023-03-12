@@ -30,7 +30,7 @@ async function themesJsonFetch(theme) {
         return [...allThemes, ...await createPokemonArray()]
 
     } else if (theme === 'pokemon') {
-        // console.log(pokemon)
+
         return await createPokemonArray()
 
     } else {
@@ -46,7 +46,7 @@ function getThemeValue() {
 
     let temaArr;
     switch (themeSelector.value) {
-
+        
         case 'allThemes':
 
             temaArr = 'all'
