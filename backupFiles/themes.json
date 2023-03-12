@@ -2181,7 +2181,7 @@
                 "dataTheme": "ben10"
             },
             {
-                "name": "Pesky_Dust",
+                "name": "Pesky Dust",
                 "img": "./assets/img/ben10/aliens/benPrime/omniverse/pesky-dust-(omniverse)-1.png",
                 "title": "Ben 10 Omniverse",
                 "dataSubTheme": "ben10ov",
@@ -2215,12 +2215,321 @@
                 "dataSubTheme": "ben10ov",
                 "dataTheme": "ben10"
             },
-
-
-            
-
-
-
+            {
+                "name": "4 Arms",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/4-bracos-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ripjaws",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/aquatico-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Arctiguana",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/arctiguana-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Cannonbolt",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/bala-de-canhao-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Snare-oh",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/ben-mumia-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Wildmutt",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/besta-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Buzzshock",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/buzzshock-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Heatblast",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/chama-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Wildvine",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/cipo-selvagem-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Diamondhead",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/diamante-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ditto",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/ditto-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ghostfreak",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/fantasmatico-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Frankenstrike",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/frankenstrike-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upchuck | Perk -",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/glutao-p-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Stinkfly",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/insectoide-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Blitzwolfer",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/lobisben-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Grey Matter",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/massa-cinzenta-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Eye Guy",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/mega-olhos-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upgrade",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/ultra-t-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "XLR8",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/xlr8-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Alien X",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/alien-x-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Brainstorm",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/artropode-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Big Chill | Wings opened -",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/calafrio-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Big Chill | Wings closed -",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/calafrio-(omniverse)-2.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Chromastone",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/cromatico-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Echo Echo",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/eco-eco-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Humungousaur",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/enormossauro-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Lodestar",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/estrela-polar-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Swampfire",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/fogo-fatuo-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Swampfire | Blossoming -",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/fogo-fatuo-florescido-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Upchuck | Murk -",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/glutao-m-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Goop",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/gosma-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Spidermonkey",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/macaco-aranha-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Nanomech",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/nanomech-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Rath",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/rath-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Rath",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/rath-(omniverse)-2.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Water Hazard",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/ameaca-aquatica-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Ampfibian",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/anfibio-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Armodrillo",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/armatu-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Eatle",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/besouro-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Clockwork",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/contra-tempo-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Juryrigg",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/diabrete-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "NRG",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/NRG-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Shocksquatch",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/shocksquatch-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
+            {
+                "name": "Terraspin",
+                "img": "./assets/img/ben10/aliens/benPrime/omniverse/tartagira-(omniverse)-1.png",
+                "title": "Ben 10 Omniverse",
+                "dataSubTheme": "ben10ov",
+                "dataTheme": "ben10"
+            },
             {
                 "name": "4 Arms",
                 "img": "./assets/img/ben10/aliens/benReboot/4-bracos-(reboot)-1.png",
@@ -3487,169 +3796,121 @@
             {
                 "name": "Abajour",
                 "img": "./assets/img/objects/others/abajour1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Chair",
                 "img": "./assets/img/objects/others/chair1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Flashlight",
                 "img": "./assets/img/objects/others/flashlight1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Fork",
                 "img": "./assets/img/objects/others/fork1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Glass Bottle",
                 "img": "./assets/img/objects/others/glassBottle1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Head Phone",
                 "img": "./assets/img/objects/others/headPhone1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Head Phone",
                 "img": "./assets/img/objects/others/headPhone2.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Lamp",
                 "img": "./assets/img/objects/others/lamp1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Lego Dinosaur",
                 "img": "./assets/img/objects/others/legoDinosaur.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Luminaria",
                 "img": "./assets/img/objects/others/luminaria1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Luminaria",
                 "img": "./assets/img/objects/others/luminaria2.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Monitor",
                 "img": "./assets/img/objects/others/monitor.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Piramide",
                 "img": "./assets/img/objects/others/piramide.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Plastic Bottle",
                 "img": "./assets/img/objects/others/plasticBottle1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
-                "name": "Ps4 Controller - Black",
+                "name": "Ps4 Controller | Black",
                 "img": "./assets/img/objects/others/ps4ControllerBlack1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Scissor",
                 "img": "./assets/img/objects/others/scissors1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Smart Phone",
                 "img": "./assets/img/objects/others/smartPhone1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Spoon",
                 "img": "./assets/img/objects/others/spoon1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Table",
                 "img": "./assets/img/objects/others/table1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Table",
                 "img": "./assets/img/objects/others/table2.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Table",
                 "img": "./assets/img/objects/others/table3.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Teclado",
                 "img": "./assets/img/objects/others/teclado.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
-                "name": "Xbox One Controller - Black",
+                "name": "Xbox One Controller | Black",
                 "img": "./assets/img/objects/others/xboxOneControllerBlack1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             },
             {
                 "name": "Xicara",
                 "img": "./assets/img/objects/others/xicara1.png",
-                "title": "",
-                "dataSubTheme": "",
                 "dataTheme": "object"
             }
         ]
