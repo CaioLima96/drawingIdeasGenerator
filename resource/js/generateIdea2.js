@@ -133,7 +133,7 @@ function setInputFilter(textbox, inputFilter, errMsg) {
 setInputFilter(document.getElementById("combNumber"),
     function (value) {
         return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 2000);
-}, "Must be between 1 and 700")
+}, "Must be between 1 and 800")
 
 
 //stores the random data

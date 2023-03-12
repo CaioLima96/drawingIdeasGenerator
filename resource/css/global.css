@@ -220,7 +220,21 @@ main {
     display: none;
 }
 
+#digContainer {
+    width: 100%;
+    max-width: 322px;
+    margin: 0 auto;
+}
 
+#digContainer .imgContainer:first-child {
+    max-width: 250px;
+    margin-bottom: -3.125rem;
+}
+
+#digContainer .imgContainer:last-child {
+    margin: 0 0 0 auto;
+    max-width: 200px;
+}
 
 /* ============ LIST/GRID VIEW ============ */
 

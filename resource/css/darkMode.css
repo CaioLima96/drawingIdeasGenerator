@@ -107,4 +107,10 @@
 
 .darkMode .loading img {
     filter: invert(85%);
+    -webkit-filter: invert(85%);
+}
+
+.darkMode #digContainer .imgContainer:first-child {
+    filter: invert(85%);
+    -webkit-filter: invert(85%);
 }
