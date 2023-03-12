@@ -21,6 +21,8 @@ This website was made to help those who are in doubt about what to draw!
         - [Light Mode](#mLightMode)
         - [Dark Mode](#mDarkMode)
 
+- [Used APIs](#used-apis)
+
 - [Author](#author)
 
 
@@ -79,6 +81,14 @@ This website was made to help those who are in doubt about what to draw!
 - #### <p id="mDarkMode">Dark Mode</p>
 
 <img src="./assets/img/screenshots/mobileGeneratedIdeaDarkMode1.jpg" width="200px" alt="Home Dark Mode">
+
+<br>
+<br>
+
+## Used APIs
+
+[Poke Api](https://pokeapi.co/)<br>
+[Pokémon Assets](https://github.com/HybridShivam/Pokemon)
 
 <br>
 <br>
