@@ -13,7 +13,7 @@ async function createPokemonArray() {
             .then(res => res.json())
             .then(res => pokeArr.push(res))
     }
-    console.log('arrPokemon: ', pokeArr)
+    // console.log('arrPokemon: ', pokeArr)
 
 
     //loops through pokeArr and create an object for each "raw" data
@@ -23,9 +23,9 @@ async function createPokemonArray() {
             name: `${item.name}`,
             dataSubTheme: "pokemon",
             dataTheme: "game",
-            img: `https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/${item.id.toString().length < 3 ? `${'0'+item.id}` : item.id}.png`,
+            img: `https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/${item.id.toString().length < 2 ? `${'00'+item.id}` : item.id.toString().length < 3 ? `${'0'+item.id}` : item.id}.png`,
         })
     }
-    // console.log('finalPokeArr: ', finalPokeArr)
+    console.log('finalPokeArr: ', finalPokeArr)
     return finalPokeArr
 }

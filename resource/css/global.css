@@ -310,6 +310,10 @@ main {
     margin-bottom: 2.25rem;
 }
 
+#ideasList li p:first-child {
+    text-transform: capitalize;
+}
+
 #ideasList li .imgContainer img {
     object-fit: contain;
 }
