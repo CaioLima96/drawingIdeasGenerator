@@ -3,7 +3,7 @@ async function themesJsonFetch(theme) {
 
     let data = await fetch(`https://testeproj-27b0c-default-rtdb.firebaseio.com/all.json`).then(res => res.json())
 
-    let pokemon = await createPokemonArray()
+    // let pokemon = await createPokemonArray()
 
     let allThemes = [
         ...data[0],
@@ -16,26 +16,26 @@ async function themesJsonFetch(theme) {
             "dataSubTheme": "originalChar",
             "dataTheme": " "
         },
-        ...pokemon,
+        // ...pokemon,
+        // ...await createPokemonArray()
     ]
-    // console.log('allThemes: ', allThemes)
-            
 
-    console.log("allThemes qtd: " + allThemes.length)
-    console.log("Animes qtd: " + data[0].length)
-    console.log("Ben 10 qtd: " + data[1].length)
-    console.log("Games qtd: " + data[2].length)
-    console.log("Objetos qtd: " + data[3].length)
-    console.log("Pokemon qtd: " + pokemon.length)
+
+    // console.log("allThemes qtd: " + allThemes.length)
+    // console.log("Animes qtd: " + data[0].length)
+    // console.log("Ben 10 qtd: " + data[1].length)
+    // console.log("Games qtd: " + data[2].length)
+    // console.log("Objetos qtd: " + data[3].length)
+    // console.log("Pokemon qtd: " + pokemon.length)
 
 
     if (theme === 'all') {
 
-        return allThemes
+        return [...allThemes, ...await createPokemonArray()]
 
     } else if (theme === 'pokemon') {
         // console.log(pokemon)
-        return pokemon
+        return await createPokemonArray()
 
     } else {
 
@@ -130,11 +130,10 @@ function setInputFilter(textbox, inputFilter, errMsg) {
         });
     });
 }
-
 setInputFilter(document.getElementById("combNumber"),
     function (value) {
         return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 2000);
-    }, "Must be between 1 and 700")
+}, "Must be between 1 and 700")
 
 
 //stores the random data
@@ -147,10 +146,17 @@ async function randomData() {
 async function setRandomTema() {
 
     document.getElementById('listMenu').style.display = 'flex'
-    document.getElementById('ideasList').innerHTML = ' '
+    document.getElementById('ideasList').innerHTML = ` 
+        <div class="loading">
+            <div class='imgContainer'><img src='./assets/img/icons/loading2.svg' alt="Loading Icon"></div>
+            <p>Loading...</p>
+        </div>
+    `
 
     let random = await randomData()
     // console.log(random)
+
+    document.getElementById('ideasList').innerHTML = ' '
 
     for (let item of random) {
         document.getElementById('ideasList').innerHTML += `

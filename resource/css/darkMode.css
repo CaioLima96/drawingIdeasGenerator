@@ -100,3 +100,11 @@
 .darkMode #headerNavMenu li:hover a, .darkMode #headerNavMenu li:hover p{
     color: var(--DarkModeGrey2);
 }
+
+.darkMode .loading p {
+    color: white;
+}
+
+.darkMode .loading img {
+    filter: invert(85%);
+}
