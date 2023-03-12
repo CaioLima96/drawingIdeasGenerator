@@ -62,6 +62,11 @@
     color: white;
 }
 
+.darkMode header nav > div .imgContainer:nth-child(2) {
+    filter: invert(85%);
+    -webkit-filter: invert(85%);
+}
+
 .darkMode footer, .darkMode footer a {
     color: var(--DarkModeGrey4) !important;
 }
