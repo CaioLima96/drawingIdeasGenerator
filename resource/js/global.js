@@ -1,3 +1,6 @@
+let ideasList = document.getElementById('ideasList')
+
+
 //====================== DARK MODE BTN
 
 let darkModeBtn = document.getElementById('darkModeBtn')
@@ -9,8 +12,6 @@ function darkModeFunc() {
 	element.classList.toggle("darkMode");
 	darkModeBtn.getElementsByTagName('div')[0].classList.toggle('toggleSunMoon')
 
-
-	console.log(dmBtnText.textContent)
 	if (dmBtnText.textContent == 'Dark Mode') {
 
 		return dmBtnText.textContent = 'Light Mode'
@@ -23,6 +24,8 @@ function darkModeFunc() {
 }
 
 darkModeBtn.addEventListener('click', darkModeFunc)
+
+
 
 //====================== RESPONSIVE MENU
 
@@ -40,7 +43,6 @@ function closeNavBar() {
 
 //====================== LIST/GRID VIEW
 
-let ideasList = document.getElementById('ideasList')
 let ideasListImg = ideasList.getElementsByClassName('imgContainer')
 
 

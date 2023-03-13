@@ -90,7 +90,6 @@ function getThemeValue() {
 //randomizes the data
 function getMultipleRandom(arr, num) {
 
-    // console.log(arr)
     let shuffled = [...arr].sort(() => 0.5 - Math.random());
 
     return shuffled.slice(0, num);
@@ -128,7 +127,7 @@ function setInputFilter(textbox, inputFilter, errMsg) {
 setInputFilter(document.getElementById("combNumber"),
     function (value) {
         return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 2000);
-    }, "Must be between 1 and 800")
+}, "Must be between 1 and 800")
 
 
 //stores the random data
@@ -141,7 +140,7 @@ async function randomData() {
 async function setRandomTema() {
 
     document.getElementById('listMenu').style.display = 'flex'
-    document.getElementById('ideasList').innerHTML = ` 
+    ideasList.innerHTML = ` 
         <div class="loading">
             <div class='imgContainer'><img src='./assets/img/icons/loading2.svg' alt="Loading Icon" class="loadCircle"></div>
             <p>Loading...</p>
@@ -152,21 +151,21 @@ async function setRandomTema() {
 
     let random = await randomData()
 
-    document.getElementById('ideasList').innerHTML = ' '
+    ideasList.innerHTML = ' '
 
     for (let item of random) {
-        document.getElementById('ideasList').innerHTML += `
+        ideasList.innerHTML += `
     
-                <li class='generatedIdea' ${item.dataSubTheme ? `dataSubTheme='${item.dataSubTheme}'` : `dataTheme='${item.dataTheme}'`} >
-                    <p style='margin-bottom: 16px'>
-                        ${item.name} 
-                        ${item.title ? `(${item.title})` : ''}
-                    </p>
-                    <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
-                </li>
-            `
+            <li class='generatedIdea' ${item.dataSubTheme ? `dataSubTheme='${item.dataSubTheme}'` : `dataTheme='${item.dataTheme}'`} >
+                <p style='margin-bottom: 16px'>
+                    ${item.name} 
+                    ${item.title ? `(${item.title})` : ''}
+                </p>
+                <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
+            </li>
+        `
     }
-
+    
     navTabBtns[0].classList.add('activeMenuBtn')
     navTabBtns[1].classList.remove('activeMenuBtn')
     gridView()
