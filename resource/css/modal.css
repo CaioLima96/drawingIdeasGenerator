@@ -72,6 +72,7 @@
 
 .modalContent #containerList, .modalContent #ideasList {
     margin: 0 auto;
+    max-width: none
 }
 
 .modalContent #listMenu > button:last-child {
@@ -80,10 +81,6 @@
 
 .modalContent #ideasList li {
     color: black !important;
-}
-
-.modalContent .gridView li .imgContainer {
-    height: 400px;
 }
 
 .modalHeader #listMenu {

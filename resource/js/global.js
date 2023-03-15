@@ -1,5 +1,6 @@
 let ideasList = document.getElementById('ideasList')
 let ideasListItens = document.getElementsByClassName('generatedIdea')
+let disabledBtn = document.getElementById('listMenu').getElementsByClassName('listMenuBtn')
 
 
 //====================== DARK MODE BTN
@@ -186,3 +187,10 @@ function loading(theme) {
 			break
 	}
 }
+
+
+
+//====================== FORM
+
+document.getElementsByTagName('form')[0].addEventListener('submit', (e) => e.preventDefault())
+

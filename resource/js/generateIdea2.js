@@ -151,10 +151,17 @@ async function setRandomTema() {
 
 
     for(let el of navTabBtns) el.classList.remove('activeMenuBtn')
+
+    for(let el of disabledBtn) el.style.pointerEvents = "none"
     
+
+    //randomized raw data
     let random = await randomData()
 
+
     ideasList.innerHTML = ' '
+
+    for(let el of disabledBtn) el.style.pointerEvents = "all"
 
 
     for (let item of random) {
@@ -190,7 +197,13 @@ async function setRandomTema() {
         gridView()
     }
 }
-
-document.getElementsByTagName('form')[0].addEventListener('submit', (e) => e.preventDefault())
-
 document.getElementById('generate').addEventListener('click', setRandomTema)
+
+let input = document.getElementById("combNumber");
+input.addEventListener("keypress", function(event) {
+
+    if (event.key === "Enter") {
+        event.preventDefault();
+        document.getElementById("generate").click();
+    }
+});
