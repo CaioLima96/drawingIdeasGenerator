@@ -27,6 +27,6 @@ async function createPokemonArray() {
             dataTheme: "game"
         })
     }
-    console.log('finalPokeArr: ', finalPokeArr)
+    // console.log('finalPokeArr: ', finalPokeArr)
     return finalPokeArr
 }

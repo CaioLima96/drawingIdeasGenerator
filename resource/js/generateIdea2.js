@@ -156,7 +156,7 @@ async function setRandomTema() {
     for (let item of random) {
         ideasList.innerHTML += `
     
-            <li class='generatedIdea' ${item.dataSubTheme ? `dataSubTheme='${item.dataSubTheme}'` : `dataTheme='${item.dataTheme}'`} >
+            <li class='generatedIdea' ${item.dataSubTheme ? `dataSubTheme='${item.dataSubTheme}'` : `dataTheme='${item.dataTheme}'`}>
                 <p style='margin-bottom: 16px'>
                     ${item.name} 
                     ${item.title ? `(${item.title})` : ''}
@@ -164,11 +164,35 @@ async function setRandomTema() {
                 <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
             </li>
         `
+
     }
+
+    if (ideasListItens.length < 2) {
+        
+        navTabBtns[0].classList.remove('activeMenuBtn')
+        navTabBtns[1].classList.add('activeMenuBtn')
+        listView()
+        
+        setInterval(() => {
+            if (ideasListImg[0].clientHeight > 500) {
+            
+                console.log(window.getComputedStyle(ideasListImg[0]).height)
+                // ideasListImg[0].style.backgroundColor = 'blue'
+                ideasListImg[0].style.height = '500px'
+                console.log(window.getComputedStyle(ideasListImg[0]).height)
+
+            }
+        }, 0001)
+        
+    } else {
+
+        navTabBtns[0].classList.add('activeMenuBtn')
+        navTabBtns[1].classList.remove('activeMenuBtn')
+        console.log('grid')
+        gridView()
+    }
+
     
-    navTabBtns[0].classList.add('activeMenuBtn')
-    navTabBtns[1].classList.remove('activeMenuBtn')
-    gridView()
 }
 
 document.getElementById('generate').addEventListener('click', setRandomTema);

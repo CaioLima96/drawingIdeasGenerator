@@ -1,4 +1,5 @@
 let ideasList = document.getElementById('ideasList')
+let ideasListItens = document.getElementsByClassName('generatedIdea')
 
 
 //====================== DARK MODE BTN
@@ -54,9 +55,6 @@ function listView() {
 
 	for (let i = 0; i < ideasListImg.length; i++) {
 
-		// console.log('height: ' + ideasListImg[i].clientHeight)
-		// console.log('height: ' + ideasListImg[i].clientWidth)
-
 		if (ideasListImg[i].clientHeight > 500) {
 
 			ideasListImg[i].setAttribute("style", "height:500px")
@@ -64,6 +62,8 @@ function listView() {
 		}
 	}
 }
+
+
 
 //==== Grid View
 function gridView() {
@@ -143,9 +143,9 @@ function loading(theme) {
 
 	let loading = document.getElementsByClassName('loading')[0]
 
-	let loadingImgContainer = document.getElementsByClassName('loading')[0].getElementsByClassName('imgContainer')[0]
+	let loadingImgContainer = loading.getElementsByClassName('imgContainer')[0]
 
-	let loadingImg = document.getElementsByClassName('loading')[0].getElementsByClassName('imgContainer')[0].getElementsByTagName('img')[0]
+	let loadingImg = loading.getElementsByClassName('imgContainer')[0].getElementsByTagName('img')[0]
 
 
 	switch (theme) {
