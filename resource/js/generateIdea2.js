@@ -140,18 +140,22 @@ async function randomData() {
 async function setRandomTema() {
 
     document.getElementById('listMenu').style.display = 'flex'
+
     ideasList.innerHTML = ` 
         <div class="loading">
             <div class='imgContainer'><img src='./assets/img/icons/loading2.svg' alt="Loading Icon" class="loadCircle"></div>
             <p>Loading...</p>
         </div>
     `
-
     loading(getThemeValue())
 
+
+    for(let el of navTabBtns) el.classList.remove('activeMenuBtn')
+    
     let random = await randomData()
 
     ideasList.innerHTML = ' '
+
 
     for (let item of random) {
         ideasList.innerHTML += `
@@ -166,33 +170,24 @@ async function setRandomTema() {
         `
 
     }
+    
 
+    //apply list/grid view according to combination number
     if (ideasListItens.length < 2) {
         
-        navTabBtns[0].classList.remove('activeMenuBtn')
-        navTabBtns[1].classList.add('activeMenuBtn')
         listView()
         
         setInterval(() => {
             if (ideasListImg[0].clientHeight > 500) {
             
-                console.log(window.getComputedStyle(ideasListImg[0]).height)
                 // ideasListImg[0].style.backgroundColor = 'blue'
                 ideasListImg[0].style.height = '500px'
-                console.log(window.getComputedStyle(ideasListImg[0]).height)
-
             }
         }, 0001)
         
     } else {
 
-        navTabBtns[0].classList.add('activeMenuBtn')
-        navTabBtns[1].classList.remove('activeMenuBtn')
-        console.log('grid')
         gridView()
     }
-
-    
 }
-
 document.getElementById('generate').addEventListener('click', setRandomTema);

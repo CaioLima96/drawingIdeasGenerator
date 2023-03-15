@@ -53,6 +53,9 @@ function listView() {
 	ideasList.classList.remove('gridView')
 	ideasList.classList.add('listView')
 
+	navTabBtns[0].classList.remove('activeMenuBtn')
+    navTabBtns[1].classList.add('activeMenuBtn')
+
 	for (let i = 0; i < ideasListImg.length; i++) {
 
 		if (ideasListImg[i].clientHeight > 500) {
@@ -70,6 +73,9 @@ function gridView() {
 
 	ideasList.classList.remove('listView')
 	ideasList.classList.add('gridView')
+
+	navTabBtns[0].classList.add('activeMenuBtn')
+    navTabBtns[1].classList.remove('activeMenuBtn')
 }
 
 
@@ -83,17 +89,17 @@ let btnContainer = document.getElementById('gridViewBtn');
 let navTabBtns = btnContainer.getElementsByClassName("listMenuBtn");
 
 // Loop through the buttons and add the active class to the current/clicked button
-for (let i = 0; i < navTabBtns.length; i++) {
+// for (let i = 0; i < navTabBtns.length; i++) {
 
-	navTabBtns[i].addEventListener("click", function () {
+// 	navTabBtns[i].addEventListener("click", function () {
 
-		let currentBtn = document.getElementsByClassName("activeMenuBtn");
+// 		let currentBtn = document.getElementsByClassName("activeMenuBtn");
 
-		currentBtn[0].className = currentBtn[0].className.replace(" activeMenuBtn", "");
-		this.className += " activeMenuBtn";
+// 		currentBtn[0].className = currentBtn[0].className.replace(" activeMenuBtn", "");
+// 		this.className += " activeMenuBtn";
 
-	});
-}
+// 	});
+// }
 
 
 
