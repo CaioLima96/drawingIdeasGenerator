@@ -170,7 +170,7 @@ async function setRandomTema() {
         `
 
     }
-    
+
 
     //apply list/grid view according to combination number
     if (ideasListItens.length < 2) {
@@ -190,4 +190,7 @@ async function setRandomTema() {
         gridView()
     }
 }
-document.getElementById('generate').addEventListener('click', setRandomTema);
+
+document.getElementsByTagName('form')[0].addEventListener('submit', (e) => e.preventDefault())
+
+document.getElementById('generate').addEventListener('click', setRandomTema)

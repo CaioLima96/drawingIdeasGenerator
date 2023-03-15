@@ -67,9 +67,9 @@
     </header>
 
     <main id="mainContainer" onclick="closeNavBar()">
-
-        <form action="">
-
+        <!-- onsubmit="return false;" -->
+        <form>
+            <!-- onsubmit="event.preventDefault();" -->
             <fieldset id="allThemesField">
 
                 <div class="inputField">
@@ -90,9 +90,9 @@
 
             </fieldset>
 
-            <fieldset class='themedFieldSet' id="animesFieldSet">
+            <!-- <fieldset class='themedFieldSet' id="animesFieldSet">
 
-                <!-- <legend>Minecraft</legend> -->
+                <legend>Minecraft</legend> 
 
                 <div class="inputField">
 
@@ -119,7 +119,7 @@
                     <div class='imgContainer'><img src='./assets/img/icons/pokeball.png' alt="PokéBall"></div>
                 </div>
 
-            </fieldset>
+            </fieldset> -->
 
             <!-- <fieldset class='themedFieldSet' id="ben10FieldSet">
 
@@ -166,9 +166,9 @@
 
             </fieldset> -->
             
-            <fieldset class='themedFieldSet' id="cartoonsFieldSet">
+            <!-- <fieldset class='themedFieldSet' id="cartoonsFieldSet">
 
-                <!-- <legend>Ben 10</legend> -->
+                <legend>Ben 10</legend>
 
                 <div class="inputField">
 
@@ -190,9 +190,9 @@
                     <div class='imgContainer'><img src='./assets/img/icons/stevenUniverseShield.png' alt="Steven Universe Shield"></div>
                 </div>
 
-            </fieldset>
+            </fieldset> -->
 
-            <fieldset class='themedFieldSet' id="gamesFieldSet">
+            <!-- <fieldset class='themedFieldSet' id="gamesFieldSet">
 
                 <div class="inputField">
 
@@ -216,9 +216,9 @@
                     <div class='imgContainer' style="bottom: -23px;"><img src='./assets/img/icons/masterChiefHelmet.png' alt="Pokeball"></div>
                 </div>
                 
-            </fieldset>
+            </fieldset> -->
 
-            <fieldset class='themedFieldSet' id="objectsFieldSet">
+            <!-- <fieldset class='themedFieldSet' id="objectsFieldSet">
 
                 <div class="inputField">
 
@@ -237,16 +237,19 @@
                     <div></div>
                 </div>
                 
-            </fieldset>
+            </fieldset> -->
 
             <div class="inputField" style="margin-top: 60px" id="combNumberContainer">
 
                 <label for="combNumber">Number of combinations:</label>
-                <input type="number" id="combNumber" name="combNumber" value="1">
+                <input type="number" id="combNumber"  name="combNumber" value="1" >
 
             </div>
 
             <div class="generateBtn" id="generate">Generate Idea</div>
+
+            <!-- <button class="generateBtn" id="generate" type="submit">Submit</button> -->
+
 
         </form>
 
