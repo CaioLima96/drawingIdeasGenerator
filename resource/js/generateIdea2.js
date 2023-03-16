@@ -178,7 +178,6 @@ async function setRandomTema() {
 
     }
 
-
     //apply list/grid view according to combination number
     if (ideasListItens.length < 2) {
         
@@ -187,7 +186,6 @@ async function setRandomTema() {
         setInterval(() => {
             if (ideasListImg[0].clientHeight > 500) {
             
-                // ideasListImg[0].style.backgroundColor = 'blue'
                 ideasListImg[0].style.height = '500px'
             }
         }, 0001)
