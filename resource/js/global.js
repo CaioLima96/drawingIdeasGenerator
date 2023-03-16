@@ -1,6 +1,7 @@
 let ideasList = document.getElementById('ideasList')
 let ideasListItens = document.getElementsByClassName('generatedIdea')
-let disabledBtn = document.getElementById('listMenu').getElementsByClassName('listMenuBtn')
+let disabledBtns = document.getElementById('listMenu').getElementsByClassName('listMenuBtn')
+
 
 
 //====================== DARK MODE BTN
@@ -24,7 +25,6 @@ function darkModeFunc() {
 
 	}
 }
-
 darkModeBtn.addEventListener('click', darkModeFunc)
 
 
@@ -34,10 +34,12 @@ darkModeBtn.addEventListener('click', darkModeFunc)
 let headerNavMenu = document.getElementById("headerNavMenu")
 
 function myNavBar() {
+
 	headerNavMenu.classList.toggle('hideShowHeaderNavMenu')
 }
 
 function closeNavBar() {
+
 	headerNavMenu.classList.remove('hideShowHeaderNavMenu')
 }
 
@@ -46,16 +48,20 @@ function closeNavBar() {
 //====================== LIST/GRID VIEW
 
 let ideasListImg = ideasList.getElementsByClassName('imgContainer')
+let gridViewBtns = document.getElementById('gridViewBtn').getElementsByClassName("listMenuBtn");
+let allbtn = document.getElementById('listMenu').getElementsByClassName("listMenuBtn");
 
-
-//==== List View
 function listView() {
 
 	ideasList.classList.remove('gridView')
 	ideasList.classList.add('listView')
 
-	navTabBtns[0].classList.remove('activeMenuBtn')
-	navTabBtns[1].classList.add('activeMenuBtn')
+	gridViewBtns[0].classList.remove('activeMenuBtn')
+	gridViewBtns[1].classList.add('activeMenuBtn')
+
+	for (let item of ideasListImg) {
+		item.classList.remove('gridViewImg')
+	}
 
 	for (let i = 0; i < ideasListImg.length; i++) {
 
@@ -67,55 +73,66 @@ function listView() {
 	}
 }
 
-
-
-//==== Grid View
 function gridView() {
 
 	ideasList.classList.remove('listView')
 	ideasList.classList.add('gridView')
 
-	navTabBtns[0].classList.add('activeMenuBtn')
-	navTabBtns[1].classList.remove('activeMenuBtn')
+	gridViewBtns[0].classList.add('activeMenuBtn')
+	gridViewBtns[1].classList.remove('activeMenuBtn')
 
-	// for (let i = 0; i < ideasListImg.length; i++) {
-
-	// 	if (ideasListImg[i].clientHeight >= 500) {
-
-	// 		ideasListImg[i].setAttribute("style", "height:350px")
-
-	// 	}
-	// }
-
-	// for (let i = 0; i < ideasListImg.length; i++) {
-
-	// 	ideasListImg[i].setAttribute("style", "height:350px !important")
-	// 	ideasListImg[i].setAttribute("style", "max-height: none !important")
-	// }
+	for (let item of ideasListImg) {
+		item.classList.add('gridViewImg')
+	}
 }
+
+
+
+//====================== ZOOM
+
+function zoomIn() {
+
+	ideasList.style.zoom = "200%";
+}
+
+function zoomOut() {
+
+	ideasList.style.zoom = "100%";
+	ideasList.style.zoom = "60%";
+}
+
+function zoomReset() {
+
+	ideasList.style.zoom = "100%";
+}
+
+document.getElementById('zoomIn').addEventListener('click', zoomIn)
+document.getElementById('zoomOut').addEventListener('click', zoomOut)
+document.getElementById('zoomReset').addEventListener('click', zoomReset)
 
 
 
 //====================== NAV TAB ACTIVE
 
 // Get the container element
-let btnContainer = document.getElementById('gridViewBtn');
+let zoomBtns = document.getElementById('zoomBtns');
 
-// Get all buttons with class="listMenuBtn" inside the container
-let navTabBtns = btnContainer.getElementsByClassName("listMenuBtn");
+// Get all it's buttons
+let zoomBtn = zoomBtns.getElementsByClassName("zoomBtn");
+
 
 // Loop through the buttons and add the active class to the current/clicked button
-// for (let i = 0; i < navTabBtns.length; i++) {
+for (let i = 0; i < zoomBtn.length; i++) {
 
-// 	navTabBtns[i].addEventListener("click", function () {
+	zoomBtn[i].addEventListener("click", function () {
 
-// 		let currentBtn = document.getElementsByClassName("activeMenuBtn");
+		let currentBtn = zoomBtns.getElementsByClassName("activeMenuBtn");
 
-// 		currentBtn[0].className = currentBtn[0].className.replace(" activeMenuBtn", "");
-// 		this.className += " activeMenuBtn";
+		currentBtn[0].className = currentBtn[0].className.replace(" activeMenuBtn", "");
+		this.className += " activeMenuBtn";
 
-// 	});
-// }
+	});
+}
 
 
 
@@ -128,15 +145,12 @@ function openModal() {
 	modal.style.display = "block"
 	document.body.style.overflow = 'hidden'
 	clonedElement()
-	// console.log(getComputedStyle(ideasList))
-	// console.log(ideasListItens)
 }
 
 function closeModal() {
 
 	modal.style.display = "none";
 	document.body.style.overflow = ''
-
 }
 
 // When the user clicks anywhere outside of the modal, close it
@@ -209,77 +223,3 @@ function loading(theme) {
 //====================== FORM
 
 document.getElementsByTagName('form')[0].addEventListener('submit', (e) => e.preventDefault())
-
-
-
-//====================== ZOOM
-
-
-// let modalLista = document.getElementsByClassName('modalContent')[0].getElementById('ideasList')
-// let modalLista = document.getElementsByClassName('modalContent')[0]
-// let modalLista = document.getElementById('ideasList')
-// let modalLista = document.getElementById('ideasList').getElementsByClassName('pic')[0]
-
-function zoomIn() {
-	// let modalLista = document.getElementById("pic");
-	// modalLista.style.maxWidth = 'auto'
-	// console.log(modalLista.clientWidth)
-
-	let pic = ideasList;
-	var width = pic.clientWidth;
-	// pic.style.width = width + 100 + "px";
-
-	// var pic = ideasListItens;
-	// for (let i = 0; i < pic.length; i++) {
-
-	// 	var width = pic[i].clientWidth;
-	// 	pic[i].style.width = width + 100 + "px";
-	// }
-
-	ideasList.style.zoom = "200%";
-	console.log(ideasList.style.zoom)
-
-	// for (let i = 0; i < ideasListImg.length; i++) {
-
-	// 	ideasListImg[i].setAttribute("style", "height: 100% !important; max-height: 500px !important")
-	// 	// ideasListImg[i].setAttribute("style", "max-height: 500px !important")
-	// }
-}
-
-function zoomOut() {
-	// let modalLista = document.getElementById("pic");
-	// console.log(modalLista.clientWidth)
-	let pic = ideasList;
-	var width = pic.clientWidth;
-	// pic.style.width = width - 100 + "px";
-	
-
-	// var pic = ideasListItens;
-	// for (let i = 0; i < pic.length; i++) {
-
-	// 	var width = pic[i].clientWidth;
-	// 	pic[i].style.width = width - 100 + "px";
-	// }
-
-	ideasList.style.zoom = "100%";
-	ideasList.style.zoom = "60%";
-	console.log(ideasList.style.zoom)
-}
-
-function zoomReset() {
-
-	ideasList.style.zoom = "100%";
-	console.log(ideasList.style.zoom)
-
-	// for (let i = 0; i < ideasListImg.length; i++) {
-
-	// 	ideasListImg[i].setAttribute("style", "height:350px !important")
-	// 	ideasListImg[i].setAttribute("style", "max-height: none !important")
-	// }
-
-	let imgGrid = document.getElementsByClassName('gridView')[0].getElementsByClassName('imgContainer')
-
-	for (let item of imgGrid) {
-		item.classList.add('gridViewImg')
-	}
-}

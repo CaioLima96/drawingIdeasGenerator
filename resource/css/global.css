@@ -236,7 +236,7 @@ main {
     max-width: 200px;
 }
 
-/* ============ LIST/GRID VIEW ============ */
+/* ============ LIST MENU ============ */
 
 #listMenu {
     display: none;
@@ -280,9 +280,34 @@ main {
     cursor: pointer;
 }
 
+#zoomBtns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.zoomBtn {
+    font-size: 0.813rem;
+    padding: 0.5rem 0.875rem;
+}
+
+.zoomBtn:not(.zoomBtn:last-child) {
+    margin-right: 0.313rem;
+}
+
+@-moz-document url-prefix() {
+    .zoomBtn {
+      display: none;
+    }
+}
+
 .activeMenuBtn:not(.listMenuBtn:nth-child(3)) {
     background-color: rgb(116 116 116);
     color: white;
+}
+
+#zoomBtns .activeMenuBtn:not(#zoomReset) {
+    background-color: rgb(180 180 180);
 }
 
 
@@ -293,7 +318,6 @@ main {
     width: 100%;
     max-width: 608px;
     overflow: hidden;
-    border: 1px solid black;
 }
 
 #ideasList {
@@ -328,10 +352,10 @@ main {
     width: 300px;
 }
 
-.gridView li .imgContainer {
+/* .gridView li .imgContainer {
     height: 350px;
-    /* height: 350px !important; */
-}
+    height: 350px !important;
+} */
 
 .listView {
     flex-direction: column;
@@ -343,14 +367,8 @@ main {
     max-width: 500px;
 }
 
-/* .gridView li .imgContainer  */
 .gridViewImg { 
     height: 350px !important;
-    border: 1px solid red;
-}
-
-.ListViewImg { 
-    height: 500px;
 }
 
 

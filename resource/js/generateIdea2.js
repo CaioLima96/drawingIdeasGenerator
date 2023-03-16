@@ -150,10 +150,11 @@ async function setRandomTema() {
     loading(getThemeValue())
 
 
-    for(let el of navTabBtns) el.classList.remove('activeMenuBtn')
+    for(let el of allbtn) el.classList.remove('activeMenuBtn')
 
-    for(let el of disabledBtn) el.style.pointerEvents = "none"
-    
+    for(let el of disabledBtns) el.style.pointerEvents = "none"
+
+    zoomReset()
 
     //randomized raw data
     let random = await randomData()
@@ -161,7 +162,9 @@ async function setRandomTema() {
 
     ideasList.innerHTML = ' '
 
-    for(let el of disabledBtn) el.style.pointerEvents = "all"
+    allbtn[5].classList.add('activeMenuBtn')
+
+    for(let el of disabledBtns) el.style.pointerEvents = "all"
 
 
     for (let item of random) {
@@ -178,7 +181,7 @@ async function setRandomTema() {
 
     }
 
-    //apply list/grid view according to combination number
+    //apply list/grid view according to combination number, when generateBtn is clicked
     if (ideasListItens.length < 2) {
         
         listView()
@@ -192,19 +195,8 @@ async function setRandomTema() {
         
     } else {
 
-        setInterval(() => {
-            if (ideasListImg[0].clientHeight > 500) {
-            
-                ideasListImg[0].style.height = '500px'
-            }
-        }, 0001)
-
         gridView()
     }
-
-    document.getElementById('zoomIn').addEventListener('click', zoomIn)
-    document.getElementById('zoomOut').addEventListener('click', zoomOut)
-    document.getElementById('zoomReset').addEventListener('click', zoomReset)
 }
 document.getElementById('generate').addEventListener('click', setRandomTema)
 
