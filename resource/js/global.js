@@ -55,7 +55,7 @@ function listView() {
 	ideasList.classList.add('listView')
 
 	navTabBtns[0].classList.remove('activeMenuBtn')
-    navTabBtns[1].classList.add('activeMenuBtn')
+	navTabBtns[1].classList.add('activeMenuBtn')
 
 	for (let i = 0; i < ideasListImg.length; i++) {
 
@@ -76,7 +76,22 @@ function gridView() {
 	ideasList.classList.add('gridView')
 
 	navTabBtns[0].classList.add('activeMenuBtn')
-    navTabBtns[1].classList.remove('activeMenuBtn')
+	navTabBtns[1].classList.remove('activeMenuBtn')
+
+	// for (let i = 0; i < ideasListImg.length; i++) {
+
+	// 	if (ideasListImg[i].clientHeight >= 500) {
+
+	// 		ideasListImg[i].setAttribute("style", "height:350px")
+
+	// 	}
+	// }
+
+	// for (let i = 0; i < ideasListImg.length; i++) {
+
+	// 	ideasListImg[i].setAttribute("style", "height:350px !important")
+	// 	ideasListImg[i].setAttribute("style", "max-height: none !important")
+	// }
 }
 
 
@@ -113,7 +128,8 @@ function openModal() {
 	modal.style.display = "block"
 	document.body.style.overflow = 'hidden'
 	clonedElement()
-
+	// console.log(getComputedStyle(ideasList))
+	// console.log(ideasListItens)
 }
 
 function closeModal() {
@@ -161,7 +177,7 @@ function loading(theme) {
 
 			loadingImgContainer.classList.add('rotate')
 			loadingImg.src = './assets/img/icons/4StartDragonBall2.png'
-			
+
 			break
 
 		case 2:
@@ -193,3 +209,77 @@ function loading(theme) {
 //====================== FORM
 
 document.getElementsByTagName('form')[0].addEventListener('submit', (e) => e.preventDefault())
+
+
+
+//====================== ZOOM
+
+
+// let modalLista = document.getElementsByClassName('modalContent')[0].getElementById('ideasList')
+// let modalLista = document.getElementsByClassName('modalContent')[0]
+// let modalLista = document.getElementById('ideasList')
+// let modalLista = document.getElementById('ideasList').getElementsByClassName('pic')[0]
+
+function zoomIn() {
+	// let modalLista = document.getElementById("pic");
+	// modalLista.style.maxWidth = 'auto'
+	// console.log(modalLista.clientWidth)
+
+	let pic = ideasList;
+	var width = pic.clientWidth;
+	// pic.style.width = width + 100 + "px";
+
+	// var pic = ideasListItens;
+	// for (let i = 0; i < pic.length; i++) {
+
+	// 	var width = pic[i].clientWidth;
+	// 	pic[i].style.width = width + 100 + "px";
+	// }
+
+	ideasList.style.zoom = "200%";
+	console.log(ideasList.style.zoom)
+
+	// for (let i = 0; i < ideasListImg.length; i++) {
+
+	// 	ideasListImg[i].setAttribute("style", "height: 100% !important; max-height: 500px !important")
+	// 	// ideasListImg[i].setAttribute("style", "max-height: 500px !important")
+	// }
+}
+
+function zoomOut() {
+	// let modalLista = document.getElementById("pic");
+	// console.log(modalLista.clientWidth)
+	let pic = ideasList;
+	var width = pic.clientWidth;
+	// pic.style.width = width - 100 + "px";
+	
+
+	// var pic = ideasListItens;
+	// for (let i = 0; i < pic.length; i++) {
+
+	// 	var width = pic[i].clientWidth;
+	// 	pic[i].style.width = width - 100 + "px";
+	// }
+
+	ideasList.style.zoom = "100%";
+	ideasList.style.zoom = "60%";
+	console.log(ideasList.style.zoom)
+}
+
+function zoomReset() {
+
+	ideasList.style.zoom = "100%";
+	console.log(ideasList.style.zoom)
+
+	// for (let i = 0; i < ideasListImg.length; i++) {
+
+	// 	ideasListImg[i].setAttribute("style", "height:350px !important")
+	// 	ideasListImg[i].setAttribute("style", "max-height: none !important")
+	// }
+
+	let imgGrid = document.getElementsByClassName('gridView')[0].getElementsByClassName('imgContainer')
+
+	for (let item of imgGrid) {
+		item.classList.add('gridViewImg')
+	}
+}

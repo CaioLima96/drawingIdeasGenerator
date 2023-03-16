@@ -172,7 +172,7 @@ async function setRandomTema() {
                     ${item.name} 
                     ${item.title ? `(${item.title})` : ''}
                 </p>
-                <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
+                <div class='imgContainer' class='pic'><img src='${item.img}' alt=${item.name}'></div>
             </li>
         `
 
@@ -192,8 +192,19 @@ async function setRandomTema() {
         
     } else {
 
+        setInterval(() => {
+            if (ideasListImg[0].clientHeight > 500) {
+            
+                ideasListImg[0].style.height = '500px'
+            }
+        }, 0001)
+
         gridView()
     }
+
+    document.getElementById('zoomIn').addEventListener('click', zoomIn)
+    document.getElementById('zoomOut').addEventListener('click', zoomOut)
+    document.getElementById('zoomReset').addEventListener('click', zoomReset)
 }
 document.getElementById('generate').addEventListener('click', setRandomTema)
 

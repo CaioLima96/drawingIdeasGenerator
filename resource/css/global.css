@@ -292,13 +292,15 @@ main {
 #containerList {
     width: 100%;
     max-width: 608px;
+    overflow: hidden;
+    border: 1px solid black;
 }
 
 #ideasList {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 608px;
+    /* max-width: 608px; */
 }
 
 #ideasList li {
@@ -327,7 +329,8 @@ main {
 }
 
 .gridView li .imgContainer {
-    height: 350px !important;
+    height: 350px;
+    /* height: 350px !important; */
 }
 
 .listView {
@@ -338,6 +341,16 @@ main {
 .listView li {
     width: auto;
     max-width: 500px;
+}
+
+/* .gridView li .imgContainer  */
+.gridViewImg { 
+    height: 350px !important;
+    border: 1px solid red;
+}
+
+.ListViewImg { 
+    height: 500px;
 }
 
 

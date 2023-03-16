@@ -271,13 +271,16 @@
                     <p>Expand</p>
                 </button>
 
+                <button id="zoomIn">Zoom-In</button>
+                <button id="zoomOut">Zoom-Out</button>
+                <button id="zoomReset">Zoom-Reset</button>
             </nav>
-
+            
             <ul id="ideasList">
 
                 <div id="digContainer">
                     <div class='imgContainer'><img src='./assets/img/frase2.png' alt="Dig"></div>
-                    <div class='imgContainer'><img src='./assets/img/digFullBody.png' alt="Dig"></div>
+                    <div class='imgContainer' id="pic"><img src='./assets/img/digFullBody.png' alt="Dig"></div>
                 </div>
 
             </ul>
@@ -314,7 +317,9 @@
 
             <div class="modalHeader">
                 <span class="closeModalBtn" onclick="closeModal()">&times;</span>
-                <h2></h2>
+                <!-- <h2></h2> -->
+                <!-- <button onclick="zoomIn()">Zoom-In</button>
+                <button onclick="zoomOut()">Zoom-Out</button> -->
             </div>
             
             <div class="modalContent">
