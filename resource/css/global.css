@@ -117,7 +117,6 @@ body::-webkit-scrollbar-thumb:hover {
 
 header {
     background-color: var(--blue1);
-    /* background-color: #FFC76C; */
 }
 
 header nav { 
@@ -180,7 +179,6 @@ header a {
 
 #headerNavMenu li:hover a, #headerNavMenu li:hover p{
     color: #5391ED;
-    /* color: #FFC76C; */
 }
 
 
@@ -204,10 +202,8 @@ main {
     color: var(--black1);
     border: none;
     border-radius: 6px;
-    /* font-weight: 600; */
     text-transform: uppercase;
     transition: .5s ease;
-    /* transition: background-color 2s ease-out 100ms */
 }
 
 .generateBtn:hover {
@@ -324,7 +320,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /* max-width: 608px; */
 }
 
 #ideasList li {
@@ -352,11 +347,6 @@ main {
     width: 300px;
 }
 
-/* .gridView li .imgContainer {
-    height: 350px;
-    height: 350px !important;
-} */
-
 .listView {
     flex-direction: column;
     align-items: center;
@@ -378,7 +368,6 @@ main {
 footer {
     padding: 1.313rem 0 0.5rem;
     background-color: var(--blue1);
-    /* background-color: #FFC76C; */
     text-align: center;
     color: var(--black1);
 }

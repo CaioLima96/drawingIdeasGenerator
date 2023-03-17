@@ -49,7 +49,7 @@ function closeNavBar() {
 
 let ideasListImg = ideasList.getElementsByClassName('imgContainer')
 let gridViewBtns = document.getElementById('gridViewBtn').getElementsByClassName("listMenuBtn");
-let allbtn = document.getElementById('listMenu').getElementsByClassName("listMenuBtn");
+let listMenuBtns = document.getElementById('listMenu').getElementsByClassName("listMenuBtn");
 
 function listView() {
 

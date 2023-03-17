@@ -388,6 +388,8 @@ const saintSeiya = [
     // {nameEnglish: '', img: './assets/img/animes/saintSeiya/', dataTheme:'saintSeiya'},
 ]
 
+
+
 const allAnimes = [
     ...bleach,
     ...bnha,
@@ -396,113 +398,3 @@ const allAnimes = [
     ...onePunchMan,
     ...saintSeiya,
 ]
-
-// const teste = [
-//     [
-//         { nameEnglish: 'Aizen', img: './assets/img/animes/bleach/aizen1.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Ichigo', img: './assets/img/animes/bleach/ichigo1.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Ichigo - Bankai', img: './assets/img/animes/bleach/ichigoBankai1.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Orihime', img: './assets/img/animes/bleach/orihime.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Rukia', img: './assets/img/animes/bleach/rukia.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Sado', img: './assets/img/animes/bleach/sado1.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Yamamoto', img: './assets/img/animes/bleach/yamamoto.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Yamamoto - Bankai', img: './assets/img/animes/bleach/yamamotoBankai.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Yammy - Resurreccion', img: './assets/img/animes/bleach/yammyResurreccion.png', dataTheme: 'bleach' },
-
-//         { nameEnglish: 'Zaraki', img: './assets/img/animes/bleach/zaraki1.png', dataTheme: 'bleach' },
-//     ],
-//     [
-//         { nameEnglish: 'All For One', img: './assets/img/animes/bnha/allForOne.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'All Might', img: './assets/img/animes/bnha/allMight.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Asui', img: './assets/img/animes/bnha/asui.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Bakugou', img: './assets/img/animes/bnha/bakugou.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Best Jeanist', img: './assets/img/animes/bnha/bestJeanist.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Cementoss', img: './assets/img/animes/bnha/cementoss.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Dabi', img: './assets/img/animes/bnha/dabi.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Deku', img: './assets/img/animes/bnha/deku.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Edgeshot', img: './assets/img/animes/bnha/edgeshot.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Endeavor', img: './assets/img/animes/bnha/endeavor.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Eraser Head', img: './assets/img/animes/bnha/eraserHead.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Fat Gum', img: './assets/img/animes/bnha/fatGum.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Gran Torino', img: './assets/img/animes/bnha/granTorino.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Hawks', img: './assets/img/animes/bnha/hawks.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Himiko', img: './assets/img/animes/bnha/himiko.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Kamui Woods', img: './assets/img/animes/bnha/kamuiWoods.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Kirishima', img: './assets/img/animes/bnha/kirishima.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Kurogiri', img: './assets/img/animes/bnha/kurogiri.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Midnight', img: './assets/img/animes/bnha/midnight.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Mirio', img: './assets/img/animes/bnha/mirio.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Mirko', img: './assets/img/animes/bnha/mirko.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Momo Yaoyorozu', img: './assets/img/animes/bnha/momoYaoyorozu.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Mount Lady', img: './assets/img/animes/bnha/mountLady.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Mr.Compress', img: './assets/img/animes/bnha/mrCompress.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Noumu', img: './assets/img/animes/bnha/noumu.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Shigaraki', img: './assets/img/animes/bnha/shigaraki.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Sir Nighteye', img: './assets/img/animes/bnha/sirNighteye.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Spinner', img: './assets/img/animes/bnha/spinner.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Stain', img: './assets/img/animes/bnha/stain.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Todoroki', img: './assets/img/animes/bnha/todoroki2.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Twice', img: './assets/img/animes/bnha/twice.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Uraraka', img: './assets/img/animes/bnha/uraraka.png', dataTheme: 'bnha' },
-
-//     { nameEnglish: 'Wash', img: './assets/img/animes/bnha/wash.png', dataTheme: 'bnha' },
-//     ]
-// ]
-
-// console.log(teste)
-
-// console.log('Bleach: ' + bleach.length)
-// console.log('Dragon Ball: ' + dragonBall.length)
-// console.log('One Piece: ' + onePiece.length)
-// console.log('One Punch Man: ' + onePunchMan.length)
-// console.log('CDZ: ' + saintSeiya.length)
-// console.log('Animes: ' + allAnimes.length)
-
-// console.log([
-//     'Bleach: ' + bleach.length,
-//     'Boku No Hero: ' + bnha.length,
-//     'Dragon Ball: ' + dragonBall.length,
-//     'One Piece: ' + onePiece.length,
-//     'One Punch Man: ' + onePunchMan.length,
-//     'CDZ: ' + saintSeiya.length,
-//     'All Animes: ' + allAnimes.length,
-// ])

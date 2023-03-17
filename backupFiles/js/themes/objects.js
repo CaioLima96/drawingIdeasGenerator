@@ -48,8 +48,3 @@ const othersObjects = [
 const allObjects = [
     ...othersObjects,
 ]
-
-// console.log([
-//     'Others: ' + othersObjects.length,
-//     'All Objects: ' + allObjects.length,
-// ])

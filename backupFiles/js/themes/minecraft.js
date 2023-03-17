@@ -84,5 +84,3 @@ const mineAllDimensions = [
     ...mineTheEnd, 
     ...mineNether
 ]
-
-// console.log('Minecraft: ' + mineAllDimensions.length)

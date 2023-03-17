@@ -3,7 +3,6 @@ async function createPokemonArray() {
     //generate a random numbers array
     let randomNumArray = []
     for (let i = 0; i < combNumber.value; i++) { randomNumArray.push(Math.floor((Math.random() * 700) + 1)) }
-    // console.log('randomNumArray: ', randomNumArray)
 
 
     //uses randomNumArray's values as pokemon's ID and do a fetch for all of them
@@ -13,7 +12,6 @@ async function createPokemonArray() {
             .then(res => res.json())
             .then(res => pokeArr.push(res))
     }
-    // console.log('arrPokemon: ', pokeArr)
 
 
     //loops through pokeArr and create an object for each "raw" data

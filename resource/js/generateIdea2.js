@@ -150,7 +150,7 @@ async function setRandomTema() {
     loading(getThemeValue())
 
 
-    for(let el of allbtn) el.classList.remove('activeMenuBtn')
+    for(let el of listMenuBtns) el.classList.remove('activeMenuBtn')
 
     for(let el of disabledBtns) el.style.pointerEvents = "none"
 
@@ -162,7 +162,7 @@ async function setRandomTema() {
 
     ideasList.innerHTML = ' '
 
-    allbtn[5].classList.add('activeMenuBtn')
+    listMenuBtns[5].classList.add('activeMenuBtn')
 
     for(let el of disabledBtns) el.style.pointerEvents = "all"
 

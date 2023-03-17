@@ -1,0 +1,1 @@
+backupFiles stores the original js files with all themes, before using JSON. I keep these files because if firebase "explodes" or something happens I could easily use the "old way".

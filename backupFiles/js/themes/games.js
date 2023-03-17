@@ -203,9 +203,3 @@ const allGames = [
     ...allMineDimensions,
     ...playStationExclusive,
 ]
-
-// console.log([
-//     'Fortnite: ' + fortniteSkinsOriginals.length,
-//     'Minecraft: ' + allMineDimensions.length,
-//     'All Games: ' + allGames.length,
-// ])
