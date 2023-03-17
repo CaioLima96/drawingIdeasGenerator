@@ -15,7 +15,7 @@ async function themesJsonFetch(theme) {
             "dataTheme": " "
         },
     ]
-    
+
 
     // console.log("allThemes qtd: " + allThemes.length)
     // console.log("Animes qtd: " + data[0].length)
@@ -45,7 +45,7 @@ function getThemeValue() {
 
     let temaArr;
     switch (themeSelector.value) {
-        
+
         case 'allThemes':
 
             temaArr = 'all'
@@ -127,14 +127,13 @@ function setInputFilter(textbox, inputFilter, errMsg) {
 setInputFilter(document.getElementById("combNumber"),
     function (value) {
         return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 2000);
-}, "Must be between 1 and 800")
+    }, "Must be between 1 and 800")
 
 
 //stores the random data
 async function randomData() {
     return getMultipleRandom(await themesJsonFetch(getThemeValue()), combNumber.value)
 }
-
 
 //renders the random data to the screen
 async function setRandomTema() {
@@ -150,9 +149,9 @@ async function setRandomTema() {
     loading(getThemeValue())
 
 
-    for(let el of listMenuBtns) el.classList.remove('activeMenuBtn')
+    for (let el of listMenuBtns) el.classList.remove('activeMenuBtn')
 
-    for(let el of disabledBtns) el.style.pointerEvents = "none"
+    for (let el of disabledBtns) el.style.pointerEvents = "none"
 
     zoomReset()
 
@@ -164,7 +163,7 @@ async function setRandomTema() {
 
     listMenuBtns[5].classList.add('activeMenuBtn')
 
-    for(let el of disabledBtns) el.style.pointerEvents = "all"
+    for (let el of disabledBtns) el.style.pointerEvents = "all"
 
 
     for (let item of random) {
@@ -175,36 +174,53 @@ async function setRandomTema() {
                     ${item.name} 
                     ${item.title ? `(${item.title})` : ''}
                 </p>
-                <div class='imgContainer' class='pic'><img src='${item.img}' alt=${item.name}'></div>
+                <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
             </li>
         `
 
     }
 
+
     //apply list/grid view according to combination number, when generateBtn is clicked
     if (ideasListItens.length < 2) {
-        
+
         listView()
-        
+
+        ideasListImg[0].classList.remove('gridViewImg')
+
         setInterval(() => {
+
             if (ideasListImg[0].clientHeight > 500) {
-            
-                ideasListImg[0].style.height = '500px'
+
+                // ideasListImg[0].setAttribute("style", "height:500px")
+                ideasListImg[0].classList.add('listViewImg')
             }
+
+            console.log('será ')
         }, 0001)
-        
+
     } else {
 
         gridView()
+
+        for (let item of ideasListImg) {
+            item.classList.remove('listViewImg')
+        }
+
+        let timerId = setInterval(() => {
+
+            for (let i = 0; i < ideasListImg.length; i++) {
+
+                if (ideasListImg[i].clientHeight > 350) {
+
+                    ideasListImg[i].classList.add('gridViewImg')
+                }
+                console.log('será q é isso')
+            }
+
+        }, 0010);
+
+        setTimeout(() => { clearInterval(timerId); console.log('stop'); }, 2000);
     }
 }
 document.getElementById('generate').addEventListener('click', setRandomTema)
-
-let input = document.getElementById("combNumber");
-input.addEventListener("keypress", function(event) {
-
-    if (event.key === "Enter") {
-        event.preventDefault();
-        document.getElementById("generate").click();
-    }
-});
