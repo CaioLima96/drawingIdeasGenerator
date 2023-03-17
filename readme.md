@@ -58,14 +58,14 @@ This website was made to help those who are in doubt about what to draw!
 
 <img src="./assets/img/screenshots/homeLightMode1.jpg" width="80%" alt="Home Light Mode">
 <img src="./assets/img/screenshots/themesFormMenuLightMode1.jpg" width="80%" alt="Home Light Mode">
-<img src="./assets/img/screenshots/generatedIdeaLightMode1.jpg" width="80%" alt="Home Light Mode">
+<img src="./assets/img/screenshots/generatedIdeaLightMode2.jpg" width="80%" alt="Home Light Mode">
 
 <br>
 
 - #### <p id="dDarkMode">Dark Mode</p>
 <img src="./assets/img/screenshots/homeDarkMode1.jpg" width="80%" alt="Home Dark Mode">
 <img src="./assets/img/screenshots/themesFormMenuDarkMode1.jpg" width="80%" alt="Home Dark Mode">
-<img src="./assets/img/screenshots/generatedIdeaDarkMode1.jpg" width="80%" alt="Home Dark Mode">
+<img src="./assets/img/screenshots/generatedIdeaDarkMode2.jpg" width="80%" alt="Home Dark Mode">
 
 
 <br>
