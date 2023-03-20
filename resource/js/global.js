@@ -160,16 +160,13 @@ let zoomBtn = zoomBtns.getElementsByClassName("zoomBtn");
 
 
 // Loop through the buttons and add the active class to the current/clicked button
-for (let i = 0; i < zoomBtn.length; i++) {
-
-	zoomBtn[i].addEventListener("click", function () {
-
-		let currentBtn = zoomBtns.getElementsByClassName("activeMenuBtn");
-
-		currentBtn[0].className = currentBtn[0].className.replace(" activeMenuBtn", "");
-		this.className += " activeMenuBtn";
-
-	});
+for(let button of zoomBtn) {
+	button.addEventListener('click', function () {
+		for(let btn of zoomBtn) {
+			btn.classList.remove('activeMenuBtn')
+		}
+        this.classList.add('activeMenuBtn')
+    })
 }
 
 

@@ -126,7 +126,7 @@ function setInputFilter(textbox, inputFilter, errMsg) {
 }
 setInputFilter(document.getElementById("combNumber"),
     function (value) {
-        return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 2000);
+        return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 200);
     }, "Must be between 1 and 200")
 
 
@@ -155,13 +155,12 @@ async function setRandomTema() {
 
     zoomReset()
 
+
     //randomized raw data
     let random = await randomData()
 
 
     ideasList.innerHTML = ' '
-
-    listMenuBtns[5].classList.add('activeMenuBtn')
 
     for (let el of disabledBtns) el.style.pointerEvents = "all"
 
@@ -216,7 +215,7 @@ async function setRandomTema() {
 
         }, 0010);
 
-        setTimeout(() => { clearInterval(timerId)}, 2000);
+        setTimeout(() => { clearInterval(timerId), console.log('stop')}, 2000);
     }
 }
 document.getElementById('generate').addEventListener('click', setRandomTema)

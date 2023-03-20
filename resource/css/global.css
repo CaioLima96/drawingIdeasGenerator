@@ -297,49 +297,14 @@ main {
     }
 }
 
-.activeMenuBtn:not(.listMenuBtn:nth-child(3)) {
+.activeMenuBtn {
     background-color: rgb(116 116 116);
     color: white;
 }
 
-#zoomBtns .activeMenuBtn:not(#zoomReset) {
+#zoomBtns .activeMenuBtn {
     background-color: rgb(180 180 180);
 }
-
-/*============ BACK TO TOP ============*/
-
-#backToTopButton {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 24px;
-
-    font-size: 18px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-
-    padding: 10px 12px;
-    border-radius: 50%;
-    background-color: white;
-    border: 2px solid transparent;
-    transition: .5s ease;
-}
-
-#backToTopButton:hover {
-    border: 2px solid white;
-    color: white;
-    background-color: transparent;
-}
-
-@media (max-width: 850px) {
-
-    #backToTopButton {
-        bottom: 9px;
-        right: 10px;
-    }
-}
-
 
 
 /* ============ LIST ============ */
@@ -393,18 +358,48 @@ main {
 
 .gridViewImg { 
     height: 350px;
-    border: 1px solid blue;
-
 }
 
 .listViewImg { 
     height: 500px !important;
-    border: 1px solid red;
 }
 
-/* .zoomListView {
-    background-color: red;
-} */
+
+
+/*============ BACK TO TOP ============*/
+
+#backToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 24px;
+
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid transparent;
+    transition: .5s ease;
+}
+
+#backToTopButton:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+@media (max-width: 850px) {
+
+    #backToTopButton {
+        bottom: 9px;
+        right: 10px;
+    }
+}
+
 
 
 /* ========================= FOOTER ========================= */
