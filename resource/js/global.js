@@ -1,6 +1,8 @@
 let ideasList = document.getElementById('ideasList')
 let ideasListItens = document.getElementsByClassName('generatedIdea')
+let ideasListImg = ideasList.getElementsByClassName('imgContainer')
 let disabledBtns = document.getElementById('listMenu').getElementsByClassName('listMenuBtn')
+let listMenuBtns = document.getElementById('listMenu').getElementsByClassName("listMenuBtn");
 
 
 
@@ -47,25 +49,21 @@ function closeNavBar() {
 
 //====================== LIST/GRID VIEW
 
-let ideasListImg = ideasList.getElementsByClassName('imgContainer')
 let gridViewBtns = document.getElementById('gridViewBtn').getElementsByClassName("listMenuBtn");
-let listMenuBtns = document.getElementById('listMenu').getElementsByClassName("listMenuBtn");
-let mainContainer = document.getElementById('containerList')
-let zoomList = mainContainer.getElementsByClassName('zoomBtn')
 
 
-function myFunc(value) {
+//When the user generates 2 or more ideas and immediately changes to listView, this function allows it to remove gridViewImg class just from ideasList div (if it has listView class). This will happen when ''setTimeout''(line 219 of global.js) reaches the it's limit.
+function removeGridViewImg() {
 
-	for (let iten of zoomList) {
+	for (let iten of zoomBtn) {
 
 		iten.classList.add('zoomListView')
 	}
 
-	let zoomList2 = mainContainer.getElementsByClassName('zoomListView')
-	let listViewImg = mainContainer.getElementsByClassName('listView')[0].getElementsByClassName('imgContainer')
-	console.log('listView: ', listViewImg)
+	let listViewZoomBtns = zoomBtns.getElementsByClassName('zoomListView')
+	let listViewImg = document.getElementsByClassName('listView')[0].getElementsByClassName('imgContainer')
 
-	for(let item of zoomList2) {
+	for(let item of listViewZoomBtns) {
 
 		if (item.classList.contains('zoomListView')) {
 			for (let item of listViewImg) {
@@ -85,26 +83,19 @@ function listView() {
 
 	if (ideasList.classList.contains('listView')) {
 
-		console.log('listView: ', mainContainer)
-
-		// let zoomList2 = mainContainer.getElementsByClassName('zoomListView')
-
-		for (let btn of zoomList) {
-			btn.addEventListener('click', myFunc)
+		for (let btn of zoomBtn) {
+			btn.addEventListener('click', removeGridViewImg)
 		}
 	}
-
 
 	for (let i = 0; i < ideasListImg.length; i++) {
 
 		ideasListImg[i].classList.remove('gridViewImg')
-		console.log('remove gridViewImg')
 		// ideasListImg[i].setAttribute("style", "height:500px")
 
 		if (ideasListImg[i].clientHeight > 500) {
 
 			ideasListImg[i].classList.add('listViewImg')
-			console.log('add listViewImg')
 		}
 	}
 }
@@ -117,20 +108,18 @@ function gridView() {
 	gridViewBtns[0].classList.add('activeMenuBtn')
 	gridViewBtns[1].classList.remove('activeMenuBtn')
 
-	for (let iten of zoomList) {
+	for (let iten of zoomBtn) {
 		iten.classList.remove('zoomListView')
-		iten.removeEventListener("click", myFunc)
+		iten.removeEventListener("click", removeGridViewImg)
 	}
 
 	for (let i = 0; i < ideasListImg.length; i++) {
 
 		ideasListImg[i].classList.remove('listViewImg')
-		console.log('remove listViewImg')
 
 		if (ideasListImg[i].clientHeight > 350) {
 
 			ideasListImg[i].classList.add('gridViewImg')
-			console.log('add gridViewImg')
 		}
 	}
 }

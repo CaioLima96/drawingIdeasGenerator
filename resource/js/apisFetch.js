@@ -5,7 +5,7 @@ async function createPokemonArray() {
     for (let i = 0; i < combNumber.value; i++) { randomNumArray.push(Math.floor((Math.random() * 700) + 1)) }
 
 
-    //uses randomNumArray's values as pokemon's ID and do a fetch for all of them
+    //uses randomNumArray's values as pokemon's ID and does a fetch for all of them
     let pokeArr = []
     for (let i = 0; i < randomNumArray.length; i++) {
         await fetch(`https://pokeapi.co/api/v2/pokemon/${randomNumArray[i]}/`)
@@ -25,6 +25,5 @@ async function createPokemonArray() {
             dataTheme: "game"
         })
     }
-    // console.log('finalPokeArr: ', finalPokeArr)
     return finalPokeArr
 }

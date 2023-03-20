@@ -7,8 +7,6 @@ const allThemess = [
 ]
 
 function getThemeValue (theme) {
-
-    console.log('getThemeValue: ' + theme)
     
     let temaArr;
     switch(theme) {
@@ -48,11 +46,8 @@ function getThemeValue (theme) {
 }
 
 function getMultipleRandom(arr, num) {
-    console.log(arr)
-    console.log('comb num: ' + num)
-    let shuffled = [...arr].sort(() => 0.5 - Math.random());
 
-    console.log(shuffled.slice(0, num))
+    let shuffled = [...arr].sort(() => 0.5 - Math.random());
 
     return shuffled.slice(0, num);
 }
@@ -67,7 +62,7 @@ function setRandomData(valor) {
     document.getElementById('ideasList').innerHTML = ' '
 
     randomData().forEach(item => {
-        console.log(item['dataTheme'])
+        
         document.getElementById('ideasList').innerHTML += `
 
                 <li class='generatedIdea' dataTheme='${item.dataTheme}'>

@@ -127,7 +127,7 @@ function setInputFilter(textbox, inputFilter, errMsg) {
 setInputFilter(document.getElementById("combNumber"),
     function (value) {
         return /^(?!(0))[0-9]*$/.test(value) && (value === "" || parseInt(value) <= 2000);
-    }, "Must be between 1 and 800")
+    }, "Must be between 1 and 200")
 
 
 //stores the random data
@@ -216,7 +216,7 @@ async function setRandomTema() {
 
         }, 0010);
 
-        setTimeout(() => { clearInterval(timerId); console.log('stop'); }, 2000);
+        setTimeout(() => { clearInterval(timerId)}, 2000);
     }
 }
 document.getElementById('generate').addEventListener('click', setRandomTema)
