@@ -50,6 +50,30 @@ function closeNavBar() {
 let ideasListImg = ideasList.getElementsByClassName('imgContainer')
 let gridViewBtns = document.getElementById('gridViewBtn').getElementsByClassName("listMenuBtn");
 let listMenuBtns = document.getElementById('listMenu').getElementsByClassName("listMenuBtn");
+let mainContainer = document.getElementById('containerList')
+let zoomList = mainContainer.getElementsByClassName('zoomBtn')
+
+
+function myFunc(value) {
+
+	for (let iten of zoomList) {
+
+		iten.classList.add('zoomListView')
+	}
+
+	let zoomList2 = mainContainer.getElementsByClassName('zoomListView')
+	let listViewImg = mainContainer.getElementsByClassName('listView')[0].getElementsByClassName('imgContainer')
+	console.log('listView: ', listViewImg)
+
+	for(let item of zoomList2) {
+
+		if (item.classList.contains('zoomListView')) {
+			for (let item of listViewImg) {
+				item.classList.remove('gridViewImg')
+			}
+		}
+	}
+}
 
 function listView() {
 
@@ -59,12 +83,24 @@ function listView() {
 	gridViewBtns[0].classList.remove('activeMenuBtn')
 	gridViewBtns[1].classList.add('activeMenuBtn')
 
+	if (ideasList.classList.contains('listView')) {
+
+		console.log('listView: ', mainContainer)
+
+		// let zoomList2 = mainContainer.getElementsByClassName('zoomListView')
+
+		for (let btn of zoomList) {
+			btn.addEventListener('click', myFunc)
+		}
+	}
+
+
 	for (let i = 0; i < ideasListImg.length; i++) {
 
 		ideasListImg[i].classList.remove('gridViewImg')
 		console.log('remove gridViewImg')
-
 		// ideasListImg[i].setAttribute("style", "height:500px")
+
 		if (ideasListImg[i].clientHeight > 500) {
 
 			ideasListImg[i].classList.add('listViewImg')
@@ -80,6 +116,11 @@ function gridView() {
 
 	gridViewBtns[0].classList.add('activeMenuBtn')
 	gridViewBtns[1].classList.remove('activeMenuBtn')
+
+	for (let iten of zoomList) {
+		iten.classList.remove('zoomListView')
+		iten.removeEventListener("click", myFunc)
+	}
 
 	for (let i = 0; i < ideasListImg.length; i++) {
 
@@ -111,17 +152,6 @@ function zoomOut() {
 
 function zoomReset() {
 
-	// let imgg = document.getElementsByClassName('listView')[0]
-	// let imggg = document.getElementsByClassName('listView')[0]
-
-
-	// if(ideasList.classList.contains('listView')) {
-	// 	for(let item of document.getElementsByClassName('listView')[0].getElementsByClassName('imgContainer')){
-	// 		item.classList.add('listViewImg')
-	// 		console.log('reset list')
-	// 	}
-	// }
-	
 	ideasList.style.zoom = "100%";
 }
 
@@ -244,12 +274,12 @@ function loading(theme) {
 document.getElementsByTagName('form')[0].addEventListener('submit', (e) => e.preventDefault())
 
 let input = document.getElementById("combNumber");
-input.addEventListener("keypress", function(event) {
+input.addEventListener("keypress", function (event) {
 
-    if (event.key === "Enter") {
-        event.preventDefault();
-        document.getElementById("generate").click();
-    }
+	if (event.key === "Enter") {
+		event.preventDefault();
+		document.getElementById("generate").click();
+	}
 });
 
 
@@ -263,7 +293,7 @@ let mybutton = document.getElementById("backToTopButton");
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-	
+
 	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 		mybutton.style.display = "block";
 	} else {

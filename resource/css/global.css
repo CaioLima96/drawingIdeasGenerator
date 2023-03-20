@@ -402,6 +402,9 @@ main {
     border: 1px solid red;
 }
 
+/* .zoomListView {
+    background-color: red;
+} */
 
 
 /* ========================= FOOTER ========================= */
@@ -520,6 +523,10 @@ footer > p:last-child {
     #headerNavMenu a, #headerNavMenu li:last-child p {
         color: white;
     }
+
+    /* .gridViewImg {
+        height: initial;
+    } */
 }
 
 @media (max-width: 1125px) {

@@ -177,7 +177,6 @@ async function setRandomTema() {
                 <div class='imgContainer'><img src='${item.img}' alt=${item.name}'></div>
             </li>
         `
-
     }
 
 
@@ -192,11 +191,9 @@ async function setRandomTema() {
 
             if (ideasListImg[0].clientHeight > 500) {
 
-                // ideasListImg[0].setAttribute("style", "height:500px")
                 ideasListImg[0].classList.add('listViewImg')
             }
 
-            console.log('será ')
         }, 0001)
 
     } else {
@@ -215,7 +212,6 @@ async function setRandomTema() {
 
                     ideasListImg[i].classList.add('gridViewImg')
                 }
-                console.log('será q é isso')
             }
 
         }, 0010);
