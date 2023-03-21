@@ -63,7 +63,7 @@ function removeGridViewImg() {
 	let listViewZoomBtns = zoomBtns.getElementsByClassName('zoomListView')
 	let listViewImg = document.getElementsByClassName('listView')[0].getElementsByClassName('imgContainer')
 
-	for(let item of listViewZoomBtns) {
+	for (let item of listViewZoomBtns) {
 
 		if (item.classList.contains('zoomListView')) {
 			for (let item of listViewImg) {
@@ -86,6 +86,11 @@ function listView() {
 		for (let btn of zoomBtn) {
 			btn.addEventListener('click', removeGridViewImg)
 		}
+	}
+
+	for(let item of ideasList.getElementsByTagName('li')) {
+		
+		item.classList.remove('zoomBtnGridWidth')
 	}
 
 	for (let i = 0; i < ideasListImg.length; i++) {
@@ -127,20 +132,47 @@ function gridView() {
 
 //====================== ZOOM
 
+function removeZoomBtnGridWith() {
+
+	if (ideasList.classList.contains('gridView')) {
+
+		let gridViewLi = document.getElementsByClassName('gridView')[0].getElementsByTagName('li')
+
+		for (let item of gridViewLi) {
+
+			item.classList.remove('zoomBtnGridWidth')
+		}
+	}
+}
+
 function zoomIn() {
 
 	ideasList.style.zoom = "200%";
+
+	if (ideasList.classList.contains('gridView')) {
+		console.log('abc')
+		let gridViewLi = document.getElementsByClassName('gridView')[0].getElementsByTagName('li')
+
+		for (let item of gridViewLi) {
+
+			item.classList.add('zoomBtnGridWidth')
+		}
+	}
 }
 
 function zoomOut() {
 
 	ideasList.style.zoom = "100%";
 	ideasList.style.zoom = "60%";
+
+	removeZoomBtnGridWith()
 }
 
 function zoomReset() {
 
 	ideasList.style.zoom = "100%";
+
+	removeZoomBtnGridWith()
 }
 
 document.getElementById('zoomIn').addEventListener('click', zoomIn)
@@ -159,13 +191,13 @@ let zoomBtn = zoomBtns.getElementsByClassName("zoomBtn");
 
 
 // Loop through the buttons and add the active class to the current/clicked button
-for(let button of zoomBtn) {
+for (let button of zoomBtn) {
 	button.addEventListener('click', function () {
-		for(let btn of zoomBtn) {
+		for (let btn of zoomBtn) {
 			btn.classList.remove('activeMenuBtn')
 		}
-        this.classList.add('activeMenuBtn')
-    })
+		this.classList.add('activeMenuBtn')
+	})
 }
 
 

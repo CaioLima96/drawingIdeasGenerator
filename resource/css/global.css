@@ -474,6 +474,11 @@ footer > p:last-child {
     .gridView li  {
         width: 50%;
     }
+
+    .gridView .zoomBtnGridWidth {
+        width: 300px !important;
+        border: 1px solid yellow;
+    }
 }
 
 @media (max-width: 600px) {
