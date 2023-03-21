@@ -215,7 +215,7 @@ async function setRandomTema() {
 
         }, 0001);
 
-        setTimeout(() => { clearInterval(timerId), console.log('stop')}, 2000);
+        setTimeout(() => { clearInterval(timerId)}, 2000);
     }
 }
 document.getElementById('generate').addEventListener('click', setRandomTema)

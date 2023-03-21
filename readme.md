@@ -38,7 +38,8 @@ This website was made to help those who are in doubt about what to draw!
 
 ### How it works
 
-<p> - All ideas are stored in a .json, which is hosted on firebase (acting as a Fake Api). Through Javascript, this .json is consumed using the fetch method and rendered on screen, every time the "generate idea" button is pressed.</p>
+<p> - The ideas come from two sources: a .json (which is hosted on firebase, acting as a Fake Api) and extertnal apis (like Poke Api). Through Javascript, all APIs are consumed using the fetch method and rendered on screen, every time the "generate idea" button is pressed.</p>
+
 
 
 ### What users can do
@@ -85,7 +86,7 @@ This website was made to help those who are in doubt about what to draw!
 <br>
 <br>
 
-## Used APIs
+## Other APIs used
 
 [Poke Api](https://pokeapi.co/)<br>
 [Pokémon Assets](https://github.com/HybridShivam/Pokemon)
