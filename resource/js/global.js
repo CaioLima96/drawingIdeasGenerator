@@ -101,6 +101,8 @@ function gridView() {
 			ideasListImg[i].classList.add('gridViewImg')
 		}
 	}
+
+	removeZoomBtnGridWith()
 }
 
 function removeGridViewImg() {

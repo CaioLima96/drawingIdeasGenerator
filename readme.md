@@ -48,7 +48,7 @@ This website was made to help those who are in doubt about what to draw!
 <p> -> Change the number of generated ideas.</p>
 <p> -> Choose to see ideas as "grid" or "list"</p>
 <p> -> Change from light to dark mode, and vice versa.</p>
-<p> -> Change zoom level.</p>
+<p> -> Change zoom level. (In Firefox this function is disabled, as this browser does not support the "zoom" property)</p>
 
 <br>
 
