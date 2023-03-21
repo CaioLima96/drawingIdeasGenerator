@@ -53,26 +53,6 @@ let gridViewBtns = document.getElementById('gridViewBtn').getElementsByClassName
 
 
 //When the user generates 2 or more ideas and immediately changes to listView, this function allows it to remove gridViewImg class just from ideasList div (if it has listView class). This will happen when ''setTimeout''(line 219 of global.js) reaches the it's limit.
-function removeGridViewImg() {
-
-	for (let iten of zoomBtn) {
-
-		iten.classList.add('zoomListView')
-	}
-
-	let listViewZoomBtns = zoomBtns.getElementsByClassName('zoomListView')
-	let listViewImg = document.getElementsByClassName('listView')[0].getElementsByClassName('imgContainer')
-
-	for (let item of listViewZoomBtns) {
-
-		if (item.classList.contains('zoomListView')) {
-			for (let item of listViewImg) {
-				item.classList.remove('gridViewImg')
-			}
-		}
-	}
-}
-
 function listView() {
 
 	ideasList.classList.remove('gridView')
@@ -86,11 +66,6 @@ function listView() {
 		for (let btn of zoomBtn) {
 			btn.addEventListener('click', removeGridViewImg)
 		}
-	}
-
-	for(let item of ideasList.getElementsByTagName('li')) {
-		
-		item.classList.remove('zoomBtnGridWidth')
 	}
 
 	for (let i = 0; i < ideasListImg.length; i++) {
@@ -128,10 +103,31 @@ function gridView() {
 	}
 }
 
+function removeGridViewImg() {
+
+	for (let iten of zoomBtn) {
+
+		iten.classList.add('zoomListView')
+	}
+
+	let listViewZoomBtns = zoomBtns.getElementsByClassName('zoomListView')
+	let listViewImg = document.getElementsByClassName('listView')[0].getElementsByClassName('imgContainer')
+
+	for (let item of listViewZoomBtns) {
+
+		if (item.classList.contains('zoomListView')) {
+			for (let item of listViewImg) {
+				item.classList.remove('gridViewImg')
+			}
+		}
+	}
+}
+
 
 
 //====================== ZOOM
 
+//On mobile devices, the default ideasList li's width, it the gridView, is 50%, when zoomIn is activated it doesn't "flex-wrap". So a class was created to resolve this and this function removes it when the user select another zoom level.
 function removeZoomBtnGridWith() {
 
 	if (ideasList.classList.contains('gridView')) {
@@ -140,7 +136,7 @@ function removeZoomBtnGridWith() {
 
 		for (let item of gridViewLi) {
 
-			item.classList.remove('zoomBtnGridWidth')
+			item. classList.remove('zoomBtnGridWidth')
 		}
 	}
 }
@@ -149,7 +145,7 @@ function zoomIn() {
 
 	ideasList.style.zoom = "200%";
 
-	if (ideasList.classList.contains('gridView')) {
+	if (ideasList.classList.contains('gridView') || ideasList.classList.contains('listView')) {
 		console.log('abc')
 		let gridViewLi = document.getElementsByClassName('gridView')[0].getElementsByTagName('li')
 
