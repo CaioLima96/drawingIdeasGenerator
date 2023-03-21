@@ -529,6 +529,10 @@ footer > p:last-child {
     #headerNavMenu a, #headerNavMenu li:last-child p {
         color: white;
     }
+    
+    #zoomBtns {
+        display: none;
+    }
 }
 
 @media (max-width: 1125px) {
