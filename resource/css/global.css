@@ -37,7 +37,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--grey1);
-    /* background-color: #feeed5; */
 }
 
 body::-webkit-scrollbar {
@@ -518,10 +517,6 @@ footer > p:last-child {
     #headerNavMenu a, #headerNavMenu li:last-child p {
         color: white;
     }
-
-    /* .gridViewImg {
-        height: initial;
-    } */
 }
 
 @media (max-width: 1125px) {

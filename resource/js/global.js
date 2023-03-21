@@ -91,7 +91,6 @@ function listView() {
 	for (let i = 0; i < ideasListImg.length; i++) {
 
 		ideasListImg[i].classList.remove('gridViewImg')
-		// ideasListImg[i].setAttribute("style", "height:500px")
 
 		if (ideasListImg[i].clientHeight > 500) {
 
