@@ -462,6 +462,13 @@ footer > p:last-child {
 
 /* ========================= @MEDIA ========================= */
 
+@media(max-width: 365px) {
+
+    .zoomBtn:not(.zoomBtn:last-child) {
+        margin-bottom: 0.313rem;
+    }
+}
+
 @media (max-width: 668px) {
     .gridView li  {
         width: 50%;
