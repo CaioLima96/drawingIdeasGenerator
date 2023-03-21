@@ -145,14 +145,11 @@ function zoomIn() {
 
 	ideasList.style.zoom = "200%";
 
-	if (ideasList.classList.contains('gridView') || ideasList.classList.contains('listView')) {
-		console.log('abc')
-		let gridViewLi = document.getElementsByClassName('gridView')[0].getElementsByTagName('li')
+	let gridViewLi = ideasList.getElementsByTagName('li')
 
-		for (let item of gridViewLi) {
+	for (let item of gridViewLi) {
 
-			item.classList.add('zoomBtnGridWidth')
-		}
+		item.classList.add('zoomBtnGridWidth')
 	}
 }
 

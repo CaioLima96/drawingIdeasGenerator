@@ -477,7 +477,6 @@ footer > p:last-child {
 
     .gridView .zoomBtnGridWidth {
         width: 300px !important;
-        border: 1px solid red;
     }
 }
 
