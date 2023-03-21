@@ -120,6 +120,6 @@
     color: white;
 }
 
-/* .darkMode #backToTopButton:hover {
-    background-color: var(--DarkModeGrey3);
-} */
+.darkMode #backToTopButton {
+    box-shadow: none;
+}
