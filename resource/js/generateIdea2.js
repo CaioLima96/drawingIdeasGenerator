@@ -213,7 +213,7 @@ async function setRandomTema() {
                 }
             }
 
-        }, 0010);
+        }, 0001);
 
         setTimeout(() => { clearInterval(timerId), console.log('stop')}, 2000);
     }
