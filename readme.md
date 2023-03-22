@@ -82,12 +82,12 @@ This website was made to help those who are in doubt about what to draw!
 
 - #### <p id="mDarkMode">Dark Mode</p>
 
-<img src="./assets/img/screenshots/mobileGeneratedIdeaDarkMode2.jpg" width="200px" alt="Home Dark Mode">
+<img src="./assets/img/screenshots/mobileGeneratedIdeaDarkMode3.jpg" width="200px" alt="Home Dark Mode">
 
 <br>
 <br>
 
-## Other APIs used
+## Used APIs 
 
 [Poke Api](https://pokeapi.co/)<br>
 [Pokémon Assets](https://github.com/HybridShivam/Pokemon)
