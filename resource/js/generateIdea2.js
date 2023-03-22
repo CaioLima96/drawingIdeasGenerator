@@ -11,8 +11,9 @@ async function themesJsonFetch(theme) {
         {
             "name": "Dig",
             "img": "./assets/img/digFullBody.png",
-            "dataSubTheme": "originalChar",
-            "dataTheme": " "
+            "title": "Mascot",
+            "dataSubTheme": "mascot",
+            "dataTheme": "mascot"
         },
     ]
 
@@ -35,7 +36,6 @@ async function themesJsonFetch(theme) {
     } else {
 
         return data[theme]
-
     }
 }
 
@@ -58,6 +58,12 @@ function getThemeValue() {
 
             break
 
+        case 'ben10':
+    
+            temaArr = 1
+    
+            break
+
         case 'allGames':
 
             temaArr = 2
@@ -67,12 +73,6 @@ function getThemeValue() {
         case 'allObjects':
 
             temaArr = 3
-
-            break
-
-        case 'ben10':
-
-            temaArr = 1
 
             break
 

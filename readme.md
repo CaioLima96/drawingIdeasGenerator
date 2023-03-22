@@ -38,9 +38,10 @@ This website was made to help those who are in doubt about what to draw!
 
 ### How it works
 
-<p> - The ideas come from two sources: a .json (which is hosted on firebase, acting as a Fake Api) and extertnal apis (like Poke Api). Through Javascript, all APIs are consumed using the fetch method and rendered on the screen, every time the "generate idea" button is pressed.</p>
+<p> - The ideas come from two sources: themes.json (which is hosted on firebase, acting as a Fake Api) and extertnal APIs (like Poke Api). Through Javascript, all APIs are consumed using the fetch method and rendered on the screen, every time the "Generate Idea" button is pressed.</p>
+<p> Ps.: themes.json stores themes previously selected by me.</p>
 
-
+<br>
 
 ### What users can do
 
@@ -50,6 +51,7 @@ This website was made to help those who are in doubt about what to draw!
 <p> -> Change from light to dark mode, and vice versa.</p>
 <p> -> Change zoom level. (In Firefox this function is disabled, as this browser does not support the "zoom" property)</p>
 
+<br>
 <br>
 
 ## Screenshots
