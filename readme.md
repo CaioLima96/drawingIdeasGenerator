@@ -38,7 +38,7 @@ This website was made to help those who are in doubt about what to draw!
 
 ### How it works
 
-<p> - The ideas come from two sources: a .json (which is hosted on firebase, acting as a Fake Api) and extertnal apis (like Poke Api). Through Javascript, all APIs are consumed using the fetch method and rendered on screen, every time the "generate idea" button is pressed.</p>
+<p> - The ideas come from two sources: a .json (which is hosted on firebase, acting as a Fake Api) and extertnal apis (like Poke Api). Through Javascript, all APIs are consumed using the fetch method and rendered on the screen, every time the "generate idea" button is pressed.</p>
 
 
 
