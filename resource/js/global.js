@@ -203,6 +203,7 @@ let modal = document.querySelector(".modal");
 
 function openModal() {
 
+	modal.getElementsByClassName('modalContent')[0].innerHTML = ''
 	modal.style.display = "block"
 	document.body.style.overflow = 'hidden'
 	clonedElement()
@@ -210,6 +211,7 @@ function openModal() {
 
 function closeModal() {
 
+	modal.getElementsByClassName('modalContent')[0].innerHTML = ''
 	modal.style.display = "none";
 	document.body.style.overflow = ''
 }
