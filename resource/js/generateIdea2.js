@@ -132,7 +132,7 @@ setInputFilter(document.getElementById("combNumber"),
 
 //stores the random data
 async function randomData() {
-    return getMultipleRandom(await themesJsonFetch(getThemeValue()), combNumber.value)
+    return getMultipleRandom(await themesJsonFetch(getThemeValue()), combNumber.value ? combNumber.value : 2)
 }
 
 //renders the random data to the screen
@@ -180,7 +180,7 @@ async function setRandomTema() {
 
 
     //apply list/grid view according to combination number, when generateBtn is clicked
-    if (ideasListItens.length < 2) {
+    if (ideasListItens.length === 1) {
 
         listView()
 
